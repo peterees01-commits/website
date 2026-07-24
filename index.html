@@ -14,6 +14,18 @@
 <link rel="stylesheet" href="assets/css/components.css">
 </head>
 <body>
+<div class="intro-overlay" id="introOverlay" role="dialog" aria-label="Lumen Method intro animation" aria-modal="true">
+  <button type="button" class="intro-overlay__skip" id="introSkip">Skip intro</button>
+  <svg class="intro-overlay__mark" viewBox="0 0 120 90" fill="none" aria-hidden="true">
+    <circle class="intro-bulb intro-bulb--l" cx="8" cy="4" r="5"/>
+    <circle class="intro-bulb intro-bulb--r" cx="112" cy="4" r="5"/>
+    <path class="intro-stroke intro-stroke--l" d="M8 4 L8 78 L34 78" stroke="#F2ECDE" stroke-width="6" stroke-linecap="square"/>
+    <path class="intro-stroke intro-stroke--r" d="M112 4 L112 78 L86 78" stroke="#F2ECDE" stroke-width="6" stroke-linecap="square"/>
+    <path class="intro-stroke intro-stroke--v" d="M11 7 L58 74 L109 7" stroke="#F2ECDE" stroke-width="5" stroke-linecap="round" stroke-opacity="0.9"/>
+  </svg>
+  <p class="intro-overlay__word">Lumen Method</p>
+</div>
+
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">

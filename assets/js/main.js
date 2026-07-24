@@ -16,6 +16,74 @@
     });
   }
 
+  var introOverlay = document.getElementById("introOverlay");
+  if (introOverlay) {
+    var INTRO_SEEN_KEY = "lm_intro_seen";
+    var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var alreadySeen = false;
+    try { alreadySeen = sessionStorage.getItem(INTRO_SEEN_KEY) === "1"; } catch (e) {}
+
+    var lockedEls = [document.querySelector(".site-header"), document.getElementById("main"), document.querySelector(".site-footer")];
+    function setInert(on) {
+      lockedEls.forEach(function (el) { if (el) el.inert = on; });
+    }
+
+    function dismissIntro(instant) {
+      if (instant) introOverlay.style.transition = "none";
+      introOverlay.classList.add("is-hidden");
+      document.body.classList.remove("intro-lock");
+      setInert(false);
+      window.setTimeout(function () {
+        if (introOverlay.parentNode) introOverlay.parentNode.removeChild(introOverlay);
+      }, instant ? 0 : 700);
+      try { sessionStorage.setItem(INTRO_SEEN_KEY, "1"); } catch (e) {}
+    }
+
+    if (alreadySeen || reduceMotion) {
+      dismissIntro(true);
+    } else {
+      document.body.classList.add("intro-lock");
+      setInert(true);
+
+      var skipBtn = document.getElementById("introSkip");
+      if (skipBtn) {
+        skipBtn.addEventListener("click", function () { dismissIntro(false); });
+        skipBtn.classList.add("is-in");
+      }
+      introOverlay.addEventListener("click", function (e) {
+        if (e.target === introOverlay) dismissIntro(false);
+      });
+      var onKey = function (e) {
+        if (e.key === "Escape") {
+          dismissIntro(false);
+          document.removeEventListener("keydown", onKey);
+        }
+      };
+      document.addEventListener("keydown", onKey);
+
+      var bulbL = introOverlay.querySelector(".intro-bulb--l");
+      var bulbR = introOverlay.querySelector(".intro-bulb--r");
+      var strokeL = introOverlay.querySelector(".intro-stroke--l");
+      var strokeR = introOverlay.querySelector(".intro-stroke--r");
+      var strokeV = introOverlay.querySelector(".intro-stroke--v");
+      var wordEl = introOverlay.querySelector(".intro-overlay__word");
+
+      [strokeL, strokeR, strokeV].forEach(function (path) {
+        var len = path.getTotalLength();
+        path.style.strokeDasharray = len;
+        path.style.strokeDashoffset = len;
+      });
+
+      window.setTimeout(function () { bulbL.classList.add("is-on"); }, 150);
+      window.setTimeout(function () { bulbR.classList.add("is-on"); }, 350);
+      window.setTimeout(function () { strokeL.style.strokeDashoffset = 0; }, 550);
+      window.setTimeout(function () { strokeR.style.strokeDashoffset = 0; }, 750);
+      window.setTimeout(function () { strokeV.style.strokeDashoffset = 0; }, 1450);
+      window.setTimeout(function () { wordEl.classList.add("is-in"); }, 2100);
+      window.setTimeout(function () { dismissIntro(false); }, 2900);
+    }
+  }
+
   var caseStudyTrack = document.getElementById("caseStudyTrack");
   if (caseStudyTrack) {
     var prevBtn = document.querySelector('.case-study-arrow-btn[data-dir="prev"]');
