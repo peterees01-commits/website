@@ -61,11 +61,11 @@
             '<div class="product-card__chips">' +
               p.applications.map(function (a) { return '<span class="chip" style="color:var(--grey-400);border-color:var(--border-on-dark)">' + esc(a) + '</span>'; }).join("") +
             '</div>' +
+            heroDownloads(p) +
           '</div>' +
           '<div>' +
             productGallery(p) +
             '<p class="manu-note">' + esc(p.manufacturerNote) + ' Full manufacturer listing: <a href="' + esc(p.manufacturerUrl) + '" target="_blank" rel="noopener">holophane.co.uk ↗</a></p>' +
-            heroDownloads(p) +
           '</div>' +
         '</div>' +
       '</section>'
@@ -223,12 +223,12 @@
     var m = p.mountingHeights;
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner two-col">' +
-          '<div>' +
-            '<p class="eyebrow">Mounting</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
-            '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:70ch">' + esc(m.note) + '</p>' +
-            '<div class="table-scroll" style="max-width:420px">' +
+        '<div class="section__inner">' +
+          '<p class="eyebrow">Mounting</p>' +
+          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
+          '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-6);max-width:70ch">' + esc(m.note) + '</p>' +
+          '<div class="two-col">' +
+            '<div class="table-scroll" style="max-width:420px;align-self:start">' +
               '<table class="perf-table" style="min-width:0">' +
                 '<thead><tr><th>Mounting height</th><th>Typical spacing</th></tr></thead>' +
                 '<tbody>' +
@@ -236,9 +236,9 @@
                 '</tbody>' +
               '</table>' +
             '</div>' +
-          '</div>' +
-          '<div style="display:flex;align-items:center;height:100%">' +
-            mountingDiagram() +
+            '<div style="height:100%">' +
+              mountingDiagram() +
+            '</div>' +
           '</div>' +
         '</div>' +
       '</section>'
@@ -247,30 +247,30 @@
 
   function mountingDiagram() {
     return (
-      '<svg viewBox="0 0 500 300" role="img" aria-labelledby="mountDiagramTitle" style="width:100%;max-width:420px;display:block">' +
+      '<svg viewBox="0 0 500 300" preserveAspectRatio="none" role="img" aria-labelledby="mountDiagramTitle" style="width:100%;height:100%;display:block">' +
         '<title id="mountDiagramTitle">Diagram showing mounting height and typical spacing between poles</title>' +
-        '<line x1="20" y1="250" x2="480" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
-        '<polygon points="90,60 40,250 140,250" fill="#e2a33f" opacity="0.10"/>' +
-        '<line x1="90" y1="60" x2="40" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
-        '<line x1="90" y1="60" x2="140" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
-        '<line x1="90" y1="250" x2="90" y2="66" stroke="#232019" stroke-width="2"/>' +
-        '<path d="M76 60 L76 46 L104 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
-        '<path d="M112 60 L112 46 L84 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
-        '<polygon points="410,60 460,250 360,250" fill="#e2a33f" opacity="0.10"/>' +
-        '<line x1="410" y1="60" x2="460" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
-        '<line x1="410" y1="60" x2="360" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
-        '<line x1="410" y1="250" x2="410" y2="66" stroke="#232019" stroke-width="2"/>' +
-        '<path d="M396 60 L396 46 L424 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
-        '<path d="M432 60 L432 46 L404 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<line x1="20" y1="270" x2="480" y2="270" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<polygon points="90,20 40,270 140,270" fill="#e2a33f" opacity="0.10"/>' +
+        '<line x1="90" y1="20" x2="40" y2="270" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="90" y1="20" x2="140" y2="270" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="90" y1="270" x2="90" y2="24" stroke="#232019" stroke-width="2"/>' +
+        '<path d="M76 20 L76 4 L104 4" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<path d="M112 20 L112 4 L84 4" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<polygon points="410,20 460,270 360,270" fill="#e2a33f" opacity="0.10"/>' +
+        '<line x1="410" y1="20" x2="460" y2="270" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="410" y1="20" x2="360" y2="270" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="410" y1="270" x2="410" y2="24" stroke="#232019" stroke-width="2"/>' +
+        '<path d="M396 20 L396 4 L424 4" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<path d="M432 20 L432 4 L404 4" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
         '<g font-family="IBM Plex Mono, monospace" font-size="12" fill="#57534a">' +
-          '<line x1="60" y1="60" x2="60" y2="250" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
-          '<line x1="54" y1="60" x2="66" y2="60" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
-          '<line x1="54" y1="250" x2="66" y2="250" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
-          '<text x="30" y="158" text-anchor="middle" transform="rotate(-90 30 158)">MOUNTING HEIGHT</text>' +
-          '<line x1="140" y1="270" x2="360" y2="270" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
-          '<line x1="140" y1="264" x2="140" y2="276" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
-          '<line x1="360" y1="264" x2="360" y2="276" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
-          '<text x="250" y="292" text-anchor="middle">TYPICAL SPACING</text>' +
+          '<line x1="60" y1="20" x2="60" y2="270" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="54" y1="20" x2="66" y2="20" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="54" y1="270" x2="66" y2="270" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<text x="30" y="148" text-anchor="middle" transform="rotate(-90 30 148)">MOUNTING HEIGHT</text>' +
+          '<line x1="140" y1="288" x2="360" y2="288" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="140" y1="282" x2="140" y2="294" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="360" y1="282" x2="360" y2="294" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<text x="250" y="298" text-anchor="middle">TYPICAL SPACING</text>' +
         '</g>' +
       '</svg>'
     );
