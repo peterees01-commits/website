@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumen Method — Specification Lighting</title>
+<meta name="description" content="Lumen Method specifies exterior and architectural lighting for engineers and designers. Full technical data, IES files, BIM objects and installation documentation for every range.">
+<link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Expanded:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+    <span class="brand__word">Lumen Method<small>Specification Lighting</small></span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" id="navToggle">
+    <span class="visually-hidden">Menu</span>
+    ☰
+  </button>
+  <nav class="nav" id="primary-nav">
+    <ul class="nav__list">
+      <li><a href="#hero" aria-current="page">Home</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#case-studies">Case Studies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="hero">
+    <div class="hero__beams" aria-hidden="true">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="beamL" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f2ecde" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#f2ecde" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="beamR" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#e2a33f" stop-opacity="0.35"/>
+            <stop offset="100%" stop-color="#e2a33f" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <polygon points="120,-40 460,-40 700,760 560,760" fill="url(#beamL)" class="beam beam--left"/>
+        <polygon points="1480,-40 1140,-40 900,760 1040,760" fill="url(#beamR)" class="beam beam--right"/>
+      </svg>
+    </div>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Specification Lighting · Australia</p>
+      <h1>We specify the light. You get on with the engineering.</h1>
+      <p class="hero__lede">Lumen Method gives electrical engineers and lighting designers direct access to full technical data — photometry, ordering codes, BIM objects and installation documentation — for every range we represent. No sales layer between you and the datasheet.</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="#products">Browse products</a>
+        <a class="btn btn-ghost-dark" href="#contact">Talk to a specifier</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <b>IES · BIM · IFC</b>
+          <span>Full technical downloads</span>
+        </div>
+        <div class="hero__stat">
+          <b>1</b>
+          <span>Manufacturer range live — more added regularly</span>
+        </div>
+        <div class="hero__stat">
+          <b>AU</b>
+          <span>Exclusive Holophane agent, Australia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface" id="products">
+    <div class="section__inner">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow">Products</p>
+          <h2>Ranges we specify</h2>
+        </div>
+        <p class="section__intro">Every product page carries the full technical picture — performance data, dimensions, ordering codes, and every download an engineer needs to close out a specification.</p>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <!-- populated by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="about">
+    <div class="section__inner">
+      <p class="eyebrow">About</p>
+      <h2>About Lumen Method</h2>
+      <div class="placeholder-block" style="margin-top: var(--space-5);">
+        <span class="placeholder-tag">Content pending</span>
+        <p style="max-width: 60ch; color: var(--text-muted-on-dark); font-size: var(--text-md); line-height: 1.7;">
+          This section is reserved for Lumen Method's company profile — background, accreditations, the manufacturers represented, and the team engineers deal with directly. Structure is built and ready; copy to follow.
+        </p>
+        <div class="stat-row">
+          <div class="stat-row__item"><b>—</b><span>Years operating</span></div>
+          <div class="stat-row__item"><b>—</b><span>Manufacturers represented</span></div>
+          <div class="stat-row__item"><b>—</b><span>Projects specified</span></div>
+          <div class="stat-row__item"><b>—</b><span>States covered</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="case-studies">
+    <div class="section__inner">
+      <div class="section__head">
+        <div>
+          <p class="eyebrow">Case Studies</p>
+          <h2>Recent specifications</h2>
+        </div>
+        <p class="section__intro" style="color:var(--text-muted-on-dark)">Placeholder layout — real projects, products used and outcomes will replace these cards.</p>
+      </div>
+      <div class="case-study-grid">
+        <article class="case-study-card">
+          <div class="case-study-card__frame">Project image pending</div>
+          <div class="case-study-card__body">
+            <span class="placeholder-tag">Content pending</span>
+            <h3>Project name</h3>
+            <p>Sector · Location — one-line description of the brief and the outcome.</p>
+          </div>
+        </article>
+        <article class="case-study-card">
+          <div class="case-study-card__frame">Project image pending</div>
+          <div class="case-study-card__body">
+            <span class="placeholder-tag">Content pending</span>
+            <h3>Project name</h3>
+            <p>Sector · Location — one-line description of the brief and the outcome.</p>
+          </div>
+        </article>
+        <article class="case-study-card">
+          <div class="case-study-card__frame">Project image pending</div>
+          <div class="case-study-card__body">
+            <span class="placeholder-tag">Content pending</span>
+            <h3>Project name</h3>
+            <p>Sector · Location — one-line description of the brief and the outcome.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="contact">
+    <div class="section__inner">
+      <p class="eyebrow">Contact</p>
+      <h2>Talk to a specifier</h2>
+      <div class="contact-grid" style="margin-top: var(--space-6);">
+        <div class="contact-info">
+          <p class="section__intro" style="color:var(--text-muted-on-dark)">For technical queries, sample requests or project-specific lighting design support, reach the Lumen Method team directly.</p>
+          <dl>
+            <dt>Region</dt>
+            <dd>Australia — exclusive Holophane specification agent</dd>
+            <dt>Email</dt>
+            <dd>[ email pending ]</dd>
+            <dt>Phone</dt>
+            <dd>[ phone pending ]</dd>
+            <dt>Office</dt>
+            <dd>[ address pending ]</dd>
+          </dl>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="name">Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="project">Project / enquiry</label>
+            <select id="project" name="project">
+              <option value="">Select one</option>
+              <option value="spec">Product specification support</option>
+              <option value="sample">Sample request</option>
+              <option value="general">General enquiry</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send enquiry</button>
+          <p class="form-note">Form UI only for now — connect this to your email or CRM before going live.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__top">
+    <div class="site-footer__brand">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logo-mark.svg" alt="" style="width:28px;">
+        <span class="brand__word">Lumen Method</span>
+      </a>
+      <p style="font-size: var(--text-sm); margin-top: var(--space-2);">Specification lighting for electrical engineers and designers. Exclusive Holophane agent for Australia.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="site-footer__bottom">
+    <span>© 2026 Lumen Method</span>
+    <span>Product data credited to respective manufacturers</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

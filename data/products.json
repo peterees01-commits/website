@@ -1,0 +1,226 @@
+{
+  "products": [
+    {
+      "code": "DPL",
+      "name": "Denver iD Pole",
+      "manufacturer": "Holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=DPL",
+      "category": "Pole / Area & Amenity Lighting",
+      "family": "Denver iD",
+      "tagline": "Post-top LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
+      "summary": "Denver iD Pole is a two-part die-cast aluminium post-top luminaire covering 2,000–12,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field.",
+      "applications": ["Amenity areas", "Town squares", "Campuses", "Retail parks", "Car parks", "Landscaped areas"],
+      "heroNote": "Placeholder graphic — real product photography or manufacturer renders to be added.",
+      "badges": [
+        { "label": "IP65 / IK10", "detail": "Ingress & impact protection" },
+        { "label": "0% ULOR", "detail": "No upward light output" },
+        { "label": "TM66: 2.6", "detail": "Excellent circularity rating" },
+        { "label": "Dark Sky Approved", "detail": "IDA — at 3000K or warmer" }
+      ],
+      "keySpecs": [
+        { "label": "Delivered lumens", "value": "2,000 – 12,000 lm" },
+        { "label": "Colour temperature", "value": "2700K / 3000K / 4000K (PC Amber available)" },
+        { "label": "CRI", "value": "> 70" },
+        { "label": "ULOR", "value": "0%" },
+        { "label": "Ingress protection", "value": "IP65 (body & gear), IP66 (light engine)" },
+        { "label": "Impact resistance", "value": "IK10" },
+        { "label": "Operating temperature", "value": "−25°C to +45°C" },
+        { "label": "Body material", "value": "LM6 marine-grade die-cast aluminium" },
+        { "label": "Optics", "value": "Individual PMMA lenses, patented Transition Zone diffuser" },
+        { "label": "Glass cover", "value": ">99% transparent, hydrophilic high-transparency glass" },
+        { "label": "Electrical class", "value": "Class I or Class II" },
+        { "label": "Dimming", "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)" },
+        { "label": "Smart controls", "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02), Controlux Air compatible" },
+        { "label": "Warranty / life rating", "value": "L70 control gear options: 70% / 80% / 90% lumen maintenance over life" }
+      ],
+      "dimensions": {
+        "note": "Both body sizes share a 116mm height. Weight and windage are per-fitting, excluding bracket.",
+        "variants": [
+          { "label": "DPL Small", "length": "302 mm", "width": "114 mm", "height": "116 mm", "weight": "6.1 kg" },
+          { "label": "DPL Large", "length": "472 mm", "width": "230 mm", "height": "116 mm", "weight": "7.5 kg" }
+        ],
+        "windage": "0.042 m²"
+      },
+      "distributions": [
+        { "code": ".SY", "name": "Symmetric" },
+        { "code": ".AY", "name": "Asymmetric" },
+        { "code": ".NR", "name": "Long & Narrow" },
+        { "code": ".FW", "name": "Forward Throw" },
+        { "code": ".FWBL", "name": "Forward Throw (backlight shield)" },
+        { "code": ".HN", "name": "High Beam Long & Narrow" },
+        { "code": ".HNBL", "name": "High Beam Long & Narrow (backlight shield)" },
+        { "code": ".SYBL", "name": "Symmetric (backlight shield)" }
+      ],
+      "performance": {
+        "note": "Lumen data tolerance +/-7% (typical of LED manufacturer data); luminaire power +/-5%. ‘X’ in the lamp code is replaced by 2 / 3 / 4 for 2700K / 3000K / 4000K.",
+        "rows": [
+          { "code": "DPL.LA02X", "lumens": "c.2,000", "module": "Small — 8 LED", "power": "15 W", "current": "550 mA", "efficacy": "135 lm/W" },
+          { "code": "DPL.LA03X", "lumens": "c.3,000", "module": "Small — 8 LED", "power": "24 W", "current": "900 mA", "efficacy": "123 lm/W" },
+          { "code": "DPL.LA04X", "lumens": "c.4,000", "module": "Small — 16 LED", "power": "30 W", "current": "575 mA", "efficacy": "134 lm/W" },
+          { "code": "DPL.LA05X", "lumens": "c.5,000", "module": "Small — 16 LED", "power": "38 W", "current": "740 mA", "efficacy": "130 lm/W" },
+          { "code": "DPL.LA06X", "lumens": "c.6,000", "module": "Small — 16 LED", "power": "48 W", "current": "925 mA", "efficacy": "125 lm/W" },
+          { "code": "DPL.LA07X", "lumens": "c.7,000", "module": "Large — 32 LED", "power": "49 W", "current": "500 mA", "efficacy": "143 lm/W" },
+          { "code": "DPL.LA08X", "lumens": "c.8,000", "module": "Large — 32 LED", "power": "57 W", "current": "580 mA", "efficacy": "141 lm/W" },
+          { "code": "DPL.LA09X", "lumens": "c.9,000", "module": "Large — 32 LED", "power": "66 W", "current": "675 mA", "efficacy": "136 lm/W" },
+          { "code": "DPL.LA10X", "lumens": "c.10,000", "module": "Large — 48 LED", "power": "69 W", "current": "480 mA", "efficacy": "144 lm/W" },
+          { "code": "DPL.LA11X", "lumens": "c.11,000", "module": "Large — 48 LED", "power": "78 W", "current": "540 mA", "efficacy": "141 lm/W" },
+          { "code": "DPL.LA12X", "lumens": "c.12,000", "module": "Large — 48 LED", "power": "87 W", "current": "600 mA", "efficacy": "138 lm/W" }
+        ]
+      },
+      "orderingCode": {
+        "example": "DPL . LA02X . SY . C1 . C . CII . TSZ . LRD . CL7 . PH1",
+        "groups": [
+          {
+            "title": "Luminaire",
+            "required": true,
+            "options": [{ "code": "DPL", "desc": "Denver iD Pole" }]
+          },
+          {
+            "title": "Series",
+            "required": true,
+            "options": [{ "code": ".1", "desc": "Series 1" }]
+          },
+          {
+            "title": "Lamp type",
+            "required": true,
+            "options": [
+              { "code": ".LA02X", "desc": "c.2,000 lm" },
+              { "code": ".LA03X", "desc": "c.3,000 lm" },
+              { "code": ".LA04X", "desc": "c.4,000 lm" },
+              { "code": ".LA05X", "desc": "c.5,000 lm" },
+              { "code": ".LA06X", "desc": "c.6,000 lm" },
+              { "code": ".LA07X", "desc": "c.7,000 lm" },
+              { "code": ".LA08X", "desc": "c.8,000 lm" },
+              { "code": ".LA09X", "desc": "c.9,000 lm" },
+              { "code": ".LA10X", "desc": "c.10,000 lm" },
+              { "code": ".LA11X", "desc": "c.11,000 lm" },
+              { "code": ".LA12X", "desc": "c.12,000 lm" }
+            ],
+            "footnote": "Replace ‘X’ with 2 (2700K), 3 (3000K) or 4 (4000K). All produced at nominal colour temperature shown."
+          },
+          {
+            "title": "Distribution",
+            "required": true,
+            "options": [
+              { "code": ".SY", "desc": "Symmetric" },
+              { "code": ".AY", "desc": "Asymmetric" },
+              { "code": ".NR", "desc": "Long & Narrow" },
+              { "code": ".FW", "desc": "Forward Throw" },
+              { "code": ".FWBL", "desc": "Forward Throw, internal backlight shield" },
+              { "code": ".HN", "desc": "High Beam Long & Narrow" },
+              { "code": ".HNBL", "desc": "High Beam Long & Narrow, internal backlight shield" }
+            ]
+          },
+          {
+            "title": "Colour (finish)",
+            "required": true,
+            "options": [
+              { "code": ".C1", "desc": "Smooth White (RAL 9016)" },
+              { "code": ".C4", "desc": "Graphite (RAL 7011)" },
+              { "code": ".C6", "desc": "Smooth Grey (RAL 7035)" },
+              { "code": ".C7", "desc": "Black (RAL 9005)" },
+              { "code": ".C9", "desc": "Metallic Silver (RAL 9006)" },
+              { "code": ".RAL****", "desc": "Customer choice RAL" }
+            ]
+          },
+          {
+            "title": "Paint finish",
+            "required": false,
+            "options": [{ "code": ".C", "desc": "Enhanced paint finish" }]
+          },
+          {
+            "title": "Voltage / electrical class",
+            "required": false,
+            "options": [{ "code": ".CII", "desc": "Class II" }]
+          },
+          {
+            "title": "Photocell",
+            "required": false,
+            "options": [
+              { "code": ".TSZ", "desc": "70 lux factory-fitted photocell (Zodion SS12)" },
+              { "code": ".TSZA", "desc": "55 lux factory-fitted photocell (Zodion SS12A)" },
+              { "code": ".TSZB", "desc": "35 lux factory-fitted photocell (Zodion SS12B)" },
+              { "code": ".T1", "desc": "NEMA socket (accepts standard NEMA photocell)" },
+              { "code": ".T7", "desc": "7-pin dimming NEMA ANSI C136.41 socket" },
+              { "code": ".T7T", "desc": "7-pin dimming NEMA socket, weatherproof locking top" },
+              { "code": ".TZ01", "desc": "4-pin Zhaga socket — top, weatherproof locking cap" },
+              { "code": ".TZ02", "desc": "4-pin Zhaga socket — bottom, weatherproof locking cap" },
+              { "code": ".TZ03", "desc": "4-pin Zhaga socket — top & bottom, weatherproof locking cap" }
+            ]
+          },
+          {
+            "title": "Dimming outputs",
+            "required": false,
+            "options": [
+              { "code": ".LRD", "desc": "LED regulable DALI" },
+              { "code": ".LRT56", "desc": "Pre-set dim to 50% between 12am–6am" },
+              { "code": ".LRT66", "desc": "Pre-set dim to 60% between 12am–6am" },
+              { "code": ".LRT76", "desc": "Pre-set dim to 70% between 12am–6am" },
+              { "code": ".LRT****", "desc": "Customer specified pre-set dimming" }
+            ]
+          },
+          {
+            "title": "Control gear",
+            "required": false,
+            "options": [
+              { "code": ".CL7", "desc": "Delivers 70% of initial lumens over life" },
+              { "code": ".CL8", "desc": "Delivers 80% of initial lumens over life" },
+              { "code": ".CL9", "desc": "Delivers 90% of initial lumens over life" },
+              { "code": ".CL****", "desc": "Customer specified programming" }
+            ]
+          },
+          {
+            "title": "Controls",
+            "required": false,
+            "options": [
+              { "code": ".PH1", "desc": "PIR on Zhaga socket, up to 12m mounting, remotely re-programmable" },
+              { "code": ".PH2", "desc": "Groupable PIR on Zhaga socket, up to 12m mounting" },
+              { "code": ".CA", "desc": "Wireless lighting node (top socket) for Controlux Air, incl. 2-year subscription" },
+              { "code": ".CAP", "desc": "Wireless lighting node + PIR (bottom) for Controlux Air, incl. 2-year subscription" }
+            ]
+          },
+          {
+            "title": "Cable entry",
+            "required": false,
+            "options": [
+              { "code": ".FL431 – .FL831", "desc": "4–8 m, 1.5mm² 3-core flex" },
+              { "code": ".FL4312 – .FL8312", "desc": "4–8 m, 2.5mm² 3-core flex" }
+            ]
+          },
+          {
+            "title": "122-version",
+            "required": false,
+            "options": [{ "code": ".AR", "desc": "Arctic cable" }]
+          }
+        ]
+      },
+      "accessories": [
+        { "code": "DPL.BLS1", "desc": "External back light shield, 125mm — finished in .C1 / .C4 / .C6 / .C7 / .C9" },
+        { "code": "DPL.WB", "desc": "Wall bracket" }
+      ],
+      "mountingHeights": {
+        "note": "Suitable from 3m to 12m mounting heights. Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "rows": [
+          { "height": "3 m", "range": "15 m" },
+          { "height": "4 m", "range": "19 m" },
+          { "height": "5 m", "range": "22 m" },
+          { "height": "6 m", "range": "26 m" },
+          { "height": "8 m", "range": "28 m" },
+          { "height": "10 m", "range": "30 m" }
+        ]
+      },
+      "certifications": ["CE", "UKCA", "EN 60598", "IP65", "IK10", "TM66 Circularity 2.6", "IDA Dark Sky Approved (3000K or warmer)", "Made in Britain"],
+      "downloads": {
+        "brochure": { "label": "Product brochure", "file": "assets/downloads/lumen-method-dpl-brochure.pdf", "meta": "PDF · Holophane" },
+        "installGuide": { "label": "Installation instructions", "file": "assets/downloads/lumen-method-dpl-installation-guide.pdf", "meta": "PDF · Holophane" },
+        "bim": [
+          { "label": "DPL Small — Revit family", "file": "assets/downloads/bim/DPL_Small.rfa", "meta": "RFA · Revit" },
+          { "label": "DPL Large — Revit family", "file": "assets/downloads/bim/DPL_Large.rfa", "meta": "RFA · Revit" }
+        ],
+        "iesManifest": "data/ies-manifest.json",
+        "iesBasePath": "assets/downloads/ies/"
+      }
+    }
+  ]
+}
