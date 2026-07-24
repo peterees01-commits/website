@@ -35,10 +35,14 @@
     root.innerHTML =
       heroSection(p) +
       overviewSection(p) +
+      statBandSection(p) +
       certificationsSection(p) +
       distributionsSection(p);
 
     initGallery();
+    if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
+      window.LumenMethod.initScrollReveal(root);
+    }
   }
 
   function heroSection(p) {
@@ -88,6 +92,10 @@
       '<div class="product-gallery" id="productGallery">' +
         '<div class="product-hero__frame product-gallery__main">' +
           '<img id="galleryMainImg" src="../' + esc(images[0].file) + '" alt="' + esc(images[0].alt) + '">' +
+          '<span class="bracket bracket--tl" aria-hidden="true"></span>' +
+          '<span class="bracket bracket--tr" aria-hidden="true"></span>' +
+          '<span class="bracket bracket--bl" aria-hidden="true"></span>' +
+          '<span class="bracket bracket--br" aria-hidden="true"></span>' +
         '</div>' +
         (images.length > 1 ?
           '<div class="product-gallery__thumbs" role="tablist" aria-label="Product images">' +
@@ -127,8 +135,13 @@
     var mainImg = document.getElementById("galleryMainImg");
     gallery.querySelectorAll(".product-gallery__thumb").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        mainImg.src = btn.getAttribute("data-src");
-        mainImg.alt = btn.getAttribute("data-alt");
+        if (btn.classList.contains("is-active")) return;
+        mainImg.classList.add("is-fading");
+        window.setTimeout(function () {
+          mainImg.src = btn.getAttribute("data-src");
+          mainImg.alt = btn.getAttribute("data-alt");
+          mainImg.classList.remove("is-fading");
+        }, 140);
         gallery.querySelectorAll(".product-gallery__thumb").forEach(function (b) {
           b.classList.remove("is-active");
           b.setAttribute("aria-selected", "false");
@@ -212,15 +225,38 @@
     );
   }
 
+  function statBandSection(p) {
+    var rows = (p.mountingHeights && p.mountingHeights.rows) || [];
+    var range = rows.length ? rows[0].height.replace(/\s+/g, "") + "–" + rows[rows.length - 1].height.replace(/\s+/g, "") : "";
+    var ipBadge = (p.badges || []).find(function (b) { return /IP\d/i.test(b.label); });
+    var ulorBadge = (p.badges || []).find(function (b) { return /ULOR/i.test(b.label); });
+    var stats = [
+      range ? range + " mounting range" : null,
+      p.distributions ? p.distributions.length + " optical distributions" : null,
+      ipBadge ? ipBadge.label : null,
+      ulorBadge ? ulorBadge.label : null
+    ].filter(Boolean);
+
+    return (
+      '<section class="section section--tight stat-band">' +
+        '<div class="section__inner">' +
+          '<p class="stat-band__line">' +
+            stats.map(function (s) { return '<span class="stat-band__value">' + esc(s) + '</span>'; }).join('<span class="stat-band__sep" aria-hidden="true">&middot;</span>') +
+          '</p>' +
+        '</div>' +
+      '</section>'
+    );
+  }
+
   function certificationsSection(p) {
     return (
-      '<section class="section section--surface product-section">' +
-        '<div class="section__inner two-col">' +
+      '<section class="section section--dark product-section">' +
+        '<div class="section__inner two-col two-col--wide-left">' +
           '<div>' +
             '<p class="eyebrow">Certifications</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Certifications &amp; approvals</h2>' +
-            '<div class="product-card__chips">' +
-              p.certifications.map(function (c) { return '<span class="chip">' + esc(c) + '</span>'; }).join("") +
+            '<div class="cert-badge-row">' +
+              p.certifications.map(function (c) { return '<span class="cert-badge">' + esc(c) + '</span>'; }).join("") +
             '</div>' +
           '</div>' +
           '<div>' +

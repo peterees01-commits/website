@@ -161,10 +161,38 @@
     );
   }
 
+  function initScrollReveal(root) {
+    root = root || document;
+    var els = root.querySelectorAll(".section:not(.is-revealed):not(.reveal)");
+    if (!els.length) return;
+
+    if (!("IntersectionObserver" in window)) {
+      els.forEach(function (el) { el.classList.add("is-revealed"); });
+      return;
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-revealed");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+
+    els.forEach(function (el) {
+      el.classList.add("reveal");
+      io.observe(el);
+    });
+  }
+
+  initScrollReveal(document);
+
   window.LumenMethod = {
     renderProductCards: renderProductCards,
     productGlyph: productGlyph,
     manuBadgeContent: manuBadgeContent,
-    esc: esc
+    esc: esc,
+    initScrollReveal: initScrollReveal
   };
 })();

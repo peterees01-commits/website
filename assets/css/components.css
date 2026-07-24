@@ -327,6 +327,17 @@
   padding: var(--space-8) var(--container-pad);
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+}
+
+.reveal.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .section--tight {
   padding-block: var(--space-7);
 }
@@ -431,20 +442,21 @@
 
 .bracket {
   position: absolute;
-  width: 22px;
-  height: 22px;
-  border: 2px solid var(--glow);
+  width: 26px;
+  height: 26px;
+  border: 3px solid var(--glow);
   opacity: 0;
   transition: opacity var(--dur-base) var(--ease-out), transform var(--dur-base) var(--ease-out);
 }
 
-.bracket--tl { top: 10px; left: 10px; border-right: none; border-bottom: none; transform: translate(6px, 6px); }
-.bracket--tr { top: 10px; right: 10px; border-left: none; border-bottom: none; transform: translate(-6px, 6px); }
-.bracket--bl { bottom: 10px; left: 10px; border-right: none; border-top: none; transform: translate(6px, -6px); }
-.bracket--br { bottom: 10px; right: 10px; border-left: none; border-top: none; transform: translate(-6px, -6px); }
+.bracket--tl { top: 10px; left: 10px; border-right: none; border-bottom: none; transform: translate(7px, 7px); }
+.bracket--tr { top: 10px; right: 10px; border-left: none; border-bottom: none; transform: translate(-7px, 7px); }
+.bracket--bl { bottom: 10px; left: 10px; border-right: none; border-top: none; transform: translate(7px, -7px); }
+.bracket--br { bottom: 10px; right: 10px; border-left: none; border-top: none; transform: translate(-7px, -7px); }
 
 .product-card:hover .bracket,
-.product-card:focus-visible .bracket {
+.product-card:focus-visible .bracket,
+.product-hero__frame:hover .bracket {
   opacity: 1;
   transform: translate(0, 0);
 }

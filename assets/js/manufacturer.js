@@ -70,6 +70,7 @@
     var grid = document.getElementById("manuProductsGrid");
     if (window.LumenMethod) {
       window.LumenMethod.renderProductCards(grid, products, { basePath: "../" });
+      if (window.LumenMethod.initScrollReveal) window.LumenMethod.initScrollReveal(root);
     }
   }
 })();
