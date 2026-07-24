@@ -291,6 +291,12 @@
   padding-top: var(--space-4);
 }
 
+.code-example {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--cream);
+}
+
 .ies-finder__filename {
   font-family: var(--font-mono);
   font-size: var(--text-sm);

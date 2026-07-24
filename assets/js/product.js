@@ -203,7 +203,7 @@
         '<div class="section__inner">' +
           '<p class="eyebrow">Ordering details</p>' +
           '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Build the code</h2>' +
-          '<p class="ies-finder__filename" style="margin-bottom:var(--space-5)">' + esc(oc.example) + '</p>' +
+          '<p class="code-example" style="margin-bottom:var(--space-5)">' + esc(oc.example) + '</p>' +
           '<div class="table-scroll" style="border-color:var(--border-on-dark)">' +
             '<table class="order-table" style="min-width:520px">' +
               '<thead><tr><th style="background:var(--near-black);color:var(--grey-400)">Field</th><th style="background:var(--near-black);color:var(--grey-400)">Code</th><th style="background:var(--near-black);color:var(--grey-400)">Description</th></tr></thead>' +
