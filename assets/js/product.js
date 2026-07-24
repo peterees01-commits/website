@@ -162,9 +162,12 @@
             p.distributions.map(function (d, i) {
               return (
                 '<div class="dist-card">' +
-                  distGlyph(i) +
+                  (d.chart
+                    ? '<img class="dist-card__icon" src="../' + esc(d.chart) + '" alt="' + esc(d.name) + ' light distribution plot">'
+                    : distGlyph(i)) +
                   '<code>' + esc(d.code) + '</code>' +
                   '<span>' + esc(d.name) + '</span>' +
+                  (!d.chart ? '<small class="dist-card__note">Chart not published — see brochure</small>' : "") +
                 '</div>'
               );
             }).join("") +

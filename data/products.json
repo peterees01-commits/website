@@ -50,12 +50,12 @@
         "windage": "0.042 m²"
       },
       "distributions": [
-        { "code": ".SY", "name": "Symmetric" },
-        { "code": ".AY", "name": "Asymmetric" },
-        { "code": ".NR", "name": "Long & Narrow" },
-        { "code": ".FW", "name": "Forward Throw" },
+        { "code": ".SY", "name": "Symmetric", "chart": "assets/img/products/dpl/distributions/sy.png" },
+        { "code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/dpl/distributions/ay.png" },
+        { "code": ".NR", "name": "Long & Narrow", "chart": "assets/img/products/dpl/distributions/nr.png" },
+        { "code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/dpl/distributions/fw.png" },
         { "code": ".FWBL", "name": "Forward Throw (backlight shield)" },
-        { "code": ".HN", "name": "High Beam Long & Narrow" },
+        { "code": ".HN", "name": "High Beam Long & Narrow", "chart": "assets/img/products/dpl/distributions/hn.png" },
         { "code": ".HNBL", "name": "High Beam Long & Narrow (backlight shield)" },
         { "code": ".SYBL", "name": "Symmetric (backlight shield)" }
       ],

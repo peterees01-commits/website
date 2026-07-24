@@ -413,13 +413,20 @@
   aspect-ratio: 4 / 3;
   background: var(--near-black);
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.product-card__frame svg,
-.product-card__frame img {
+.product-card__frame svg {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+}
+
+.product-card__frame img {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
 }
 
 .bracket {
