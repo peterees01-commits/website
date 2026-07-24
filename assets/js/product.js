@@ -37,8 +37,7 @@
       overviewSection(p) +
       certificationsSection(p) +
       distributionsSection(p) +
-      mountingSection(p) +
-      downloadsSection(p);
+      mountingSection(p);
 
     initGallery();
   }
@@ -66,6 +65,7 @@
           '<div>' +
             productGallery(p) +
             '<p class="manu-note">' + esc(p.manufacturerNote) + ' Full manufacturer listing: <a href="' + esc(p.manufacturerUrl) + '" target="_blank" rel="noopener">holophane.co.uk ↗</a></p>' +
+            heroDownloads(p) +
           '</div>' +
         '</div>' +
       '</section>'
@@ -107,6 +107,21 @@
     );
   }
 
+  function heroDownloads(p) {
+    var dl = p.downloads;
+    return (
+      '<div class="hero-downloads">' +
+        '<p class="eyebrow">Downloads</p>' +
+        '<div class="hero-downloads__grid">' +
+          downloadCard(dl.brochure.label, dl.brochure.meta, "../" + dl.brochure.file, true) +
+          downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file, true) +
+          downloadCard(dl.bim.label, dl.bim.meta, "../" + dl.bim.file, true) +
+          downloadCard(dl.ies.label, dl.ies.meta, "../" + dl.ies.file, true) +
+        '</div>' +
+      '</div>'
+    );
+  }
+
   function initGallery() {
     var gallery = document.getElementById("productGallery");
     if (!gallery) return;
@@ -133,8 +148,8 @@
           '<div>' +
             '<p class="eyebrow">Overview</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
-            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(p.summary) + '</p>' +
-            (d.diagram ? '<img src="../' + esc(d.diagram) + '" alt="' + esc(p.name) + ' dimension diagram, small and large body sizes" style="width:100%;max-width:340px;display:block;border:1px solid var(--border-light);margin-bottom:var(--space-3)">' : "") +
+            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-8)">' + esc(p.summary) + '</p>' +
+            (d.diagram ? '<img src="../' + esc(d.diagram) + '" alt="' + esc(p.name) + ' dimension diagram, small and large body sizes" style="width:100%;max-width:260px;display:block;border:1px solid var(--border-light);margin-bottom:var(--space-3)">' : "") +
             '<p class="eyebrow">Physical characteristics</p>' +
             '<table class="spec-table">' +
               d.variants.map(function (v) {
@@ -208,50 +223,62 @@
     var m = p.mountingHeights;
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner">' +
-          '<p class="eyebrow">Mounting</p>' +
-          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
-          '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:70ch">' + esc(m.note) + '</p>' +
-          '<div class="table-scroll" style="max-width:420px">' +
-            '<table class="perf-table" style="min-width:0">' +
-              '<thead><tr><th>Mounting height</th><th>Typical spacing</th></tr></thead>' +
-              '<tbody>' +
-                m.rows.map(function (r) { return '<tr><td>' + esc(r.height) + '</td><td>' + esc(r.range) + '</td></tr>'; }).join("") +
-              '</tbody>' +
-            '</table>' +
+        '<div class="section__inner two-col">' +
+          '<div>' +
+            '<p class="eyebrow">Mounting</p>' +
+            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
+            '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:70ch">' + esc(m.note) + '</p>' +
+            '<div class="table-scroll" style="max-width:420px">' +
+              '<table class="perf-table" style="min-width:0">' +
+                '<thead><tr><th>Mounting height</th><th>Typical spacing</th></tr></thead>' +
+                '<tbody>' +
+                  m.rows.map(function (r) { return '<tr><td>' + esc(r.height) + '</td><td>' + esc(r.range) + '</td></tr>'; }).join("") +
+                '</tbody>' +
+              '</table>' +
+            '</div>' +
+          '</div>' +
+          '<div style="display:flex;align-items:center;height:100%">' +
+            mountingDiagram() +
           '</div>' +
         '</div>' +
       '</section>'
     );
   }
 
-  function downloadsSection(p) {
-    var dl = p.downloads;
+  function mountingDiagram() {
     return (
-      '<section class="section section--dark product-section" id="downloads">' +
-        '<div class="section__inner">' +
-          '<p class="eyebrow">Downloads</p>' +
-          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Documentation &amp; files</h2>' +
-
-          '<p class="eyebrow">BIM &amp; IES files</p>' +
-          '<div class="downloads-grid" style="margin-bottom:var(--space-6)">' +
-            downloadCard(dl.bim.label, dl.bim.meta, "../" + dl.bim.file) +
-            downloadCard(dl.ies.label, dl.ies.meta, "../" + dl.ies.file) +
-          '</div>' +
-
-          '<p class="eyebrow">Product documentation</p>' +
-          '<div class="downloads-grid">' +
-            downloadCard(dl.brochure.label, dl.brochure.meta, "../" + dl.brochure.file) +
-            downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file) +
-          '</div>' +
-        '</div>' +
-      '</section>'
+      '<svg viewBox="0 0 500 300" role="img" aria-labelledby="mountDiagramTitle" style="width:100%;max-width:420px;display:block">' +
+        '<title id="mountDiagramTitle">Diagram showing mounting height and typical spacing between poles</title>' +
+        '<line x1="20" y1="250" x2="480" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<polygon points="90,60 40,250 140,250" fill="#e2a33f" opacity="0.10"/>' +
+        '<line x1="90" y1="60" x2="40" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="90" y1="60" x2="140" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="90" y1="250" x2="90" y2="66" stroke="#232019" stroke-width="2"/>' +
+        '<path d="M76 60 L76 46 L104 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<path d="M112 60 L112 46 L84 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<polygon points="410,60 460,250 360,250" fill="#e2a33f" opacity="0.10"/>' +
+        '<line x1="410" y1="60" x2="460" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="410" y1="60" x2="360" y2="250" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
+        '<line x1="410" y1="250" x2="410" y2="66" stroke="#232019" stroke-width="2"/>' +
+        '<path d="M396 60 L396 46 L424 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<path d="M432 60 L432 46 L404 46" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>' +
+        '<g font-family="IBM Plex Mono, monospace" font-size="12" fill="#57534a">' +
+          '<line x1="60" y1="60" x2="60" y2="250" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="54" y1="60" x2="66" y2="60" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="54" y1="250" x2="66" y2="250" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<text x="30" y="158" text-anchor="middle" transform="rotate(-90 30 158)">MOUNTING HEIGHT</text>' +
+          '<line x1="140" y1="270" x2="360" y2="270" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="140" y1="264" x2="140" y2="276" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<line x1="360" y1="264" x2="360" y2="276" stroke="#232019" stroke-width="0.75" opacity="0.3"/>' +
+          '<text x="250" y="292" text-anchor="middle">TYPICAL SPACING</text>' +
+        '</g>' +
+      '</svg>'
     );
   }
 
-  function downloadCard(label, meta, file) {
+  function downloadCard(label, meta, file, compact) {
     return (
-      '<a class="download-card" href="' + esc(file) + '" download>' +
+      '<a class="download-card' + (compact ? ' download-card--compact' : '') + '" href="' + esc(file) + '" download>' +
         '<div>' +
           '<span class="download-card__meta">' + esc(meta) + '</span>' +
           '<h4>' + esc(label) + '</h4>' +

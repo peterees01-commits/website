@@ -162,6 +162,45 @@
   color: var(--glow-soft);
 }
 
+.hero-downloads {
+  margin-top: var(--space-5);
+}
+
+.hero-downloads .eyebrow {
+  color: var(--glow-soft);
+}
+
+.hero-downloads__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+}
+
+@media (max-width: 520px) {
+  .hero-downloads__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.download-card--compact {
+  padding: var(--space-2) var(--space-3);
+  gap: var(--space-2);
+}
+
+.download-card--compact .download-card__meta {
+  font-size: 0.6rem;
+}
+
+.download-card--compact h4 {
+  font-size: var(--text-sm);
+  margin: 2px 0;
+}
+
+.download-card--compact .btn {
+  padding: 0.5em 0.9em;
+  font-size: 0.65rem;
+}
+
 /* ---- Spec table (label/value) ---- */
 .spec-table {
   width: 100%;

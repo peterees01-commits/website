@@ -75,8 +75,8 @@
       "downloads": {
         "brochure": { "label": "Product brochure", "file": "assets/downloads/lumen-method-dpl-brochure.pdf", "meta": "PDF · Holophane" },
         "installGuide": { "label": "Installation instructions", "file": "assets/downloads/lumen-method-dpl-installation-guide.pdf", "meta": "PDF · Holophane" },
-        "bim": { "label": "BIM objects — Small & Large", "file": "assets/downloads/bim/DPL-BIM-Revit.zip", "meta": "ZIP · Revit families" },
-        "ies": { "label": "IES photometric files — all configurations", "file": "assets/downloads/ies/DPL-IES-files.zip", "meta": "ZIP · 352 files" }
+        "bim": { "label": "BIM objects", "file": "assets/downloads/bim/DPL-BIM-Revit.zip", "meta": "ZIP · Revit families, S & L" },
+        "ies": { "label": "IES photometric files", "file": "assets/downloads/ies/DPL-IES-files.zip", "meta": "ZIP · 352 files, all configs" }
       }
     }
   ]
