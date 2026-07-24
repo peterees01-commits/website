@@ -18,7 +18,8 @@
         { "file": "assets/img/products/dpl/dpl-06-small-module-angle.jpg", "alt": "Denver iD Pole Small module LED array, close-up angled view" },
         { "file": "assets/img/products/dpl/dpl-03-large-module-detail.png", "alt": "Denver iD Pole Large module LED array, close-up angled view" },
         { "file": "assets/img/products/dpl/dpl-04-large-module-underside.png", "alt": "Denver iD Pole Large module, straight-on underside view showing the 32-LED array" },
-        { "file": "assets/img/products/dpl/dpl-05-small-module-underside.png", "alt": "Denver iD Pole Small module, straight-on underside view showing the 16-LED array" }
+        { "file": "assets/img/products/dpl/dpl-05-small-module-underside.png", "alt": "Denver iD Pole Small module, straight-on underside view showing the 16-LED array" },
+        { "file": "assets/img/products/dpl/dpl-dimensions.png", "alt": "Denver iD Pole dimension diagram, small and large body sizes" }
       ],
       "badges": [
         { "label": "IP65 / IK10", "detail": "Ingress & impact protection" },

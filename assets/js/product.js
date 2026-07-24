@@ -145,19 +145,22 @@
     return (
       '<section class="section section--tight section--surface product-section">' +
         '<div class="section__inner two-col">' +
-          '<div>' +
-            '<p class="eyebrow">Overview</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
-            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-8)">' + esc(p.summary) + '</p>' +
-            (d.diagram ? '<img src="../' + esc(d.diagram) + '" alt="' + esc(p.name) + ' dimension diagram, small and large body sizes" style="width:100%;max-width:260px;display:block;border:1px solid var(--border-light);margin-bottom:var(--space-3)">' : "") +
-            '<p class="eyebrow">Physical characteristics</p>' +
-            '<table class="spec-table">' +
-              d.variants.map(function (v) {
-                return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
-              }).join("") +
-              '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>' +
-            '</table>' +
-            '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>' +
+          '<div style="display:flex;flex-direction:column;height:100%">' +
+            '<div>' +
+              '<p class="eyebrow">Overview</p>' +
+              '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
+              '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
+            '</div>' +
+            '<div style="margin-top:auto">' +
+              '<p class="eyebrow">Physical characteristics</p>' +
+              '<table class="spec-table">' +
+                d.variants.map(function (v) {
+                  return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
+                }).join("") +
+                '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>' +
+              '</table>' +
+              '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>' +
+            '</div>' +
           '</div>' +
           '<div>' +
             '<p class="eyebrow">Key specification</p>' +
