@@ -124,6 +124,10 @@
   opacity: 0;
 }
 
+.product-gallery__main.is-cyclable {
+  cursor: pointer;
+}
+
 .product-gallery__thumbs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -341,6 +345,7 @@
   gap: var(--space-3);
   border: 1px solid var(--border-on-dark);
   padding: var(--space-4);
+  text-decoration: none;
 }
 
 .download-card__meta {

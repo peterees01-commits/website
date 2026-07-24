@@ -121,9 +121,9 @@
         '<p class="eyebrow">Downloads</p>' +
         '<div class="hero-downloads__grid">' +
           downloadCard(dl.brochure.label, dl.brochure.meta, "../" + dl.brochure.file, true) +
-          downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file, true) +
-          downloadCard(dl.bim.label, dl.bim.meta, "../" + dl.bim.file, true) +
           downloadCard(dl.ies.label, dl.ies.meta, "../" + dl.ies.file, true) +
+          downloadCard(dl.bim.label, dl.bim.meta, "../" + dl.bim.file, true) +
+          downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file, true) +
         '</div>' +
       '</div>'
     );
@@ -133,23 +133,47 @@
     var gallery = document.getElementById("productGallery");
     if (!gallery) return;
     var mainImg = document.getElementById("galleryMainImg");
-    gallery.querySelectorAll(".product-gallery__thumb").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        if (btn.classList.contains("is-active")) return;
-        mainImg.classList.add("is-fading");
-        window.setTimeout(function () {
-          mainImg.src = btn.getAttribute("data-src");
-          mainImg.alt = btn.getAttribute("data-alt");
-          mainImg.classList.remove("is-fading");
-        }, 140);
-        gallery.querySelectorAll(".product-gallery__thumb").forEach(function (b) {
-          b.classList.remove("is-active");
-          b.setAttribute("aria-selected", "false");
-        });
-        btn.classList.add("is-active");
-        btn.setAttribute("aria-selected", "true");
+    var thumbs = gallery.querySelectorAll(".product-gallery__thumb");
+
+    function activate(btn) {
+      if (!btn || btn.classList.contains("is-active")) return;
+      mainImg.classList.add("is-fading");
+      window.setTimeout(function () {
+        mainImg.src = btn.getAttribute("data-src");
+        mainImg.alt = btn.getAttribute("data-alt");
+        mainImg.classList.remove("is-fading");
+      }, 140);
+      thumbs.forEach(function (b) {
+        b.classList.remove("is-active");
+        b.setAttribute("aria-selected", "false");
       });
+      btn.classList.add("is-active");
+      btn.setAttribute("aria-selected", "true");
+    }
+
+    thumbs.forEach(function (btn) {
+      btn.addEventListener("click", function () { activate(btn); });
     });
+
+    if (thumbs.length > 1) {
+      var frame = gallery.querySelector(".product-gallery__main");
+      var list = Array.prototype.slice.call(thumbs);
+      var advance = function () {
+        var activeIndex = list.findIndex(function (b) { return b.classList.contains("is-active"); });
+        activate(list[(activeIndex + 1) % list.length]);
+      };
+      frame.classList.add("is-cyclable");
+      frame.setAttribute("role", "button");
+      frame.setAttribute("tabindex", "0");
+      frame.setAttribute("aria-label", "Show next product image");
+      frame.addEventListener("click", advance);
+      frame.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          advance();
+        }
+      });
+    }
   }
 
   function overviewSection(p) {
