@@ -15,6 +15,7 @@
       "images": [
         { "file": "assets/img/products/dpl/dpl-01-profile.png", "alt": "Denver iD Pole side profile, showing the LED module and pole mounting arm" },
         { "file": "assets/img/products/dpl/dpl-02-mounted-angle.png", "alt": "Denver iD Pole mounted on a pole, three-quarter angle view" },
+        { "file": "assets/img/products/dpl/dpl-06-small-module-angle.jpg", "alt": "Denver iD Pole Small module LED array, close-up angled view" },
         { "file": "assets/img/products/dpl/dpl-03-large-module-detail.png", "alt": "Denver iD Pole Large module LED array, close-up angled view" },
         { "file": "assets/img/products/dpl/dpl-04-large-module-underside.png", "alt": "Denver iD Pole Large module, straight-on underside view showing the 32-LED array" },
         { "file": "assets/img/products/dpl/dpl-05-small-module-underside.png", "alt": "Denver iD Pole Small module, straight-on underside view showing the 16-LED array" }
