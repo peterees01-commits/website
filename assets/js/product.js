@@ -35,8 +35,8 @@
     root.innerHTML =
       heroSection(p) +
       overviewSection(p) +
-      distributionsSection(p) +
       certificationsSection(p) +
+      distributionsSection(p) +
       mountingSection(p) +
       downloadsSection(p);
 
@@ -141,6 +141,9 @@
               p.keySpecs.map(function (s) {
                 return '<tr><th>' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>';
               }).join("") +
+            '</table>' +
+            '<p class="eyebrow" style="margin-top:var(--space-5)">Physical characteristics</p>' +
+            '<table class="spec-table">' +
               d.variants.map(function (v) {
                 return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
               }).join("") +
@@ -229,19 +232,16 @@
           '<p class="eyebrow">Downloads</p>' +
           '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Documentation &amp; files</h2>' +
 
-          '<div class="downloads-grid" style="margin-bottom:var(--space-6)">' +
-            downloadCard(dl.brochure.label, dl.brochure.meta, "../" + dl.brochure.file) +
-            downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file) +
-          '</div>' +
-
-          '<p class="eyebrow">BIM objects</p>' +
+          '<p class="eyebrow">BIM &amp; IES files</p>' +
           '<div class="downloads-grid" style="margin-bottom:var(--space-6)">' +
             downloadCard(dl.bim.label, dl.bim.meta, "../" + dl.bim.file) +
+            downloadCard(dl.ies.label, dl.ies.meta, "../" + dl.ies.file) +
           '</div>' +
 
-          '<p class="eyebrow">IES photometric files</p>' +
+          '<p class="eyebrow">Product documentation</p>' +
           '<div class="downloads-grid">' +
-            downloadCard(dl.ies.label, dl.ies.meta, "../" + dl.ies.file) +
+            downloadCard(dl.brochure.label, dl.brochure.meta, "../" + dl.brochure.file) +
+            downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file) +
           '</div>' +
         '</div>' +
       '</section>'
