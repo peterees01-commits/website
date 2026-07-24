@@ -43,6 +43,7 @@
         { "label": "Warranty / life rating", "value": "L70 control gear options: 70% / 80% / 90% lumen maintenance over life" }
       ],
       "dimensions": {
+        "diagram": "assets/img/products/dpl/dpl-dimensions.png",
         "note": "Both body sizes share a 116mm height. Weight and windage are per-fitting, excluding bracket.",
         "variants": [
           { "label": "DPL Small", "length": "302 mm", "width": "114 mm", "height": "116 mm", "weight": "6.1 kg" },
