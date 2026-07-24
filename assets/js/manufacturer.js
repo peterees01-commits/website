@@ -39,10 +39,7 @@
         '<div class="manu-hero__inner">' +
           '<div>' +
             '<div class="manu-hero__badge">' +
-              '<div class="manu-wordmark">' +
-                '<span class="manu-wordmark__name">' + esc(m.name) + '</span>' +
-                (m.parent ? '<span class="manu-wordmark__parent">' + esc(m.parent) + '</span>' : "") +
-              '</div>' +
+              (window.LumenMethod ? window.LumenMethod.manuBadgeContent(m, "../") : esc(m.name)) +
             '</div>' +
             '<div class="manu-hero__meta">' +
               '<table>' +

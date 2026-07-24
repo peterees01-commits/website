@@ -44,10 +44,7 @@
       return (
         '<a class="product-card manu-card" href="manufacturers/manufacturer.html?slug=' + encodeURIComponent(m.slug) + '">' +
           '<div class="product-card__frame manu-card__badge">' +
-            '<div class="manu-wordmark">' +
-              '<span class="manu-wordmark__name">' + esc(m.name) + '</span>' +
-              (m.parent ? '<span class="manu-wordmark__parent">' + esc(m.parent) + '</span>' : "") +
-            '</div>' +
+            manuBadgeContent(m) +
             '<span class="bracket bracket--tl" aria-hidden="true"></span>' +
             '<span class="bracket bracket--tr" aria-hidden="true"></span>' +
             '<span class="bracket bracket--bl" aria-hidden="true"></span>' +
@@ -62,6 +59,19 @@
         '</a>'
       );
     }).join("") + moreManufacturersCard();
+  }
+
+  function manuBadgeContent(m, basePath) {
+    basePath = basePath || "";
+    if (m.logo) {
+      return '<img class="manu-badge-img" src="' + basePath + esc(m.logo) + '" alt="' + esc(m.name) + (m.parent ? ' — ' + esc(m.parent) : "") + '" loading="lazy">';
+    }
+    return (
+      '<div class="manu-wordmark">' +
+        '<span class="manu-wordmark__name">' + esc(m.name) + '</span>' +
+        (m.parent ? '<span class="manu-wordmark__parent">' + esc(m.parent) + '</span>' : "") +
+      '</div>'
+    );
   }
 
   function moreManufacturersCard() {
@@ -128,6 +138,7 @@
   window.LumenMethod = {
     renderProductCards: renderProductCards,
     productGlyph: productGlyph,
+    manuBadgeContent: manuBadgeContent,
     esc: esc
   };
 })();
