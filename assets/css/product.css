@@ -264,9 +264,15 @@
 
 /* ---- Downloads ---- */
 .downloads-grid {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+
+@media (max-width: 700px) {
+  .downloads-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .download-card {
