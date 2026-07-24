@@ -236,7 +236,7 @@
                 '</tbody>' +
               '</table>' +
             '</div>' +
-            '<div style="height:100%">' +
+            '<div style="height:100%;position:relative">' +
               mountingDiagram() +
             '</div>' +
           '</div>' +
@@ -247,7 +247,7 @@
 
   function mountingDiagram() {
     return (
-      '<svg viewBox="0 0 500 300" preserveAspectRatio="none" role="img" aria-labelledby="mountDiagramTitle" style="width:100%;height:100%;display:block">' +
+      '<svg viewBox="0 0 500 300" preserveAspectRatio="none" role="img" aria-labelledby="mountDiagramTitle" style="position:absolute;inset:0;width:100%;height:100%;display:block">' +
         '<title id="mountDiagramTitle">Diagram showing mounting height and typical spacing between poles</title>' +
         '<line x1="20" y1="270" x2="480" y2="270" stroke="#232019" stroke-width="1" opacity="0.4"/>' +
         '<polygon points="90,20 40,270 140,270" fill="#e2a33f" opacity="0.10"/>' +
