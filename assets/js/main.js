@@ -16,6 +16,30 @@
     });
   }
 
+  var caseStudyTrack = document.getElementById("caseStudyTrack");
+  if (caseStudyTrack) {
+    var prevBtn = document.querySelector('.case-study-arrow-btn[data-dir="prev"]');
+    var nextBtn = document.querySelector('.case-study-arrow-btn[data-dir="next"]');
+
+    var scrollByCard = function (dir) {
+      var card = caseStudyTrack.querySelector(".case-study-card");
+      var amount = card ? card.getBoundingClientRect().width + 20 : caseStudyTrack.clientWidth * 0.9;
+      caseStudyTrack.scrollBy({ left: dir * amount, behavior: "smooth" });
+    };
+
+    var updateArrowState = function () {
+      var max = caseStudyTrack.scrollWidth - caseStudyTrack.clientWidth;
+      prevBtn.disabled = caseStudyTrack.scrollLeft <= 1;
+      nextBtn.disabled = caseStudyTrack.scrollLeft >= max - 1;
+    };
+
+    if (prevBtn) prevBtn.addEventListener("click", function () { scrollByCard(-1); });
+    if (nextBtn) nextBtn.addEventListener("click", function () { scrollByCard(1); });
+    caseStudyTrack.addEventListener("scroll", updateArrowState, { passive: true });
+    window.addEventListener("resize", updateArrowState);
+    updateArrowState();
+  }
+
   var grid = document.getElementById("manufacturersGrid");
   if (grid) {
     Promise.all([
