@@ -299,13 +299,13 @@
 
   function downloadCard(label, meta, file, compact) {
     return (
-      '<a class="download-card' + (compact ? ' download-card--compact' : '') + '" href="' + esc(file) + '" download>' +
+      '<div class="download-card' + (compact ? ' download-card--compact' : '') + '">' +
         '<div>' +
           '<span class="download-card__meta">' + esc(meta) + '</span>' +
           '<h4>' + esc(label) + '</h4>' +
         '</div>' +
-        '<span class="btn btn-ghost-dark" style="pointer-events:none">Download</span>' +
-      '</a>'
+        '<a class="btn btn-ghost-dark" href="' + esc(file) + '" download aria-label="Download ' + esc(label) + '">Download</a>' +
+      '</div>'
     );
   }
 })();

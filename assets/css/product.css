@@ -345,7 +345,6 @@
   gap: var(--space-3);
   border: 1px solid var(--border-on-dark);
   padding: var(--space-4);
-  text-decoration: none;
 }
 
 .download-card__meta {
