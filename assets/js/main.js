@@ -16,71 +16,54 @@
     });
   }
 
-  var introOverlay = document.getElementById("introOverlay");
-  if (introOverlay) {
-    var INTRO_SEEN_KEY = "lm_intro_seen";
+  var brandAnim = document.getElementById("brandMarkAnim");
+  if (brandAnim) {
     var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var alreadySeen = false;
-    try { alreadySeen = sessionStorage.getItem(INTRO_SEEN_KEY) === "1"; } catch (e) {}
+    if (!reduceMotion) {
+      var brandLink = brandAnim.closest(".brand");
+      var bulbL = brandAnim.querySelector(".logo-anim-bulb--l");
+      var bulbR = brandAnim.querySelector(".logo-anim-bulb--r");
+      var strokeL = brandAnim.querySelector(".logo-anim-stroke--l");
+      var strokeR = brandAnim.querySelector(".logo-anim-stroke--r");
+      var strokeV = brandAnim.querySelector(".logo-anim-stroke--v");
+      var strokes = [strokeL, strokeR, strokeV];
+      var strokeLengths = strokes.map(function (path) { return path.getTotalLength(); });
 
-    var lockedEls = [document.querySelector(".site-header"), document.getElementById("main"), document.querySelector(".site-footer")];
-    function setInert(on) {
-      lockedEls.forEach(function (el) { if (el) el.inert = on; });
-    }
+      var timers = [];
+      var isAnimating = false;
 
-    function dismissIntro(instant) {
-      if (instant) introOverlay.style.transition = "none";
-      introOverlay.classList.add("is-hidden");
-      document.body.classList.remove("intro-lock");
-      setInert(false);
-      window.setTimeout(function () {
-        if (introOverlay.parentNode) introOverlay.parentNode.removeChild(introOverlay);
-      }, instant ? 0 : 700);
-      try { sessionStorage.setItem(INTRO_SEEN_KEY, "1"); } catch (e) {}
-    }
-
-    if (alreadySeen || reduceMotion) {
-      dismissIntro(true);
-    } else {
-      document.body.classList.add("intro-lock");
-      setInert(true);
-
-      var skipBtn = document.getElementById("introSkip");
-      if (skipBtn) {
-        skipBtn.addEventListener("click", function () { dismissIntro(false); });
-        skipBtn.classList.add("is-in");
+      function clearTimers() {
+        timers.forEach(function (t) { window.clearTimeout(t); });
+        timers = [];
       }
-      introOverlay.addEventListener("click", function (e) {
-        if (e.target === introOverlay) dismissIntro(false);
+
+      function playLogoAnimation() {
+        clearTimers();
+        isAnimating = true;
+
+        [bulbL, bulbR].forEach(function (b) { b.classList.remove("is-on"); });
+        strokes.forEach(function (path, i) {
+          path.style.transition = "none";
+          path.style.strokeDasharray = strokeLengths[i];
+          path.style.strokeDashoffset = strokeLengths[i];
+        });
+        void brandAnim.offsetWidth;
+        strokes.forEach(function (path) { path.style.transition = ""; });
+
+        timers.push(window.setTimeout(function () { bulbL.classList.add("is-on"); }, 250));
+        timers.push(window.setTimeout(function () { bulbR.classList.add("is-on"); }, 550));
+        timers.push(window.setTimeout(function () { strokeL.style.strokeDashoffset = 0; }, 900));
+        timers.push(window.setTimeout(function () { strokeR.style.strokeDashoffset = 0; }, 1250));
+        timers.push(window.setTimeout(function () { strokeV.style.strokeDashoffset = 0; }, 2350));
+        timers.push(window.setTimeout(function () { isAnimating = false; }, 3300));
+      }
+
+      brandLink.addEventListener("mouseenter", function () {
+        if (!isAnimating) playLogoAnimation();
       });
-      var onKey = function (e) {
-        if (e.key === "Escape") {
-          dismissIntro(false);
-          document.removeEventListener("keydown", onKey);
-        }
-      };
-      document.addEventListener("keydown", onKey);
-
-      var bulbL = introOverlay.querySelector(".intro-bulb--l");
-      var bulbR = introOverlay.querySelector(".intro-bulb--r");
-      var strokeL = introOverlay.querySelector(".intro-stroke--l");
-      var strokeR = introOverlay.querySelector(".intro-stroke--r");
-      var strokeV = introOverlay.querySelector(".intro-stroke--v");
-      var wordEl = introOverlay.querySelector(".intro-overlay__word");
-
-      [strokeL, strokeR, strokeV].forEach(function (path) {
-        var len = path.getTotalLength();
-        path.style.strokeDasharray = len;
-        path.style.strokeDashoffset = len;
+      brandLink.addEventListener("focus", function () {
+        if (!isAnimating) playLogoAnimation();
       });
-
-      window.setTimeout(function () { bulbL.classList.add("is-on"); }, 150);
-      window.setTimeout(function () { bulbR.classList.add("is-on"); }, 350);
-      window.setTimeout(function () { strokeL.style.strokeDashoffset = 0; }, 550);
-      window.setTimeout(function () { strokeR.style.strokeDashoffset = 0; }, 750);
-      window.setTimeout(function () { strokeV.style.strokeDashoffset = 0; }, 1450);
-      window.setTimeout(function () { wordEl.classList.add("is-in"); }, 2100);
-      window.setTimeout(function () { dismissIntro(false); }, 2900);
     }
   }
 

@@ -1,106 +1,33 @@
 /* =========================================================
-   Intro overlay (homepage first-visit animation)
+   Animated logo mark (hover easter egg, homepage header)
 ========================================================= */
-body.intro-lock {
-  overflow: hidden;
-}
-
-.intro-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-4);
-  background: var(--black);
-  transition: opacity 0.65s var(--ease-out), visibility 0.65s var(--ease-out);
-}
-
-.intro-overlay.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.intro-overlay__mark {
-  width: min(220px, 40vw);
-  height: auto;
+.brand--animated .brand__mark {
   overflow: visible;
-}
-
-.intro-overlay__word {
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--grey-500);
-  opacity: 0;
-  transition: opacity 0.6s var(--ease-out);
-}
-
-.intro-overlay__word.is-in {
-  opacity: 1;
-}
-
-.intro-overlay__skip {
-  position: absolute;
-  top: var(--space-4);
-  right: var(--space-4);
-  background: none;
-  border: 1px solid var(--border-on-dark);
-  color: var(--grey-400);
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  padding: var(--space-2) var(--space-3);
   cursor: pointer;
-  opacity: 0;
-  transition: opacity 0.4s var(--ease-out), border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
 }
 
-.intro-overlay__skip.is-in {
-  opacity: 1;
-}
-
-.intro-overlay__skip:hover {
-  border-color: var(--glow);
-  color: var(--glow-soft);
-}
-
-.intro-bulb {
+.logo-anim-bulb {
   fill: var(--glow);
   opacity: 0;
   transform-origin: center;
-  filter: drop-shadow(0 0 6px rgba(226, 163, 63, 0.85));
+  filter: drop-shadow(0 0 4px rgba(226, 163, 63, 0.85));
   transition: opacity 0.5s var(--ease-out), transform 0.5s var(--ease-out);
   transform: scale(0.4);
 }
 
-.intro-bulb.is-on {
+.logo-anim-bulb.is-on {
   opacity: 1;
   transform: scale(1);
 }
 
-.intro-stroke {
-  transition: stroke-dashoffset 0.7s var(--ease-out);
+.logo-anim-stroke {
+  transition: stroke-dashoffset 0.9s var(--ease-out);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .intro-overlay,
-  .intro-bulb,
-  .intro-overlay__word,
-  .intro-overlay__skip,
-  .intro-stroke {
+  .logo-anim-bulb,
+  .logo-anim-stroke {
     transition: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .intro-overlay__mark {
-    width: 45vw;
   }
 }
 
