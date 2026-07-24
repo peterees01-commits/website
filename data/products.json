@@ -11,7 +11,7 @@
       "family": "Denver iD",
       "tagline": "Post-top LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
       "summary": "Denver iD Pole is a two-part die-cast aluminium post-top luminaire covering 2,000–12,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field.",
-      "applications": ["Amenity areas", "Town squares", "Campuses", "Retail parks", "Car parks", "Landscaped areas"],
+      "applications": ["Carparks", "Pathways", "Universities", "Town Centres"],
       "images": [
         { "file": "assets/img/products/dpl/dpl-01-profile.png", "alt": "Denver iD Pole side profile, showing the LED module and pole mounting arm" },
         { "file": "assets/img/products/dpl/dpl-02-mounted-angle.png", "alt": "Denver iD Pole mounted on a pole, three-quarter angle view" },
@@ -30,7 +30,7 @@
       "keySpecs": [
         { "label": "Delivered lumens", "value": "2,000 – 12,000 lm" },
         { "label": "Colour temperature", "value": "2700K / 3000K / 4000K (PC Amber available)" },
-        { "label": "CRI", "value": "> 70" },
+        { "label": "CRI", "value": "> 70 (higher CRI available upon request)" },
         { "label": "ULOR", "value": "0%" },
         { "label": "Ingress protection", "value": "IP65 (body & gear), IP66 (light engine)" },
         { "label": "Impact resistance", "value": "IK10" },
@@ -41,7 +41,8 @@
         { "label": "Electrical class", "value": "Class I or Class II" },
         { "label": "Dimming", "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)" },
         { "label": "Smart controls", "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02), Controlux Air compatible" },
-        { "label": "Warranty / life rating", "value": "L70 control gear options: 70% / 80% / 90% lumen maintenance over life" }
+        { "label": "Warranty", "value": "5 years" },
+        { "label": "Life rating", "value": "L70 B10" }
       ],
       "dimensions": {
         "diagram": "assets/img/products/dpl/dpl-dimensions.png",
