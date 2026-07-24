@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Information — Lumen Method</title>
+<meta name="description" content="Register for access to Lumen Method's technical presentations and CPD briefings for specifying engineers. Requests are reviewed and approved individually.">
+<link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Expanded:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+    <span class="brand__word">Lumen Method<small>Specification Lighting</small></span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" id="navToggle">
+    <span class="visually-hidden">Menu</span>
+    ☰
+  </button>
+  <nav class="nav" id="primary-nav">
+    <ul class="nav__list">
+      <li><a href="index.html#hero">Home</a></li>
+      <li><a href="technical-information.html" aria-current="page">Technical Information</a></li>
+      <li><a href="index.html#products">Products</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#case-studies">Case Studies</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="section section--dark">
+    <div class="section__inner">
+      <p class="eyebrow">Technical Information</p>
+      <h1 style="font-size:clamp(2rem, 4.5vw, var(--text-4xl));max-width:24ch;margin-bottom:var(--space-4)">Presentations &amp; technical resources for specifying engineers</h1>
+      <p class="section__intro" style="color:var(--text-muted-on-dark);max-width:60ch">Manufacturer product presentations, CPD-style briefings and in-depth technical content for engineers working with the ranges Lumen Method represents. Access is by registration — every request is reviewed and approved individually before we share materials.</p>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="section__inner">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">How it works</p>
+          <h2>Register your interest</h2>
+          <p class="section__intro" style="color:var(--text-muted-on-dark);margin-top:var(--space-3)">Complete the form and our team will review your request. Once approved, we'll follow up by email with access to the presentations and technical resources relevant to your work.</p>
+          <dl>
+            <dt>What's included</dt>
+            <dd>Manufacturer product presentations</dd>
+            <dd style="margin-top:var(--space-1)">Technical &amp; CPD-style briefings</dd>
+            <dd style="margin-top:var(--space-1)">Early access to new range documentation</dd>
+            <dt>Approval</dt>
+            <dd>Requests are reviewed individually — access isn't automatic.</dd>
+          </dl>
+        </div>
+        <form class="contact-form" id="technicalInfoForm">
+          <div class="field">
+            <label for="ti-name">Name <span class="req">*</span></label>
+            <input type="text" id="ti-name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="ti-email">Work email <span class="req">*</span></label>
+            <input type="email" id="ti-email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="ti-company">Company <span class="req">*</span></label>
+            <input type="text" id="ti-company" name="company" autocomplete="organization" required>
+          </div>
+          <div class="field">
+            <label for="ti-role">Role / position</label>
+            <input type="text" id="ti-role" name="role" autocomplete="organization-title">
+          </div>
+          <div class="field">
+            <label for="ti-interest">What are you interested in?</label>
+            <textarea id="ti-interest" name="interest"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Request access</button>
+          <p class="form-note">Form UI only for now — connect this to your email or CRM before going live.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__top">
+    <div class="site-footer__brand">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logo-mark.svg" alt="" style="width:28px;">
+        <span class="brand__word">Lumen Method</span>
+      </a>
+      <p style="font-size: var(--text-sm); margin-top: var(--space-2);">Specification lighting for electrical engineers and designers. Exclusive Holophane agent for Australia.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="technical-information.html">Technical Information</a></li>
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#case-studies">Case Studies</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="site-footer__bottom">
+    <span>© 2026 Lumen Method</span>
+    <span>Product data credited to respective manufacturers</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
