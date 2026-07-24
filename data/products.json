@@ -12,7 +12,13 @@
       "tagline": "Post-top LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
       "summary": "Denver iD Pole is a two-part die-cast aluminium post-top luminaire covering 2,000–12,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field.",
       "applications": ["Amenity areas", "Town squares", "Campuses", "Retail parks", "Car parks", "Landscaped areas"],
-      "heroNote": "Placeholder graphic — real product photography or manufacturer renders to be added.",
+      "images": [
+        { "file": "assets/img/products/dpl/dpl-01-profile.png", "alt": "Denver iD Pole side profile, showing the LED module and pole mounting arm" },
+        { "file": "assets/img/products/dpl/dpl-02-mounted-angle.png", "alt": "Denver iD Pole mounted on a pole, three-quarter angle view" },
+        { "file": "assets/img/products/dpl/dpl-03-large-module-detail.png", "alt": "Denver iD Pole Large module LED array, close-up angled view" },
+        { "file": "assets/img/products/dpl/dpl-04-large-module-underside.png", "alt": "Denver iD Pole Large module, straight-on underside view showing the 32-LED array" },
+        { "file": "assets/img/products/dpl/dpl-05-small-module-underside.png", "alt": "Denver iD Pole Small module, straight-on underside view showing the 16-LED array" }
+      ],
       "badges": [
         { "label": "IP65 / IK10", "detail": "Ingress & impact protection" },
         { "label": "0% ULOR", "detail": "No upward light output" },

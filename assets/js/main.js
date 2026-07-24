@@ -107,7 +107,9 @@
       return (
         '<a class="product-card" href="' + base + 'products/product.html?code=' + encodeURIComponent(p.code) + '">' +
           '<div class="product-card__frame">' +
-            productGlyph(p.code) +
+            (p.images && p.images.length
+              ? '<img src="' + base + esc(p.images[0].file) + '" alt="' + esc(p.images[0].alt) + '" loading="lazy">'
+              : productGlyph(p.code)) +
             '<span class="product-card__manu">' + esc(p.manufacturer) + '</span>' +
             '<span class="bracket bracket--tl" aria-hidden="true"></span>' +
             '<span class="bracket bracket--tr" aria-hidden="true"></span>' +

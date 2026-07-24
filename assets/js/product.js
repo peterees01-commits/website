@@ -44,6 +44,7 @@
       mountingSection(p) +
       downloadsSection(p);
 
+    initGallery();
     initIesFinder(p, iesManifest);
   }
 
@@ -68,18 +69,65 @@
             '</div>' +
           '</div>' +
           '<div>' +
-            '<div class="product-hero__frame">' +
-              '<svg viewBox="0 0 240 180" width="70%" aria-hidden="true">' +
-                '<polygon points="70,10 170,10 210,170 30,170" fill="#e2a33f" opacity="0.10"/>' +
-                '<text x="120" y="98" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="26" fill="#f2ecde" opacity="0.85">' + esc(p.code) + '</text>' +
-              '</svg>' +
-              '<p class="product-hero__frame-note">' + esc(p.heroNote || "") + '</p>' +
-            '</div>' +
+            productGallery(p) +
             '<p class="manu-note">' + esc(p.manufacturerNote) + ' Full manufacturer listing: <a href="' + esc(p.manufacturerUrl) + '" target="_blank" rel="noopener">holophane.co.uk ↗</a></p>' +
           '</div>' +
         '</div>' +
       '</section>'
     );
+  }
+
+  function productGallery(p) {
+    var images = p.images || [];
+    if (!images.length) {
+      return (
+        '<div class="product-hero__frame">' +
+          '<svg viewBox="0 0 240 180" width="70%" aria-hidden="true">' +
+            '<polygon points="70,10 170,10 210,170 30,170" fill="#e2a33f" opacity="0.10"/>' +
+            '<text x="120" y="98" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="26" fill="#f2ecde" opacity="0.85">' + esc(p.code) + '</text>' +
+          '</svg>' +
+          '<p class="product-hero__frame-note">Product imagery pending.</p>' +
+        '</div>'
+      );
+    }
+    return (
+      '<div class="product-gallery" id="productGallery">' +
+        '<div class="product-hero__frame product-gallery__main">' +
+          '<img id="galleryMainImg" src="../' + esc(images[0].file) + '" alt="' + esc(images[0].alt) + '">' +
+        '</div>' +
+        (images.length > 1 ?
+          '<div class="product-gallery__thumbs" role="tablist" aria-label="Product images">' +
+            images.map(function (img, i) {
+              return (
+                '<button type="button" class="product-gallery__thumb' + (i === 0 ? ' is-active' : '') + '" ' +
+                  'data-src="../' + esc(img.file) + '" data-alt="' + esc(img.alt) + '" ' +
+                  'role="tab" aria-selected="' + (i === 0 ? 'true' : 'false') + '" aria-label="' + esc(img.alt) + '">' +
+                  '<img src="../' + esc(img.file) + '" alt="" loading="lazy">' +
+                '</button>'
+              );
+            }).join("") +
+          '</div>' : ""
+        ) +
+      '</div>'
+    );
+  }
+
+  function initGallery() {
+    var gallery = document.getElementById("productGallery");
+    if (!gallery) return;
+    var mainImg = document.getElementById("galleryMainImg");
+    gallery.querySelectorAll(".product-gallery__thumb").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        mainImg.src = btn.getAttribute("data-src");
+        mainImg.alt = btn.getAttribute("data-alt");
+        gallery.querySelectorAll(".product-gallery__thumb").forEach(function (b) {
+          b.classList.remove("is-active");
+          b.setAttribute("aria-selected", "false");
+        });
+        btn.classList.add("is-active");
+        btn.setAttribute("aria-selected", "true");
+      });
+    });
   }
 
   function overviewSection(p) {
