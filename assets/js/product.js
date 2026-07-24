@@ -52,7 +52,9 @@
       '<section class="product-hero">' +
         '<div class="product-hero__inner">' +
           '<div>' +
-            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Products</a> / ' + esc(p.name) + '</p>' +
+            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Products</a> / ' +
+              (p.manufacturerSlug ? '<a href="../manufacturers/manufacturer.html?slug=' + esc(p.manufacturerSlug) + '">' + esc(p.manufacturer) + '</a>' : esc(p.manufacturer)) +
+              ' / ' + esc(p.name) + '</p>' +
             '<span class="product-hero__manu">Manufactured by ' + esc(p.manufacturer) + '</span>' +
             '<h1>' + esc(p.name) + '</h1>' +
             '<p class="product-hero__tagline">' + esc(p.tagline) + '</p>' +

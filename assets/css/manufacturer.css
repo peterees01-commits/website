@@ -1,0 +1,79 @@
+/* =========================================================
+   Manufacturer page
+========================================================= */
+.manu-hero {
+  background: var(--white);
+  padding: calc(var(--space-8) + 40px) var(--container-pad) var(--space-7);
+}
+
+.manu-hero__inner {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: var(--space-7);
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .manu-hero__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.manu-hero__badge {
+  border: 1px solid var(--border-light);
+  background: var(--cream-soft);
+  padding: var(--space-7) var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manu-hero__meta {
+  margin-top: var(--space-4);
+}
+
+.manu-hero__meta table {
+  width: 100%;
+  font-size: var(--text-sm);
+}
+
+.manu-hero__meta th,
+.manu-hero__meta td {
+  text-align: left;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.manu-hero__meta th {
+  width: 40%;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.manu-hero__agent-note {
+  margin-top: var(--space-4);
+  border-left: 2px solid var(--glow-dim);
+  padding-left: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
+
+.manu-hero h1 {
+  font-size: clamp(2rem, 4.5vw, var(--text-3xl));
+  margin-bottom: var(--space-3);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.manu-hero__bio {
+  font-size: var(--text-md);
+  color: var(--text-muted);
+  line-height: 1.75;
+  max-width: 62ch;
+}

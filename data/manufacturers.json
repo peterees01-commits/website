@@ -1,0 +1,15 @@
+{
+  "manufacturers": [
+    {
+      "slug": "holophane",
+      "name": "Holophane",
+      "parent": "An Acuity Brands Company",
+      "founded": "1896",
+      "hq": "Bletchley, Milton Keynes, UK",
+      "website": "https://www.holophane.co.uk",
+      "agentNote": "Lumen Method is Holophane's exclusive specification agent for Australia.",
+      "bioShort": "UK luminaire manufacturer, founded 1896. Part of Acuity Brands. 125+ years designing exterior and architectural lighting.",
+      "bio": "Founded in London in 1896 by Pelham Trotter, Holophane's first product was a patented glass refractor that gave the company its name and set the direction for everything that followed: lighting engineered around optical performance, not just styling. Now part of Acuity Brands and manufacturing from its Milton Keynes facility, Holophane designs exterior, industrial and architectural luminaires with a focus on thermal management, serviceability and long system life — built to be repaired and upgraded in the field rather than replaced. Lumen Method is Holophane's exclusive specification agent for Australia."
+    }
+  ]
+}

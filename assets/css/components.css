@@ -446,6 +446,43 @@
   border: 1px solid var(--border-on-dark);
 }
 
+.manu-card__badge {
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.manu-wordmark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+}
+
+.manu-wordmark__name {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: #16305c;
+  letter-spacing: 0.01em;
+}
+
+.manu-wordmark__parent {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  color: var(--grey-500);
+  letter-spacing: 0.02em;
+}
+
+.manu-card__bio {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-3);
+}
+
 .product-card__body {
   padding: var(--space-4);
 }
