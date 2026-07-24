@@ -258,15 +258,12 @@
 
 .perf-table thead th {
   font-family: var(--font-mono);
+  font-weight: 400;
   font-size: var(--text-xs);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-muted);
   background: var(--cream-soft);
-}
-
-.perf-table td:first-child {
-  font-family: var(--font-mono);
 }
 
 /* ---- Distribution grid ---- */
