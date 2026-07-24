@@ -39,44 +39,37 @@
 <main id="main">
 
   <section class="hero" id="hero">
-    <div class="hero__beams" aria-hidden="true">
-      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
-        <defs>
-          <linearGradient id="beamL" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#f2ecde" stop-opacity="0.55"/>
-            <stop offset="100%" stop-color="#f2ecde" stop-opacity="0"/>
-          </linearGradient>
-          <linearGradient id="beamR" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#e2a33f" stop-opacity="0.35"/>
-            <stop offset="100%" stop-color="#e2a33f" stop-opacity="0"/>
-          </linearGradient>
-        </defs>
-        <polygon points="120,-40 460,-40 700,760 560,760" fill="url(#beamL)" class="beam beam--left"/>
-        <polygon points="1480,-40 1140,-40 900,760 1040,760" fill="url(#beamR)" class="beam beam--right"/>
-      </svg>
-    </div>
-    <div class="hero__scrim" aria-hidden="true"></div>
-    <div class="hero__content">
-      <p class="hero__eyebrow">Specification Lighting · Australia</p>
-      <h1>We specify the light. You get on with the engineering.</h1>
-      <p class="hero__lede">Lumen Method gives electrical engineers and lighting designers direct access to full technical data — photometry, ordering codes, BIM objects and installation documentation — for every range we represent. No sales layer between you and the datasheet.</p>
-      <div class="hero__actions">
-        <a class="btn btn-primary" href="#products">Browse products</a>
-        <a class="btn btn-ghost-dark" href="#contact">Talk to a specifier</a>
+    <div class="hero__inner">
+      <div class="hero__frame">
+        <svg class="hero__art" viewBox="0 0 800 400" role="img" aria-labelledby="heroArtTitle">
+          <title id="heroArtTitle">Lighting layout diagram: pole-mounted luminaire, beam spread and isolux rings</title>
+          <line x1="60" y1="338" x2="740" y2="338" stroke="#232019" stroke-width="1" opacity="0.35"/>
+          <ellipse cx="400" cy="338" rx="230" ry="16" fill="none" stroke="#232019" stroke-width="1" stroke-dasharray="3 5" opacity="0.3"/>
+          <ellipse cx="400" cy="338" rx="150" ry="10" fill="none" stroke="#232019" stroke-width="1" stroke-dasharray="3 5" opacity="0.4"/>
+          <ellipse cx="400" cy="338" rx="70" ry="5" fill="none" stroke="#e2a33f" stroke-width="1.2" opacity="0.7"/>
+          <polygon points="400,96 250,338 550,338" fill="#e2a33f" opacity="0.08"/>
+          <line x1="400" y1="96" x2="250" y2="338" stroke="#232019" stroke-width="1" opacity="0.45"/>
+          <line x1="400" y1="96" x2="550" y2="338" stroke="#232019" stroke-width="1" opacity="0.45"/>
+          <line x1="400" y1="338" x2="400" y2="100" stroke="#232019" stroke-width="2"/>
+          <path d="M382 96 L382 78 L410 78" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>
+          <path d="M418 96 L418 78 L390 78" stroke="#232019" stroke-width="3" stroke-linecap="square" fill="none"/>
+          <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#57534a">
+            <line x1="440" y1="100" x2="440" y2="338" stroke="#232019" stroke-width="0.75" opacity="0.3"/>
+            <line x1="434" y1="100" x2="446" y2="100" stroke="#232019" stroke-width="0.75" opacity="0.3"/>
+            <line x1="434" y1="338" x2="446" y2="338" stroke="#232019" stroke-width="0.75" opacity="0.3"/>
+            <text x="452" y="222" opacity="0.7">H · MOUNTING</text>
+            <text x="330" y="362" opacity="0.7">SPACING</text>
+          </g>
+        </svg>
+        <span class="hero__frame-tag">Placeholder layout diagram — project photography to follow</span>
       </div>
-      <div class="hero__stats">
-        <div class="hero__stat">
-          <b>IES · BIM · IFC</b>
-          <span>Full technical downloads</span>
+      <div class="hero__bar">
+        <div class="hero__bar-head">
+          <p class="hero__eyebrow">Specification Lighting · Australia</p>
+          <h1>We specify the light, you get on with the engineering.</h1>
         </div>
-        <div class="hero__stat">
-          <b>1</b>
-          <span>Manufacturer range live — more added regularly</span>
-        </div>
-        <div class="hero__stat">
-          <b>AU</b>
-          <span>Exclusive Holophane agent, Australia</span>
-        </div>
+        <p class="hero__lede">Full technical data — photometry, ordering codes, BIM objects and installation documentation — for every range we represent.</p>
+        <a class="hero__cta" href="#products">Browse products <span class="arrow" aria-hidden="true">→</span></a>
       </div>
     </div>
   </section>
