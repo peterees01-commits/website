@@ -879,6 +879,15 @@
   font-size: var(--text-base);
 }
 
+.field select {
+  background: var(--black);
+}
+
+.field select option {
+  background: var(--black);
+  color: var(--cream);
+}
+
 .field textarea {
   min-height: 120px;
   resize: vertical;
