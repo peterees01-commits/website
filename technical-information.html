@@ -82,12 +82,12 @@
             <label for="ti-role">Role / position</label>
             <input type="text" id="ti-role" name="role" autocomplete="organization-title">
           </div>
-          <div class="field">
-            <label id="ti-interest-label">What are you interested in?</label>
-            <div class="checkbox-group" id="ti-interest-group" role="group" aria-labelledby="ti-interest-label">
+          <details class="field field--collapsible" id="ti-interest-details">
+            <summary>What are you interested in?<span class="field__count" id="ti-interest-count"></span></summary>
+            <div class="checkbox-group" id="ti-interest-group" role="group" aria-label="What are you interested in?">
               <p style="color:var(--grey-500);font-family:var(--font-mono);font-size:var(--text-xs)">Loading options…</p>
             </div>
-          </div>
+          </details>
           <details class="field field--collapsible">
             <summary>Anything else?<span class="field__hint">We can tailor a presentation to your requirements — tell us more below.</span></summary>
             <textarea id="ti-notes" name="notes"></textarea>

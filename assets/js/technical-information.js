@@ -18,6 +18,8 @@
       }
       modal.hidden = false;
       form.reset();
+      updateInterestCount();
+      form.querySelectorAll("details.field--collapsible").forEach(function (d) { d.open = false; });
     });
     modal.querySelectorAll("[data-close]").forEach(function (el) {
       el.addEventListener("click", function () { modal.hidden = true; });
@@ -29,6 +31,13 @@
 
   var root = document.getElementById("presentationsList");
   var interestGroup = document.getElementById("ti-interest-group");
+  var interestCount = document.getElementById("ti-interest-count");
+
+  function updateInterestCount() {
+    if (!interestCount || !interestGroup) return;
+    var n = interestGroup.querySelectorAll('input[type="checkbox"]:checked').length;
+    interestCount.textContent = n ? "(" + n + " selected)" : "";
+  }
 
   fetch("data/presentations.json")
     .then(function (r) { return r.json(); })
@@ -70,6 +79,9 @@
         '</div>'
       );
     }).join("");
+
+    interestGroup.addEventListener("change", updateInterestCount);
+    updateInterestCount();
   }
 
   function render(presentations) {
