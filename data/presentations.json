@@ -1,0 +1,71 @@
+{
+  "presentations": [
+    {
+      "id": "as1158-p-category",
+      "category": "Australian Standards Review",
+      "code": "AS/NZS 1158.3.1:2024",
+      "title": "Introduction to P-Category Lighting Standards",
+      "duration": "1 hour"
+    },
+    {
+      "id": "as4282-obtrusive",
+      "category": "Australian Standards Review",
+      "code": "AS/NZS 4282:2023",
+      "title": "Introduction to Obtrusive Lighting",
+      "duration": "1 hour"
+    },
+    {
+      "id": "as1680-outdoor-workplace",
+      "category": "Australian Standards Review",
+      "code": "AS/NZS 1680.5:2012",
+      "title": "Introduction to Outdoor Workplace Lighting",
+      "duration": "1 hour"
+    },
+    {
+      "id": "as2560-sports",
+      "category": "Australian Standards Review",
+      "code": "AS/NZS 2560.2:2021",
+      "title": "Introduction to Sports Lighting Design Principles",
+      "note": "Various sporting applications",
+      "duration": "1 hour"
+    },
+    {
+      "id": "as1158-carpark-agi32",
+      "category": "Design Tutorials",
+      "code": "AS1158.3",
+      "title": "Carpark Design Optimisation using AGI32",
+      "duration": null
+    },
+    {
+      "id": "as4282-calc-grids-agi32",
+      "category": "Design Tutorials",
+      "code": "AS4282",
+      "title": "Setting up Calculation Grids using AGI32",
+      "duration": null
+    },
+    {
+      "id": "glare-tutorial",
+      "category": "Design Tutorials",
+      "code": null,
+      "title": "Glare Tutorial",
+      "note": "Setting up GR and UGR for sports lighting / industrial applications",
+      "duration": null
+    },
+    {
+      "id": "holophane-rail-industrial",
+      "category": "Manufacturer Product Review",
+      "code": null,
+      "title": "Holophane for Rail and Industrial Applications",
+      "note": "Approved luminaires",
+      "duration": null
+    },
+    {
+      "id": "survivor-rail-industrial",
+      "category": "Manufacturer Product Review",
+      "code": null,
+      "title": "Survivor for Rail and Industrial Applications",
+      "note": "Approved luminaire discussion",
+      "duration": null
+    }
+  ]
+}

@@ -22,24 +22,6 @@
   }
 }
 
-.breadcrumb {
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--grey-500);
-  margin-bottom: var(--space-4);
-}
-
-.breadcrumb a {
-  color: var(--grey-400);
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  color: var(--glow-soft);
-}
-
 .product-hero__manu {
   display: inline-flex;
   align-items: center;

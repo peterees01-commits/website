@@ -31,6 +31,24 @@
   }
 }
 
+.breadcrumb {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--grey-500);
+  margin-bottom: var(--space-4);
+}
+
+.breadcrumb a {
+  color: var(--grey-400);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--glow-soft);
+}
+
 /* =========================================================
    Header / Nav
 ========================================================= */
@@ -932,4 +950,144 @@
   font-family: var(--font-mono);
   font-size: var(--text-xs);
   letter-spacing: 0.03em;
+}
+
+/* =========================================================
+   Presentation cover (presentation detail page)
+========================================================= */
+.presentation-cover__frame {
+  position: relative;
+  border: 1px solid var(--border-on-dark);
+  padding: var(--space-8) var(--space-6);
+  margin-top: var(--space-6);
+  max-width: 720px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.presentation-cover__frame .bracket {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.presentation-cover__code {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.06em;
+  color: var(--glow-soft);
+  margin-bottom: var(--space-3);
+}
+
+.presentation-cover__title {
+  font-size: clamp(1.5rem, 4vw, var(--text-3xl));
+  max-width: 26ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-3);
+}
+
+.presentation-cover__note {
+  color: var(--text-muted-on-dark);
+  font-size: var(--text-md);
+  max-width: 50ch;
+  margin-inline: auto;
+  margin-bottom: var(--space-4);
+}
+
+.presentation-cover__duration {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--glow);
+  border: 1px solid var(--glow-dim);
+  padding: 4px 12px;
+}
+
+/* =========================================================
+   Presentation library (technical information page)
+========================================================= */
+.presentation-category + .presentation-category {
+  margin-top: var(--space-7);
+}
+
+.presentation-category h3 {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-3);
+}
+
+.presentation-table {
+  width: 100%;
+  border: 1px solid var(--border-on-dark);
+  font-size: var(--text-sm);
+}
+
+.presentation-table th,
+.presentation-table td {
+  padding: var(--space-3);
+  text-align: left;
+  border-bottom: 1px solid var(--border-on-dark);
+}
+
+.presentation-table tbody tr:last-child th,
+.presentation-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.presentation-table thead th {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--grey-500);
+}
+
+.presentation-table tbody tr {
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+.presentation-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.presentation-table td.presentation-table__code {
+  font-family: var(--font-mono);
+  color: var(--grey-500);
+  white-space: nowrap;
+}
+
+.presentation-table td.presentation-table__duration {
+  font-family: var(--font-mono);
+  color: var(--grey-500);
+  white-space: nowrap;
+  text-align: right;
+}
+
+.presentation-table a {
+  color: var(--cream);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.presentation-table a:hover {
+  color: var(--glow-soft);
+  text-decoration: underline;
+}
+
+.presentation-table .presentation-table__note {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--grey-500);
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+@media (max-width: 600px) {
+  .presentation-table {
+    font-size: var(--text-xs);
+  }
+  .presentation-table th,
+  .presentation-table td {
+    padding: var(--space-2);
+  }
 }
