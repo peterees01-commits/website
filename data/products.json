@@ -94,9 +94,10 @@
       "summary": "D-Series is Holophane's answer to light trespass. Specialised black light engines, integrated specular reflectors and light-absorbing backlight shields work together to virtually eliminate spill light behind the fitting, while maintaining full task-area performance in front of it — dedicated Right/Left Corner Cutoff and Backlight Control optics make it the range of choice for boundary-sensitive sites. Available across three body sizes (DSX0, DSX1, DSX2) covering 2,000–50,000 delivered lumens, with ZD4i-ready smart control compatibility throughout.",
       "applications": ["Car Parks", "Amenity Areas", "Retail Parks", "Truck Yards", "Warehousing", "Exterior Areas", "Boundary-Sensitive Sites"],
       "images": [
-        { "file": "assets/img/products/dsx/dsx-01-profile.png", "alt": "D-Series DSX1 side profile, showing the finned housing and pole mounting arm", "size": "DSX1" },
+        { "file": "assets/img/products/dsx/dsx-00-dsx0-profile.png", "alt": "D-Series DSX0 side profile, showing the finned housing and pole mounting arm", "size": "DSX0" },
         { "file": "assets/img/products/dsx/dsx-04-dsx0-angle.png", "alt": "D-Series DSX0, three-quarter angle view showing the single-row LED array", "size": "DSX0" },
         { "file": "assets/img/products/dsx/dsx-03-dsx0-underside.png", "alt": "D-Series DSX0 underside, straight-on view showing the single-row LED array", "size": "DSX0" },
+        { "file": "assets/img/products/dsx/dsx-01-profile.png", "alt": "D-Series DSX1 side profile, showing the finned housing and pole mounting arm", "size": "DSX1" },
         { "file": "assets/img/products/dsx/dsx-02-mounted-angle.png", "alt": "D-Series DSX1 mounted on a pole, three-quarter angle view", "size": "DSX1" },
         { "file": "assets/img/products/dsx/dsx-05-dsx1-underside.png", "alt": "D-Series DSX1 underside, straight-on view showing the two-module LED array", "size": "DSX1" },
         { "file": "assets/img/products/dsx/dsx-06-dsx2-underside.png", "alt": "D-Series DSX2 underside, straight-on view showing the widest finned heatsink in the range", "size": "DSX2" },
