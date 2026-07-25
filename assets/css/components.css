@@ -1507,6 +1507,16 @@
   color: var(--text-muted);
 }
 
+.legal-ack-table td:first-child {
+  width: 220px;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--grey-500);
+  background: var(--cream-soft);
+}
+
 @media print {
   .reveal {
     opacity: 1 !important;
@@ -1516,11 +1526,13 @@
   .site-header .nav-toggle,
   .site-header .nav,
   .skip-link,
-  a[href$="lumen-method-terms-and-conditions.pdf"] {
+  a[href$="lumen-method-terms-and-conditions.pdf"],
+  a[href$="lumen-method-warranty-statement.pdf"] {
     display: none !important;
   }
 
-  .site-footer__legal a[href$="terms.html"] {
+  .site-footer__legal a[href$="terms.html"],
+  .site-footer__legal a[href$="warranty.html"] {
     text-decoration: none;
     color: inherit;
   }
