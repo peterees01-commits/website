@@ -884,6 +884,11 @@
   background: var(--black);
 }
 
+.field input[type="date"],
+.field input[type="time"] {
+  color-scheme: dark;
+}
+
 .field select option {
   background: var(--black);
   color: var(--cream);
