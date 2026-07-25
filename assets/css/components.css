@@ -183,6 +183,7 @@
   display: inline-flex;
   align-items: center;
   gap: var(--space-2);
+  background: transparent;
   font-family: var(--font-mono);
   font-size: var(--text-sm);
   letter-spacing: 0.04em;
@@ -1118,4 +1119,70 @@
   .presentation-table td {
     padding: var(--space-2);
   }
+}
+
+/* =========================================================
+   Confirmation modal (form submit feedback)
+========================================================= */
+.confirm-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-5);
+}
+
+.confirm-modal[hidden] {
+  display: none;
+}
+
+.confirm-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.confirm-modal__card {
+  position: relative;
+  background: var(--black);
+  border: 1px solid var(--border-on-dark);
+  padding: var(--space-6);
+  max-width: 440px;
+  width: 100%;
+  text-align: center;
+}
+
+.confirm-modal__card h3 {
+  font-size: var(--text-xl);
+  margin: var(--space-2) 0 var(--space-3);
+}
+
+.confirm-modal__card p {
+  color: var(--text-muted-on-dark);
+  font-size: var(--text-md);
+  line-height: 1.6;
+  margin-bottom: var(--space-5);
+}
+
+.confirm-modal__card .eyebrow {
+  justify-content: center;
+}
+
+.confirm-modal__close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  background: none;
+  border: none;
+  color: var(--grey-400);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: var(--space-1);
+}
+
+.confirm-modal__close:hover {
+  color: var(--text-on-dark);
 }

@@ -64,10 +64,6 @@
           <p class="eyebrow">How it works</p>
           <h2>Register your interest</h2>
           <p class="section__intro" style="color:var(--text-muted-on-dark);margin-top:var(--space-3)">Complete the form and our team will review your request. Once approved, we'll follow up by email with access to the presentation content and materials relevant to your work.</p>
-          <dl>
-            <dt>Approval</dt>
-            <dd>Requests are reviewed individually — access isn't automatic.</dd>
-          </dl>
         </div>
         <form class="contact-form" id="technicalInfoForm">
           <div class="field">
@@ -90,9 +86,19 @@
             <label for="ti-interest">What are you interested in?</label>
             <textarea id="ti-interest" name="interest"></textarea>
           </div>
-          <button class="btn btn-primary" type="submit">Request access</button>
+          <button class="btn btn-primary" type="submit">Request</button>
           <p class="form-note">Form UI only for now — connect this to your email or CRM before going live.</p>
         </form>
+      </div>
+    </div>
+    <div class="confirm-modal" id="confirmModal" hidden>
+      <div class="confirm-modal__backdrop" data-close></div>
+      <div class="confirm-modal__card" role="dialog" aria-modal="true" aria-labelledby="confirmModalTitle">
+        <button type="button" class="confirm-modal__close" data-close aria-label="Close">&times;</button>
+        <p class="eyebrow">Request sent</p>
+        <h3 id="confirmModalTitle">Thanks — your request has been received</h3>
+        <p>Our team will review it and follow up by email once it's approved.</p>
+        <button type="button" class="btn btn-ghost-dark" data-close>Close</button>
       </div>
     </div>
   </section>
@@ -106,7 +112,7 @@
         <img class="brand__mark" src="assets/img/logo-mark.svg" alt="" style="width:28px;">
         <span class="brand__word">Lumen Method</span>
       </a>
-      <p style="font-size: var(--text-sm); margin-top: var(--space-2);">Specification lighting for electrical engineers and designers. Exclusive Holophane agent for Australia.</p>
+      <p style="font-size: var(--text-sm); margin-top: var(--space-2);">Specification lighting for electrical engineers and designers.</p>
     </div>
   </div>
   <div class="site-footer__bottom">

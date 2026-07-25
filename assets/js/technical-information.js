@@ -1,6 +1,32 @@
 (function () {
   "use strict";
 
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  var form = document.getElementById("technicalInfoForm");
+  var modal = document.getElementById("confirmModal");
+  if (form && modal) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      modal.hidden = false;
+      form.reset();
+    });
+    modal.querySelectorAll("[data-close]").forEach(function (el) {
+      el.addEventListener("click", function () { modal.hidden = true; });
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !modal.hidden) modal.hidden = true;
+    });
+  }
+
   var root = document.getElementById("presentationsList");
   if (!root) return;
 
@@ -11,12 +37,6 @@
     }).catch(function (err) {
       root.innerHTML = '<p style="color:var(--text-muted-on-dark)">Could not load the presentation list (' + esc(err.message) + ').</p>';
     });
-
-  function esc(s) {
-    return String(s).replace(/[&<>"]/g, function (c) {
-      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
-    });
-  }
 
   function render(presentations) {
     var categories = [];
