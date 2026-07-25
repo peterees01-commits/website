@@ -83,8 +83,14 @@
             <input type="text" id="ti-role" name="role" autocomplete="organization-title">
           </div>
           <div class="field">
-            <label for="ti-interest">What are you interested in?</label>
-            <textarea id="ti-interest" name="interest"></textarea>
+            <label id="ti-interest-label">What are you interested in?</label>
+            <div class="checkbox-group" id="ti-interest-group" role="group" aria-labelledby="ti-interest-label">
+              <p style="color:var(--grey-500);font-family:var(--font-mono);font-size:var(--text-xs)">Loading options…</p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="ti-notes">Anything else?</label>
+            <textarea id="ti-notes" name="notes"></textarea>
           </div>
           <div class="field">
             <label for="ti-date">Preferred date</label>

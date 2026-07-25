@@ -28,15 +28,49 @@
   }
 
   var root = document.getElementById("presentationsList");
-  if (!root) return;
+  var interestGroup = document.getElementById("ti-interest-group");
 
   fetch("data/presentations.json")
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      render(data.presentations || []);
+      var presentations = data.presentations || [];
+      if (root) render(presentations);
+      if (interestGroup) renderInterestOptions(presentations);
     }).catch(function (err) {
-      root.innerHTML = '<p style="color:var(--text-muted-on-dark)">Could not load the presentation list (' + esc(err.message) + ').</p>';
+      if (root) root.innerHTML = '<p style="color:var(--text-muted-on-dark)">Could not load the presentation list (' + esc(err.message) + ').</p>';
+      if (interestGroup) interestGroup.innerHTML = '<p style="color:var(--text-muted-on-dark)">Could not load options (' + esc(err.message) + ').</p>';
     });
+
+  function renderInterestOptions(presentations) {
+    var categories = [];
+    var byCategory = {};
+    presentations.forEach(function (p) {
+      if (!byCategory[p.category]) {
+        byCategory[p.category] = [];
+        categories.push(p.category);
+      }
+      byCategory[p.category].push(p);
+    });
+
+    interestGroup.innerHTML = categories.map(function (category) {
+      return (
+        '<div>' +
+          '<p class="checkbox-group__category">' + esc(category) + '</p>' +
+          '<div class="checkbox-group__options">' +
+            byCategory[category].map(function (p) {
+              var id = "interest-" + p.id;
+              return (
+                '<label class="checkbox-option" for="' + id + '">' +
+                  '<input type="checkbox" id="' + id + '" name="interest" value="' + esc(p.title) + '">' +
+                  '<span>' + esc(p.title) + '</span>' +
+                '</label>'
+              );
+            }).join("") +
+          '</div>' +
+        '</div>'
+      );
+    }).join("");
+  }
 
   function render(presentations) {
     var categories = [];
