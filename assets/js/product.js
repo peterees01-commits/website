@@ -92,6 +92,7 @@
       '<div class="product-gallery" id="productGallery">' +
         '<div class="product-hero__frame product-gallery__main">' +
           '<img id="galleryMainImg" src="../' + esc(images[0].file) + '" alt="' + esc(images[0].alt) + '">' +
+          (images[0].size ? '<span class="product-gallery__size-badge" id="galleryMainSize">' + esc(images[0].size) + '</span>' : '<span class="product-gallery__size-badge" id="galleryMainSize" hidden></span>') +
           '<span class="bracket bracket--tl" aria-hidden="true"></span>' +
           '<span class="bracket bracket--tr" aria-hidden="true"></span>' +
           '<span class="bracket bracket--bl" aria-hidden="true"></span>' +
@@ -102,9 +103,10 @@
             images.map(function (img, i) {
               return (
                 '<button type="button" class="product-gallery__thumb' + (i === 0 ? ' is-active' : '') + '" ' +
-                  'data-src="../' + esc(img.file) + '" data-alt="' + esc(img.alt) + '" ' +
+                  'data-src="../' + esc(img.file) + '" data-alt="' + esc(img.alt) + '" data-size="' + esc(img.size || '') + '" ' +
                   'role="tab" aria-selected="' + (i === 0 ? 'true' : 'false') + '" aria-label="' + esc(img.alt) + '">' +
                   '<img src="../' + esc(img.file) + '" alt="" loading="lazy">' +
+                  (img.size ? '<span class="product-gallery__thumb-label">' + esc(img.size) + '</span>' : '') +
                 '</button>'
               );
             }).join("") +
@@ -133,6 +135,7 @@
     var gallery = document.getElementById("productGallery");
     if (!gallery) return;
     var mainImg = document.getElementById("galleryMainImg");
+    var mainSize = document.getElementById("galleryMainSize");
     var thumbs = gallery.querySelectorAll(".product-gallery__thumb");
 
     function activate(btn) {
@@ -142,6 +145,11 @@
         mainImg.src = btn.getAttribute("data-src");
         mainImg.alt = btn.getAttribute("data-alt");
         mainImg.classList.remove("is-fading");
+        if (mainSize) {
+          var size = btn.getAttribute("data-size");
+          mainSize.textContent = size || "";
+          mainSize.hidden = !size;
+        }
       }, 140);
       thumbs.forEach(function (b) {
         b.classList.remove("is-active");
@@ -224,6 +232,7 @@
                 '<img class="dist-card__icon" src="../' + esc(d.chart) + '" alt="' + esc(d.name) + ' light distribution plot">' +
                 '<code>' + esc(d.code) + '</code>' +
                 '<span>' + esc(d.name) + '</span>' +
+                (d.note ? '<small>' + esc(d.note) + '</small>' : '') +
               '</div>'
             );
           }).join("") +

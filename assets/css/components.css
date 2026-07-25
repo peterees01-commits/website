@@ -930,6 +930,48 @@
   cursor: pointer;
 }
 
+.field--collapsible {
+  border: 1px solid var(--border-on-dark);
+  padding: var(--space-3);
+}
+
+.field--collapsible summary {
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--grey-400);
+  list-style: none;
+}
+
+.field--collapsible summary::-webkit-details-marker {
+  display: none;
+}
+
+.field--collapsible summary::before {
+  content: "+ ";
+  color: var(--glow);
+}
+
+.field--collapsible[open] summary::before {
+  content: "− ";
+}
+
+.field--collapsible .field__hint {
+  display: block;
+  margin-top: var(--space-1);
+  font-family: var(--font-body);
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: var(--text-sm);
+  color: var(--text-muted-on-dark);
+}
+
+.field--collapsible textarea {
+  margin-top: var(--space-3);
+}
+
 .field select option {
   background: var(--black);
   color: var(--cream);

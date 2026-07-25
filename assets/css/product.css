@@ -118,6 +118,7 @@
 }
 
 .product-gallery__thumb {
+  position: relative;
   aspect-ratio: 1 / 1;
   background: var(--near-black);
   border: 1px solid var(--border-on-dark);
@@ -137,6 +138,27 @@
 
 .product-gallery__thumb:hover {
   border-color: var(--grey-500);
+}
+
+.product-gallery__thumb-label,
+.product-gallery__size-badge {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  color: var(--glow-soft);
+  background: rgba(10, 10, 9, 0.85);
+  border: 1px solid var(--glow-dim);
+  padding: 1px 5px;
+  pointer-events: none;
+}
+
+.product-gallery__size-badge {
+  bottom: var(--space-2);
+  left: var(--space-2);
+  font-size: var(--text-xs);
 }
 
 .product-gallery__thumb.is-active {
@@ -305,6 +327,13 @@
 
 .dist-card span {
   font-size: var(--text-xs);
+}
+
+.dist-card small {
+  display: block;
+  font-size: 0.65rem;
+  color: var(--grey-500);
+  margin-top: 2px;
 }
 
 /* ---- Downloads ---- */
