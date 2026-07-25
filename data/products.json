@@ -96,13 +96,16 @@
       "images": [
         { "file": "assets/img/products/dsx/dsx-00-dsx0-profile.png", "alt": "D-Series DSX0 side profile, showing the finned housing and pole mounting arm", "size": "DSX0" },
         { "file": "assets/img/products/dsx/dsx-04-dsx0-angle.png", "alt": "D-Series DSX0, three-quarter angle view showing the single-row LED array", "size": "DSX0" },
-        { "file": "assets/img/products/dsx/dsx-03-dsx0-underside.png", "alt": "D-Series DSX0 underside, straight-on view showing the single-row LED array", "size": "DSX0" },
+        { "file": "assets/img/products/dsx/dsx-03-dsx0-underside.png", "alt": "D-Series DSX0, top view showing the finned heatsink and mounting arm", "size": "DSX0" },
+        { "file": "assets/img/products/dsx/dsx-09-dsx0-front.png", "alt": "D-Series DSX0, straight-on view from below showing the single-row LED array", "size": "DSX0" },
         { "file": "assets/img/products/dsx/dsx-01-profile.png", "alt": "D-Series DSX1 side profile, showing the finned housing and pole mounting arm", "size": "DSX1" },
         { "file": "assets/img/products/dsx/dsx-02-mounted-angle.png", "alt": "D-Series DSX1 mounted on a pole, three-quarter angle view", "size": "DSX1" },
-        { "file": "assets/img/products/dsx/dsx-05-dsx1-underside.png", "alt": "D-Series DSX1 underside, straight-on view showing the two-module LED array", "size": "DSX1" },
+        { "file": "assets/img/products/dsx/dsx-05-dsx1-underside.png", "alt": "D-Series DSX1, top view showing the finned heatsink and mounting arm", "size": "DSX1" },
+        { "file": "assets/img/products/dsx/dsx-10-dsx1-front.png", "alt": "D-Series DSX1, straight-on view from below showing the two-module LED array", "size": "DSX1" },
         { "file": "assets/img/products/dsx/dsx-08-dsx2-profile.png", "alt": "D-Series DSX2 side profile, showing the finned housing and pole mounting arm", "size": "DSX2" },
-        { "file": "assets/img/products/dsx/dsx-06-dsx2-underside.png", "alt": "D-Series DSX2 underside, straight-on view showing the widest finned heatsink in the range", "size": "DSX2" },
-        { "file": "assets/img/products/dsx/dsx-07-dsx2-front.png", "alt": "D-Series DSX2 mounted, front-on view showing the full eight-module LED array", "size": "DSX2" },
+        { "file": "assets/img/products/dsx/dsx-11-dsx2-angle.png", "alt": "D-Series DSX2 mounted on a pole, three-quarter angle view", "size": "DSX2" },
+        { "file": "assets/img/products/dsx/dsx-06-dsx2-underside.png", "alt": "D-Series DSX2, top view showing the widest finned heatsink in the range", "size": "DSX2" },
+        { "file": "assets/img/products/dsx/dsx-07-dsx2-front.png", "alt": "D-Series DSX2, straight-on view from below showing the full eight-module LED array", "size": "DSX2" },
         { "file": "assets/img/products/dsx/dsx-dimensions.jpg", "alt": "D-Series dimension diagram, DSX0, DSX1 and DSX2 body sizes" }
       ],
       "badges": [
