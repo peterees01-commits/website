@@ -213,37 +213,42 @@
 
   function distributionsSection(p) {
     var m = p.mountingHeights;
+    var distBlock = (
+      '<div>' +
+        '<p class="eyebrow">Optical distributions</p>' +
+        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Optical Distributions</h2>' +
+        '<div class="dist-grid">' +
+          p.distributions.map(function (d) {
+            return (
+              '<div class="dist-card">' +
+                '<img class="dist-card__icon" src="../' + esc(d.chart) + '" alt="' + esc(d.name) + ' light distribution plot">' +
+                '<code>' + esc(d.code) + '</code>' +
+                '<span>' + esc(d.name) + '</span>' +
+              '</div>'
+            );
+          }).join("") +
+        '</div>' +
+      '</div>'
+    );
+    var mountBlock = m ? (
+      '<div>' +
+        '<p class="eyebrow">Mounting</p>' +
+        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
+        '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(m.note) + '</p>' +
+        '<div class="table-scroll" style="max-width:420px">' +
+          '<table class="perf-table" style="min-width:0">' +
+            '<thead><tr><th>Mounting height</th><th>Typical spacing</th></tr></thead>' +
+            '<tbody>' +
+              m.rows.map(function (r) { return '<tr><td>' + esc(r.height) + '</td><td>' + esc(r.range) + '</td></tr>'; }).join("") +
+            '</tbody>' +
+          '</table>' +
+        '</div>' +
+      '</div>'
+    ) : "";
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner two-col">' +
-          '<div>' +
-            '<p class="eyebrow">Optical distributions</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Optical Distributions</h2>' +
-            '<div class="dist-grid">' +
-              p.distributions.map(function (d) {
-                return (
-                  '<div class="dist-card">' +
-                    '<img class="dist-card__icon" src="../' + esc(d.chart) + '" alt="' + esc(d.name) + ' light distribution plot">' +
-                    '<code>' + esc(d.code) + '</code>' +
-                    '<span>' + esc(d.name) + '</span>' +
-                  '</div>'
-                );
-              }).join("") +
-            '</div>' +
-          '</div>' +
-          '<div>' +
-            '<p class="eyebrow">Mounting</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
-            '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(m.note) + '</p>' +
-            '<div class="table-scroll" style="max-width:420px">' +
-              '<table class="perf-table" style="min-width:0">' +
-                '<thead><tr><th>Mounting height</th><th>Typical spacing</th></tr></thead>' +
-                '<tbody>' +
-                  m.rows.map(function (r) { return '<tr><td>' + esc(r.height) + '</td><td>' + esc(r.range) + '</td></tr>'; }).join("") +
-                '</tbody>' +
-              '</table>' +
-            '</div>' +
-          '</div>' +
+        '<div class="section__inner' + (m ? ' two-col' : '') + '">' +
+          distBlock + mountBlock +
         '</div>' +
       '</section>'
     );
