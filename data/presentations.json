@@ -34,14 +34,14 @@
       "category": "Design Tutorials",
       "code": "AS1158.3",
       "title": "Carpark Design Optimisation using AGI32",
-      "duration": null
+      "duration": "30 min"
     },
     {
       "id": "as4282-calc-grids-agi32",
       "category": "Design Tutorials",
       "code": "AS4282",
       "title": "Setting up Calculation Grids using AGI32",
-      "duration": null
+      "duration": "30 min"
     },
     {
       "id": "glare-tutorial",
@@ -49,7 +49,7 @@
       "code": null,
       "title": "Glare Tutorial",
       "note": "Setting up GR and UGR for sports lighting / industrial applications",
-      "duration": null
+      "duration": "30 min"
     },
     {
       "id": "holophane-rail-industrial",
@@ -57,7 +57,7 @@
       "code": null,
       "title": "Holophane for Rail and Industrial Applications",
       "note": "Approved luminaires",
-      "duration": null
+      "duration": "30 min"
     },
     {
       "id": "survivor-rail-industrial",
@@ -65,7 +65,7 @@
       "code": null,
       "title": "Survivor for Rail and Industrial Applications",
       "note": "Approved luminaire discussion",
-      "duration": null
+      "duration": "30 min"
     }
   ]
 }
