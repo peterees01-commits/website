@@ -1507,12 +1507,31 @@
   color: var(--text-muted);
 }
 
-.legal-ack-table td:first-child {
-  width: 220px;
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--grey-500);
-  background: var(--cream-soft);
+@media print {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .site-header .nav-toggle,
+  .site-header .nav,
+  .skip-link,
+  a[href$="lumen-method-terms-and-conditions.pdf"] {
+    display: none !important;
+  }
+
+  .site-footer__legal a[href$="terms.html"] {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .legal-defs > div,
+  .legal-clauses p,
+  .legal-clause-group h3 {
+    break-inside: avoid;
+  }
+
+  .legal-part {
+    padding-block: var(--space-5);
+  }
 }
