@@ -110,6 +110,35 @@
   cursor: pointer;
 }
 
+.product-gallery__filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.gallery-filter-btn {
+  background: transparent;
+  border: 1px solid var(--border-on-dark);
+  color: var(--grey-400);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  padding: 0.4em 0.9em;
+  cursor: pointer;
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+
+.gallery-filter-btn:hover {
+  border-color: var(--grey-500);
+  color: var(--text-on-dark);
+}
+
+.gallery-filter-btn.is-active {
+  border-color: var(--glow);
+  color: var(--glow-soft);
+}
+
 .product-gallery__thumbs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

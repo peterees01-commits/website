@@ -88,6 +88,21 @@
         '</div>'
       );
     }
+    var sizes = [];
+    images.forEach(function (img) {
+      if (img.size && sizes.indexOf(img.size) === -1) sizes.push(img.size);
+    });
+    var defaultSize = sizes[0];
+
+    var filterBar = sizes.length > 1 ? (
+      '<div class="product-gallery__filter" role="tablist" aria-label="Filter by size">' +
+        sizes.map(function (s, i) {
+          return '<button type="button" class="gallery-filter-btn' + (i === 0 ? ' is-active' : '') + '" data-filter="' + esc(s) + '">' + esc(s) + '</button>';
+        }).join("") +
+        '<button type="button" class="gallery-filter-btn" data-filter="all">All (' + images.length + ')</button>' +
+      '</div>'
+    ) : "";
+
     return (
       '<div class="product-gallery" id="productGallery">' +
         '<div class="product-hero__frame product-gallery__main">' +
@@ -98,12 +113,15 @@
           '<span class="bracket bracket--bl" aria-hidden="true"></span>' +
           '<span class="bracket bracket--br" aria-hidden="true"></span>' +
         '</div>' +
+        filterBar +
         (images.length > 1 ?
           '<div class="product-gallery__thumbs" role="tablist" aria-label="Product images">' +
             images.map(function (img, i) {
+              var hidden = sizes.length > 1 && img.size && img.size !== defaultSize;
               return (
                 '<button type="button" class="product-gallery__thumb' + (i === 0 ? ' is-active' : '') + '" ' +
                   'data-src="../' + esc(img.file) + '" data-alt="' + esc(img.alt) + '" data-size="' + esc(img.size || '') + '" ' +
+                  (hidden ? 'style="display:none" ' : '') +
                   'role="tab" aria-selected="' + (i === 0 ? 'true' : 'false') + '" aria-label="' + esc(img.alt) + '">' +
                   '<img src="../' + esc(img.file) + '" alt="" loading="lazy">' +
                   (img.size ? '<span class="product-gallery__thumb-label">' + esc(img.size) + '</span>' : '') +
@@ -163,12 +181,30 @@
       btn.addEventListener("click", function () { activate(btn); });
     });
 
+    var filterBtns = gallery.querySelectorAll(".gallery-filter-btn");
+    filterBtns.forEach(function (fbtn) {
+      fbtn.addEventListener("click", function () {
+        filterBtns.forEach(function (b) { b.classList.remove("is-active"); });
+        fbtn.classList.add("is-active");
+        var val = fbtn.getAttribute("data-filter");
+        var firstVisible = null;
+        thumbs.forEach(function (t) {
+          var size = t.getAttribute("data-size");
+          var show = val === "all" || !size || size === val;
+          t.style.display = show ? "" : "none";
+          if (show && size && !firstVisible) firstVisible = t;
+        });
+        if (val !== "all" && firstVisible) activate(firstVisible);
+      });
+    });
+
     if (thumbs.length > 1) {
       var frame = gallery.querySelector(".product-gallery__main");
       var list = Array.prototype.slice.call(thumbs);
       var advance = function () {
-        var activeIndex = list.findIndex(function (b) { return b.classList.contains("is-active"); });
-        activate(list[(activeIndex + 1) % list.length]);
+        var visible = list.filter(function (b) { return b.style.display !== "none"; });
+        var activeIndex = visible.findIndex(function (b) { return b.classList.contains("is-active"); });
+        activate(visible[(activeIndex + 1) % visible.length]);
       };
       frame.classList.add("is-cyclable");
       frame.setAttribute("role", "button");
