@@ -26,7 +26,8 @@ jobs:
       - name: Stage site files
         run: |
           mkdir -p _site
-          cp -r index.html products assets data _site/
+          shopt -s extglob dotglob
+          cp -r !(.git|.github|.claude|_site|CLAUDE.md) _site/
 
       - uses: actions/configure-pages@v5
 
