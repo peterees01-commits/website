@@ -142,6 +142,21 @@
         ],
         "windage": "0.09 m² (DSX0 & DSX1), 0.10 m² (DSX2)"
       },
+      "backlightControl": {
+        "eyebrow": "Extreme Cutoff Optics",
+        "heading": "Extreme backlight control",
+        "body": "D-Series' Extreme Cutoff Optics address light trespass at the source. Specialised point-source black light engines, integrated specular reflectors and dedicated light-absorbing backlight shields work together to virtually eliminate spill light behind the fitting, while maintaining full task-area performance in front of it — built for sites where a property boundary, residential interface or dark-sky requirement limits how far light can travel.",
+        "points": [
+          "Point-source black light engines with integrated specular reflectors remove scattered refraction, directing light only where it's needed",
+          "Dedicated light-absorbing backlight shields provide additional control without sacrificing luminaire efficiency",
+          "LEDs aren't visible from behind the fitting, reducing glare when viewed from the rear"
+        ],
+        "optics": [
+          { "code": ".BLC", "name": "Backlight Control optic", "chart": "assets/img/products/dsx/distributions/blc.png" },
+          { "code": ".RCCO", "name": "Right Corner Cutoff optic", "chart": "assets/img/products/dsx/distributions/rcco.png" },
+          { "code": ".LCCO", "name": "Left Corner Cutoff optic", "chart": "assets/img/products/dsx/distributions/lcco.png" }
+        ]
+      },
       "distributions": [
         { "code": ".SY", "name": "Symmetric", "chart": "assets/img/products/dsx/distributions/sy.png" },
         { "code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/dsx/distributions/ay.png" },

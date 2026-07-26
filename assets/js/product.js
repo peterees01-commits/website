@@ -37,6 +37,7 @@
       overviewSection(p) +
       statBandSection(p) +
       certificationsSection(p) +
+      backlightControlSection(p) +
       distributionsSection(p);
 
     initGallery();
@@ -249,6 +250,41 @@
                 return '<tr><th>' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>';
               }).join("") +
             '</table>' +
+          '</div>' +
+        '</div>' +
+      '</section>'
+    );
+  }
+
+  function backlightControlSection(p) {
+    var b = p.backlightControl;
+    if (!b) return "";
+    return (
+      '<section class="section section--dark product-section">' +
+        '<div class="section__inner two-col two-col--wide-left">' +
+          '<div>' +
+            '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
+            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
+            '<p style="max-width:56ch;color:var(--text-muted-on-dark);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
+            (b.points && b.points.length ?
+              '<ul style="color:var(--text-muted-on-dark);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0">' +
+                b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
+              '</ul>' : ""
+            ) +
+          '</div>' +
+          '<div>' +
+            '<p class="eyebrow">Cutoff optics</p>' +
+            '<div class="dist-grid">' +
+              (b.optics || []).map(function (o) {
+                return (
+                  '<div class="dist-card">' +
+                    '<img class="dist-card__icon" src="../' + esc(o.chart) + '" alt="' + esc(o.name) + ' light distribution plot">' +
+                    '<code>' + esc(o.code) + '</code>' +
+                    '<span>' + esc(o.name) + '</span>' +
+                  '</div>'
+                );
+              }).join("") +
+            '</div>' +
           '</div>' +
         '</div>' +
       '</section>'

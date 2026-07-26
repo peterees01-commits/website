@@ -358,6 +358,14 @@
   font-size: var(--text-xs);
 }
 
+.section--dark .dist-card {
+  border-color: var(--border-on-dark);
+}
+
+.section--dark .dist-card code {
+  color: var(--grey-400);
+}
+
 .dist-card small {
   display: block;
   font-size: 0.65rem;
