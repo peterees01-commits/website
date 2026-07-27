@@ -36,7 +36,6 @@
       heroSection(cs) +
       storySection(cs) +
       productSection(cs) +
-      gallerySection(cs) +
       perspectiveSection(cs);
 
     if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
@@ -45,6 +44,7 @@
   }
 
   function heroSection(cs) {
+    var gallery = cs.gallery || [];
     return (
       '<section class="case-hero">' +
         '<div class="case-hero__inner">' +
@@ -54,10 +54,24 @@
             '<h1>' + esc(cs.title) + '</h1>' +
             '<p class="case-hero__meta-line">' + esc(cs.sector) + ' &middot; ' + esc(cs.location) + '</p>' +
           '</div>' +
-          '<figure class="case-photo">' +
-            '<img src="../' + esc(cs.detailHero.image) + '" alt="' + esc(cs.detailHero.caption) + '" loading="lazy">' +
-            '<figcaption>' + esc(cs.detailHero.caption) + '</figcaption>' +
-          '</figure>' +
+          '<div class="case-hero__media">' +
+            '<figure class="case-photo case-photo--main">' +
+              '<div class="case-photo__frame"><img src="../' + esc(cs.detailHero.image) + '" alt="' + esc(cs.detailHero.caption) + '" loading="lazy"></div>' +
+              '<figcaption>' + esc(cs.detailHero.caption) + '</figcaption>' +
+            '</figure>' +
+            (gallery.length
+              ? '<div class="case-hero__thumbs">' +
+                  gallery.map(function (g) {
+                    return (
+                      '<figure class="case-photo case-photo--thumb">' +
+                        '<div class="case-photo__frame"><img src="../' + esc(g.image) + '" alt="' + esc(g.caption) + '" loading="lazy"></div>' +
+                        '<figcaption>' + esc(g.caption) + '</figcaption>' +
+                      '</figure>'
+                    );
+                  }).join("") +
+                '</div>'
+              : "") +
+          '</div>' +
         '</div>' +
       '</section>'
     );
@@ -94,28 +108,6 @@
             '<div class="case-product-shot">' +
               '<img src="../' + esc(cs.productPhoto.image) + '" alt="' + esc(cs.productPhoto.alt) + '" loading="lazy">' +
             '</div>' +
-          '</div>' +
-        '</div>' +
-      '</section>'
-    );
-  }
-
-  function gallerySection(cs) {
-    if (!cs.gallery || !cs.gallery.length) return "";
-    return (
-      '<section class="section section--surface">' +
-        '<div class="section__inner">' +
-          '<p class="eyebrow">More from the project</p>' +
-          '<h2 style="margin-bottom:var(--space-5)">Gallery</h2>' +
-          '<div class="case-gallery-grid">' +
-            cs.gallery.map(function (g) {
-              return (
-                '<figure class="case-photo">' +
-                  '<img src="../' + esc(g.image) + '" alt="' + esc(g.caption) + '" loading="lazy">' +
-                  '<figcaption>' + esc(g.caption) + '</figcaption>' +
-                '</figure>'
-              );
-            }).join("") +
           '</div>' +
         '</div>' +
       '</section>'
