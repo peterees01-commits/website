@@ -1,0 +1,225 @@
+{
+  "caseStudies": [
+    {
+      "id": "hays-galleria",
+      "tag": "Holophane · Prismpack",
+      "title": "Hays Galleria, London",
+      "sector": "Heritage & retail",
+      "location": "London, UK",
+      "manufacturer": "Holophane",
+      "product": "Prismpack",
+      "detailHero": {
+        "image": "assets/img/case-studies/holophane-hays-galleria.webp",
+        "caption": "Hays Galleria's glazed Victorian roof, lit beneath the exposed steel trusswork it shares the space with."
+      },
+      "story": [
+        "Hays Galleria sits on the Thames south bank inside a Grade II listed former dock warehouse, its barrel-vaulted glass roof supported on the original 19th-century cast iron and steel structure. The brief was to replace an ageing HID highbay installation without altering the character of that structure — the fitting itself had to disappear into the ironwork by day and perform as a serious light source by night.",
+        "Holophane's Prismpack highbay was specified in a single-module 20,000 lumen configuration, using the Optimax optical system with miniature facetted specular aluminium reflectors to control glare in a space where the luminaires sit in full view of shoppers and diners below. All 30 units were finished in black to blend with the trusswork rather than stand out against it.",
+        "At Neutral White 4000K with CRI greater than 80, the installation lifts light quality throughout the galleria while meeting an L70B50 rating in excess of 100,000 hours — a service life that matters in a heritage structure where access for maintenance is deliberately kept to a minimum. Installation was carried out by Meridian Electrical Contracting Ltd."
+      ],
+      "performance": [
+        { "label": "Product", "value": "Prismpack highbay, single-module" },
+        { "label": "Optical system", "value": "Optimax, facetted specular aluminium reflectors" },
+        { "label": "Output", "value": "20,000 lm" },
+        { "label": "Colour temperature / CRI", "value": "4000K Neutral White, CRI >80" },
+        { "label": "Rated life", "value": "L70B50 >100,000 hours" },
+        { "label": "Finish", "value": "Black, to match existing steelwork" },
+        { "label": "Ingress protection", "value": "IP65" }
+      ],
+      "productPhoto": {
+        "image": "assets/img/case-studies/holophane-hays-galleria-product.png",
+        "alt": "Holophane Prismpack highbay luminaire studio photo"
+      },
+      "gallery": [
+        {
+          "image": "assets/img/case-studies/holophane-hays-galleria-detail-1.webp",
+          "caption": "A Prismpack unit mounted into the trusswork, finished black to disappear against the ironwork by day."
+        },
+        {
+          "image": "assets/img/case-studies/holophane-hays-galleria-detail-2.webp",
+          "caption": "The full roof span at dusk, glazing and structure both still legible under the new lighting."
+        }
+      ],
+      "perspective": {
+        "heading": "Lumen Method Perspective",
+        "body": ""
+      }
+    },
+    {
+      "id": "gothenburg-tennis",
+      "tag": "Holophane · Prismaspace",
+      "title": "Gothenburg Lawn Tennis Club, Sweden",
+      "sector": "Sport & recreation",
+      "location": "Gothenburg, Sweden",
+      "manufacturer": "Holophane",
+      "product": "Prismaspace",
+      "detailHero": {
+        "image": "assets/img/case-studies/holophane-gothenburg-tennis.webp",
+        "caption": "One of Gothenburg Lawn Tennis Club's indoor courts, lit by a row of Prismaspace luminaires along the roof trusses."
+      },
+      "story": [
+        "Founded in 1900, Gothenburg Lawn Tennis Club is the oldest tennis club in Sweden, with 5 outdoor and 16 indoor courts. The indoor courts were still running on 120 fluorescent 80W lamps per court when the club began looking at a replacement — competition-standard uniformity and glare control were the priority, alongside a meaningful cut in running cost across that many fittings.",
+        "Holophane's design team worked with Tivalux, its Sweden distribution partner and a lighting supplier that had served the club for over 15 years, to design the replacement around Prismaspace's twin rotatable optical modules — each adjustable from 0° to 45° in 15° increments, letting the aiming be tuned court by court rather than fixed at the factory. 64 214W units were installed across the two courts covered by this stage of the project.",
+        "The result meets EN 12193:2018 Class I — 750 lux average with a minimum-to-average uniformity of 70% — at 4000K Neutral White and CRI greater than 80, with DALI Broadcast dimming and presence-detection dimming to 2% after 10 minutes of inactivity between sessions. Energy use is down 30% against the fluorescent installation it replaced, at a rated life of 100,000 hours (L70B50 at 25°C)."
+      ],
+      "performance": [
+        { "label": "Product", "value": "Prismaspace, twin rotatable optical modules" },
+        { "label": "Standard met", "value": "EN 12193:2018 Class I (750 lux avg, 70% min/avg uniformity)" },
+        { "label": "Colour temperature / CRI", "value": "4000K Neutral White, CRI >80" },
+        { "label": "Controls", "value": "DALI Broadcast dimming + presence detection (2% after 10 min)" },
+        { "label": "Energy saving", "value": "30% vs. the fluorescent installation replaced" },
+        { "label": "Rated life", "value": "L70B50 100,000 hours @ 25°C" },
+        { "label": "Units installed", "value": "64 × 214W across 2 courts" }
+      ],
+      "productPhoto": {
+        "image": "assets/img/case-studies/holophane-gothenburg-tennis-product.png",
+        "alt": "Holophane Prismaspace twin-module luminaire studio photo"
+      },
+      "gallery": [
+        {
+          "image": "assets/img/case-studies/holophane-gothenburg-tennis-detail-1.webp",
+          "caption": "Prismaspace units along the roof trusses, aimed independently across the adjoining courts."
+        },
+        {
+          "image": "assets/img/case-studies/holophane-gothenburg-tennis-detail-2.webp",
+          "caption": "Even coverage across the full court at competition-standard uniformity."
+        }
+      ],
+      "perspective": {
+        "heading": "Lumen Method Perspective",
+        "body": ""
+      }
+    },
+    {
+      "id": "port-of-nigg",
+      "tag": "Holophane · HMAO",
+      "title": "Port of Nigg, Scotland",
+      "sector": "Marine & industrial",
+      "location": "Nigg, Scotland",
+      "manufacturer": "Holophane",
+      "product": "HMAO (High Mast Advanced Optic)",
+      "detailHero": {
+        "image": "assets/img/case-studies/holophane-port-of-nigg.webp",
+        "caption": "The 900m deep-water quayside at Port of Nigg, lit along the West Finger Jetty."
+      },
+      "story": [
+        "Port of Nigg is a 900m deep-water quayside serving the renewable energy and oil and gas sectors, redeveloped from 2015 in a £20M works programme covering the West Finger Jetty. A quay this size needs uniform, glare-controlled lighting across the full working length for 24-hour marine operations, without spilling light toward the nearby town on the opposite shore.",
+        "Holophane specified its HMAO — High Mast Advanced Optic — luminaire using PrismaLED glass refractor technology, installed on 6-head and 10-head frames across 30m masts along the jetty. The glass refractor optics give the fine control over beam spread needed to light a working quay evenly while limiting glare and stray light toward the town, and the fitting's thermal management and self-cleaning, low-static glass are built for the salt-air, high-humidity conditions of a working port.",
+        "52 HMAO luminaires cover the full jetty, replacing what would otherwise have been a much larger fixture count under older high-mast optics — fewer, better-controlled fittings doing the same job with less light lost to spill and glare."
+      ],
+      "performance": [
+        { "label": "Product", "value": "HMAO (High Mast Advanced Optic)" },
+        { "label": "Optical system", "value": "PrismaLED glass refractor" },
+        { "label": "Mounting", "value": "6-head and 10-head frames, 30m masts" },
+        { "label": "Units installed", "value": "52 HMAO luminaires" },
+        { "label": "Site", "value": "900m deep-water quayside, West Finger Jetty" },
+        { "label": "Glare / spill control", "value": "Considered for the neighbouring town across the water" },
+        { "label": "Build", "value": "Self-cleaning, low-static glass; marine-duty thermal management" }
+      ],
+      "productPhoto": {
+        "image": "assets/img/case-studies/holophane-port-of-nigg-product.png",
+        "alt": "Holophane HMAO high mast luminaire studio photo"
+      },
+      "gallery": [
+        {
+          "image": "assets/img/case-studies/holophane-port-of-nigg-detail-1.webp",
+          "caption": "High masts along the jetty, spaced to keep coverage even across the full working quay."
+        }
+      ],
+      "perspective": {
+        "heading": "Lumen Method Perspective",
+        "body": ""
+      }
+    },
+    {
+      "id": "national-highways-nw",
+      "tag": "Holophane · V-MAX II",
+      "title": "National Highways, North West England",
+      "sector": "Road & infrastructure",
+      "location": "North West England, UK",
+      "manufacturer": "Holophane",
+      "product": "V-MAX II",
+      "detailHero": {
+        "image": "assets/img/case-studies/holophane-national-highways-nw.webp",
+        "caption": "A North West England motorway under the V-MAX II retrofit, light trails from passing traffic."
+      },
+      "story": [
+        "Announced in February 2022, National Highways' North West retrofit is a £132M, 5-year programme replacing roughly 6,000 luminaires across the M6, M57, M60, M62 and a number of connecting A-roads. At this scale the priority is a single flexible platform that can be configured per site — motorway mainline, junction, roundabout — rather than a different product for each condition.",
+        "Holophane's V-MAX II range was specified, built around up to 6 chevron-shaped LED modules per fitting spanning 1,000 to 54,000 lumens, with zero upward light and 3000K variants approved to IDA Dark Sky standards. Three of the range's 13 available optic distributions — F4Q1, F4L2 and D4D4 — cover the site types in this programme, each paired to the geometry of the road it lights. Every configuration carries a TM66 Circular Economy Assessment Method score of at least 2.5, a mandated requirement for this contract.",
+        "Dimming is managed through a DALI-based Central Management System, with profiles set per configuration rather than applied uniformly across the network. The programme's scale drew direct comment from those delivering it — among them Colin Ross of Amey Consulting, James Sharp at National Highways, Martin Shaw of Crown Highways, Andrew Moore of Rubicon Zigwell and Shahid Bangi of McCanns Ltd — on the retrofit's impact on reliability and energy use across the region's road network."
+      ],
+      "performance": [
+        { "label": "Product", "value": "V-MAX II, up to 6 chevron LED modules" },
+        { "label": "Output range", "value": "1,000–54,000 lm" },
+        { "label": "Upward light", "value": "Zero; 3000K variants IDA Dark Sky approved" },
+        { "label": "Optics used", "value": "F4Q1, F4L2, D4D4 (of 13 available)" },
+        { "label": "Circularity", "value": "TM66 CEAM score ≥2.5 (contract-mandated)" },
+        { "label": "Controls", "value": "DALI-based CMS, profiles per configuration" },
+        { "label": "Scope", "value": "£132M, ~6,000 luminaires, 5-year programme" }
+      ],
+      "productPhoto": {
+        "image": "assets/img/case-studies/holophane-national-highways-nw-product.png",
+        "alt": "Holophane V-MAX II road lighting luminaire studio photo"
+      },
+      "gallery": [
+        {
+          "image": "assets/img/case-studies/holophane-national-highways-nw-detail-1.webp",
+          "caption": "A retrofitted roundabout junction — V-MAX II's optics tuned to the site geometry."
+        },
+        {
+          "image": "assets/img/case-studies/holophane-national-highways-nw-detail-2.webp",
+          "caption": "V-MAX II along a motorway carriageway, zero upward light across the full run."
+        }
+      ],
+      "perspective": {
+        "heading": "Lumen Method Perspective",
+        "body": ""
+      }
+    },
+    {
+      "id": "warwick-faculty-arts",
+      "tag": "Holophane · Signature",
+      "title": "University of Warwick — Faculty of Arts",
+      "sector": "Education & civic",
+      "location": "Coventry, UK",
+      "manufacturer": "Holophane",
+      "product": "Signature",
+      "detailHero": {
+        "image": "assets/img/case-studies/holophane-warwick-faculty-arts.webp",
+        "caption": "The Faculty of Arts building's glazed entrance, lit by Signature post-tops along the approach."
+      },
+      "story": [
+        "The University of Warwick's Faculty of Arts building opened in December 2021, designed by Feilden Clegg Bradley Studios with Buro Happold, and rated BREEAM Excellent and EPC A — it went on to win a Build Back Better Gold Award. A new building of this profile needed exterior lighting that matched the architecture's ambitions: glare-controlled, comfortable for pedestrians on the approach, and consistent with the campus's broader sustainability goals.",
+        "Holophane's Signature post-top was specified, built around a patented 'transition zone' feature that manages the visual transition between the fully shielded LED source and the surrounding sky to reduce glare and improve visual comfort for anyone walking underneath — a detail that matters on a pedestrian approach used at all hours. The luminaires are available at 2700K, 3000K and 4000K, with the 3000K option additionally IDA Dark Sky approved, and cover an output range of 3,000 to 14,000 lumens across arm-mounted and bollard variants as well as the post-top used here.",
+        "Fully shielded, glare-controlled optics on a new-build project of this kind are as much about the pedestrian experience approaching the building at night as they are about the lux levels on the ground — the same balance the Faculty of Arts brief was built around."
+      ],
+      "performance": [
+        { "label": "Product", "value": "Signature, post-top" },
+        { "label": "Feature", "value": "Patented 'transition zone' glare / visual-comfort control" },
+        { "label": "Colour temperature", "value": "2700K / 3000K / 4000K (3000K IDA Dark Sky approved)" },
+        { "label": "Output range", "value": "3,000–14,000 lm" },
+        { "label": "Optics", "value": "Fully shielded LEDs" },
+        { "label": "Variants available", "value": "Post-top, arm-mounted, bollard" },
+        { "label": "Building rating", "value": "BREEAM Excellent, EPC A" }
+      ],
+      "productPhoto": {
+        "image": "assets/img/case-studies/holophane-warwick-faculty-arts-product.png",
+        "alt": "Holophane Signature post-top luminaire studio photo"
+      },
+      "gallery": [
+        {
+          "image": "assets/img/case-studies/holophane-warwick-faculty-arts-detail-1.webp",
+          "caption": "A Signature post-top on the building's approach path, glare-controlled for pedestrians passing underneath."
+        },
+        {
+          "image": "assets/img/case-studies/holophane-warwick-faculty-arts-detail-2.webp",
+          "caption": "The Faculty of Arts building at dusk, exterior lighting consistent with its BREEAM Excellent rating."
+        }
+      ],
+      "perspective": {
+        "heading": "Lumen Method Perspective",
+        "body": ""
+      }
+    }
+  ]
+}

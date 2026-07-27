@@ -1,0 +1,128 @@
+/* =========================================================
+   Case study detail page
+========================================================= */
+.case-hero {
+  background: var(--black);
+  color: var(--text-on-dark);
+  padding: calc(var(--space-8) + 60px) var(--container-pad) var(--space-7);
+}
+
+.case-hero__inner {
+  max-width: var(--container-max);
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-7);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .case-hero__inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.case-hero h1 {
+  font-size: clamp(2rem, 4.5vw, var(--text-4xl));
+  margin-bottom: var(--space-3);
+}
+
+.case-hero__meta-line {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted-on-dark);
+  margin-bottom: var(--space-5);
+}
+
+.case-photo {
+  border: 1px solid var(--border-on-dark);
+}
+
+.case-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.case-photo figcaption {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--text-muted-on-dark);
+  border-top: 1px solid var(--border-on-dark);
+  margin: 0;
+}
+
+.section--surface .case-photo,
+.section--surface .case-photo figcaption {
+  border-color: var(--border-light);
+  color: var(--text-muted);
+}
+
+.case-story p {
+  font-size: var(--text-md);
+  color: var(--text-muted);
+  line-height: 1.75;
+  max-width: 68ch;
+}
+
+.case-story p + p {
+  margin-top: var(--space-4);
+}
+
+.case-product-shot {
+  background: var(--cream-soft);
+  border: 1px solid var(--border-on-dark);
+  padding: var(--space-6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case-product-shot img {
+  max-width: 100%;
+  max-height: 360px;
+  width: auto;
+  height: auto;
+}
+
+.case-gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-5);
+}
+
+@media (max-width: 700px) {
+  .case-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.case-perspective {
+  border-left: 2px solid var(--glow-dim);
+  padding-left: var(--space-4);
+  max-width: 68ch;
+}
+
+.case-perspective p {
+  font-size: var(--text-md);
+  color: var(--text-muted-on-dark);
+  line-height: 1.75;
+}
+
+.case-perspective--pending p {
+  font-style: italic;
+  color: var(--grey-500);
+}
+
+.case-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--glow-soft);
+}
