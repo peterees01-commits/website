@@ -51,7 +51,7 @@ h3,
 h4 {
   font-family: var(--font-display);
   font-stretch: expanded;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.05;
   margin: 0;
   text-transform: uppercase;
