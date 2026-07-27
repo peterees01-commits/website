@@ -358,12 +358,26 @@
   font-size: var(--text-xs);
 }
 
-.section--dark .dist-card {
-  border-color: var(--border-on-dark);
+.backlight-photo {
+  border: 1px solid var(--border-light);
 }
 
-.section--dark .dist-card code {
-  color: var(--grey-400);
+.backlight-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.backlight-photo__caption {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-light);
+  margin: 0;
+}
+
+.backlight-photo + .backlight-photo {
+  margin-top: var(--space-3);
 }
 
 .dist-card small {

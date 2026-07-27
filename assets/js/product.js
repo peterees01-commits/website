@@ -51,7 +51,7 @@
       '<section class="product-hero">' +
         '<div class="product-hero__inner">' +
           '<div>' +
-            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Products</a> / ' +
+            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Solutions</a> / ' +
               (p.manufacturerSlug ? '<a href="../manufacturers/manufacturer.html?slug=' + esc(p.manufacturerSlug) + '">' + esc(p.manufacturer) + '</a>' : esc(p.manufacturer)) +
               ' / ' + esc(p.name) + '</p>' +
             '<span class="product-hero__manu">Manufactured by ' + esc(p.manufacturer) + '</span>' +
@@ -260,22 +260,38 @@
     var b = p.backlightControl;
     if (!b) return "";
     return (
-      '<section class="section section--dark product-section">' +
-        '<div class="section__inner two-col two-col--wide-left">' +
-          '<div>' +
-            '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
-            '<p style="max-width:56ch;color:var(--text-muted-on-dark);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
-            (b.points && b.points.length ?
-              '<ul style="color:var(--text-muted-on-dark);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0">' +
-                b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
-              '</ul>' : ""
-            ) +
+      '<section class="section section--surface product-section">' +
+        '<div class="section__inner">' +
+          '<div class="two-col two-col--wide-left" style="margin-bottom:' + (b.optics && b.optics.length ? 'var(--space-6)' : '0') + '">' +
+            '<div>' +
+              '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
+              '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
+              '<p style="max-width:56ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
+              (b.points && b.points.length ?
+                '<ul style="color:var(--text-muted);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0 0 var(--space-5)">' +
+                  b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
+                '</ul>' : ""
+              ) +
+              (b.hardwarePhoto ?
+                '<div class="backlight-photo">' +
+                  '<img src="../' + esc(b.hardwarePhoto.file) + '" alt="' + esc(b.hardwarePhoto.alt) + '">' +
+                  (b.hardwarePhoto.caption ? '<p class="backlight-photo__caption">' + esc(b.hardwarePhoto.caption) + '</p>' : "") +
+                '</div>' : ""
+              ) +
+            '</div>' +
+            '<div>' +
+              (b.comparisonPhoto ?
+                '<div class="backlight-photo">' +
+                  '<img src="../' + esc(b.comparisonPhoto.file) + '" alt="' + esc(b.comparisonPhoto.alt) + '">' +
+                  (b.comparisonPhoto.caption ? '<p class="backlight-photo__caption">' + esc(b.comparisonPhoto.caption) + '</p>' : "") +
+                '</div>' : ""
+              ) +
+            '</div>' +
           '</div>' +
-          '<div>' +
+          (b.optics && b.optics.length ?
             '<p class="eyebrow">Cutoff optics</p>' +
             '<div class="dist-grid">' +
-              (b.optics || []).map(function (o) {
+              b.optics.map(function (o) {
                 return (
                   '<div class="dist-card">' +
                     '<img class="dist-card__icon" src="../' + esc(o.chart) + '" alt="' + esc(o.name) + ' light distribution plot">' +
@@ -284,8 +300,8 @@
                   '</div>'
                 );
               }).join("") +
-            '</div>' +
-          '</div>' +
+            '</div>' : ""
+          ) +
         '</div>' +
       '</section>'
     );

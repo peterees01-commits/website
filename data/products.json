@@ -151,6 +151,16 @@
           "Dedicated light-absorbing backlight shields provide additional control without sacrificing luminaire efficiency",
           "LEDs aren't visible from behind the fitting, reducing glare when viewed from the rear"
         ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/dsx/backlight-hardware.png",
+          "alt": "D-Series luminaire with a close-up of the internal light-absorbing backlight shield modules",
+          "caption": "Point-source light engine and the light-absorbing backlight shield modules behind it."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/dsx/backlight-comparison.png",
+          "alt": "Same car park and building lit without backlight control (left) and with D-Series Extreme Cutoff Optics (right), showing spill light on the building virtually eliminated",
+          "caption": "Standard distribution (left) vs. Extreme Cutoff Optics (right) — same site, same mounting height."
+        },
         "optics": [
           { "code": ".BLC", "name": "Backlight Control optic", "chart": "assets/img/products/dsx/distributions/blc.png" },
           { "code": ".RCCO", "name": "Right Corner Cutoff optic", "chart": "assets/img/products/dsx/distributions/rcco.png" },

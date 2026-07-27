@@ -52,7 +52,7 @@
             (m.agentNote ? '<p class="manu-hero__agent-note">' + esc(m.agentNote) + '</p>' : "") +
           '</div>' +
           '<div>' +
-            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Products</a> / ' + esc(m.name) + '</p>' +
+            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Solutions</a> / ' + esc(m.name) + '</p>' +
             '<h1>' + esc(m.name) + '</h1>' +
             '<p class="manu-hero__bio">' + esc(m.bio) + '</p>' +
           '</div>' +
