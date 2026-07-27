@@ -32,7 +32,7 @@
   --border-on-dark: rgba(242, 237, 224, 0.16);
 
   /* ---- Type ---- */
-  --font-display: "Archivo Expanded", "Arial Narrow", sans-serif;
+  --font-display: "Archivo", "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Sans", -apple-system, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
