@@ -34,17 +34,16 @@
 
     root.innerHTML =
       heroSection(cs) +
-      storySection(cs) +
-      productSection(cs) +
+      briefAndProductSection(cs) +
       perspectiveSection(cs);
 
     if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
       window.LumenMethod.initScrollReveal(root);
     }
+    initLightbox(root);
   }
 
   function heroSection(cs) {
-    var gallery = cs.gallery || [];
     return (
       '<section class="case-hero">' +
         '<div class="case-hero__inner">' +
@@ -54,59 +53,40 @@
             '<h1>' + esc(cs.title) + '</h1>' +
             '<p class="case-hero__meta-line">' + esc(cs.sector) + ' &middot; ' + esc(cs.location) + '</p>' +
           '</div>' +
-          '<div class="case-hero__media">' +
-            '<figure class="case-photo case-photo--main">' +
-              '<div class="case-photo__frame"><img src="../' + esc(cs.detailHero.image) + '" alt="' + esc(cs.detailHero.caption) + '" loading="lazy"></div>' +
-              '<figcaption>' + esc(cs.detailHero.caption) + '</figcaption>' +
-            '</figure>' +
-            (gallery.length
-              ? '<div class="case-hero__thumbs">' +
-                  gallery.map(function (g) {
-                    return (
-                      '<figure class="case-photo case-photo--thumb">' +
-                        '<div class="case-photo__frame"><img src="../' + esc(g.image) + '" alt="' + esc(g.caption) + '" loading="lazy"></div>' +
-                        '<figcaption>' + esc(g.caption) + '</figcaption>' +
-                      '</figure>'
-                    );
-                  }).join("") +
-                '</div>'
-              : "") +
-          '</div>' +
+          '<figure class="case-photo case-photo--main">' +
+            '<button type="button" class="case-photo__frame case-photo__zoom" data-full="../' + esc(cs.detailHero.image) + '" data-alt="' + esc(cs.detailHero.caption) + '" aria-label="Enlarge photo">' +
+              '<img src="../' + esc(cs.detailHero.image) + '" alt="' + esc(cs.detailHero.caption) + '" loading="lazy">' +
+            '</button>' +
+            '<figcaption>' + esc(cs.detailHero.caption) + '</figcaption>' +
+          '</figure>' +
         '</div>' +
       '</section>'
     );
   }
 
-  function storySection(cs) {
+  function briefAndProductSection(cs) {
     return (
       '<section class="section section--surface">' +
         '<div class="section__inner">' +
-          '<p class="eyebrow">The project</p>' +
-          '<h2 style="margin-bottom:var(--space-5)">The brief</h2>' +
-          '<div class="case-story">' +
-            cs.story.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join("") +
-          '</div>' +
-        '</div>' +
-      '</section>'
-    );
-  }
-
-  function productSection(cs) {
-    return (
-      '<section class="section section--dark">' +
-        '<div class="section__inner">' +
-          '<p class="eyebrow">Product used</p>' +
-          '<h2 style="margin-bottom:var(--space-5)">' + esc(cs.product) + '</h2>' +
           '<div class="two-col two-col--wide-left">' +
             '<div>' +
-              '<table class="spec-table">' +
+              '<p class="eyebrow">The project</p>' +
+              '<h2 style="margin-bottom:var(--space-5)">The brief</h2>' +
+              '<div class="case-story">' +
+                cs.story.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join("") +
+              '</div>' +
+            '</div>' +
+            '<div>' +
+              '<p class="eyebrow">Product used</p>' +
+              '<h2 style="margin-bottom:var(--space-4)">' + esc(cs.product) + '</h2>' +
+              '<table class="spec-table" style="margin-bottom:var(--space-5)">' +
                 cs.performance.map(function (r) {
                   return '<tr><th>' + esc(r.label) + '</th><td>' + esc(r.value) + '</td></tr>';
                 }).join("") +
               '</table>' +
-            '</div>' +
-            '<div class="case-product-shot">' +
-              '<img src="../' + esc(cs.productPhoto.image) + '" alt="' + esc(cs.productPhoto.alt) + '" loading="lazy">' +
+              '<div class="case-product-shot">' +
+                '<img src="../' + esc(cs.productPhoto.image) + '" alt="' + esc(cs.productPhoto.alt) + '" loading="lazy">' +
+              '</div>' +
             '</div>' +
           '</div>' +
         '</div>' +
@@ -130,5 +110,56 @@
         '</div>' +
       '</section>'
     );
+  }
+
+  function initLightbox(scope) {
+    var trigger = scope.querySelector(".case-photo__zoom");
+    if (!trigger) return;
+
+    var overlay = document.getElementById("caseLightbox");
+    if (!overlay) {
+      overlay = document.createElement("div");
+      overlay.className = "case-lightbox";
+      overlay.id = "caseLightbox";
+      overlay.innerHTML =
+        '<div class="case-lightbox__backdrop"></div>' +
+        '<button type="button" class="case-lightbox__close" aria-label="Close enlarged photo">&times;</button>' +
+        '<img class="case-lightbox__img" alt="">';
+      document.body.appendChild(overlay);
+
+      overlay.addEventListener("click", function (e) {
+        if (e.target === overlay || e.target.classList.contains("case-lightbox__backdrop") || e.target.classList.contains("case-lightbox__close")) {
+          closeLightbox(overlay);
+        }
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") closeLightbox(overlay);
+      });
+    }
+
+    trigger.addEventListener("click", function () {
+      openLightbox(overlay, trigger.getAttribute("data-full"), trigger.getAttribute("data-alt"));
+    });
+  }
+
+  function openLightbox(overlay, src, alt) {
+    var img = overlay.querySelector(".case-lightbox__img");
+    img.onload = function () {
+      var vw = window.innerWidth * 0.92;
+      var vh = window.innerHeight * 0.92;
+      var cap = Math.min(img.naturalWidth, vw);
+      img.style.maxWidth = cap + "px";
+      var vhCapPx = vh;
+      img.style.maxHeight = vhCapPx + "px";
+    };
+    img.src = src;
+    img.alt = alt || "";
+    overlay.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeLightbox(overlay) {
+    overlay.classList.remove("is-open");
+    document.body.style.overflow = "";
   }
 })();
