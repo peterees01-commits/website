@@ -51,9 +51,10 @@
         void brandAnim.offsetWidth;
         strokes.forEach(function (path) { path.style.transition = ""; });
 
-        // 1. Both brackets appear together. 2. Left beam lights and travels
-        // down the diagonal. 3. On reaching bottom, the right beam lights
-        // and travels up to meet it, completing the V.
+        // 1. Both brackets appear together. 2. Left beam lights at the
+        // top-left and travels down to the bottom point. 3. On arrival,
+        // the right beam lights at the top-right and travels down to meet
+        // it there, completing the V.
         timers.push(window.setTimeout(function () {
           strokeL.forEach(function (p) { p.style.strokeDashoffset = 0; });
           strokeR.forEach(function (p) { p.style.strokeDashoffset = 0; });
@@ -63,9 +64,9 @@
           strokeDiagL.style.strokeDashoffset = 0;
         }, 1000));
         timers.push(window.setTimeout(function () {
+          bulbR.classList.add("is-on");
           strokeDiagR.style.strokeDashoffset = 0;
         }, 1900));
-        timers.push(window.setTimeout(function () { bulbR.classList.add("is-on"); }, 2800));
         timers.push(window.setTimeout(function () { isAnimating = false; }, 3200));
       }
 
