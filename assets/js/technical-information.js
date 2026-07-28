@@ -94,10 +94,10 @@
       }
       byCategory[p.category].push(p);
     });
+    var hasCodes = presentations.some(function (p) { return p.code; });
 
     root.innerHTML = categories.map(function (category) {
       var items = byCategory[category];
-      var hasCodes = items.some(function (p) { return p.code; });
       return (
         '<div class="presentation-category">' +
           '<h3>' + esc(category) + '</h3>' +
