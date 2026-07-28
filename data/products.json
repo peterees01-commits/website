@@ -602,8 +602,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK08–IK10",
-          "detail": "IK10 with glass lens fitted, IK08 without"
+          "label": "IP66 / IK10 (Glass Lens)",
+          "detail": "Ingress & impact protection"
         },
         {
           "label": "TM66: 2.6",
@@ -641,7 +641,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK08 (no glass lens) / IK10 (with tempered glass lens, .G option)"
+          "value": "IK10 (Glass Lens)"
         },
         {
           "label": "Operating temperature",
@@ -775,7 +775,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK08 (no glass) / IK10 (with glass)",
+        "IK10 (Glass Lens)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"
@@ -828,8 +828,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK08–IK10",
-          "detail": "IK10 with glass lens fitted, IK08 without"
+          "label": "IP66 / IK10 (Glass Lens)",
+          "detail": "Ingress & impact protection"
         },
         {
           "label": "TM66: 2.6",
@@ -867,7 +867,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK08 (no glass lens) / IK10 (with tempered glass lens, .G option)"
+          "value": "IK10 (Glass Lens)"
         },
         {
           "label": "Operating temperature",
@@ -996,7 +996,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK08 (no glass) / IK10 (with glass)",
+        "IK10 (Glass Lens)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"
