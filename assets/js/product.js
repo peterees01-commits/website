@@ -137,14 +137,15 @@
 
   function heroDownloads(p) {
     var dl = p.downloads;
+    var order = ["brochure", "ies", "bim", "installGuide"];
     return (
       '<div class="hero-downloads">' +
         '<p class="eyebrow">Downloads</p>' +
         '<div class="hero-downloads__grid">' +
-          downloadCard(dl.brochure.label, dl.brochure.meta, "../" + dl.brochure.file, true) +
-          downloadCard(dl.ies.label, dl.ies.meta, "../" + dl.ies.file, true) +
-          downloadCard(dl.bim.label, dl.bim.meta, "../" + dl.bim.file, true) +
-          downloadCard(dl.installGuide.label, dl.installGuide.meta, "../" + dl.installGuide.file, true) +
+          order.map(function (key) {
+            var d = dl[key];
+            return d ? downloadCard(d.label, d.meta, "../" + d.file, true) : "";
+          }).join("") +
         '</div>' +
       '</div>'
     );

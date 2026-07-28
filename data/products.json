@@ -11,74 +11,232 @@
       "family": "Denver iD",
       "tagline": "Post-top LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
       "summary": "Denver iD Pole is a two-part die-cast aluminium post-top luminaire covering 2,000–12,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field.",
-      "applications": ["Carparks", "Pathways", "Universities", "Town Centres"],
+      "applications": [
+        "Carparks",
+        "Pathways",
+        "Universities",
+        "Town Centres"
+      ],
       "images": [
-        { "file": "assets/img/products/dpl/dpl-01-profile.png", "alt": "Denver iD Pole side profile, showing the LED module and pole mounting arm" },
-        { "file": "assets/img/products/dpl/dpl-02-mounted-angle.png", "alt": "Denver iD Pole mounted on a pole, three-quarter angle view" },
-        { "file": "assets/img/products/dpl/dpl-06-small-module-angle.jpg", "alt": "Denver iD Pole Small module LED array, close-up angled view" },
-        { "file": "assets/img/products/dpl/dpl-03-large-module-detail.png", "alt": "Denver iD Pole Large module LED array, close-up angled view" },
-        { "file": "assets/img/products/dpl/dpl-04-large-module-underside.png", "alt": "Denver iD Pole Large module, straight-on underside view showing the 32-LED array" },
-        { "file": "assets/img/products/dpl/dpl-05-small-module-underside.png", "alt": "Denver iD Pole Small module, straight-on underside view showing the 16-LED array" },
-        { "file": "assets/img/products/dpl/dpl-dimensions.png", "alt": "Denver iD Pole dimension diagram, small and large body sizes" }
+        {
+          "file": "assets/img/products/dpl/dpl-01-profile.png",
+          "alt": "Denver iD Pole side profile, showing the LED module and pole mounting arm"
+        },
+        {
+          "file": "assets/img/products/dpl/dpl-02-mounted-angle.png",
+          "alt": "Denver iD Pole mounted on a pole, three-quarter angle view"
+        },
+        {
+          "file": "assets/img/products/dpl/dpl-06-small-module-angle.jpg",
+          "alt": "Denver iD Pole Small module LED array, close-up angled view"
+        },
+        {
+          "file": "assets/img/products/dpl/dpl-03-large-module-detail.png",
+          "alt": "Denver iD Pole Large module LED array, close-up angled view"
+        },
+        {
+          "file": "assets/img/products/dpl/dpl-04-large-module-underside.png",
+          "alt": "Denver iD Pole Large module, straight-on underside view showing the 32-LED array"
+        },
+        {
+          "file": "assets/img/products/dpl/dpl-05-small-module-underside.png",
+          "alt": "Denver iD Pole Small module, straight-on underside view showing the 16-LED array"
+        },
+        {
+          "file": "assets/img/products/dpl/dpl-dimensions.png",
+          "alt": "Denver iD Pole dimension diagram, small and large body sizes"
+        }
       ],
       "badges": [
-        { "label": "IP65 / IK10", "detail": "Ingress & impact protection" },
-        { "label": "0% ULOR", "detail": "No upward light output" },
-        { "label": "TM66: 2.6", "detail": "Excellent circularity rating" },
-        { "label": "Dark Sky Approved", "detail": "IDA — at 3000K or warmer" }
+        {
+          "label": "IP65 / IK10",
+          "detail": "Ingress & impact protection"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "No upward light output"
+        },
+        {
+          "label": "TM66: 2.6",
+          "detail": "Excellent circularity rating"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        }
       ],
       "keySpecs": [
-        { "label": "Delivered lumens", "value": "2,000 – 12,000 lm" },
-        { "label": "Colour temperature", "value": "2700K / 3000K / 4000K (PC Amber available)" },
-        { "label": "CRI", "value": "> 70 (higher CRI available upon request)" },
-        { "label": "ULOR", "value": "0%" },
-        { "label": "Ingress protection", "value": "IP65 (body & gear), IP66 (light engine)" },
-        { "label": "Impact resistance", "value": "IK10" },
-        { "label": "Operating temperature", "value": "−25°C to +45°C" },
-        { "label": "Body material", "value": "LM6 marine-grade die-cast aluminium" },
-        { "label": "Optics", "value": "Individual PMMA lenses, patented Transition Zone diffuser" },
-        { "label": "Glass cover", "value": ">99% transparent, hydrophilic high-transparency glass" },
-        { "label": "Electrical class", "value": "Class I or Class II" },
-        { "label": "Dimming", "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)" },
-        { "label": "Smart controls", "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02), Controlux Air compatible" },
-        { "label": "Warranty", "value": "5 years" },
-        { "label": "Life rating", "value": "L70 B10" }
+        {
+          "label": "Delivered lumens",
+          "value": "2,000 – 12,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K (PC Amber available)"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70 (higher CRI available upon request)"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (body & gear), IP66 (light engine)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−25°C to +45°C"
+        },
+        {
+          "label": "Body material",
+          "value": "LM6 marine-grade die-cast aluminium"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual PMMA lenses, patented Transition Zone diffuser"
+        },
+        {
+          "label": "Glass cover",
+          "value": ">99% transparent, hydrophilic high-transparency glass"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I or Class II"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02), Controlux Air compatible"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "L70 B10"
+        }
       ],
       "dimensions": {
         "diagram": "assets/img/products/dpl/dpl-dimensions.png",
         "note": "Both body sizes share a 116mm height. Weight and windage are per-fitting, excluding bracket.",
         "variants": [
-          { "label": "DPL Small", "length": "302 mm", "width": "114 mm", "height": "116 mm", "weight": "6.1 kg" },
-          { "label": "DPL Large", "length": "472 mm", "width": "230 mm", "height": "116 mm", "weight": "7.5 kg" }
+          {
+            "label": "DPL Small",
+            "length": "302 mm",
+            "width": "114 mm",
+            "height": "116 mm",
+            "weight": "6.1 kg"
+          },
+          {
+            "label": "DPL Large",
+            "length": "472 mm",
+            "width": "230 mm",
+            "height": "116 mm",
+            "weight": "7.5 kg"
+          }
         ],
         "windage": "0.042 m²"
       },
       "distributions": [
-        { "code": ".SY", "name": "Symmetric", "chart": "assets/img/products/dpl/distributions/sy.png" },
-        { "code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/dpl/distributions/ay.png" },
-        { "code": ".NR", "name": "Long & Narrow", "chart": "assets/img/products/dpl/distributions/nr.png" },
-        { "code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/dpl/distributions/fw.png" },
-        { "code": ".HN", "name": "High Beam Long & Narrow", "chart": "assets/img/products/dpl/distributions/hn.png" }
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/dpl/distributions/sy.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/dpl/distributions/ay.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/dpl/distributions/nr.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/dpl/distributions/fw.png"
+        },
+        {
+          "code": ".HN",
+          "name": "High Beam Long & Narrow",
+          "chart": "assets/img/products/dpl/distributions/hn.png"
+        }
       ],
       "accessories": [
-        { "code": "DPL.BLS1", "desc": "External back light shield, 125mm — finished in .C1 / .C4 / .C6 / .C7 / .C9" },
-        { "code": "DPL.WB", "desc": "Wall bracket" }
+        {
+          "code": "DPL.BLS1",
+          "desc": "External back light shield, 125mm — finished in .C1 / .C4 / .C6 / .C7 / .C9"
+        },
+        {
+          "code": "DPL.WB",
+          "desc": "Wall bracket"
+        }
       ],
       "mountingHeights": {
         "note": "Suitable from 3m to 8m mounting heights. Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
         "rows": [
-          { "height": "3 m", "range": "10 m" },
-          { "height": "4 m", "range": "15 m" },
-          { "height": "6 m", "range": "20 m" },
-          { "height": "8 m", "range": "25 m" }
+          {
+            "height": "3 m",
+            "range": "10 m"
+          },
+          {
+            "height": "4 m",
+            "range": "15 m"
+          },
+          {
+            "height": "6 m",
+            "range": "20 m"
+          },
+          {
+            "height": "8 m",
+            "range": "25 m"
+          }
         ]
       },
-      "certifications": ["CE", "UKCA", "EN 60598", "IP65", "IK10", "TM66 Circularity 2.6", "IDA Dark Sky Approved (3000K or warmer)", "Made in Britain"],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "IK10",
+        "TM66 Circularity 2.6",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Made in Britain"
+      ],
       "downloads": {
-        "brochure": { "label": "Product brochure", "file": "assets/downloads/lumen-method-dpl-brochure.pdf", "meta": "PDF · Holophane" },
-        "installGuide": { "label": "Installation instructions", "file": "assets/downloads/lumen-method-dpl-installation-guide.pdf", "meta": "PDF · Holophane" },
-        "bim": { "label": "BIM objects", "file": "assets/downloads/bim/DPL-BIM-Revit.zip", "meta": "ZIP · Revit families, S & L" },
-        "ies": { "label": "IES photometric files", "file": "assets/downloads/ies/DPL-IES-files.zip", "meta": "ZIP · 352 files, all configs" }
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-dpl-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-dpl-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/DPL-BIM-Revit.zip",
+          "meta": "ZIP · Revit families, S & L"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/DPL-IES-files.zip",
+          "meta": "ZIP · 352 files, all configs"
+        }
       }
     },
     {
@@ -92,53 +250,190 @@
       "family": "D-Series",
       "tagline": "Post-top LED area luminaire family built around Holophane's Extreme Cutoff Optics — engineered to virtually eliminate backlight spill beyond the boundary line, across three body sizes.",
       "summary": "D-Series is Holophane's answer to light trespass. Specialised black light engines, integrated specular reflectors and light-absorbing backlight shields work together to virtually eliminate spill light behind the fitting, while maintaining full task-area performance in front of it — dedicated Right/Left Corner Cutoff and Backlight Control optics make it the range of choice for boundary-sensitive sites. Available across three body sizes (DSX0, DSX1, DSX2) covering 2,000–50,000 delivered lumens, with ZD4i-ready smart control compatibility throughout.",
-      "applications": ["Car Parks", "Amenity Areas", "Retail Parks", "Truck Yards", "Warehousing", "Exterior Areas", "Boundary-Sensitive Sites"],
+      "applications": [
+        "Car Parks",
+        "Amenity Areas",
+        "Retail Parks",
+        "Truck Yards",
+        "Warehousing",
+        "Exterior Areas",
+        "Boundary-Sensitive Sites"
+      ],
       "images": [
-        { "file": "assets/img/products/dsx/dsx-00-dsx0-profile.png", "alt": "D-Series DSX0 side profile, showing the finned housing and pole mounting arm", "size": "DSX0" },
-        { "file": "assets/img/products/dsx/dsx-04-dsx0-angle.png", "alt": "D-Series DSX0, three-quarter angle view showing the single-row LED array", "size": "DSX0" },
-        { "file": "assets/img/products/dsx/dsx-03-dsx0-underside.png", "alt": "D-Series DSX0, top view showing the finned heatsink and mounting arm", "size": "DSX0" },
-        { "file": "assets/img/products/dsx/dsx-09-dsx0-front.png", "alt": "D-Series DSX0, straight-on view from below showing the single-row LED array", "size": "DSX0" },
-        { "file": "assets/img/products/dsx/dsx-01-profile.png", "alt": "D-Series DSX1 side profile, showing the finned housing and pole mounting arm", "size": "DSX1" },
-        { "file": "assets/img/products/dsx/dsx-02-mounted-angle.png", "alt": "D-Series DSX1 mounted on a pole, three-quarter angle view", "size": "DSX1" },
-        { "file": "assets/img/products/dsx/dsx-05-dsx1-underside.png", "alt": "D-Series DSX1, top view showing the finned heatsink and mounting arm", "size": "DSX1" },
-        { "file": "assets/img/products/dsx/dsx-10-dsx1-front.png", "alt": "D-Series DSX1, straight-on view from below showing the two-module LED array", "size": "DSX1" },
-        { "file": "assets/img/products/dsx/dsx-08-dsx2-profile.png", "alt": "D-Series DSX2 side profile, showing the finned housing and pole mounting arm", "size": "DSX2" },
-        { "file": "assets/img/products/dsx/dsx-11-dsx2-angle.png", "alt": "D-Series DSX2 mounted on a pole, three-quarter angle view", "size": "DSX2" },
-        { "file": "assets/img/products/dsx/dsx-06-dsx2-underside.png", "alt": "D-Series DSX2, top view showing the widest finned heatsink in the range", "size": "DSX2" },
-        { "file": "assets/img/products/dsx/dsx-07-dsx2-front.png", "alt": "D-Series DSX2, straight-on view from below showing the full eight-module LED array", "size": "DSX2" },
-        { "file": "assets/img/products/dsx/dsx-dimensions.jpg", "alt": "D-Series dimension diagram, DSX0, DSX1 and DSX2 body sizes" }
+        {
+          "file": "assets/img/products/dsx/dsx-00-dsx0-profile.png",
+          "alt": "D-Series DSX0 side profile, showing the finned housing and pole mounting arm",
+          "size": "DSX0"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-04-dsx0-angle.png",
+          "alt": "D-Series DSX0, three-quarter angle view showing the single-row LED array",
+          "size": "DSX0"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-03-dsx0-underside.png",
+          "alt": "D-Series DSX0, top view showing the finned heatsink and mounting arm",
+          "size": "DSX0"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-09-dsx0-front.png",
+          "alt": "D-Series DSX0, straight-on view from below showing the single-row LED array",
+          "size": "DSX0"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-01-profile.png",
+          "alt": "D-Series DSX1 side profile, showing the finned housing and pole mounting arm",
+          "size": "DSX1"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-02-mounted-angle.png",
+          "alt": "D-Series DSX1 mounted on a pole, three-quarter angle view",
+          "size": "DSX1"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-05-dsx1-underside.png",
+          "alt": "D-Series DSX1, top view showing the finned heatsink and mounting arm",
+          "size": "DSX1"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-10-dsx1-front.png",
+          "alt": "D-Series DSX1, straight-on view from below showing the two-module LED array",
+          "size": "DSX1"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-08-dsx2-profile.png",
+          "alt": "D-Series DSX2 side profile, showing the finned housing and pole mounting arm",
+          "size": "DSX2"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-11-dsx2-angle.png",
+          "alt": "D-Series DSX2 mounted on a pole, three-quarter angle view",
+          "size": "DSX2"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-06-dsx2-underside.png",
+          "alt": "D-Series DSX2, top view showing the widest finned heatsink in the range",
+          "size": "DSX2"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-07-dsx2-front.png",
+          "alt": "D-Series DSX2, straight-on view from below showing the full eight-module LED array",
+          "size": "DSX2"
+        },
+        {
+          "file": "assets/img/products/dsx/dsx-dimensions.jpg",
+          "alt": "D-Series dimension diagram, DSX0, DSX1 and DSX2 body sizes"
+        }
       ],
       "badges": [
-        { "label": "Extreme Cutoff Optics", "detail": "Virtually eliminates backlight beyond the boundary line" },
-        { "label": "IP65", "detail": "Luminaire & LED optic" },
-        { "label": "0% ULOR", "detail": "No upward light output" },
-        { "label": "TM66: 2.6", "detail": "Excellent circularity rating" },
-        { "label": "Dark Sky Approved", "detail": "IDA — at 3000K or warmer" }
+        {
+          "label": "Extreme Cutoff Optics",
+          "detail": "Virtually eliminates backlight beyond the boundary line"
+        },
+        {
+          "label": "IP65",
+          "detail": "Luminaire & LED optic"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "No upward light output"
+        },
+        {
+          "label": "TM66: 2.6",
+          "detail": "Excellent circularity rating"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        }
       ],
       "keySpecs": [
-        { "label": "Delivered lumens", "value": "2,000 – 50,000 lm" },
-        { "label": "Colour temperature", "value": "2700K / 3000K / 4000K" },
-        { "label": "CRI", "value": "70 (Ra)" },
-        { "label": "ULOR", "value": "0%" },
-        { "label": "Ingress protection", "value": "IP65 (luminaire & LED optic)" },
-        { "label": "IK rating", "value": "" },
-        { "label": "Operating temperature", "value": "−40°C to +40°C" },
-        { "label": "Body material", "value": "Single-piece die-cast aluminium, EN1706 AC-46500, integral heat sink fins" },
-        { "label": "Optics", "value": "Individual bubble optics per LED, UV-stabilised" },
-        { "label": "Backlight control", "value": "Extreme Cutoff Optics (BLC/RCCO/LCCO) — engineered to virtually eliminate backlight beyond the boundary line; actual spill depends on mounting height and boundary setback" },
-        { "label": "Electrical class", "value": "Class I or Class II" },
-        { "label": "Dimming", "value": "DALI (LRD) or customer-specified pre-set dimming profile (LRT)" },
-        { "label": "Smart controls", "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02/TZ03), Controlux Air compatible" },
-        { "label": "Warranty", "value": "5 years" },
-        { "label": "Life rating", "value": "100,000+ hours LED module life" }
+        {
+          "label": "Delivered lumens",
+          "value": "2,000 – 50,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K"
+        },
+        {
+          "label": "CRI",
+          "value": "70 (Ra)"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (luminaire & LED optic)"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−40°C to +40°C"
+        },
+        {
+          "label": "Body material",
+          "value": "Single-piece die-cast aluminium, EN1706 AC-46500, integral heat sink fins"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual bubble optics per LED, UV-stabilised"
+        },
+        {
+          "label": "Backlight control",
+          "value": "Extreme Cutoff Optics (BLC/RCCO/LCCO) — engineered to virtually eliminate backlight beyond the boundary line; actual spill depends on mounting height and boundary setback"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I or Class II"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (LRD) or customer-specified pre-set dimming profile (LRT)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02/TZ03), Controlux Air compatible"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000+ hours LED module life"
+        }
       ],
       "dimensions": {
         "diagram": "assets/img/products/dsx/dsx-dimensions.jpg",
         "note": "Weight is per-fitting with control gear, excluding bracket.",
         "variants": [
-          { "label": "DSX0", "length": "653 mm", "width": "330 mm", "height": "173 mm", "weight": "8.0 kg" },
-          { "label": "DSX1", "length": "838 mm", "width": "331 mm", "height": "188 mm", "weight": "12.2 kg" },
-          { "label": "DSX2", "length": "1018 mm", "width": "380 mm", "height": "191 mm", "weight": "15.0 kg" }
+          {
+            "label": "DSX0",
+            "length": "653 mm",
+            "width": "330 mm",
+            "height": "173 mm",
+            "weight": "8.0 kg"
+          },
+          {
+            "label": "DSX1",
+            "length": "838 mm",
+            "width": "331 mm",
+            "height": "188 mm",
+            "weight": "12.2 kg"
+          },
+          {
+            "label": "DSX2",
+            "length": "1018 mm",
+            "width": "380 mm",
+            "height": "191 mm",
+            "weight": "15.0 kg"
+          }
         ],
         "windage": "0.09 m² (DSX0 & DSX1), 0.10 m² (DSX2)"
       },
@@ -162,33 +457,536 @@
           "caption": "Standard distribution (left) vs. Extreme Cutoff Optics (right) — same site, same mounting height."
         },
         "optics": [
-          { "code": ".BLC", "name": "Backlight Control optic", "chart": "assets/img/products/dsx/distributions/blc.png" },
-          { "code": ".RCCO", "name": "Right Corner Cutoff optic", "chart": "assets/img/products/dsx/distributions/rcco.png" },
-          { "code": ".LCCO", "name": "Left Corner Cutoff optic", "chart": "assets/img/products/dsx/distributions/lcco.png" }
+          {
+            "code": ".BLC",
+            "name": "Backlight Control optic",
+            "chart": "assets/img/products/dsx/distributions/blc.png"
+          },
+          {
+            "code": ".RCCO",
+            "name": "Right Corner Cutoff optic",
+            "chart": "assets/img/products/dsx/distributions/rcco.png"
+          },
+          {
+            "code": ".LCCO",
+            "name": "Left Corner Cutoff optic",
+            "chart": "assets/img/products/dsx/distributions/lcco.png"
+          }
         ]
       },
       "distributions": [
-        { "code": ".SY", "name": "Symmetric", "chart": "assets/img/products/dsx/distributions/sy.png" },
-        { "code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/dsx/distributions/ay.png" },
-        { "code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/dsx/distributions/fw.png" },
-        { "code": ".FWE", "name": "Forward Throw Extra", "chart": "assets/img/products/dsx/distributions/fwe.png" },
-        { "code": ".NR", "name": "Long & Narrow", "note": "DSX0 and DSX1", "chart": "assets/img/products/dsx/distributions/nr.png" },
-        { "code": ".BLC", "name": "Long & Narrow", "note": "Extreme backlight cut-off", "chart": "assets/img/products/dsx/distributions/blc.png" },
-        { "code": ".SQ", "name": "Square", "chart": "assets/img/products/dsx/distributions/sq.png" },
-        { "code": ".RCCO", "name": "Right Corner Cutoff Optic", "chart": "assets/img/products/dsx/distributions/rcco.png" },
-        { "code": ".LCCO", "name": "Left Corner Cutoff Optic", "chart": "assets/img/products/dsx/distributions/lcco.png" }
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/dsx/distributions/sy.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/dsx/distributions/ay.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/dsx/distributions/fw.png"
+        },
+        {
+          "code": ".FWE",
+          "name": "Forward Throw Extra",
+          "chart": "assets/img/products/dsx/distributions/fwe.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "note": "DSX0 and DSX1",
+          "chart": "assets/img/products/dsx/distributions/nr.png"
+        },
+        {
+          "code": ".BLC",
+          "name": "Long & Narrow",
+          "note": "Extreme backlight cut-off",
+          "chart": "assets/img/products/dsx/distributions/blc.png"
+        },
+        {
+          "code": ".SQ",
+          "name": "Square",
+          "chart": "assets/img/products/dsx/distributions/sq.png"
+        },
+        {
+          "code": ".RCCO",
+          "name": "Right Corner Cutoff Optic",
+          "chart": "assets/img/products/dsx/distributions/rcco.png"
+        },
+        {
+          "code": ".LCCO",
+          "name": "Left Corner Cutoff Optic",
+          "chart": "assets/img/products/dsx/distributions/lcco.png"
+        }
       ],
       "accessories": [
-        { "code": "DSX.BLS", "desc": "Backlight shield kit — ordered per size/LED-count configuration (e.g. DSX0.20LED.BLS, DSX1.30LED/60LED.BLS, DSX2.80LED/100LED.BLS)" },
-        { "code": "DSX.EGS", "desc": "" },
-        { "code": "DSX.BRKT", "desc": "Post-top bracket — sold separately, enquire for the full range of mounting options" }
+        {
+          "code": "DSX.BLS",
+          "desc": "Backlight shield kit — ordered per size/LED-count configuration (e.g. DSX0.20LED.BLS, DSX1.30LED/60LED.BLS, DSX2.80LED/100LED.BLS)"
+        },
+        {
+          "code": "DSX.EGS",
+          "desc": ""
+        },
+        {
+          "code": "DSX.BRKT",
+          "desc": "Post-top bracket — sold separately, enquire for the full range of mounting options"
+        }
       ],
-      "certifications": ["CE", "UKCA", "EN 60598", "IP65", "TM66 Circularity 2.6", "IDA Dark Sky Approved (3000K or warmer)"],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "TM66 Circularity 2.6",
+        "IDA Dark Sky Approved (3000K or warmer)"
+      ],
       "downloads": {
-        "brochure": { "label": "Product brochure", "file": "assets/downloads/lumen-method-dsx-brochure.pdf", "meta": "PDF · Holophane" },
-        "installGuide": { "label": "Installation instructions", "file": "assets/downloads/lumen-method-dsx-installation-guide.pdf", "meta": "PDF · Holophane" },
-        "bim": { "label": "BIM objects", "file": "assets/downloads/bim/DSX-BIM-Revit.zip", "meta": "ZIP · Revit families, DSX0/1/2" },
-        "ies": { "label": "IES photometric files", "file": "assets/downloads/ies/DSX-IES-files.zip", "meta": "ZIP · 2,036 files, all configs" }
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-dsx-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-dsx-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/DSX-BIM-Revit.zip",
+          "meta": "ZIP · Revit families, DSX0/1/2"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/DSX-IES-files.zip",
+          "meta": "ZIP · 2,036 files, all configs"
+        }
+      }
+    },
+    {
+      "code": "RLI",
+      "name": "R-Line",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=RLI",
+      "category": "Pole / Street & Road Lighting",
+      "family": "R-Line",
+      "tagline": "Slim-profile LED street luminaire with a wide optical range and on-site tilt adjustment, built for road and residential lighting schemes.",
+      "summary": "R-Line is Holophane's slim-profile LED street luminaire, covering 4,000–19,000 delivered lumens across eleven optical distributions from Type II long & narrow through Type III and Type IV spreads. A die-cast aluminium body with a captive-screw top-access cover and a separate LED/driver thermal path keeps installation and maintenance straightforward, while ±10° on-site tilt and DALI/axora-ready controls give it the flexibility to cover most street and residential lighting schemes from a single platform.",
+      "applications": [
+        "Residential Streets",
+        "Residential Roads",
+        "Rural Roads",
+        "Pathways & Cul-de-Sac",
+        "Cycle Paths"
+      ],
+      "images": [],
+      "badges": [
+        {
+          "label": "IP66 / IK10",
+          "detail": "Ingress & impact protection"
+        },
+        {
+          "label": "TM66: 2.6",
+          "detail": "Excellent circularity rating"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "±10° Tilt",
+          "detail": "On-site adjustable, 2.5° increments"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "4,000 – 19,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K / 4000K (2700K or Amber available on request)"
+        },
+        {
+          "label": "CRI",
+          "value": "70 (Ra)"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP66 (light engine & gear compartment)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−40°C to +50°C"
+        },
+        {
+          "label": "Body material",
+          "value": "High pressure die-cast aluminium (LM6)"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual LED lenses across Type II, III & IV distributions"
+        },
+        {
+          "label": "Lens",
+          "value": "5mm tempered glass lens (.G option)"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I or Class II"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora / Controlux Air compatible"
+        },
+        {
+          "label": "Tilt adjustment",
+          "value": "±10° on-site tilt, 2.5° increments"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hours (L90B10 @ 25°C tq)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/rli/rli-dimensions.png",
+        "note": "Weight is per-fitting with control gear, excluding bracket/pole.",
+        "variants": [
+          {
+            "label": "R-Line (RLI)",
+            "length": "537 mm",
+            "width": "196 mm",
+            "height": "201 mm",
+            "weight": "5.0 kg"
+          }
+        ],
+        "windage": "0.0354 m² (post top), 0.0407 m² (side entry)"
+      },
+      "distributions": [
+        {
+          "code": ".R3R3",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".2SA2",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".2SA4",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".2SQ1",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".2S2S",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".HN",
+          "name": "Type III Short",
+          "chart": "assets/img/products/rli/distributions/type3-short.png"
+        },
+        {
+          "code": ".A2R3",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/rli/distributions/type3-medium.png"
+        },
+        {
+          "code": ".A2A2",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/rli/distributions/type3-medium.png"
+        },
+        {
+          "code": ".A4A2",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/rli/distributions/type3-medium.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Type II Medium",
+          "chart": "assets/img/products/rli/distributions/type2-medium.png"
+        },
+        {
+          "code": ".A4A4",
+          "name": "Type IV Medium",
+          "chart": "assets/img/products/rli/distributions/type4-medium.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "RLI.ST",
+          "desc": "Stay arm — optional support bracket for easier maintenance access on-site"
+        },
+        {
+          "code": "RLI.C-PROTEC",
+          "desc": "Overvoltage surge protector — protects electronic parts against overvoltage up to 10kV/10kA"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP66",
+        "IK10",
+        "TM66 Circularity 2.6",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-rli-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-rli-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/RLI-IES-files.zip",
+          "meta": "ZIP · 1,367 files, all configs"
+        }
+      }
+    },
+    {
+      "code": "SLI",
+      "name": "S-Line",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=SLI",
+      "category": "Pole / Street & Road Lighting",
+      "family": "S-Line",
+      "tagline": "Compact LED street luminaire sharing R-Line's optical platform in a smaller body, for pathways, residential streets and lower mounting heights.",
+      "summary": "S-Line shares R-Line's optical platform and control options in a smaller, lighter body, covering 1,000–10,000 delivered lumens for lower-lumen and lower-mounting-height applications — pathways, cul-de-sacs and quieter residential streets. Construction, IP66/IK10 protection and control options match R-Line exactly, so a single family can be specified across a scheme with different lumen packages per pole.",
+      "applications": [
+        "Residential Streets",
+        "Residential Roads",
+        "Rural Roads",
+        "Pathways & Cul-de-Sac",
+        "Cycle Paths"
+      ],
+      "images": [],
+      "badges": [
+        {
+          "label": "IP66 / IK10",
+          "detail": "Ingress & impact protection"
+        },
+        {
+          "label": "TM66: 2.6",
+          "detail": "Excellent circularity rating"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "±10° Tilt",
+          "detail": "On-site adjustable, 2.5° increments"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "1,000 – 10,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K / 4000K (2700K or Amber available on request)"
+        },
+        {
+          "label": "CRI",
+          "value": "70 (Ra)"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP66 (light engine & gear compartment)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−40°C to +50°C"
+        },
+        {
+          "label": "Body material",
+          "value": "High pressure die-cast aluminium (LM6)"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual LED lenses across Type II, III & IV distributions"
+        },
+        {
+          "label": "Lens",
+          "value": "4mm tempered glass lens (.G option)"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I or Class II"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora / Controlux Air compatible"
+        },
+        {
+          "label": "Tilt adjustment",
+          "value": "±10° on-site tilt, 2.5° increments"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hours (L90B10 @ 25°C tq)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/sli/sli-dimensions.png",
+        "note": "Weight is per-fitting with control gear, excluding bracket/pole.",
+        "variants": [
+          {
+            "label": "S-Line (SLI)",
+            "length": "450 mm",
+            "width": "196 mm",
+            "height": "201 mm",
+            "weight": "4.0 kg"
+          }
+        ],
+        "windage": "0.0297 m² (post top), 0.0350 m² (side entry)"
+      },
+      "distributions": [
+        {
+          "code": ".Q1",
+          "name": "Type III Short",
+          "chart": "assets/img/products/sli/distributions/type3-short.png"
+        },
+        {
+          "code": ".R3",
+          "name": "Type III Short",
+          "chart": "assets/img/products/sli/distributions/type3-short.png"
+        },
+        {
+          "code": ".2S",
+          "name": "Type III Short",
+          "chart": "assets/img/products/sli/distributions/type3-short.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Type III Short",
+          "chart": "assets/img/products/sli/distributions/type3-short.png"
+        },
+        {
+          "code": ".HN",
+          "name": "Type III Short",
+          "chart": "assets/img/products/sli/distributions/type3-short.png"
+        },
+        {
+          "code": ".5R",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/sli/distributions/type3-medium.png"
+        },
+        {
+          "code": ".A2",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/sli/distributions/type3-medium.png"
+        },
+        {
+          "code": ".R2",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/sli/distributions/type3-medium.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Type II Medium",
+          "chart": "assets/img/products/sli/distributions/type2-medium.png"
+        },
+        {
+          "code": ".A4",
+          "name": "Type IV Medium",
+          "chart": "assets/img/products/sli/distributions/type4-medium.png"
+        },
+        {
+          "code": ".HA",
+          "name": "Type IV Medium",
+          "chart": "assets/img/products/sli/distributions/type4-medium.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "SLI.ST",
+          "desc": "Stay arm — optional support bracket for easier maintenance access on-site"
+        },
+        {
+          "code": "SLI.C-PROTEC",
+          "desc": "Overvoltage surge protector — protects electronic parts against overvoltage up to 10kV/10kA"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP66",
+        "IK10",
+        "TM66 Circularity 2.6",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-sli-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-sli-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/SLI-IES-files.zip",
+          "meta": "ZIP · 283 files, all configs"
+        }
       }
     }
   ]
