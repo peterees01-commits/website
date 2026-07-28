@@ -25,8 +25,9 @@
       var bulbR = brandAnim.querySelector(".logo-anim-bulb--r");
       var strokeL = Array.prototype.slice.call(brandAnim.querySelectorAll(".logo-anim-stroke--l"));
       var strokeR = Array.prototype.slice.call(brandAnim.querySelectorAll(".logo-anim-stroke--r"));
-      var strokeV = brandAnim.querySelector(".logo-anim-stroke--v");
-      var strokes = strokeL.concat(strokeR, [strokeV]);
+      var strokeDiagL = brandAnim.querySelector(".logo-anim-stroke--diag-l");
+      var strokeDiagR = brandAnim.querySelector(".logo-anim-stroke--diag-r");
+      var strokes = strokeL.concat(strokeR, [strokeDiagL, strokeDiagR]);
       var strokeLengths = strokes.map(function (path) { return path.getTotalLength(); });
 
       var timers = [];
@@ -50,12 +51,22 @@
         void brandAnim.offsetWidth;
         strokes.forEach(function (path) { path.style.transition = ""; });
 
-        timers.push(window.setTimeout(function () { bulbL.classList.add("is-on"); }, 250));
-        timers.push(window.setTimeout(function () { bulbR.classList.add("is-on"); }, 550));
-        timers.push(window.setTimeout(function () { strokeL.forEach(function (p) { p.style.strokeDashoffset = 0; }); }, 900));
-        timers.push(window.setTimeout(function () { strokeR.forEach(function (p) { p.style.strokeDashoffset = 0; }); }, 1250));
-        timers.push(window.setTimeout(function () { strokeV.style.strokeDashoffset = 0; }, 2350));
-        timers.push(window.setTimeout(function () { isAnimating = false; }, 3300));
+        // 1. Both brackets appear together. 2. Left beam lights and travels
+        // down the diagonal. 3. On reaching bottom, the right beam lights
+        // and travels up to meet it, completing the V.
+        timers.push(window.setTimeout(function () {
+          strokeL.forEach(function (p) { p.style.strokeDashoffset = 0; });
+          strokeR.forEach(function (p) { p.style.strokeDashoffset = 0; });
+        }, 100));
+        timers.push(window.setTimeout(function () {
+          bulbL.classList.add("is-on");
+          strokeDiagL.style.strokeDashoffset = 0;
+        }, 1000));
+        timers.push(window.setTimeout(function () {
+          strokeDiagR.style.strokeDashoffset = 0;
+        }, 1900));
+        timers.push(window.setTimeout(function () { bulbR.classList.add("is-on"); }, 2800));
+        timers.push(window.setTimeout(function () { isAnimating = false; }, 3200));
       }
 
       brandLink.addEventListener("mouseenter", function () {
