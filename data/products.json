@@ -594,7 +594,12 @@
         "Pathways & Cul-de-Sac",
         "Cycle Paths"
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "assets/img/products/rli/rli-01-profile.png",
+          "alt": "R-Line side profile, showing the LED module and pole mounting arm"
+        }
+      ],
       "badges": [
         {
           "label": "IP66 / IK08–IK10",
@@ -815,10 +820,6 @@
         {
           "file": "assets/img/products/sli/sli-01-profile.png",
           "alt": "S-Line side profile, showing the LED module and pole mounting arm"
-        },
-        {
-          "file": "assets/img/products/sli/sli-02-angle.png",
-          "alt": "S-Line mounted on a pole, three-quarter angle view"
         },
         {
           "file": "assets/img/products/sli/sli-dimensions.png",
