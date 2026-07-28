@@ -1212,6 +1212,7 @@
 
 .presentation-table {
   width: 100%;
+  table-layout: fixed;
   border: 1px solid var(--border-on-dark);
   font-size: var(--text-sm);
 }
@@ -1222,6 +1223,17 @@
   text-align: left;
   vertical-align: middle;
   border-bottom: 1px solid var(--border-on-dark);
+  overflow-wrap: break-word;
+}
+
+.presentation-table th:first-child,
+.presentation-table td:first-child {
+  width: 220px;
+}
+
+.presentation-table th:last-child,
+.presentation-table td:last-child {
+  width: 100px;
 }
 
 .presentation-table tbody tr:last-child th,
