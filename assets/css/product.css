@@ -424,6 +424,15 @@
   letter-spacing: 0;
 }
 
+.download-card--pending {
+  opacity: 0.45;
+  border-style: dashed;
+}
+
+.download-card--pending .download-card__meta {
+  color: var(--grey-500);
+}
+
 /* ---- Section spacing helpers within product page ---- */
 .product-section + .product-section {
   border-top: 1px solid var(--border-light);

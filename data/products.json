@@ -63,6 +63,10 @@
         {
           "label": "Dark Sky Approved",
           "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "−25°C to +45°C",
+          "detail": "Operating temperature range"
         }
       ],
       "keySpecs": [
@@ -345,6 +349,10 @@
         {
           "label": "Dark Sky Approved",
           "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "−40°C to +40°C",
+          "detail": "Operating temperature range"
         }
       ],
       "keySpecs": [
@@ -589,8 +597,8 @@
       "images": [],
       "badges": [
         {
-          "label": "IP66 / IK10",
-          "detail": "Ingress & impact protection"
+          "label": "IP66 / IK08–IK10",
+          "detail": "IK10 with glass lens fitted, IK08 without"
         },
         {
           "label": "TM66: 2.6",
@@ -603,6 +611,10 @@
         {
           "label": "±10° Tilt",
           "detail": "On-site adjustable, 2.5° increments"
+        },
+        {
+          "label": "−40°C to +50°C",
+          "detail": "Operating temperature range"
         }
       ],
       "keySpecs": [
@@ -624,7 +636,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK10"
+          "value": "IK08 (no glass lens) / IK10 (with tempered glass lens, .G option)"
         },
         {
           "label": "Operating temperature",
@@ -758,7 +770,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK10",
+        "IK08 (no glass) / IK10 (with glass)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"
@@ -799,11 +811,24 @@
         "Pathways & Cul-de-Sac",
         "Cycle Paths"
       ],
-      "images": [],
+      "images": [
+        {
+          "file": "assets/img/products/sli/sli-01-profile.png",
+          "alt": "S-Line side profile, showing the LED module and pole mounting arm"
+        },
+        {
+          "file": "assets/img/products/sli/sli-02-angle.png",
+          "alt": "S-Line mounted on a pole, three-quarter angle view"
+        },
+        {
+          "file": "assets/img/products/sli/sli-dimensions.png",
+          "alt": "S-Line dimension diagram"
+        }
+      ],
       "badges": [
         {
-          "label": "IP66 / IK10",
-          "detail": "Ingress & impact protection"
+          "label": "IP66 / IK08–IK10",
+          "detail": "IK10 with glass lens fitted, IK08 without"
         },
         {
           "label": "TM66: 2.6",
@@ -816,6 +841,10 @@
         {
           "label": "±10° Tilt",
           "detail": "On-site adjustable, 2.5° increments"
+        },
+        {
+          "label": "−40°C to +50°C",
+          "detail": "Operating temperature range"
         }
       ],
       "keySpecs": [
@@ -837,7 +866,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK10"
+          "value": "IK08 (no glass lens) / IK10 (with tempered glass lens, .G option)"
         },
         {
           "label": "Operating temperature",
@@ -966,7 +995,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK10",
+        "IK08 (no glass) / IK10 (with glass)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"

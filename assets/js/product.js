@@ -135,6 +135,13 @@
     );
   }
 
+  var DOWNLOAD_LABELS = {
+    brochure: "Product brochure",
+    ies: "IES photometric files",
+    bim: "BIM objects",
+    installGuide: "Installation instructions"
+  };
+
   function heroDownloads(p) {
     var dl = p.downloads;
     var order = ["brochure", "ies", "bim", "installGuide"];
@@ -144,8 +151,19 @@
         '<div class="hero-downloads__grid">' +
           order.map(function (key) {
             var d = dl[key];
-            return d ? downloadCard(d.label, d.meta, "../" + d.file, true) : "";
+            return d ? downloadCard(d.label, d.meta, "../" + d.file, true) : pendingDownloadCard(key);
           }).join("") +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function pendingDownloadCard(key) {
+    return (
+      '<div class="download-card download-card--compact download-card--pending">' +
+        '<div>' +
+          '<span class="download-card__meta">Coming soon</span>' +
+          '<h4>' + esc(DOWNLOAD_LABELS[key] || key) + '</h4>' +
         '</div>' +
       '</div>'
     );
