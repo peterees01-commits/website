@@ -598,6 +598,10 @@
         {
           "file": "assets/img/products/rli/rli-01-profile.png",
           "alt": "R-Line side profile, showing the LED module and pole mounting arm"
+        },
+        {
+          "file": "assets/img/products/rli/rli-dimensions.png",
+          "alt": "R-Line dimension diagram"
         }
       ],
       "badges": [

@@ -1236,6 +1236,11 @@
   width: 100px;
 }
 
+.presentation-table th:nth-child(2),
+.presentation-table td:nth-child(2) {
+  text-align: center;
+}
+
 .presentation-table tbody tr:last-child th,
 .presentation-table tbody tr:last-child td {
   border-bottom: none;
