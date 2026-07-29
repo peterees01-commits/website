@@ -572,7 +572,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/DSX-IES-files.zip",
-          "meta": "ZIP · 2,036 files, all configs"
+          "meta": "ZIP · 2,060 files, sorted by size/CCT/optic"
         }
       }
     },
@@ -1020,6 +1020,208 @@
           "label": "IES photometric files",
           "file": "assets/downloads/ies/SLI-IES-files.zip",
           "meta": "ZIP · 283 files, all configs"
+        }
+      }
+    },
+    {
+      "code": "FTS",
+      "name": "Factor Small",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=FTS",
+      "category": "Pole / Street & Road Lighting",
+      "family": "Factor Small",
+      "tagline": "Compact finned LED street luminaire with tool-less latch access and four optical distributions, built for cost-efficient S-Class and ME-Class road lighting.",
+      "summary": "Factor Small is Holophane's compact finned LED street luminaire, covering 2,000–14,000 delivered lumens across four optical distributions — Symmetrical, Asymmetric, Forward Throw and Long & Narrow. A high-pressure die-cast aluminium body with a tool-less trigger latch and interchangeable IP65 light engines keeps installation and maintenance straightforward, while efficacies of up to 139 lm/W support long-term, low-maintenance road lighting schemes.",
+      "applications": [
+        "S-Class Roads",
+        "ME-Class Roads",
+        "Pedestrian Areas",
+        "Residential Areas",
+        "Car Parks"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/fts/fts-01-profile.png",
+          "alt": "Factor Small side profile, showing the LED module and side-entry mounting knuckle"
+        },
+        {
+          "file": "assets/img/products/fts/fts-dimensions.png",
+          "alt": "Factor Small dimension diagram"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Light engine ingress protection"
+        },
+        {
+          "label": "TM66: 2.3",
+          "detail": "Preliminary CEAM-Make rating"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "No upward light output"
+        },
+        {
+          "label": "−40°C to +40°C",
+          "detail": "Operating temperature range"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "2,000 – 14,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K / 4000K"
+        },
+        {
+          "label": "CRI",
+          "value": ""
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (light engines)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−40°C to +40°C"
+        },
+        {
+          "label": "Body material",
+          "value": "High pressure die-cast aluminium (EN1706 AC-46500)"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual UV-stabilised LED lenses across Symmetrical, Asymmetric, Forward Throw and Long & Narrow distributions"
+        },
+        {
+          "label": "Electrical class",
+          "value": ""
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI HF (.D2) or pre-set profiles (50/60/70% dim 12am–6am)"
+        },
+        {
+          "label": "Photocell / NEMA options",
+          "value": "NEMA socket (.T1), factory-fitted photocell 35/55/70 lux (.TSZB/.TSZA/.TSZ), or 7-pin dimming NEMA ANSI C136.41 socket (.T7/.T7T)"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000+ hours (L70B50 @ 15°C tq)"
+        },
+        {
+          "label": "Efficacy",
+          "value": "Up to 139 lm/W"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/fts/fts-dimensions.png",
+        "note": "Weight is per-fitting, excluding bracket/pole.",
+        "variants": [
+          {
+            "label": "Factor Small (FTS)",
+            "length": "688 mm",
+            "width": "207 mm",
+            "height": "136 mm",
+            "weight": "7.0 kg"
+          }
+        ],
+        "windage": "0.071 m² (side entry, 42mm standard)"
+      },
+      "distributions": [
+        {
+          "code": ".SY",
+          "name": "Symmetrical",
+          "chart": "assets/img/products/fts/distributions/symmetrical.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/fts/distributions/asymmetric.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/fts/distributions/forward-throw.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/fts/distributions/long-narrow.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "FTS.SE34 / .SE60",
+          "desc": "34mm or 60mm side entry fixing adapter (42mm side entry is standard)"
+        },
+        {
+          "code": "FTS.T1 / .TSZ / .TSZA / .TSZB",
+          "desc": "NEMA photocell socket, or factory-fitted miniature photocell (70/55/35 lux)"
+        },
+        {
+          "code": "FTS.T7 / .T7T",
+          "desc": "7-pin dimming NEMA ANSI C136.41 socket, plain or with weatherproof locking top"
+        },
+        {
+          "code": "FTS.CL7 / .CL8 / .CL9 / .D2",
+          "desc": "Constant light output profile (70/80/90% of initial lumens) or DALI HF control gear"
+        },
+        {
+          "code": "FTS.LRT56 / .LRT66 / .LRT76",
+          "desc": "Pre-set dimming to 50/60/70% between 12am–6am"
+        },
+        {
+          "code": "FTS.FF10S / .FS10S / .F510S",
+          "desc": "10m flex, twin-and-earth or 5-core cable entry options"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "TM66 CEAM-Make 2.3 (Preliminary)",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Energy Efficient",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-fts-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-fts-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/FTS-IES-files.zip",
+          "meta": "ZIP · 74 files, all configs"
         }
       }
     }
