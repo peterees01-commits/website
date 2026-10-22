@@ -606,8 +606,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK05–IK10",
-          "detail": "IK10 with glass lens; IK05/6 standard (acrylic)"
+          "label": "IP66 / IK06–IK10",
+          "detail": "IK10 with glass lens; IK06 standard (acrylic)"
         },
         {
           "label": "TM66: 2.6",
@@ -645,7 +645,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK05/IK06 (acrylic lens, standard) · IK08 (PC lens, limited stock — longer lead time) · IK10 (tempered glass lens, .G option)"
+          "value": "IK06 (acrylic lens, standard) · IK08 (PC lens, limited stock — longer lead time) · IK10 (tempered glass lens, .G option)"
         },
         {
           "label": "Operating temperature",
@@ -661,7 +661,7 @@
         },
         {
           "label": "Lens",
-          "value": "Acrylic (standard, IK05/6) · PC lens (limited stock, IK08) · 5mm tempered glass (.G option, IK10)"
+          "value": "Acrylic (standard, IK06) · PC lens (limited stock, IK08) · 5mm tempered glass (.G option, IK10)"
         },
         {
           "label": "Electrical class",
@@ -779,7 +779,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK05–IK10 (lens dependent — see key specifications)",
+        "IK06–IK10 (lens dependent — see key specifications)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"
@@ -798,7 +798,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/RLI-IES-files.zip",
-          "meta": "ZIP · 1,367 files, all configs"
+          "meta": "ZIP · 1,365 files, sorted by lens/CCT/optic"
         }
       }
     },
