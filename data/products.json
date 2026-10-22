@@ -606,8 +606,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK10 (Glass Lens)",
-          "detail": "Ingress & impact protection"
+          "label": "IP66 / IK05–IK10",
+          "detail": "IK10 with glass lens; IK05/6 standard (acrylic)"
         },
         {
           "label": "TM66: 2.6",
@@ -645,7 +645,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK10 (Glass Lens)"
+          "value": "IK05/IK06 (acrylic lens, standard) · IK08 (PC lens, limited stock — longer lead time) · IK10 (tempered glass lens, .G option)"
         },
         {
           "label": "Operating temperature",
@@ -661,7 +661,7 @@
         },
         {
           "label": "Lens",
-          "value": "5mm tempered glass lens (.G option)"
+          "value": "Acrylic (standard, IK05/6) · PC lens (limited stock, IK08) · 5mm tempered glass (.G option, IK10)"
         },
         {
           "label": "Electrical class",
@@ -779,7 +779,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK10 (Glass Lens)",
+        "IK05–IK10 (lens dependent — see key specifications)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"
@@ -832,8 +832,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK10 (Glass Lens)",
-          "detail": "Ingress & impact protection"
+          "label": "IP66 / IK05–IK10",
+          "detail": "IK10 with glass lens; IK05/6 standard (acrylic)"
         },
         {
           "label": "TM66: 2.6",
@@ -871,7 +871,7 @@
         },
         {
           "label": "Impact resistance",
-          "value": "IK10 (Glass Lens)"
+          "value": "IK05/IK06 (acrylic lens, standard) · IK08 (PC lens, limited stock — longer lead time) · IK10 (tempered glass lens, .G option)"
         },
         {
           "label": "Operating temperature",
@@ -887,7 +887,7 @@
         },
         {
           "label": "Lens",
-          "value": "4mm tempered glass lens (.G option)"
+          "value": "Acrylic (standard, IK05/6) · PC lens (limited stock, IK08) · 4mm tempered glass (.G option, IK10)"
         },
         {
           "label": "Electrical class",
@@ -1000,7 +1000,7 @@
         "UKCA",
         "EN 60598",
         "IP66",
-        "IK10 (Glass Lens)",
+        "IK05–IK10 (lens dependent — see key specifications)",
         "TM66 Circularity 2.6",
         "IDA Dark Sky Approved (3000K or warmer)",
         "Made in Britain"
