@@ -606,8 +606,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK06–IK10",
-          "detail": "IK10 with glass lens; IK06 standard (acrylic)"
+          "label": "IP66 / IK10 (Glass)",
+          "detail": "IK08 Polycarbonate · IK06 Acrylic / No Lens"
         },
         {
           "label": "TM66: 2.6",
@@ -832,8 +832,8 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK05–IK10",
-          "detail": "IK10 with glass lens; IK05/6 standard (acrylic)"
+          "label": "IP66 / IK10 (Glass)",
+          "detail": "IK08 Polycarbonate · IK05/6 Acrylic / No Lens"
         },
         {
           "label": "TM66: 2.6",
