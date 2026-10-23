@@ -79,6 +79,11 @@
   height: auto;
 }
 
+.brand__mark--header {
+  width: auto;
+  height: 34px;
+}
+
 .brand__word-img {
   width: auto;
 }
