@@ -88,12 +88,28 @@
   width: auto;
 }
 
-.brand__word-img--header {
+.brand__word-img--footer {
+  height: 17px;
+}
+
+.brand__word-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
   height: 34px;
 }
 
-.brand__word-img--footer {
-  height: 17px;
+.brand__title-img {
+  display: block;
+  height: 22px;
+  width: auto;
+}
+
+.brand__tagline-img {
+  display: block;
+  height: 10px;
+  width: auto;
 }
 
 .nav {
