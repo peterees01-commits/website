@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Lumen Method</title>
+<meta name="description" content="Reach the Lumen Method team directly for technical enquiries, sample requests or quotations.">
+<link rel="icon" href="assets/img/logo-mark-black.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght,wdth@0,400,125;0,600,125;0,700,125;0,800,125&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+    <span class="brand__word">Lumen Method<small>Specification Lighting</small></span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" id="navToggle">
+    <span class="visually-hidden">Menu</span>
+    ☰
+  </button>
+  <nav class="nav" id="primary-nav">
+    <ul class="nav__list">
+      <li><a href="index.html#hero">Home</a></li>
+      <li><a href="index.html#products">Solutions</a></li>
+      <li><a href="index.html#about">Our Approach</a></li>
+      <li><a href="case-studies/index.html">Project Applications</a></li>
+      <li><a href="technical-information.html">Technical</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="section section--dark">
+    <div class="section__inner">
+      <p class="eyebrow">Contact</p>
+      <h1 style="font-size:clamp(2rem, 4.5vw, var(--text-4xl));max-width:20ch;margin-bottom:var(--space-4)">Contact Us</h1>
+      <p class="section__intro" style="color:var(--text-muted-on-dark);max-width:60ch">For technical enquiries, sample requests or quotations, reach the Lumen Method team directly.</p>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="section__inner">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <dl>
+            <dt>Region</dt>
+            <dd>Australia</dd>
+            <dt>Email</dt>
+            <dd><a href="mailto:info@lumenmethod.com.au">info@lumenmethod.com.au</a></dd>
+            <dt>Phone</dt>
+            <dd><a href="tel:+61481569918">+61 481 569 918</a></dd>
+          </dl>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field">
+            <label for="name">Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="project">Project / enquiry</label>
+            <select id="project" name="project">
+              <option value="">Select one</option>
+              <option value="quotes-tenders">Quotes/Tenders</option>
+              <option value="technical-support">Technical Support</option>
+              <option value="general-enquiries">General Enquiries</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send enquiry</button>
+          <p class="form-note">Form UI only for now — connect this to your email or CRM before going live.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__top">
+    <div class="site-footer__brand">
+      <a class="brand" href="index.html">
+        <img class="brand__mark" src="assets/img/logo-mark.svg" alt="" style="width:28px;">
+        <span class="brand__word">Lumen Method</span>
+      </a>
+      <p style="font-size: var(--text-sm); margin-top: var(--space-2);">Specification lighting for electrical engineers and designers.</p>
+    </div>
+  </div>
+  <div class="site-footer__bottom">
+    <span>© 2026 Lumen Method</span>
+    <span class="site-footer__legal"><a href="warranty.html">Warranty</a> · <a href="terms.html">Terms &amp; Conditions</a></span>
+    <span>Product data credited to respective manufacturers</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
