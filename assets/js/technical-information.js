@@ -7,6 +7,8 @@
     });
   }
 
+  var REQUEST_EMAIL = "info@lumenmethod.com.au";
+
   var form = document.getElementById("technicalInfoForm");
   var modal = document.getElementById("confirmModal");
   if (form && modal) {
@@ -16,6 +18,27 @@
         form.reportValidity();
         return;
       }
+
+      var data = new FormData(form);
+      var interests = data.getAll("interest");
+      var lines = [
+        "Name: " + (data.get("name") || ""),
+        "Work email: " + (data.get("email") || ""),
+        "Company: " + (data.get("company") || ""),
+        "Role / position: " + (data.get("role") || "—"),
+        "Interested in: " + (interests.length ? interests.join(", ") : "—"),
+        "Preferred date: " + (data.get("preferredDate") || "—"),
+        "Preferred time: " + (data.get("preferredTime") || "—"),
+        "",
+        "Notes:",
+        data.get("notes") || "—"
+      ];
+      var subject = "Presentation request — " + (data.get("company") || data.get("name") || "");
+      var mailto = "mailto:" + REQUEST_EMAIL +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(lines.join("\n"));
+      window.location.href = mailto;
+
       modal.hidden = false;
       form.reset();
       updateInterestCount();
