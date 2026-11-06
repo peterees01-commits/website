@@ -23,7 +23,7 @@
 
 .manu-hero__badge {
   border: 1px solid var(--border-light);
-  background: var(--cream-soft);
+  background: var(--white);
   padding: var(--space-7) var(--space-4);
   display: flex;
   align-items: center;
