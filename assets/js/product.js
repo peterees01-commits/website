@@ -328,7 +328,8 @@
 
   function distributionsSection(p) {
     var m = p.mountingHeights;
-    var distBlock = (
+    var hasDist = p.distributions && p.distributions.length;
+    var distBlock = hasDist ? (
       '<div>' +
         '<p class="eyebrow">Optical distributions</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Optical Distributions</h2>' +
@@ -345,7 +346,7 @@
           }).join("") +
         '</div>' +
       '</div>'
-    );
+    ) : "";
     var mountBlock = m ? (
       '<div>' +
         '<p class="eyebrow">Mounting</p>' +
@@ -361,9 +362,10 @@
         '</div>' +
       '</div>'
     ) : "";
+    if (!hasDist && !m) return "";
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner' + (m ? ' two-col' : '') + '">' +
+        '<div class="section__inner' + (hasDist && m ? ' two-col' : '') + '">' +
           distBlock + mountBlock +
         '</div>' +
       '</section>'

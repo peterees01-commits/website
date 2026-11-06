@@ -1447,6 +1447,179 @@
           "meta": "ZIP · 80 files, all configs"
         }
       }
+    },
+    {
+      "code": "PEB",
+      "name": "Pebble",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=PEB",
+      "category": "Pole / Area & Amenity Lighting",
+      "family": "Pebble",
+      "tagline": "Light shaped for comfort, people and environment.",
+      "summary": "Pebble is Holophane's post-top area luminaire, built around a recessed Comfort Optic and PrismaLED diffusion technology that blends the six-module LED array into a smooth, glare-reduced luminous surface rather than a field of bright points. Covering roughly 2,900–18,800 delivered lumens across five rotatable distributions, with a zero-uplight optic and a single-fixing replaceable optical pod for straightforward field servicing.",
+      "applications": [
+        "Pathways & Walkways",
+        "Plazas & Squares",
+        "Public Realm",
+        "Campus Environments",
+        "Car Parks",
+        "Landscaped & Recreational Areas"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/pbl/pbl-01-profile.png",
+          "alt": "Pebble side profile, post-top mount, showing the domed housing silhouette"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-02-angle-modules.png",
+          "alt": "Pebble underside angle view showing the six-module PrismaLED array"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-03-angle-alt.png",
+          "alt": "Pebble underside angle view, alternate angle"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-04-side-pt.png",
+          "alt": "Pebble side profile showing the post-top mounting spigot"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-05-side-mount.png",
+          "alt": "Pebble side profile showing an alternate mounting adaptor"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-06-lit-detail.png",
+          "alt": "Pebble close-up detail of the illuminated LED modules"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-07-top-down.png",
+          "alt": "Pebble straight-down underside view showing the six-module array"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Ingress protection — all compartments"
+        },
+        {
+          "label": "IK10 / IK07",
+          "detail": "Gear & controls / light engine impact rating"
+        },
+        {
+          "label": "0% Uplight",
+          "detail": "Recessed optic, zero upward spill"
+        },
+        {
+          "label": "Comfort Optic",
+          "detail": "PrismaLED diffusion, reduced glare"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "2,900 – 18,800 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K"
+        },
+        {
+          "label": "CRI",
+          "value": "70 (80 CRI available)"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Efficacy",
+          "value": "Up to 146 lm/W"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (all compartments)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK10 (gear & controls), IK07 (light engines)"
+        },
+        {
+          "label": "Optics",
+          "value": "Rotatable PrismaLED Comfort Optic modules"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI, D4i driver options"
+        },
+        {
+          "label": "Smart controls",
+          "value": "HOLOSOne compatible — daylight, presence and time-based operation"
+        }
+      ],
+      "dimensions": {
+        "diagram": "",
+        "note": "Dome diameter is 651mm across all mounts. Head height alone is 269mm (.PT) or 148mm (.SE); the heights below are the full fitting including mount/arm. Length/width shown equal to represent the round footprint.",
+        "variants": [
+          {
+            "label": "Pebble Post-top (.PT)",
+            "length": "651 mm",
+            "width": "651 mm",
+            "height": "532 mm",
+            "weight": "10.4 kg"
+          },
+          {
+            "label": "Pebble Side-entry (.SE)",
+            "length": "651 mm",
+            "width": "651 mm",
+            "height": "583 mm",
+            "weight": "10.1 kg"
+          },
+          {
+            "label": "Pebble Curved bracket (.CB)",
+            "length": "651 mm",
+            "width": "651 mm",
+            "height": "1093 mm",
+            "weight": "15.8 kg"
+          }
+        ],
+        "windage": "0.08 – 0.14 m² (by mount — see note)"
+      },
+      "accessories": [
+        {
+          "code": "PEB.BLS",
+          "desc": "Light shield kit — 6× light shield + 1× anti-reflective shield"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "Patent Pending",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-pbl-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-pbl-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/PBL-IES-files.zip",
+          "meta": "ZIP · 486 files, all configs"
+        }
+      }
     }
   ]
 }
