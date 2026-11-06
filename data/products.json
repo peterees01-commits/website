@@ -1224,6 +1224,229 @@
           "meta": "ZIP · 74 files, all configs"
         }
       }
+    },
+    {
+      "code": "DWL",
+      "name": "Denver iD Wall",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=DWL",
+      "category": "Wall / Area & Amenity Lighting",
+      "family": "Denver iD",
+      "tagline": "Wall-mounted LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
+      "summary": "Denver iD Wall is a two-part die-cast aluminium wall-mounted luminaire covering 700–4,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field — the wall-mount sibling to Denver iD Pole and Denver iD Bollard.",
+      "applications": [
+        "Carparks",
+        "Pathways",
+        "Building Perimeters",
+        "Town Centres"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/dwl/dwl-01-angle.jpg",
+          "alt": "Denver iD Wall, three-quarter angle view showing the LED module"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-02-rear-angle.jpg",
+          "alt": "Denver iD Wall, rear three-quarter view showing the back casting and mounting points"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-03-side-profile.jpg",
+          "alt": "Denver iD Wall side profile"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-04-front.jpg",
+          "alt": "Denver iD Wall, straight-on front view"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-dimensions.png",
+          "alt": "Denver iD Wall dimension diagram, standard body and back box options"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65 / IK10",
+          "detail": "Ingress & impact protection"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "No upward light output"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "−20°C to +45°C",
+          "detail": "Operating temperature range"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "700 – 4,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K (Amber available)"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (body & LED module)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−20°C to +45°C"
+        },
+        {
+          "label": "Body material",
+          "value": "LM6 marine-grade die-cast aluminium"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual PMMA lenses, patented Transition Zone diffuser"
+        },
+        {
+          "label": "Glass cover",
+          "value": "High-transparency hydrophilic glass"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class II (optional)"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01), Controlux Air compatible"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "L98B50 @ 50,000 hrs / L97B50 @ 100,000 hrs (average)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/dwl/dwl-dimensions.png",
+        "note": "Depth increases with back-box option: 148mm standard (6.5kg), 187mm with .B (7.1kg), 214mm with .PLx.B (7.3kg).",
+        "variants": [
+          {
+            "label": "Denver iD Wall (DWL)",
+            "length": "309 mm",
+            "width": "148 mm",
+            "height": "157 mm",
+            "weight": "6.5 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/dwl/distributions/sy.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/dwl/distributions/ay.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/dwl/distributions/nr.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/dwl/distributions/fw.png"
+        },
+        {
+          "code": ".HN",
+          "name": "High Beam Long & Narrow",
+          "chart": "assets/img/products/dwl/distributions/hn.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "DWL.VK",
+          "desc": "Vandal key"
+        },
+        {
+          "code": "DWL.FLS",
+          "desc": "Front light shield"
+        },
+        {
+          "code": "DWL.BB",
+          "desc": "Back box"
+        },
+        {
+          "code": "DWL.PM",
+          "desc": "Pole mount adapter"
+        }
+      ],
+      "mountingHeights": {
+        "note": "Suitable for spacings of 15m to 20m at 3m mounting height (5 lux average). Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "rows": [
+          {
+            "height": "3 m",
+            "range": "15 – 20 m"
+          }
+        ]
+      },
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "IK10",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-dwl-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-dwl-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/DWL-BIM-Revit.zip",
+          "meta": "ZIP · Revit family"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/DWL-IES-files.zip",
+          "meta": "ZIP · 80 files, all configs"
+        }
+      }
     }
   ]
 }
