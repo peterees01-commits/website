@@ -1643,7 +1643,9 @@
       "accessories": [
         {
           "code": "PEB.BLS",
-          "desc": "Light shield kit — 6× light shield + 1× anti-reflective shield"
+          "desc": "Light shield kit — 6× light shield + 1× anti-reflective shield",
+          "image": "assets/img/products/pbl/accessory-shields.png",
+          "imageAlt": "Line diagram of the Pebble light shield kit, showing the anti-reflective shield (x1) and light shield (x6) components"
         }
       ],
       "certifications": [

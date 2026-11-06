@@ -380,6 +380,15 @@
   margin-top: var(--space-3);
 }
 
+.section--dark .backlight-photo {
+  border-color: var(--border-on-dark);
+}
+
+.section--dark .backlight-photo__caption {
+  color: var(--grey-500);
+  border-top-color: var(--border-on-dark);
+}
+
 .dist-card small {
   display: block;
   font-size: 0.65rem;

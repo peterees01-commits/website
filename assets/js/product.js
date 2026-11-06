@@ -417,6 +417,14 @@
                 return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
               }).join("") +
             '</table>' +
+            p.accessories.filter(function (a) { return a.image; }).map(function (a) {
+              return (
+                '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
+                  '<img src="../' + esc(a.image) + '" alt="' + esc(a.imageAlt || a.desc) + '">' +
+                  '<p class="backlight-photo__caption">' + esc(a.code) + ' — ' + esc(a.desc) + '</p>' +
+                '</div>'
+              );
+            }).join("") +
           '</div>' +
         '</div>' +
       '</section>'
