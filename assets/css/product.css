@@ -425,7 +425,6 @@
 }
 
 .download-card--pending {
-  opacity: 0.45;
   border-style: dashed;
 }
 
