@@ -376,12 +376,15 @@
     var rows = (p.mountingHeights && p.mountingHeights.rows) || [];
     var range = rows.length ? rows[0].height.replace(/\s+/g, "") + "–" + rows[rows.length - 1].height.replace(/\s+/g, "") : "";
     var ipBadge = (p.badges || []).find(function (b) { return /IP\d/i.test(b.label); });
+    var ikBadge = (p.badges || []).find(function (b) { return /IK\d/i.test(b.label) && b !== ipBadge; });
     var ulorBadge = (p.badges || []).find(function (b) { return /ULOR/i.test(b.label); });
     var stats = [
       range ? range + " mounting range" : null,
       p.distributions ? p.distributions.length + " optical distributions" : null,
       ipBadge ? ipBadge.label : null,
-      ulorBadge ? ulorBadge.label : null
+      ikBadge ? ikBadge.label : null,
+      ulorBadge ? ulorBadge.label : null,
+      p.backlightControl ? p.backlightControl.eyebrow : null
     ].filter(Boolean);
 
     return (
