@@ -468,13 +468,17 @@
                 return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
               }).join("") +
             '</table>' +
-            p.accessories.filter(function (a) { return a.image; }).map(function (a) {
-              return (
-                '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
-                  '<img src="../' + esc(a.image) + '" alt="' + esc(a.imageAlt || a.desc) + '">' +
-                  '<p class="backlight-photo__caption">' + esc(a.code) + ' — ' + esc(a.desc) + '</p>' +
-                '</div>'
-              );
+            p.accessories.filter(function (a) { return a.image || (a.images && a.images.length); }).map(function (a) {
+              var photos = a.image ? [{ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc }] : [];
+              photos = photos.concat(a.images || []);
+              return photos.map(function (im) {
+                return (
+                  '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
+                    '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
+                    (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
+                  '</div>'
+                );
+              }).join("");
             }).join("") +
           '</div>' +
         '</div>' +
