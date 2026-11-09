@@ -1289,13 +1289,58 @@
   margin-top: 2px;
 }
 
+.presentation-cards {
+  display: none;
+}
+
+.presentation-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-3);
+  border: 1px solid var(--border-on-dark);
+  text-decoration: none;
+  color: var(--cream);
+}
+
+.presentation-card + .presentation-card {
+  border-top: none;
+}
+
+.presentation-card:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.presentation-card__code {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--grey-500);
+}
+
+.presentation-card__title {
+  font-weight: 500;
+  font-size: var(--text-md);
+}
+
+.presentation-card__note {
+  font-size: var(--text-xs);
+  color: var(--grey-500);
+}
+
+.presentation-card__duration {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--grey-500);
+  margin-top: var(--space-1);
+}
+
 @media (max-width: 600px) {
-  .presentation-table {
-    font-size: var(--text-xs);
+  .presentation-table-wrap {
+    display: none;
   }
-  .presentation-table th,
-  .presentation-table td {
-    padding: var(--space-2);
+  .presentation-cards {
+    display: flex;
+    flex-direction: column;
   }
 }
 

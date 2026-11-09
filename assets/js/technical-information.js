@@ -124,7 +124,7 @@
       return (
         '<div class="presentation-category">' +
           '<h3>' + esc(category) + '</h3>' +
-          '<div class="table-scroll" style="border:none">' +
+          '<div class="table-scroll presentation-table-wrap" style="border:none">' +
             '<table class="presentation-table">' +
               '<thead><tr>' +
                 (hasCodes ? '<th>Reference</th>' : '') +
@@ -145,6 +145,18 @@
                 }).join("") +
               '</tbody>' +
             '</table>' +
+          '</div>' +
+          '<div class="presentation-cards">' +
+            items.map(function (p) {
+              return (
+                '<a class="presentation-card" href="presentations/presentation.html?id=' + encodeURIComponent(p.id) + '">' +
+                  (hasCodes && p.code ? '<span class="presentation-card__code">' + esc(p.code) + '</span>' : '') +
+                  '<span class="presentation-card__title">' + esc(p.title) + '</span>' +
+                  (p.note ? '<span class="presentation-card__note">' + esc(p.note) + '</span>' : '') +
+                  '<span class="presentation-card__duration">' + esc(p.duration || 'TBC') + '</span>' +
+                '</a>'
+              );
+            }).join("") +
           '</div>' +
         '</div>'
       );

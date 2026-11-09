@@ -16,6 +16,30 @@
     });
   }
 
+  // A fresh page load with a #hash (e.g. following a nav link to
+  // index.html#about) scrolls to the target before web fonts have
+  // swapped in (font-display:swap) or images have loaded, and either can
+  // reflow the page afterward and leave the final scroll position off —
+  // sometimes landing mid-page instead of at the section. Re-settle once
+  // fonts and images have actually finished.
+  if (location.hash) {
+    var resettleToHash = function () {
+      var target = document.getElementById(location.hash.slice(1));
+      if (target) {
+        target.scrollIntoView({ behavior: "auto", block: "start" });
+      }
+    };
+    var fontsReady = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
+    var pageLoaded = new Promise(function (resolve) {
+      if (document.readyState === "complete") {
+        resolve();
+      } else {
+        window.addEventListener("load", resolve, { once: true });
+      }
+    });
+    Promise.all([fontsReady, pageLoaded]).then(resettleToHash).catch(resettleToHash);
+  }
+
   var brandAnim = document.getElementById("brandMarkAnim");
   if (brandAnim) {
     var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
