@@ -303,6 +303,19 @@
     );
   }
 
+  function photoBlocks(photo) {
+    if (!photo) return "";
+    var items = Array.isArray(photo) ? photo : [photo];
+    return items.map(function (im) {
+      return (
+        '<div class="backlight-photo">' +
+          '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
+          (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
+        '</div>'
+      );
+    }).join("");
+  }
+
   function backlightControlSection(p) {
     var b = p.backlightControl;
     if (!b) return "";
@@ -319,20 +332,10 @@
                   b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
                 '</ul>' : ""
               ) +
-              (b.hardwarePhoto ?
-                '<div class="backlight-photo">' +
-                  '<img src="../' + esc(b.hardwarePhoto.file) + '" alt="' + esc(b.hardwarePhoto.alt) + '">' +
-                  (b.hardwarePhoto.caption ? '<p class="backlight-photo__caption">' + esc(b.hardwarePhoto.caption) + '</p>' : "") +
-                '</div>' : ""
-              ) +
+              photoBlocks(b.hardwarePhoto) +
             '</div>' +
             '<div>' +
-              (b.comparisonPhoto ?
-                '<div class="backlight-photo">' +
-                  '<img src="../' + esc(b.comparisonPhoto.file) + '" alt="' + esc(b.comparisonPhoto.alt) + '">' +
-                  (b.comparisonPhoto.caption ? '<p class="backlight-photo__caption">' + esc(b.comparisonPhoto.caption) + '</p>' : "") +
-                '</div>' : ""
-              ) +
+              photoBlocks(b.comparisonPhoto) +
             '</div>' +
           '</div>' +
           (b.optics && b.optics.length ?

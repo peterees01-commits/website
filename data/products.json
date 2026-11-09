@@ -1599,16 +1599,30 @@
           "Recessed optical architecture positions the light source deeper within the luminaire, reducing glare and improving visual comfort at pedestrian viewing angles",
           "A single-fixing, interchangeable optical POD carries the Comfort Optic across all five distributions, simplifying servicing and future reconfiguration in the field"
         ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/pbl/backlight-hardware.png",
-          "alt": "Pebble's six-module Comfort Optic array with PrismaLED diffusion lenses, shown in close-up detail and from an alternate angle",
-          "caption": "The six-module Comfort Optic array — a single-fixing, interchangeable pod with PrismaLED diffusion lenses. Available with backlight shield accessories."
-        },
-        "comparisonPhoto": {
-          "file": "assets/img/products/pbl/backlight-comparison.png",
-          "alt": "Same pathway lit with a standard optic (left), showing visible point-source glare at each pole, versus Pebble's Comfort Optic (right), producing a softer, more even light with no visible glare",
-          "caption": "Standard optic (left) vs. Pebble Comfort Optic (right) — same path, same mounting height."
-        }
+        "hardwarePhoto": [
+          {
+            "file": "assets/img/products/pbl/comfort-optic-close-up.png",
+            "alt": "Close-up detail of Pebble's PrismaLED diffusion lenses",
+            "caption": "Close-up detail of the PrismaLED diffusion lenses."
+          },
+          {
+            "file": "assets/img/products/pbl/pbl-03-angle-alt.png",
+            "alt": "Pebble's six-module Comfort Optic array, alternate angle",
+            "caption": "The six-module Comfort Optic array — a single-fixing, interchangeable pod. Available with backlight shield accessories."
+          }
+        ],
+        "comparisonPhoto": [
+          {
+            "file": "assets/img/products/pbl/comfort-optic-standard-path.png",
+            "alt": "Pathway lit with a standard optic, showing visible point-source glare at each pole",
+            "caption": "Standard optic — visible point-source glare at each pole."
+          },
+          {
+            "file": "assets/img/products/pbl/comfort-optic-pebble-path.png",
+            "alt": "Same pathway lit with Pebble's Comfort Optic, producing a softer, more even light with no visible glare",
+            "caption": "Pebble Comfort Optic — same path, same mounting height, no visible glare."
+          }
+        ]
       },
       "distributions": [
         {
