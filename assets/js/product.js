@@ -242,32 +242,62 @@
 
   function overviewSection(p) {
     var d = p.dimensions;
-    return (
-      '<section class="section section--tight section--surface product-section">' +
-        '<div class="section__inner two-col">' +
+    var physicalBlock = (
+      '<p class="eyebrow">Physical characteristics</p>' +
+      '<table class="spec-table">' +
+        d.variants.map(function (v) {
+          return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
+        }).join("") +
+        '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>' +
+      '</table>' +
+      '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>'
+    );
+    var keySpecBlock = (
+      '<p class="eyebrow">Key specification</p>' +
+      '<table class="spec-table">' +
+        p.keySpecs.map(function (s) {
+          return '<tr><th>' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>';
+        }).join("") +
+      '</table>'
+    );
+    // Default layout: Physical characteristics pinned to the bottom of the left
+    // column, Key specification alone in the right column. PEB opts into a
+    // stacked layout (Physical characteristics under Key specification in the
+    // right column) via stackPhysicalWithKeySpecs, since the default layout
+    // left it flush against the section's bottom edge for that product.
+    var leftCol, rightCol;
+    if (p.stackPhysicalWithKeySpecs) {
+      leftCol = (
+        '<div>' +
+          '<p class="eyebrow">Overview</p>' +
+          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
+          '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
+        '</div>'
+      );
+      rightCol = (
+        '<div>' +
+          keySpecBlock +
+          '<div style="margin-top:var(--space-6)">' + physicalBlock + '</div>' +
+        '</div>'
+      );
+    } else {
+      leftCol = (
+        '<div style="display:flex;flex-direction:column;height:100%">' +
           '<div>' +
             '<p class="eyebrow">Overview</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
             '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
           '</div>' +
-          '<div>' +
-            '<p class="eyebrow">Key specification</p>' +
-            '<table class="spec-table">' +
-              p.keySpecs.map(function (s) {
-                return '<tr><th>' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>';
-              }).join("") +
-            '</table>' +
-            '<div style="margin-top:var(--space-6)">' +
-              '<p class="eyebrow">Physical characteristics</p>' +
-              '<table class="spec-table">' +
-                d.variants.map(function (v) {
-                  return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
-                }).join("") +
-                '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>' +
-              '</table>' +
-              '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>' +
-            '</div>' +
-          '</div>' +
+          '<div style="margin-top:auto">' + physicalBlock + '</div>' +
+        '</div>'
+      );
+      rightCol = '<div>' + keySpecBlock + '</div>';
+    }
+    return (
+      '<section class="section section--tight section--surface product-section">' +
+        '<div class="section__inner two-col">' +
+          leftCol +
+          rightCol +
         '</div>' +
       '</section>'
     );

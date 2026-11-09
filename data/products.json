@@ -1451,6 +1451,7 @@
     {
       "code": "PEB",
       "name": "Pebble",
+      "stackPhysicalWithKeySpecs": true,
       "manufacturer": "Holophane",
       "manufacturerSlug": "holophane",
       "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
