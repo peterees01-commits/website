@@ -136,6 +136,13 @@
 }
 
 @media (max-width: 860px) {
+  .site-header {
+    /* backdrop-filter establishes a containing block for position:fixed
+       descendants, which breaks the full-screen mobile nav overlay below
+       (it would be positioned relative to this ~64px header instead of
+       the viewport). Disable it only where the fixed nav is in play. */
+    backdrop-filter: none;
+  }
   .nav-toggle {
     display: block;
   }
