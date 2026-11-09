@@ -1481,24 +1481,24 @@
           "alt": "Pebble close-up detail of the illuminated LED modules"
         },
         {
-          "file": "assets/img/products/pbl/pbl-04-side-pt.png",
-          "alt": "Pebble side profile showing the post-top mounting spigot"
-        },
-        {
-          "file": "assets/img/products/pbl/pbl-05-side-mount.png",
-          "alt": "Pebble side profile showing an alternate mounting adaptor"
-        },
-        {
-          "file": "assets/img/products/pbl/pbl-03-angle-alt.png",
-          "alt": "Pebble underside angle view, alternate angle"
+          "file": "assets/img/products/pbl/pbl-dimensions.png",
+          "alt": "Pebble dimension diagram, PT, SE and CB mount variants"
         },
         {
           "file": "assets/img/products/pbl/pbl-07-top-down.png",
           "alt": "Pebble straight-down underside view showing the six-module array"
         },
         {
-          "file": "assets/img/products/pbl/pbl-dimensions.png",
-          "alt": "Pebble dimension diagram, PT, SE and CB mount variants"
+          "file": "assets/img/products/pbl/pbl-03-angle-alt.png",
+          "alt": "Pebble underside angle view, alternate angle"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-05-side-mount.png",
+          "alt": "Pebble side profile showing an alternate mounting adaptor"
+        },
+        {
+          "file": "assets/img/products/pbl/pbl-04-side-pt.png",
+          "alt": "Pebble side profile showing the post-top mounting spigot"
         }
       ],
       "badges": [
