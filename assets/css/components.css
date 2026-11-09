@@ -391,6 +391,15 @@
   padding-block: var(--space-7);
 }
 
+@media (max-width: 700px) {
+  .section {
+    padding-block: var(--space-6);
+  }
+  .section--tight {
+    padding-block: var(--space-5);
+  }
+}
+
 .section--dark {
   background: var(--black);
   color: var(--text-on-dark);

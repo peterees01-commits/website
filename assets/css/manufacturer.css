@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 700px) {
+  .manu-hero {
+    padding: var(--space-6) var(--container-pad);
+  }
+}
+
 .manu-hero__badge {
   border: 1px solid var(--border-light);
   background: var(--white);
