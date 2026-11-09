@@ -1641,6 +1641,19 @@
           "chart": "assets/img/products/pbl/distributions/fwe.png"
         }
       ],
+      "pedestrianSpacing": {
+        "standard": "AS 1158.3.1",
+        "config": "Based on 20W Pebble, no backlight shield, 2700K CCT.",
+        "note": "Maximum pole spacing by AS 1158.3.1 category P. Figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "heights": ["4 m", "5 m", "6 m"],
+        "rows": [
+          {"category": "PP1", "spacing": ["12 m", "14 m", "16 m"]},
+          {"category": "PP2", "spacing": ["19 m", "22 m", "24 m"]},
+          {"category": "PP3", "spacing": ["26 m", "30 m", "35 m"]},
+          {"category": "PP4", "spacing": ["32 m", "37 m", "42 m"]},
+          {"category": "PP5", "spacing": ["42 m", "48 m", "50 m"]}
+        ]
+      },
       "accessories": [
         {
           "code": "PEB.BLS",

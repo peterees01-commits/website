@@ -390,11 +390,34 @@
         '</div>' +
       '</div>'
     ) : "";
-    if (!hasDist && !m) return "";
+    var ps = p.pedestrianSpacing;
+    var psBlock = ps ? (
+      '<div' + (m ? ' style="margin-top:var(--space-7)"' : '') + '>' +
+        '<p class="eyebrow">' + esc(ps.standard) + '</p>' +
+        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Pedestrian pathway spacing</h2>' +
+        '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-1);max-width:60ch">' + esc(ps.note) + '</p>' +
+        '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-bottom:var(--space-5);max-width:60ch">' + esc(ps.config) + '</p>' +
+        '<div class="table-scroll" style="max-width:480px">' +
+          '<table class="perf-table" style="min-width:0">' +
+            '<thead><tr><th>P category</th>' +
+              ps.heights.map(function (h) { return '<th>' + esc(h) + '</th>'; }).join("") +
+            '</tr></thead>' +
+            '<tbody>' +
+              ps.rows.map(function (r) {
+                return '<tr><td>' + esc(r.category) + '</td>' +
+                  r.spacing.map(function (s) { return '<td>' + esc(s) + '</td>'; }).join("") +
+                '</tr>';
+              }).join("") +
+            '</tbody>' +
+          '</table>' +
+        '</div>' +
+      '</div>'
+    ) : "";
+    if (!hasDist && !m && !ps) return "";
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner' + (hasDist && m ? ' two-col' : '') + '">' +
-          distBlock + mountBlock +
+        '<div class="section__inner' + (hasDist && (m || ps) ? ' two-col' : '') + '">' +
+          distBlock + '<div>' + mountBlock + psBlock + '</div>' +
         '</div>' +
       '</section>'
     );
