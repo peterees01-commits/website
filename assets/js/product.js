@@ -245,13 +245,19 @@
     return (
       '<section class="section section--tight section--surface product-section">' +
         '<div class="section__inner two-col">' +
-          '<div style="display:flex;flex-direction:column;height:100%">' +
-            '<div>' +
-              '<p class="eyebrow">Overview</p>' +
-              '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
-              '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
-            '</div>' +
-            '<div style="margin-top:auto">' +
+          '<div>' +
+            '<p class="eyebrow">Overview</p>' +
+            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
+            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
+          '</div>' +
+          '<div>' +
+            '<p class="eyebrow">Key specification</p>' +
+            '<table class="spec-table">' +
+              p.keySpecs.map(function (s) {
+                return '<tr><th>' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>';
+              }).join("") +
+            '</table>' +
+            '<div style="margin-top:var(--space-6)">' +
               '<p class="eyebrow">Physical characteristics</p>' +
               '<table class="spec-table">' +
                 d.variants.map(function (v) {
@@ -261,14 +267,6 @@
               '</table>' +
               '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>' +
             '</div>' +
-          '</div>' +
-          '<div>' +
-            '<p class="eyebrow">Key specification</p>' +
-            '<table class="spec-table">' +
-              p.keySpecs.map(function (s) {
-                return '<tr><th>' + esc(s.label) + '</th><td>' + esc(s.value) + '</td></tr>';
-              }).join("") +
-            '</table>' +
           '</div>' +
         '</div>' +
       '</section>'
