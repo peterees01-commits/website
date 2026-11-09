@@ -1643,7 +1643,7 @@
       ],
       "pedestrianSpacing": {
         "standard": "AS 1158.3.1",
-        "config": "Based on 20W Pebble, no backlight shield, 2700K CCT.",
+        "config": "Based on 20W Pebble, NR Optic, no backlight shield, 2700K CCT.",
         "note": "Maximum pole spacing by AS 1158.3.1 category P. Figures are typical spacing guidance, not a substitute for a lighting design calculation.",
         "heights": ["4 m", "5 m", "6 m"],
         "rows": [
