@@ -408,7 +408,7 @@
     grid-template-columns: 1fr;
   }
   .product-hero {
-    padding: var(--space-6) var(--container-pad);
+    padding: var(--space-4) var(--container-pad) var(--space-6);
   }
 }
 

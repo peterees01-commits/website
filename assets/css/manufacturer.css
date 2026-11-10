@@ -23,7 +23,7 @@
 
 @media (max-width: 700px) {
   .manu-hero {
-    padding: var(--space-6) var(--container-pad);
+    padding: var(--space-4) var(--container-pad) var(--space-6);
   }
 }
 
