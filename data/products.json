@@ -1755,11 +1755,13 @@
       "images": [
         {
           "file": "assets/img/products/sig/sig-01-profile.png",
-          "alt": "Signature Post Top, front-on profile showing the full canopy, twin cast support arms and pole"
+          "alt": "Signature Post Top, front-on profile showing the full canopy, twin cast support arms and pole",
+          "size": "Post Top"
         },
         {
           "file": "assets/img/products/sig/sig-02-head-detail.png",
-          "alt": "Signature luminaire head, low-angle detail view showing the recessed waveguide diffuser and twin cast support arms"
+          "alt": "Signature luminaire head, low-angle detail view showing the recessed waveguide diffuser and twin cast support arms",
+          "size": "Post Top"
         },
         {
           "file": "assets/img/products/sig/sig-03-diffuser-texture.png",
@@ -1767,7 +1769,13 @@
         },
         {
           "file": "assets/img/products/sig/sig-04-installed-angle.png",
-          "alt": "Signature Post Top installed on a paved plaza, three-quarter view against a building facade"
+          "alt": "Signature Post Top installed on a paved plaza, three-quarter view against a building facade",
+          "size": "Post Top"
+        },
+        {
+          "file": "assets/img/products/sig/sig-05-arm-mount-profile.png",
+          "alt": "Signature Arm Mount side profile, showing the luminaire head, hidden-wiring arm and pole mounting",
+          "size": "Arm Mount"
         },
         {
           "file": "assets/img/products/sig/sig-dimensions.png",
