@@ -1971,6 +1971,214 @@
       },
       "overviewHeading": "Design-Inspired Landscape",
       "disableGalleryFilter": true
+    },
+    {
+      "code": "DBD",
+      "name": "Denver iD Bollard",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=DBD",
+      "category": "Bollard / Area & Amenity Lighting",
+      "family": "Denver iD",
+      "tagline": "Bollard-mounted LED amenity luminaire with a patented Transition Zone, completing the Denver iD family alongside Pole and Wall.",
+      "summary": "Denver iD Bollard brings the same cohesive family aesthetic and patented Transition Zone glare control as Denver iD Pole and Denver iD Wall to ground-level pedestrian lighting. A removable, plug-and-play LED module sits in an extruded LM6 aluminium body, available in single-sided (5 LED) or double-sided (10 LED) optical configurations across 500–3,000 delivered lumens, with two body heights (750mm or 1000mm) and enhanced IK10 vandal resistance for amenity spaces, town squares and car parks.",
+      "applications": [
+        "Car Parks",
+        "Pathways",
+        "Urban Realm"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/dbd/dbd-01-profile-front.png",
+          "alt": "Denver iD Bollard, front profile showing the 228mm face and patented Transition Zone head"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-02-profile-side.png",
+          "alt": "Denver iD Bollard, side profile showing the 143mm face"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-03-head-angle.png",
+          "alt": "Denver iD Bollard head, three-quarter angle detail showing the Transition Zone and polycarbonate lens"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-04-head-angle-close.png",
+          "alt": "Denver iD Bollard head, close three-quarter angle detail"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-05-head-side-detail.png",
+          "alt": "Denver iD Bollard head, angled detail from the narrow face"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-06-module-exploded.png",
+          "alt": "Denver iD Bollard with the removable LED module and gear compartment exposed"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-dimensions.png",
+          "alt": "Denver iD Bollard dimension diagram, front and side elevations with base plate"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Ingress protection"
+        },
+        {
+          "label": "IK10",
+          "detail": "Enhanced vandal resistance"
+        },
+        {
+          "label": "TM66: 2.4",
+          "detail": "Preliminary circularity rating"
+        },
+        {
+          "label": "Patented Transition Zone",
+          "detail": "Glare-reducing intermediary luminous zone"
+        },
+        {
+          "label": "−20°C to +45°C",
+          "detail": "Operating temperature range"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "c.500 – c.3,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K (Amber available)"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70"
+        },
+        {
+          "label": "ULOR",
+          "value": ""
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (body & LED module)"
+        },
+        {
+          "label": "IK rating",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−20°C to +45°C"
+        },
+        {
+          "label": "Body material",
+          "value": "LM6 extruded aluminium body with a removable LED module in LM6 marine-grade die-cast aluminium"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual PMMA lenses surrounded by a patented white Transition Zone, sealed behind a high-transparency clear polycarbonate extrusion"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I or Class II"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD) or customer-specified pre-set dimming profile (.LRT)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "HOLOSOne Bluetooth NLC wireless node with PIR and daylight harvesting (.H1L), or Controlux Air wireless node (.CA, includes 2-year subscription); integrated single/dual/groupable PIR options"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": ""
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/dbd/dbd-dimensions.png",
+        "note": "Footprint (228mm × 143mm) is common to both heights. Height shown is for the .H100 (1000mm nominal) option; the .H75 (750mm nominal) option isn't separately dimensioned in the source material. Weight is per-fitting.",
+        "variants": [
+          {
+            "label": "Denver iD Bollard (.H100 — 1000mm nominal)",
+            "length": "228 mm",
+            "width": "143 mm",
+            "height": "976 mm",
+            "weight": "9.5 kg"
+          },
+          {
+            "label": "Denver iD Bollard (.H75 — 750mm nominal)",
+            "length": "228 mm",
+            "width": "143 mm",
+            "height": "—",
+            "weight": "9.5 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/dbd/distributions/ay.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/dbd/distributions/nr.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "DBD.VK",
+          "desc": "Vandal key"
+        },
+        {
+          "code": "DBD.ROOT",
+          "desc": "Root mounting spike to fit flange base, includes set of 2 bolts M10 x 100mm"
+        },
+        {
+          "code": "DBD.FT",
+          "desc": "Set of 4 bolts M10 x 100mm for flange base fixing"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "IK10",
+        "TM66 Circularity 2.4 (Preliminary)"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-dbd-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-dbd-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/DBD-BIM-Revit.rfa",
+          "meta": "RFA · Revit family"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/DBD-IES-files.zip",
+          "meta": "ZIP · Single & double-sided, all configs"
+        }
+      }
     }
   ]
 }
