@@ -1756,7 +1756,11 @@
       ],
       "images": [
         {
-          "file": "assets/img/products/sig/sig-01-head-detail.png",
+          "file": "assets/img/products/sig/sig-01-profile.png",
+          "alt": "Signature Post Top, front-on profile showing the full canopy, twin cast support arms and pole"
+        },
+        {
+          "file": "assets/img/products/sig/sig-02-head-detail.png",
           "alt": "Signature luminaire head, low-angle detail view showing the recessed waveguide diffuser and twin cast support arms"
         },
         {
@@ -1764,7 +1768,7 @@
           "alt": "Signature waveguide diffuser surface, macro detail showing the uniformly luminous ink texture"
         },
         {
-          "file": "assets/img/products/sig/sig-02-installed-angle.png",
+          "file": "assets/img/products/sig/sig-04-installed-angle.png",
           "alt": "Signature Post Top installed on a paved plaza, three-quarter view against a building facade"
         },
         {
