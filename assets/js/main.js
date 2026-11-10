@@ -21,23 +21,29 @@
   // swapped in (font-display:swap) or images have loaded, and either can
   // reflow the page afterward and leave the final scroll position off —
   // sometimes landing mid-page instead of at the section. Re-settle once
-  // fonts and images have actually finished.
+  // fonts and images have actually finished, but only if the target has
+  // genuinely drifted — otherwise this fires on every hash navigation
+  // and reads as a visible double-jump/"refresh" even when nothing moved.
   if (location.hash) {
-    var resettleToHash = function () {
-      var target = document.getElementById(location.hash.slice(1));
-      if (target) {
-        target.scrollIntoView({ behavior: "auto", block: "start" });
-      }
-    };
-    var fontsReady = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
-    var pageLoaded = new Promise(function (resolve) {
-      if (document.readyState === "complete") {
-        resolve();
-      } else {
-        window.addEventListener("load", resolve, { once: true });
-      }
-    });
-    Promise.all([fontsReady, pageLoaded]).then(resettleToHash).catch(resettleToHash);
+    var target = document.getElementById(location.hash.slice(1));
+    if (target) {
+      var positionBefore = target.getBoundingClientRect().top;
+      var resettleIfDrifted = function () {
+        var positionAfter = target.getBoundingClientRect().top;
+        if (Math.abs(positionAfter - positionBefore) > 8) {
+          target.scrollIntoView({ behavior: "auto", block: "start" });
+        }
+      };
+      var fontsReady = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
+      var pageLoaded = new Promise(function (resolve) {
+        if (document.readyState === "complete") {
+          resolve();
+        } else {
+          window.addEventListener("load", resolve, { once: true });
+        }
+      });
+      Promise.all([fontsReady, pageLoaded]).then(resettleIfDrifted).catch(resettleIfDrifted);
+    }
   }
 
   var brandAnim = document.getElementById("brandMarkAnim");
