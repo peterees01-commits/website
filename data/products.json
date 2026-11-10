@@ -188,7 +188,7 @@
         }
       ],
       "mountingHeights": {
-        "note": "Suitable from 3m to 8m mounting heights. Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "note": "Suitable from 3m to 8m mounting heights, based on PC Category (Car Parks) under AS 1158.3.1. Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
         "rows": [
           {
             "height": "3 m",
