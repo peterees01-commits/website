@@ -48,7 +48,7 @@
       '<section class="case-hero">' +
         '<div class="case-hero__inner">' +
           '<div>' +
-            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#case-studies">Project Applications</a> / ' + esc(cs.title) + '</p>' +
+            '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../case-studies/index.html">Project Applications</a> / ' + esc(cs.title) + '</p>' +
             '<span class="case-study-tag">' + esc(cs.tag) + '</span>' +
             '<h1>' + esc(cs.title) + '</h1>' +
             '<p class="case-hero__meta-line">' + esc(cs.sector) + ' &middot; ' + esc(cs.location) + '</p>' +
@@ -106,7 +106,7 @@
               ? esc(cs.perspective.body).split("\n").map(function (p) { return '<p>' + p + '</p>'; }).join("")
               : '<p>Our take on this project is coming soon.</p>') +
           '</div>' +
-          '<p style="margin-top:var(--space-6)"><a class="case-back-link" href="../index.html#case-studies">&larr; Back to Solution Examples</a></p>' +
+          '<p style="margin-top:var(--space-6)"><a class="case-back-link" href="../case-studies/index.html">&larr; Back to Solution Examples</a></p>' +
         '</div>' +
       '</section>'
     );
