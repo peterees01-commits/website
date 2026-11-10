@@ -242,6 +242,7 @@
 
   function overviewSection(p) {
     var d = p.dimensions;
+    var overviewHeading = esc(p.overviewHeading || "Built for the brief");
     var physicalBlock = (
       '<p class="eyebrow">Physical characteristics</p>' +
       '<table class="spec-table">' +
@@ -270,7 +271,7 @@
       leftCol = (
         '<div>' +
           '<p class="eyebrow">Overview</p>' +
-          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
+          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + overviewHeading + '</h2>' +
           '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
         '</div>'
       );
@@ -285,7 +286,7 @@
         '<div style="display:flex;flex-direction:column;height:100%">' +
           '<div>' +
             '<p class="eyebrow">Overview</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Built for the brief</h2>' +
+            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + overviewHeading + '</h2>' +
             '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
           '</div>' +
           '<div style="margin-top:auto">' + physicalBlock + '</div>' +
