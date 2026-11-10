@@ -1898,6 +1898,58 @@
           "chart": "assets/img/products/sig/distributions/nr-v2.png"
         }
       ],
+      "pedestrianSpacing": {
+        "standard": "AS 1158.3.1",
+        "config": "Based on Signature Post Top, NR Optic, no backlight shield, 2700K CCT.",
+        "note": "Maximum pole spacing by AS 1158.3.1 category P. Delivered wattage increases with mounting height to maintain horizontal illuminance compliance as the P-category requirement relaxes. Figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "heights": [
+          "4 m (25W)",
+          "5 m (38W)",
+          "6 m (54W)"
+        ],
+        "rows": [
+          {
+            "category": "PP1",
+            "spacing": [
+              "12 m",
+              "15 m",
+              "18 m"
+            ]
+          },
+          {
+            "category": "PP2",
+            "spacing": [
+              "15 m",
+              "22 m",
+              "27 m"
+            ]
+          },
+          {
+            "category": "PP3",
+            "spacing": [
+              "30 m",
+              "40 m",
+              "50 m"
+            ]
+          },
+          {
+            "category": "PP4",
+            "spacing": [
+              "36 m",
+              "49 m",
+              "59 m"
+            ]
+          },
+          {
+            "category": "PP5",
+            "spacing": [
+              "42 m",
+              "56 m",
+              "68 m"
+            ]
+          }
+        ]
+      },
       "accessories": [
         {
           "code": "SIG.BLS",
