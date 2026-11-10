@@ -1807,7 +1807,7 @@
         },
         {
           "label": "CRI",
-          "value": ""
+          "value": "70 (Ra)"
         },
         {
           "label": "ULOR",
@@ -1839,7 +1839,7 @@
         },
         {
           "label": "Dimming",
-          "value": "DALI (.LRD) or customer-specified pre-set dimming profile (.LRT)"
+          "value": "DALI (.LRD) or customer-specified pre-set dimming profile (.LRT), 20% minimum dim level"
         },
         {
           "label": "Smart controls",
