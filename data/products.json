@@ -1991,27 +1991,33 @@
       "images": [
         {
           "file": "assets/img/products/dbd/dbd-01-profile-front.png",
-          "alt": "Denver iD Bollard, front profile showing the 228mm face and patented Transition Zone head"
+          "alt": "Denver iD Bollard, front profile showing the 228mm face and patented Transition Zone head",
+          "size": "Double Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-02-profile-side.png",
-          "alt": "Denver iD Bollard, side profile showing the 143mm face"
+          "alt": "Denver iD Bollard, side profile showing the 143mm face",
+          "size": "Single Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-03-head-angle.png",
-          "alt": "Denver iD Bollard head, three-quarter angle detail showing the Transition Zone and polycarbonate lens"
+          "alt": "Denver iD Bollard head, three-quarter angle detail showing the Transition Zone and polycarbonate lens",
+          "size": "Double Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-04-head-angle-close.png",
-          "alt": "Denver iD Bollard head, close three-quarter angle detail"
+          "alt": "Denver iD Bollard head, close three-quarter angle detail",
+          "size": "Double Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-05-head-side-detail.png",
-          "alt": "Denver iD Bollard head, angled detail from the narrow face"
+          "alt": "Denver iD Bollard head, angled detail from the narrow face",
+          "size": "Single Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-06-module-exploded.png",
-          "alt": "Denver iD Bollard with the removable LED module and gear compartment exposed"
+          "alt": "Denver iD Bollard with the removable LED module and gear compartment exposed",
+          "size": "Double Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-dimensions.png",
@@ -2104,20 +2110,20 @@
       ],
       "dimensions": {
         "diagram": "assets/img/products/dbd/dbd-dimensions.png",
-        "note": "Footprint (228mm × 143mm) is common to both heights. Height shown is for the .H100 (1000mm nominal) option; the .H75 (750mm nominal) option isn't separately dimensioned in the source material. Weight is per-fitting.",
+        "note": "228mm and 143mm are the Double Sided (.DO) and Single Sided (.SU) cross-sections respectively, shown at the .H100 (1000mm nominal) height. The .H75 (750mm nominal) height option isn't separately dimensioned in the source material. Weight is per-fitting.",
         "variants": [
           {
-            "label": "Denver iD Bollard (.H100 — 1000mm nominal)",
+            "label": "Denver iD Bollard DO (Double Sided)",
             "length": "228 mm",
-            "width": "143 mm",
+            "width": "—",
             "height": "976 mm",
             "weight": "9.5 kg"
           },
           {
-            "label": "Denver iD Bollard (.H75 — 750mm nominal)",
-            "length": "228 mm",
-            "width": "143 mm",
-            "height": "—",
+            "label": "Denver iD Bollard SU (Single Sided)",
+            "length": "143 mm",
+            "width": "—",
+            "height": "976 mm",
             "weight": "9.5 kg"
           }
         ],
@@ -2178,7 +2184,8 @@
           "file": "assets/downloads/ies/DBD-IES-files.zip",
           "meta": "ZIP · Single & double-sided, all configs"
         }
-      }
+      },
+      "disableGalleryFilter": true
     }
   ]
 }
