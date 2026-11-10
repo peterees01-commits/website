@@ -1995,11 +1995,6 @@
           "size": "Double Sided"
         },
         {
-          "file": "assets/img/products/dbd/dbd-02-profile-side.png",
-          "alt": "Denver iD Bollard, side profile showing the 143mm face",
-          "size": "Single Sided"
-        },
-        {
           "file": "assets/img/products/dbd/dbd-03-head-angle.png",
           "alt": "Denver iD Bollard head, three-quarter angle detail showing the Transition Zone and polycarbonate lens",
           "size": "Double Sided"
@@ -2010,14 +2005,19 @@
           "size": "Double Sided"
         },
         {
-          "file": "assets/img/products/dbd/dbd-05-head-side-detail.png",
-          "alt": "Denver iD Bollard head, angled detail from the narrow face",
-          "size": "Single Sided"
-        },
-        {
           "file": "assets/img/products/dbd/dbd-06-module-exploded.png",
           "alt": "Denver iD Bollard with the removable LED module and gear compartment exposed",
           "size": "Double Sided"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-02-profile-side.png",
+          "alt": "Denver iD Bollard, side profile showing the 143mm face",
+          "size": "Single Sided"
+        },
+        {
+          "file": "assets/img/products/dbd/dbd-05-head-side-detail.png",
+          "alt": "Denver iD Bollard head, angled detail from the narrow face",
+          "size": "Single Sided"
         },
         {
           "file": "assets/img/products/dbd/dbd-dimensions.png",
