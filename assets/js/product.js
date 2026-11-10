@@ -94,8 +94,9 @@
       if (img.size && sizes.indexOf(img.size) === -1) sizes.push(img.size);
     });
     var defaultSize = sizes[0];
+    var useFilter = sizes.length > 1 && !p.disableGalleryFilter;
 
-    var filterBar = sizes.length > 1 ? (
+    var filterBar = useFilter ? (
       '<div class="product-gallery__filter" role="tablist" aria-label="Filter by size">' +
         sizes.map(function (s, i) {
           return '<button type="button" class="gallery-filter-btn' + (i === 0 ? ' is-active' : '') + '" data-filter="' + esc(s) + '">' + esc(s) + '</button>';
@@ -118,7 +119,7 @@
         (images.length > 1 ?
           '<div class="product-gallery__thumbs" role="tablist" aria-label="Product images">' +
             images.map(function (img, i) {
-              var hidden = sizes.length > 1 && img.size && img.size !== defaultSize;
+              var hidden = useFilter && img.size && img.size !== defaultSize;
               return (
                 '<button type="button" class="product-gallery__thumb' + (i === 0 ? ' is-active' : '') + '" ' +
                   'data-src="../' + esc(img.file) + '" data-alt="' + esc(img.alt) + '" data-size="' + esc(img.size || '') + '" ' +
