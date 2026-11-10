@@ -154,27 +154,27 @@
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/dpl/distributions/sy.png"
+          "chart": "assets/img/products/dpl/distributions/sy-v2.png"
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/dpl/distributions/ay.png"
+          "chart": "assets/img/products/dpl/distributions/ay-v2.png"
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/dpl/distributions/nr.png"
+          "chart": "assets/img/products/dpl/distributions/nr-v2.png"
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/dpl/distributions/fw.png"
+          "chart": "assets/img/products/dpl/distributions/fw-v2.png"
         },
         {
           "code": ".HN",
           "name": "High Beam Long & Narrow",
-          "chart": "assets/img/products/dpl/distributions/hn.png"
+          "chart": "assets/img/products/dpl/distributions/hn-v2.png"
         }
       ],
       "accessories": [
@@ -462,17 +462,17 @@
           {
             "code": ".BLC",
             "name": "Backlight Control optic",
-            "chart": "assets/img/products/dsx/distributions/blc.png"
+            "chart": "assets/img/products/dsx/distributions/blc-v2.png"
           },
           {
             "code": ".RCCO",
             "name": "Right Corner Cutoff optic",
-            "chart": "assets/img/products/dsx/distributions/rcco.png"
+            "chart": "assets/img/products/dsx/distributions/rcco-v2.png"
           },
           {
             "code": ".LCCO",
             "name": "Left Corner Cutoff optic",
-            "chart": "assets/img/products/dsx/distributions/lcco.png"
+            "chart": "assets/img/products/dsx/distributions/lcco-v2.png"
           }
         ]
       },
@@ -480,49 +480,49 @@
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/dsx/distributions/sy.png"
+          "chart": "assets/img/products/dsx/distributions/sy-v2.png"
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/dsx/distributions/ay.png"
+          "chart": "assets/img/products/dsx/distributions/ay-v2.png"
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/dsx/distributions/fw.png"
+          "chart": "assets/img/products/dsx/distributions/fw-v2.png"
         },
         {
           "code": ".FWE",
           "name": "Forward Throw Extra",
-          "chart": "assets/img/products/dsx/distributions/fwe.png"
+          "chart": "assets/img/products/dsx/distributions/fwe-v2.png"
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
           "note": "DSX0 and DSX1",
-          "chart": "assets/img/products/dsx/distributions/nr.png"
+          "chart": "assets/img/products/dsx/distributions/nr-v2.png"
         },
         {
           "code": ".BLC",
           "name": "Long & Narrow",
           "note": "Extreme backlight cut-off",
-          "chart": "assets/img/products/dsx/distributions/blc.png"
+          "chart": "assets/img/products/dsx/distributions/blc-v2.png"
         },
         {
           "code": ".SQ",
           "name": "Square",
-          "chart": "assets/img/products/dsx/distributions/sq.png"
+          "chart": "assets/img/products/dsx/distributions/sq-v2.png"
         },
         {
           "code": ".RCCO",
           "name": "Right Corner Cutoff Optic",
-          "chart": "assets/img/products/dsx/distributions/rcco.png"
+          "chart": "assets/img/products/dsx/distributions/rcco-v2.png"
         },
         {
           "code": ".LCCO",
           "name": "Left Corner Cutoff Optic",
-          "chart": "assets/img/products/dsx/distributions/lcco.png"
+          "chart": "assets/img/products/dsx/distributions/lcco-v2.png"
         }
       ],
       "accessories": [
@@ -697,62 +697,62 @@
         {
           "code": ".R3R3",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".2SA2",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".2SA4",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".2SQ1",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".2S2S",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".AY",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".HN",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
         },
         {
           "code": ".A2R3",
           "name": "Type III Medium",
-          "chart": "assets/img/products/rli/distributions/type3-medium.png"
+          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png"
         },
         {
           "code": ".A2A2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/rli/distributions/type3-medium.png"
+          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png"
         },
         {
           "code": ".A4A2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/rli/distributions/type3-medium.png"
+          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png"
         },
         {
           "code": ".NR",
           "name": "Type II Medium",
-          "chart": "assets/img/products/rli/distributions/type2-medium.png"
+          "chart": "assets/img/products/rli/distributions/type2-medium-v2.png"
         },
         {
           "code": ".A4A4",
           "name": "Type IV Medium",
-          "chart": "assets/img/products/rli/distributions/type4-medium.png"
+          "chart": "assets/img/products/rli/distributions/type4-medium-v2.png"
         }
       ],
       "accessories": [
@@ -920,57 +920,57 @@
         {
           "code": ".Q1",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
         },
         {
           "code": ".R3",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
         },
         {
           "code": ".2S",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
         },
         {
           "code": ".AY",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
         },
         {
           "code": ".HN",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
         },
         {
           "code": ".5R",
           "name": "Type III Medium",
-          "chart": "assets/img/products/sli/distributions/type3-medium.png"
+          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png"
         },
         {
           "code": ".A2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/sli/distributions/type3-medium.png"
+          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png"
         },
         {
           "code": ".R2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/sli/distributions/type3-medium.png"
+          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png"
         },
         {
           "code": ".NR",
           "name": "Type II Medium",
-          "chart": "assets/img/products/sli/distributions/type2-medium.png"
+          "chart": "assets/img/products/sli/distributions/type2-medium-v2.png"
         },
         {
           "code": ".A4",
           "name": "Type IV Medium",
-          "chart": "assets/img/products/sli/distributions/type4-medium.png"
+          "chart": "assets/img/products/sli/distributions/type4-medium-v2.png"
         },
         {
           "code": ".HA",
           "name": "Type IV Medium",
-          "chart": "assets/img/products/sli/distributions/type4-medium.png"
+          "chart": "assets/img/products/sli/distributions/type4-medium-v2.png"
         }
       ],
       "accessories": [
@@ -1138,22 +1138,22 @@
         {
           "code": ".SY",
           "name": "Symmetrical",
-          "chart": "assets/img/products/fts/distributions/symmetrical.png"
+          "chart": "assets/img/products/fts/distributions/symmetrical-v2.png"
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/fts/distributions/asymmetric.png"
+          "chart": "assets/img/products/fts/distributions/asymmetric-v2.png"
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/fts/distributions/forward-throw.png"
+          "chart": "assets/img/products/fts/distributions/forward-throw-v2.png"
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/fts/distributions/long-narrow.png"
+          "chart": "assets/img/products/fts/distributions/long-narrow-v2.png"
         }
       ],
       "accessories": [
