@@ -101,11 +101,9 @@ button.case-photo__frame {
 
 .case-photo img {
   display: block;
-  max-width: 88%;
-  max-height: 88%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .case-photo figcaption {
