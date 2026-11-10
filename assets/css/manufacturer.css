@@ -10,7 +10,7 @@
   max-width: var(--container-max);
   margin-inline: auto;
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
   gap: var(--space-7);
   align-items: start;
 }

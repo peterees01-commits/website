@@ -16,35 +16,73 @@
     });
   }
 
-  // A fresh page load with a #hash (e.g. following a nav link to
-  // index.html#about) scrolls to the target before web fonts have
-  // swapped in (font-display:swap) or images have loaded, and either can
-  // reflow the page afterward and leave the final scroll position off —
-  // sometimes landing mid-page instead of at the section. Re-settle once
-  // fonts and images have actually finished, but only if the target has
-  // genuinely drifted — otherwise this fires on every hash navigation
-  // and reads as a visible double-jump/"refresh" even when nothing moved.
-  if (location.hash) {
+  // Landing on a #hash — either a fresh page load (e.g. a nav link to
+  // index.html#about) or a same-page anchor click while already on the
+  // page — can settle short of full header clearance: the browser's
+  // native fragment scroll doesn't reliably honour scroll-padding-top the
+  // way a JS scrollIntoView() call does, leaving a thin sliver of the
+  // previous (often differently-coloured) section peeking out below the
+  // sticky header. Web fonts swapping in (font-display:swap) or images
+  // loading can also reflow the page afterward and drift the position
+  // further. Correct for both, but only when clearance is actually
+  // insufficient — otherwise this fires on every hash navigation and reads
+  // as a visible double-jump/"refresh" even when the landing was already
+  // fine.
+  var settleHash = function () {
+    if (!location.hash) {
+      return;
+    }
     var target = document.getElementById(location.hash.slice(1));
-    if (target) {
-      var positionBefore = target.getBoundingClientRect().top;
-      var resettleIfDrifted = function () {
-        var positionAfter = target.getBoundingClientRect().top;
-        if (Math.abs(positionAfter - positionBefore) > 8) {
-          target.scrollIntoView({ behavior: "auto", block: "start" });
+    if (!target) {
+      return;
+    }
+    var minClearance = 90; // just under scroll-padding-top (96px), with tolerance
+    var correct = function () {
+      if (target.getBoundingClientRect().top < minClearance) {
+        // "instant" forces an immediate jump regardless of the page's
+        // scroll-behavior:smooth.
+        target.scrollIntoView({ behavior: "instant", block: "start" });
+      }
+    };
+    // The browser's own native fragment-nav scroll ALSO animates (it
+    // inherits scroll-behavior:smooth) and can take several hundred ms.
+    // Checking clearance on a load/fonts.ready timer fires mid-animation,
+    // so the still-running native scroll simply overwrites our correction
+    // a few frames later. Instead, poll scrollY until it stops changing —
+    // i.e. the native animation has actually finished — before correcting.
+    var waitForSettle = function (done) {
+      var lastY = -1;
+      var stableFrames = 0;
+      var tick = function () {
+        var y = window.scrollY;
+        if (y === lastY) {
+          stableFrames++;
+        } else {
+          stableFrames = 0;
+          lastY = y;
+        }
+        if (stableFrames >= 3) {
+          done();
+        } else {
+          requestAnimationFrame(tick);
         }
       };
+      requestAnimationFrame(tick);
+    };
+    waitForSettle(function () {
+      correct();
+      // Web fonts swapping in after that settle can reflow the header and
+      // drift the target again — re-settle once more once fonts are ready.
       var fontsReady = (document.fonts && document.fonts.ready) ? document.fonts.ready : Promise.resolve();
-      var pageLoaded = new Promise(function (resolve) {
-        if (document.readyState === "complete") {
-          resolve();
-        } else {
-          window.addEventListener("load", resolve, { once: true });
-        }
+      fontsReady.then(function () {
+        waitForSettle(correct);
       });
-      Promise.all([fontsReady, pageLoaded]).then(resettleIfDrifted).catch(resettleIfDrifted);
-    }
-  }
+    });
+  };
+  settleHash();
+  // Also run on same-page anchor clicks (e.g. the nav menu while already
+  // on index.html) — those never trigger the page-load path above.
+  window.addEventListener("hashchange", settleHash);
 
   var brandAnim = document.getElementById("brandMarkAnim");
   if (brandAnim) {
