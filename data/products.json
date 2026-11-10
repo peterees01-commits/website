@@ -1655,13 +1655,52 @@
         "standard": "AS 1158.3.1",
         "config": "Based on 20W Pebble, NR Optic, no backlight shield, 2700K CCT.",
         "note": "Maximum pole spacing by AS 1158.3.1 category P. Figures are typical spacing guidance, not a substitute for a lighting design calculation.",
-        "heights": ["4 m", "5 m", "6 m"],
+        "heights": [
+          "4 m",
+          "5 m",
+          "6 m"
+        ],
         "rows": [
-          {"category": "PP1", "spacing": ["12 m", "14 m", "16 m"]},
-          {"category": "PP2", "spacing": ["19 m", "22 m", "24 m"]},
-          {"category": "PP3", "spacing": ["26 m", "30 m", "35 m"]},
-          {"category": "PP4", "spacing": ["32 m", "37 m", "42 m"]},
-          {"category": "PP5", "spacing": ["42 m", "48 m", "50 m"]}
+          {
+            "category": "PP1",
+            "spacing": [
+              "12 m",
+              "14 m",
+              "16 m"
+            ]
+          },
+          {
+            "category": "PP2",
+            "spacing": [
+              "19 m",
+              "22 m",
+              "24 m"
+            ]
+          },
+          {
+            "category": "PP3",
+            "spacing": [
+              "26 m",
+              "30 m",
+              "35 m"
+            ]
+          },
+          {
+            "category": "PP4",
+            "spacing": [
+              "32 m",
+              "37 m",
+              "42 m"
+            ]
+          },
+          {
+            "category": "PP5",
+            "spacing": [
+              "42 m",
+              "48 m",
+              "50 m"
+            ]
+          }
         ]
       },
       "accessories": [
@@ -1695,6 +1734,195 @@
           "label": "IES photometric files",
           "file": "assets/downloads/ies/PBL-IES-files.zip",
           "meta": "ZIP · 486 files, all configs"
+        }
+      }
+    },
+    {
+      "code": "SIG",
+      "name": "Signature",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=SIG",
+      "category": "Pole / Area & Amenity Lighting",
+      "family": "Signature",
+      "tagline": "Architecturally-led post-top and arm-mount LED area luminaire with a patent-pending Transition Zone, built for visually comfortable, sculptural pedestrian lighting.",
+      "summary": "Signature is Holophane's design-led area luminaire, available as a Post Top (.VB1) or Arm Mount (.SE) from the same luminaire family. A recessed, uniformly luminous waveguide and a patent-pending Transition Zone soften the light source's visual signature, cutting glare without sacrificing task-area performance. Covers 3,000–14,000 delivered lumens across three optical distributions, with Controlux Air wireless control compatibility throughout.",
+      "applications": [
+        "Courtyards",
+        "Outdoor Retail",
+        "Universities",
+        "Corporate Campuses"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/sig/sig-01-head-detail.png",
+          "alt": "Signature luminaire head, low-angle detail view showing the recessed waveguide diffuser and twin cast support arms"
+        },
+        {
+          "file": "assets/img/products/sig/sig-02-installed-angle.png",
+          "alt": "Signature Post Top installed on a paved plaza, three-quarter view against a building facade"
+        },
+        {
+          "file": "assets/img/products/sig/sig-03-diffuser-texture.png",
+          "alt": "Signature waveguide diffuser surface, macro detail showing the uniformly luminous ink texture"
+        },
+        {
+          "file": "assets/img/products/sig/sig-dimensions.png",
+          "alt": "Signature dimension diagram, Post Top and Arm Mount configurations"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Ingress protection"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "TM66: 2.2",
+          "detail": "Preliminary circularity rating"
+        },
+        {
+          "label": "Patent-Pending Transition Zone",
+          "detail": "Glare-reducing intermediary luminous zone"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "3,000 – 14,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K"
+        },
+        {
+          "label": "CRI",
+          "value": ""
+        },
+        {
+          "label": "ULOR",
+          "value": ""
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": ""
+        },
+        {
+          "label": "Body material",
+          "value": "Cast aluminium canopy with twin copper-core cast aluminium support arms"
+        },
+        {
+          "label": "Optics",
+          "value": "Signature uniformly luminous waveguide with patent-pending Transition Zone glare control"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class II"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD) or customer-specified pre-set dimming profile (.LRT)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "Controlux Air compatible (wireless controller option .T1Z4, node ordered separately as IOT.TZ4.TSK), 4-pin Zhaga socket (.TZ01)"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @ tq 25°C)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/sig/sig-dimensions.png",
+        "note": "Weight and windage are per-fitting, excluding pole/bracket. Height shown is for Post Top (.VB1); Arm Mount (.SE) height depends on the pole mounting position, so only its head length and diameter are dimensioned.",
+        "variants": [
+          {
+            "label": "Signature Post Top (.VB1)",
+            "length": "611 mm",
+            "width": "611 mm",
+            "height": "667 mm",
+            "weight": "17.2 kg"
+          },
+          {
+            "label": "Signature Arm Mount (.SE)",
+            "length": "780 mm",
+            "width": "611 mm",
+            "height": "—",
+            "weight": "16.1 kg"
+          }
+        ],
+        "windage": "0.05 m² (Arm Mount) / 0.11 m² (Post Top)"
+      },
+      "distributions": [
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/sig/distributions/ay.png"
+        },
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/sig/distributions/sy.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/sig/distributions/nr.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "SIG.BLS",
+          "desc": "Signature back-light shield"
+        },
+        {
+          "code": "HEL.IP68C.5W",
+          "desc": "IP68 connector, suitable for 5-core cable"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "IP65",
+        "TM66 Circularity 2.2 (Preliminary)",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-sig-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-sig-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/SIG-IES-files.zip",
+          "meta": "ZIP · Post Top & Arm Mount, all configs"
         }
       }
     }
