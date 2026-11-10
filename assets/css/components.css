@@ -142,6 +142,11 @@
        (it would be positioned relative to this ~64px header instead of
        the viewport). Disable it only where the fixed nav is in play. */
     backdrop-filter: none;
+    /* The header's background is only 88% opaque, relying on the blur
+       above to obscure whatever scrolls behind it. Without that blur on
+       mobile, faint unblurred text from the page ghosts through —
+       visible right after a hash-link lands mid-page. Make it opaque. */
+    background: var(--black);
   }
   .nav-toggle {
     display: block;
