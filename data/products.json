@@ -1887,17 +1887,17 @@
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/sig/distributions/ay.png"
+          "chart": "assets/img/products/sig/distributions/ay-v2.png"
         },
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/sig/distributions/sy.png"
+          "chart": "assets/img/products/sig/distributions/sy-v2.png"
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/sig/distributions/nr.png"
+          "chart": "assets/img/products/sig/distributions/nr-v2.png"
         }
       ],
       "accessories": [
