@@ -2020,7 +2020,7 @@
           "size": "Single Sided"
         },
         {
-          "file": "assets/img/products/dbd/dbd-dimensions.png",
+          "file": "assets/img/products/dbd/dbd-dimensions-v2.png",
           "alt": "Denver iD Bollard dimension diagram, front and side elevations with base plate"
         }
       ],
@@ -2109,7 +2109,7 @@
         }
       ],
       "dimensions": {
-        "diagram": "assets/img/products/dbd/dbd-dimensions.png",
+        "diagram": "assets/img/products/dbd/dbd-dimensions-v2.png",
         "note": "228mm and 143mm are the Double Sided (.DO) and Single Sided (.SU) cross-sections respectively, shown at the .H100 (1000mm nominal) height. The .H75 (750mm nominal) height option isn't separately dimensioned in the source material. Weight is per-fitting.",
         "variants": [
           {
@@ -2205,7 +2205,7 @@
       "overviewHeading": "Design-Inspired Landscape",
       "images": [
         {
-          "file": "assets/img/products/sgb/sgb-01-profile.png",
+          "file": "assets/img/products/sgb/sgb-01-profile-v2.png",
           "alt": "Signature Bollard, front profile showing the Transition Zone head and round column"
         },
         {
