@@ -2366,13 +2366,13 @@
       "manufacturerSlug": "holophane",
       "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
       "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=PPS",
-      "category": "High Bay / Industrial / Warehousing",
+      "category": "High Bay / Industrial / Sport",
       "family": "Prismpack",
       "tagline": "Modular high-bay luminaire scaling from 1 to 6 LED modules and 10,000 to over 114,000 delivered lumens, with Optimax low-glare optics for heavy industry, warehousing and production spaces.",
       "summary": "Prismpack redefines digital high-bay lighting with a thermally separate, two-compartment construction and Optimax low-glare reflector technology. The fully modular, scalable LED platform is built around a single light-engine module used in 1 to 6 module arrangements, so one system covers lumen packages from 10,000 to over 114,000 delivered lumens and mounting heights from 5m to 25m+, with a High Ambient (.PPH) version rated to 70°C.",
       "applications": [
         "Industrial",
-        "Warehousing"
+        "Sport"
       ],
       "images": [
         {
@@ -2446,11 +2446,7 @@
         },
         {
           "label": "CRI",
-          "value": ">80"
-        },
-        {
-          "label": "ULOR",
-          "value": ""
+          "value": ">80 standard (>90 CRI available on request)"
         },
         {
           "label": "Ingress protection",
@@ -2486,7 +2482,7 @@
         },
         {
           "label": "Warranty",
-          "value": ""
+          "value": "5 years"
         },
         {
           "label": "Life rating",
