@@ -2425,16 +2425,35 @@
           "Available with a clear glass or prismatic glass (PrismaLED) lens, protecting the reflectors and LEDs from the industrial environment within"
         ],
         "hardwarePhoto": {
-          "file": "assets/img/products/pps/pps-optimax-optics.png",
+          "file": "assets/img/products/pps/pps-optimax-optics-v2.png",
           "alt": "Narrow, Medium and Wide Optimax reflector rings and the corresponding LED module arrangement behind each",
           "caption": "Narrow (0.5:1 SHR), Medium (1:1 SHR) and Wide (1.6:1 SHR) Optimax reflector rings, with the LED module arrangement behind each."
         },
         "comparisonPhoto": {
-          "file": "assets/img/products/pps/pps-glass-lens.png",
+          "file": "assets/img/products/pps/pps-glass-lens-v2.png",
           "alt": "Prismpack fitted with the prismatic glass (PrismaLED) lens option",
           "caption": "The prismatic glass (PrismaLED) lens option blends the LED array into a single diffused, uniform surface and masks the appearance of an individual LED failure. A clear glass or polycarbonate lens is also available."
-        }
+        },
+        "opticsLabel": "Optical Distributions",
+        "optics": [
+          {
+            "code": ".ND",
+            "name": "Narrow Distribution (0.5:1 SHR)",
+            "chart": "assets/img/products/pps/distributions/nd.png"
+          },
+          {
+            "code": ".MD",
+            "name": "Medium Distribution (1:1 SHR)",
+            "chart": "assets/img/products/pps/distributions/md.png"
+          },
+          {
+            "code": ".WD",
+            "name": "Wide Distribution (1.6:1 SHR)",
+            "chart": "assets/img/products/pps/distributions/wd.png"
+          }
+        ]
       },
+      "hideDistributionsSection": true,
       "badges": [
         {
           "label": "IP65",
@@ -2593,9 +2612,7 @@
         "UKCA",
         "EN60598",
         "IP65",
-        "DIN 18032-3 / DIN EN 13964 (with .WG option)",
         "TM66 Circularity 2.7 (Excellent)",
-        "BRCGS suitable (with .PC lens option)",
         "Made in Britain"
       ],
       "downloads": {

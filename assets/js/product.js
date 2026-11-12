@@ -341,7 +341,7 @@
             '</div>' +
           '</div>' +
           (b.optics && b.optics.length ?
-            '<p class="eyebrow">Cutoff optics</p>' +
+            '<p class="eyebrow">' + esc(b.opticsLabel || "Cutoff optics") + '</p>' +
             '<div class="dist-grid">' +
               b.optics.map(function (o) {
                 return (
@@ -361,7 +361,7 @@
 
   function distributionsSection(p) {
     var m = p.mountingHeights;
-    var hasDist = p.distributions && p.distributions.length;
+    var hasDist = p.distributions && p.distributions.length && !p.hideDistributionsSection;
     var distBlock = hasDist ? (
       '<div>' +
         '<p class="eyebrow">Optical distributions</p>' +
