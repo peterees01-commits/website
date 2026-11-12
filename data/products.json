@@ -2358,6 +2358,250 @@
           "meta": "ZIP · Symmetric & Asymmetric, all configs"
         }
       }
+    },
+    {
+      "code": "PPS",
+      "name": "Prismpack",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=PPS",
+      "category": "High Bay / Industrial / Warehousing",
+      "family": "Prismpack",
+      "tagline": "Modular high-bay luminaire scaling from 1 to 6 LED modules and 10,000 to over 114,000 delivered lumens, with Optimax low-glare optics for heavy industry, warehousing and production spaces.",
+      "summary": "Prismpack redefines digital high-bay lighting with a thermally separate, two-compartment construction and Optimax low-glare reflector technology. The fully modular, scalable LED platform is built around a single light-engine module used in 1 to 6 module arrangements, so one system covers lumen packages from 10,000 to over 114,000 delivered lumens and mounting heights from 5m to 25m+, with a High Ambient (.PPH) version rated to 70°C.",
+      "applications": [
+        "Industrial",
+        "Warehousing"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/pps/pps-01-profile.png",
+          "alt": "Prismpack high bay, front elevation showing gear housing, mounting bracket and PrismaLED module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-02-m1.png",
+          "alt": "Prismpack 1 Module configuration, angled view",
+          "size": "1 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-03-m1-alt.png",
+          "alt": "Prismpack 1 Module configuration, showing gear compartment and mounting bracket",
+          "size": "1 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-04-m2.png",
+          "alt": "Prismpack 2 Module configuration, two light engines side by side",
+          "size": "2 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-05-m3.png",
+          "alt": "Prismpack 3 Module configuration, three light engines in line",
+          "size": "3 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-06-m4.png",
+          "alt": "Prismpack 4 Module configuration, 2x2 light engine array",
+          "size": "4 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-07-mounting.png",
+          "alt": "Prismpack mounting bracket and gear tray, underside detail"
+        },
+        {
+          "file": "assets/img/products/pps/pps-dimensions.png",
+          "alt": "Prismpack dimension diagram for 1, 2, 3, 4 and 6 module configurations"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Gear compartment & light engine"
+        },
+        {
+          "label": "Up to 150 lm/W",
+          "detail": "System efficacy, all configurations"
+        },
+        {
+          "label": "TM66: 2.7 Excellent",
+          "detail": "CEAM circularity rating"
+        },
+        {
+          "label": "1–6 Modules",
+          "detail": "Scalable 10,000–120,000 delivered lumens"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "c.9,600 – c.114,700 lm (configuration dependent, up to 120,000 lm)"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "4000K / 5000K / 6500K"
+        },
+        {
+          "label": "CRI",
+          "value": ">80"
+        },
+        {
+          "label": "ULOR",
+          "value": ""
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-25°C to 70°C (max 60,000 lm output above 50°C; .PPH High Ambient version to 70°C at full output)"
+        },
+        {
+          "label": "Body material",
+          "value": "Marine grade aluminium, thermally separate two-compartment construction"
+        },
+        {
+          "label": "Optics",
+          "value": "Optimax™ faceted reflector technology; clear glass or prismatic glass (PrismaLED) lens; Narrow / Medium / Wide distributions"
+        },
+        {
+          "label": "Electrical class",
+          "value": ""
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "HOLOSOne Bluetooth wireless control with PIR & daylight harvesting; compatible with HOLOSAir and HOLOS Wired"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @tq 25°C), 50,000 hrs at 70°C for the High Ambient (.PPH) version"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/pps/pps-dimensions.png",
+        "note": "Mechanical dimensions only; allow an extra 60mm each side for cable and an extra 150mm for a side-mounted sensor. Height shown is for the standard glass-lens (.PGL) version. Weight is per-fitting, standard version.",
+        "variants": [
+          {
+            "label": "Prismpack 1 Module",
+            "length": "420 mm",
+            "width": "325 mm",
+            "height": "260 mm",
+            "weight": "7.1 kg"
+          },
+          {
+            "label": "Prismpack 2 Module",
+            "length": "780 mm",
+            "width": "325 mm",
+            "height": "260 mm",
+            "weight": "13.0 kg"
+          },
+          {
+            "label": "Prismpack 3 Module",
+            "length": "1100 mm",
+            "width": "325 mm",
+            "height": "260 mm",
+            "weight": "19.1 kg"
+          },
+          {
+            "label": "Prismpack 4 Module",
+            "length": "780 mm",
+            "width": "660 mm",
+            "height": "260 mm",
+            "weight": "27.7 kg"
+          },
+          {
+            "label": "Prismpack 6 Module",
+            "length": "1100 mm",
+            "width": "660 mm",
+            "height": "260 mm",
+            "weight": "39.8 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".ND",
+          "name": "Narrow Distribution (0.5:1 SHR)",
+          "chart": "assets/img/products/pps/distributions/nd.png"
+        },
+        {
+          "code": ".MD",
+          "name": "Medium Distribution (1:1 SHR)",
+          "chart": "assets/img/products/pps/distributions/md.png"
+        },
+        {
+          "code": ".WD",
+          "name": "Wide Distribution (1.6:1 SHR)",
+          "chart": "assets/img/products/pps/distributions/wd.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "PPS.SUS",
+          "desc": "Suspension kit (1m) — 2× suspension wire, fixing kit and anti-rotation tether for single-point suspension"
+        },
+        {
+          "code": ".SB",
+          "desc": "Stainless steel 316 mounting brackets, suitable for marine environments"
+        },
+        {
+          "code": ".CA",
+          "desc": "Safety chain attachment kit (chain not included)"
+        },
+        {
+          "code": ".WG",
+          "desc": "Wire guard"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN60598",
+        "IP65",
+        "DIN 18032-3 / DIN EN 13964 (with .WG option)",
+        "TM66 Circularity 2.7 (Excellent)",
+        "BRCGS suitable (with .PC lens option)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-pps-brochure.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-pps-installation-guide.pdf",
+          "meta": "PDF · Holophane"
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/PPS-BIM-Revit.zip",
+          "meta": "ZIP · Revit, 1/2/3/4/6 Module"
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/PPS-IES-files.zip",
+          "meta": "ZIP · Narrow/Medium/Wide, all configs"
+        }
+      }
     }
   ]
 }
