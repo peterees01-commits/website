@@ -336,28 +336,40 @@
         }).join("") +
       '</div>'
     ) : "";
+    var introBlock = (
+      '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
+      '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
+      '<p style="max-width:56ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
+      (b.points && b.points.length ?
+        '<ul style="color:var(--text-muted);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0 0 var(--space-5)">' +
+          b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
+        '</ul>' : ""
+      )
+    );
+    // Default layout: two grid children (left = intro text + hardwarePhoto
+    // stacked, right = comparisonPhoto), with any optics/distributions grid
+    // as a separate full-width block below. PPS opts into opticsInline,
+    // which instead emits 4 direct grid children so hardwarePhoto and the
+    // optics grid land in the same implicit grid row — lining the optics
+    // cards up with the top of the reflector photo, not just wherever they
+    // fall after the comparison photo's variable-height caption.
+    var bodyHtml = b.opticsInline ? (
+      '<div class="two-col two-col--wide-left">' +
+        '<div>' + introBlock + '</div>' +
+        '<div>' + photoBlocks(b.comparisonPhoto) + '</div>' +
+        '<div>' + photoBlocks(b.hardwarePhoto) + '</div>' +
+        '<div>' + opticsGrid + '</div>' +
+      '</div>'
+    ) : (
+      '<div class="two-col two-col--wide-left" style="margin-bottom:' + (hasOptics ? 'var(--space-6)' : '0') + '">' +
+        '<div>' + introBlock + photoBlocks(b.hardwarePhoto) + '</div>' +
+        '<div>' + photoBlocks(b.comparisonPhoto) + '</div>' +
+      '</div>' +
+      (hasOptics ? opticsGrid : "")
+    );
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner">' +
-          '<div class="two-col two-col--wide-left" style="margin-bottom:' + (hasOptics && !b.opticsInline ? 'var(--space-6)' : '0') + '">' +
-            '<div>' +
-              '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
-              '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
-              '<p style="max-width:56ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
-              (b.points && b.points.length ?
-                '<ul style="color:var(--text-muted);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0 0 var(--space-5)">' +
-                  b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
-                '</ul>' : ""
-              ) +
-              photoBlocks(b.hardwarePhoto) +
-            '</div>' +
-            '<div>' +
-              photoBlocks(b.comparisonPhoto) +
-              (b.opticsInline && hasOptics ? '<div style="margin-top:var(--space-5)">' + opticsGrid + '</div>' : "") +
-            '</div>' +
-          '</div>' +
-          (hasOptics && !b.opticsInline ? opticsGrid : "") +
-        '</div>' +
+        '<div class="section__inner">' + bodyHtml + '</div>' +
       '</section>'
     );
   }
