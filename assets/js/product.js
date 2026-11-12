@@ -250,7 +250,7 @@
         d.variants.map(function (v) {
           return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
         }).join("") +
-        '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>' +
+        (p.hideWindage ? '' : '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>') +
       '</table>' +
       '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>'
     );

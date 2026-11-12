@@ -2374,11 +2374,8 @@
         "Industrial",
         "Sport"
       ],
+      "hideWindage": true,
       "images": [
-        {
-          "file": "assets/img/products/pps/pps-01-profile.png",
-          "alt": "Prismpack high bay, front elevation showing gear housing, mounting bracket and PrismaLED module"
-        },
         {
           "file": "assets/img/products/pps/pps-02-m1.png",
           "alt": "Prismpack 1 Module configuration, angled view",
@@ -2387,6 +2384,11 @@
         {
           "file": "assets/img/products/pps/pps-03-m1-alt.png",
           "alt": "Prismpack 1 Module configuration, showing gear compartment and mounting bracket",
+          "size": "1 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-01-profile.png",
+          "alt": "Prismpack high bay, front elevation showing gear housing, mounting bracket and PrismaLED module",
           "size": "1 Module"
         },
         {
@@ -2470,7 +2472,7 @@
         },
         {
           "label": "Electrical class",
-          "value": ""
+          "value": "Class I"
         },
         {
           "label": "Dimming",
