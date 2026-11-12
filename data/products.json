@@ -2415,6 +2415,26 @@
           "alt": "Prismpack dimension diagram for 1, 2, 3, 4 and 6 module configurations"
         }
       ],
+      "backlightControl": {
+        "eyebrow": "Optimax™ Low Glare",
+        "heading": "Low glare by design",
+        "body": "Holophane's Optimax™ reflector technology spreads the light from each LED over its own modular, faceted reflector rather than letting it radiate from a single bright point. As lumen packages scale from one module up to six, the same reflector geometry builds up across the array, so the luminaire gains output without multiplying point-source glare. The deep-shielded source and low reflector wall brightness keep Prismpack visually comfortable to look at directly below, even at the highest lumen packages.",
+        "points": [
+          "Each LED is spread across its own Optimax reflector, reducing apparent brightness compared with a regular LED high bay at the same output",
+          "Narrow (0.5:1 SHR), Medium (1:1 SHR) and Wide (1.6:1 SHR) reflector geometries tailor the beam to the building's geometry without sacrificing visual comfort",
+          "Available with a clear glass or prismatic glass (PrismaLED) lens, protecting the reflectors and LEDs from the industrial environment within"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/pps/pps-optimax-optics.png",
+          "alt": "Narrow, Medium and Wide Optimax reflector rings and the corresponding LED module arrangement behind each",
+          "caption": "Narrow (0.5:1 SHR), Medium (1:1 SHR) and Wide (1.6:1 SHR) Optimax reflector rings, with the LED module arrangement behind each."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/pps/pps-glass-lens.png",
+          "alt": "Prismpack fitted with the prismatic glass (PrismaLED) lens option",
+          "caption": "The prismatic glass (PrismaLED) lens option blends the LED array into a single diffused, uniform surface and masks the appearance of an individual LED failure. A clear glass or polycarbonate lens is also available."
+        }
+      },
       "badges": [
         {
           "label": "IP65",
