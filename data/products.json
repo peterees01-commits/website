@@ -2435,6 +2435,7 @@
           "caption": "The prismatic glass (PrismaLED) lens option blends the LED array into a single diffused, uniform surface and masks the appearance of an individual LED failure. A clear glass or polycarbonate lens is also available."
         },
         "opticsLabel": "Optical Distributions",
+        "opticsInline": true,
         "optics": [
           {
             "code": ".ND",

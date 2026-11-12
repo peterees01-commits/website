@@ -321,10 +321,25 @@
   function backlightControlSection(p) {
     var b = p.backlightControl;
     if (!b) return "";
+    var hasOptics = b.optics && b.optics.length;
+    var opticsGrid = hasOptics ? (
+      '<p class="eyebrow">' + esc(b.opticsLabel || "Cutoff optics") + '</p>' +
+      '<div class="dist-grid">' +
+        b.optics.map(function (o) {
+          return (
+            '<div class="dist-card">' +
+              '<img class="dist-card__icon" src="../' + esc(o.chart) + '" alt="' + esc(o.name) + ' light distribution plot">' +
+              '<code>' + esc(o.code) + '</code>' +
+              '<span>' + esc(o.name) + '</span>' +
+            '</div>'
+          );
+        }).join("") +
+      '</div>'
+    ) : "";
     return (
       '<section class="section section--surface product-section">' +
         '<div class="section__inner">' +
-          '<div class="two-col two-col--wide-left" style="margin-bottom:' + (b.optics && b.optics.length ? 'var(--space-6)' : '0') + '">' +
+          '<div class="two-col two-col--wide-left" style="margin-bottom:' + (hasOptics && !b.opticsInline ? 'var(--space-6)' : '0') + '">' +
             '<div>' +
               '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
               '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
@@ -338,22 +353,10 @@
             '</div>' +
             '<div>' +
               photoBlocks(b.comparisonPhoto) +
+              (b.opticsInline && hasOptics ? '<div style="margin-top:var(--space-5)">' + opticsGrid + '</div>' : "") +
             '</div>' +
           '</div>' +
-          (b.optics && b.optics.length ?
-            '<p class="eyebrow">' + esc(b.opticsLabel || "Cutoff optics") + '</p>' +
-            '<div class="dist-grid">' +
-              b.optics.map(function (o) {
-                return (
-                  '<div class="dist-card">' +
-                    '<img class="dist-card__icon" src="../' + esc(o.chart) + '" alt="' + esc(o.name) + ' light distribution plot">' +
-                    '<code>' + esc(o.code) + '</code>' +
-                    '<span>' + esc(o.name) + '</span>' +
-                  '</div>'
-                );
-              }).join("") +
-            '</div>' : ""
-          ) +
+          (hasOptics && !b.opticsInline ? opticsGrid : "") +
         '</div>' +
       '</section>'
     );
