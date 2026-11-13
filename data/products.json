@@ -2480,7 +2480,7 @@
       "keySpecs": [
         {
           "label": "Delivered lumens",
-          "value": "c.9,600 – c.114,700 lm (configuration dependent, up to 120,000 lm)"
+          "value": "c.9,600 – c.114,700 lm"
         },
         {
           "label": "Colour temperature",
@@ -2726,7 +2726,7 @@
       "keySpecs": [
         {
           "label": "Delivered lumens",
-          "value": "12,000 – 70,000 lm (HOL1: 12,000–40,000 lm; HOL2: 35,000–70,000 lm)"
+          "value": "12,000 – 70,000 lm"
         },
         {
           "label": "Colour temperature",
