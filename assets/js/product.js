@@ -273,7 +273,7 @@
         '<div>' +
           '<p class="eyebrow">Overview</p>' +
           '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + overviewHeading + '</h2>' +
-          '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
+          '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary).replace(/\n/g, "<br>") + '</p>' +
         '</div>'
       );
       rightCol = (
@@ -288,7 +288,7 @@
           '<div>' +
             '<p class="eyebrow">Overview</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + overviewHeading + '</h2>' +
-            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary) + '</p>' +
+            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(p.summary).replace(/\n/g, "<br>") + '</p>' +
           '</div>' +
           '<div style="margin-top:auto">' + physicalBlock + '</div>' +
         '</div>'
