@@ -232,12 +232,12 @@
         "bim": {
           "label": "BIM objects",
           "file": "assets/downloads/bim/DPL-BIM-Revit.zip",
-          "meta": "ZIP · Revit families, S & L"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/DPL-IES-files.zip",
-          "meta": "ZIP · 352 files, all configs"
+          "meta": ""
         }
       }
     },
@@ -561,12 +561,12 @@
         "bim": {
           "label": "BIM objects",
           "file": "assets/downloads/bim/DSX-BIM-Revit.zip",
-          "meta": "ZIP · Revit families, DSX0/1/2"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/DSX-IES-files.zip",
-          "meta": "ZIP · 2,060 files, sorted by size/CCT/optic"
+          "meta": ""
         }
       }
     },
@@ -789,7 +789,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/RLI-IES-files.zip",
-          "meta": "ZIP · 1,365 files, sorted by lens/CCT/optic"
+          "meta": ""
         }
       }
     },
@@ -1007,7 +1007,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/SLI-IES-files.zip",
-          "meta": "ZIP · 280 files, all configs"
+          "meta": ""
         }
       }
     },
@@ -1206,7 +1206,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/FTS-IES-files.zip",
-          "meta": "ZIP · 74 files, all configs"
+          "meta": ""
         }
       }
     },
@@ -1423,12 +1423,12 @@
         "bim": {
           "label": "BIM objects",
           "file": "assets/downloads/bim/DWL-BIM-Revit.zip",
-          "meta": "ZIP · Revit family"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/DWL-IES-files.zip",
-          "meta": "ZIP · 80 files, all configs"
+          "meta": ""
         }
       }
     },
@@ -1717,7 +1717,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/PBL-IES-files.zip",
-          "meta": "ZIP · 486 files, all configs"
+          "meta": ""
         }
       }
     },
@@ -1966,7 +1966,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/SIG-IES-files.zip",
-          "meta": "ZIP · Post Top & Arm Mount, all configs"
+          "meta": ""
         }
       },
       "overviewHeading": "Design-Inspired Landscape",
@@ -2177,12 +2177,12 @@
         "bim": {
           "label": "BIM objects",
           "file": "assets/downloads/bim/DBD-BIM-Revit.rfa",
-          "meta": "RFA · Revit family"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/DBD-IES-files.zip",
-          "meta": "ZIP · Single & double-sided, all configs"
+          "meta": ""
         }
       },
       "disableGalleryFilter": true
@@ -2205,7 +2205,7 @@
       "overviewHeading": "Design-Inspired Landscape",
       "images": [
         {
-          "file": "assets/img/products/sgb/sgb-01-profile-v2.png",
+          "file": "assets/img/products/sgb/sgb-01-profile-v3.png",
           "alt": "Signature Bollard, front profile showing the Transition Zone head and round column"
         },
         {
@@ -2355,7 +2355,7 @@
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/SGB-IES-files.zip",
-          "meta": "ZIP · Symmetric & Asymmetric, all configs"
+          "meta": ""
         }
       }
     },
@@ -2630,12 +2630,12 @@
         "bim": {
           "label": "BIM objects",
           "file": "assets/downloads/bim/PPS-BIM-Revit.zip",
-          "meta": "ZIP · Revit, 1/2/3/4/6 Module"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
           "file": "assets/downloads/ies/PPS-IES-files.zip",
-          "meta": "ZIP · Narrow/Medium/Wide, all configs"
+          "meta": ""
         }
       }
     }

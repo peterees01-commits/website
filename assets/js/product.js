@@ -510,7 +510,7 @@
     return (
       '<div class="download-card' + (compact ? ' download-card--compact' : '') + '">' +
         '<div>' +
-          '<span class="download-card__meta">' + esc(meta) + '</span>' +
+          (meta ? '<span class="download-card__meta">' + esc(meta) + '</span>' : '') +
           '<h4>' + esc(label) + '</h4>' +
         '</div>' +
         '<a class="btn btn-ghost-dark" href="' + esc(file) + '" download aria-label="Download ' + esc(label) + '">Download</a>' +
