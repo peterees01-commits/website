@@ -1097,7 +1097,7 @@
         },
         {
           "label": "Electrical class",
-          "value": ""
+          "value": "Class I"
         },
         {
           "label": "Dimming",
@@ -2737,10 +2737,6 @@
           "value": "70 or 80 CRI (others available on request)"
         },
         {
-          "label": "ULOR",
-          "value": ""
-        },
-        {
           "label": "Ingress protection",
           "value": "IP65"
         },
@@ -2762,7 +2758,7 @@
         },
         {
           "label": "Electrical class",
-          "value": ""
+          "value": "Class I"
         },
         {
           "label": "Dimming",

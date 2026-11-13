@@ -27,3 +27,17 @@ field neither of them needed), ask before improvising a variation.
   warranty period, IK rating): add the row with an empty `"value"` rather
   than guessing or fabricating a number. Don't invent figures for a public
   spec page.
+- **Holophane warranty**: default to `"5 years"` for the `Warranty` key
+  spec on every Holophane product unless that product's own brochure
+  states a different period.
+- **Electrical class**: default to `"Class I"` for the `Electrical class`
+  key spec unless a product's own brochure specifically states Class II
+  (or "Class I or Class II").
+- **ULOR for interior products** (e.g. high bays like PPS, HOL): omit the
+  `ULOR` row entirely — it isn't a meaningful spec for an interior fitting.
+  Keep it for exterior/pole/bollard products.
+- **Windage**: for products where wind loading doesn't apply (interior
+  fixtures, ceiling/surface-mounted high bays), set `"hideWindage": true`
+  on the product to drop the Windage row from the Physical characteristics
+  table, rather than leaving it blank. Pole-mounted/exterior products keep
+  the row (populated or left blank per the unconfirmed-value rule above).
