@@ -2871,6 +2871,189 @@
           "meta": ""
         }
       }
+    },
+    {
+      "code": "WAP",
+      "name": "Wallpack",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=WAP",
+      "category": "Bulkhead / Perimeter / Security",
+      "family": "Wallpack",
+      "tagline": "Wall-mounted bulkhead luminaire for building perimeters and loading bays, delivering 3,000 to 9,000 lumens across four optical distributions with 0% uplight and up to 135 lm/W.",
+      "summary": "Wallpack combines high-performance LEDs and optical versatility in a robust, 2-part die-cast aluminium housing. Designed for mounting heights up to 5m, it offers 0% uplight to fit the needs of harsh environments, with recessed LED modules for BREEAM-compliant night-time lighting. The LED driver is mounted separately from the LED modules to promote low operating temperature and long system life, with the 2-part housing giving easy access for maintenance or emergency battery changes.",
+      "applications": [
+        "Perimeter",
+        "Loading Bays"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/wap/wap-01-profile.png",
+          "alt": "Wallpack bulkhead luminaire, angled view showing the 2-module LED array"
+        },
+        {
+          "file": "assets/img/products/wap/wap-02-heatsink.png",
+          "alt": "Wallpack rear housing showing the finned heat sink for conductive thermal management"
+        },
+        {
+          "file": "assets/img/products/wap/wap-03-2part-exploded.png",
+          "alt": "Wallpack's 2-part housing exploded, showing the back box, wiring and LED module separated for maintenance"
+        },
+        {
+          "file": "assets/img/products/wap/wap-dimensions.jpg",
+          "alt": "Wallpack dimension diagram, 1 and 2 LED module configurations"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Body & light engine"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "Recessed light source, BREEAM compliant"
+        },
+        {
+          "label": "Up to 135 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "TM66: 2.4 Preliminary",
+          "detail": "CEAM circularity rating"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "c.3,000 – c.9,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K / 4000K"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-20°C to +40°C"
+        },
+        {
+          "label": "Body material",
+          "value": "Marine grade die-cast aluminium, two-piece housing conforming to EN1706 AC-46500"
+        },
+        {
+          "label": "Optics",
+          "value": "Bespoke UV-stabilised PMMA optics; Asymmetric, Asymmetric Long, Forward Throw and Long & Narrow distributions"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "5/7-pin NEMA photocell sockets (.T7/.T7T) or 4-Pin Zhaga top/bottom sockets (.TZ01/.TZ02/.TZ03) for D4i integration; integrated PIR (.PL1/.PL2) or Controlux Air wireless lighting node (.CA/.CAP)"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @tq 25°C)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/wap/wap-dimensions.jpg",
+        "note": "1 and 2 LED module configurations share the same external case dimensions — module count changes only lumen output and wattage, not size. Weight is per-fitting.",
+        "variants": [
+          {
+            "label": "Wallpack",
+            "length": "392 mm",
+            "width": "121 mm",
+            "height": "293 mm",
+            "weight": "10 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/wap/distributions/ay.png"
+        },
+        {
+          "code": ".HA",
+          "name": "Asymmetric Long",
+          "chart": "assets/img/products/wap/distributions/ha.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/wap/distributions/fw.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/wap/distributions/nr.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "WAP.CTR",
+          "desc": "Conduit thread reducer adapter, 3/4 inch NPT to 20mm (2 supplied in box when ordered with the .CTR option)"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN60598",
+        "IP65",
+        "TM66 Circularity 2.4 (Preliminary)",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "D4i Ready",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-wap-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-wap-installation-guide.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/WAP-IES-files.zip",
+          "meta": ""
+        }
+      }
     }
   ]
 }
