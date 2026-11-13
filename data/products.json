@@ -222,12 +222,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-dpl-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-dpl-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "bim": {
           "label": "BIM objects",
@@ -551,12 +551,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-dsx-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-dsx-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "bim": {
           "label": "BIM objects",
@@ -779,12 +779,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-rli-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-rli-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
@@ -997,12 +997,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-sli-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-sli-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
@@ -1196,12 +1196,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-fts-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-fts-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
@@ -1413,12 +1413,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-dwl-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-dwl-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "bim": {
           "label": "BIM objects",
@@ -1707,12 +1707,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-pbl-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-pbl-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
@@ -1956,12 +1956,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-sig-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-sig-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
@@ -2167,12 +2167,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-dbd-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-dbd-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "bim": {
           "label": "BIM objects",
@@ -2345,12 +2345,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-sgb-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-sgb-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "ies": {
           "label": "IES photometric files",
@@ -2620,12 +2620,12 @@
         "brochure": {
           "label": "Product brochure",
           "file": "assets/downloads/lumen-method-pps-brochure.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "installGuide": {
           "label": "Installation instructions",
           "file": "assets/downloads/lumen-method-pps-installation-guide.pdf",
-          "meta": "PDF · Holophane"
+          "meta": ""
         },
         "bim": {
           "label": "BIM objects",
