@@ -2638,6 +2638,243 @@
           "meta": ""
         }
       }
+    },
+    {
+      "code": "HOL",
+      "name": "Holobay",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=HOL",
+      "category": "High Bay / Industrial / Commercial",
+      "family": "Holobay",
+      "tagline": "Next-generation round industrial high bay scaling from 12,000 to 70,000 delivered lumens across two body sizes, with a PrismaLED prismatic glass optic, patented hinged gear access and up to 177 lm/W efficacy.",
+      "summary": "Holobay is Holophane's next generation of robust round high bays, precision engineered in die-cast aluminium with a thermally separate gear housing and a bespoke PrismaLED prismatic glass (or silicone) optic. Offered across two body sizes — HOL1 and HOL2 — with a choice of gear housing, Holobay delivers 12,000 to 70,000 delivered lumens in Narrow, Aisle, Medium or Wide distributions, with a patented hinged driver door for fast installation and maintenance, and an ambient rating up to 70°C.",
+      "applications": [
+        "Industrial",
+        "Commercial"
+      ],
+      "hideWindage": true,
+      "images": [
+        {
+          "file": "assets/img/products/hol/hol-01-profile.png",
+          "alt": "Holobay high bay, front elevation showing the PrismaLED glass optic and finned gear housing"
+        },
+        {
+          "file": "assets/img/products/hol/hol-02-angle.png",
+          "alt": "Holobay high bay, angled view showing hook mount and finned ventilation housing"
+        },
+        {
+          "file": "assets/img/products/hol/hol-03-bracket.png",
+          "alt": "Holobay high bay fitted with the stirrup mounting bracket"
+        },
+        {
+          "file": "assets/img/products/hol/hol-04-hook.png",
+          "alt": "Holobay high bay, angled underside view showing the standard hook mount"
+        },
+        {
+          "file": "assets/img/products/hol/hol-05-gear-open.png",
+          "alt": "Holobay gear compartment open on its patented hinged lid, showing driver and emergency battery"
+        },
+        {
+          "file": "assets/img/products/hol/hol-dimensions.png",
+          "alt": "Holobay dimension diagram for HOL1 Small, HOL1 Small (Large Housing) and HOL2 Large (Large Housing)"
+        }
+      ],
+      "backlightControl": {
+        "eyebrow": "Self-Cleaning & Thermal Management",
+        "heading": "Engineered to stay cooler, cleaner, longer",
+        "body": "Holobay's low-electrostatic-charge glass optic resists dust and dirt accumulation, while curved ventilation fins create a venturi-effect self-cleaning airstream that draws cool, dense air across the optical lens and critical components. Conduction, convection and radiation are all engineered into the finned housing and thermally decoupled driver compartment, keeping LEDs within their thermal limit — and the patented hinged lid means the gear compartment stays just as easy to reach as it was to keep cool.",
+        "points": [
+          "Glass optic's low electrostatic charge minimises dust and dirt buildup — a simple wipe restores 'as new' efficiency",
+          "Curved housing fins channel a venturi-effect self-cleaning airstream across the lens and gear compartment",
+          "LEDs sit at equal distance from the cooling vents and adjacent boards, keeping thermal variation — and lumen depreciation — even across the array"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/hol/hol-06-thermal.png",
+          "alt": "Holobay thermal management diagram showing hot air drawn in through the fins (orange) and cool self-cleaning airflow across the optic (blue)",
+          "caption": "Conduction, convection and radiation, plus a venturi-effect self-cleaning airstream across the glass optic."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/hol/hol-05-gear-open.png",
+          "alt": "Holobay gear compartment open on its patented hinged lid",
+          "caption": "Patented hinged lid gives direct access to the driver and emergency battery, cutting install and maintenance time."
+        }
+      },
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Gear compartment & light engine"
+        },
+        {
+          "label": "Up to 177 lm/W",
+          "detail": "System efficacy, across both body sizes"
+        },
+        {
+          "label": "TM66: 2.6 Preliminary",
+          "detail": "CEAM circularity score"
+        },
+        {
+          "label": "Ta up to 70°C",
+          "detail": "Ambient operating temperature rating"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "12,000 – 70,000 lm (HOL1: 12,000–40,000 lm; HOL2: 35,000–70,000 lm)"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "4000K / 5000K (others available on request)"
+        },
+        {
+          "label": "CRI",
+          "value": "70 or 80 CRI (others available on request)"
+        },
+        {
+          "label": "ULOR",
+          "value": ""
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-20°C to +70°C"
+        },
+        {
+          "label": "Body material",
+          "value": "Die-cast aluminium, thermally separate two-part gear and optical housing"
+        },
+        {
+          "label": "Optics",
+          "value": "PrismaLED prismatic borosilicate glass optic (silicone optic available); Narrow / Aisle / Medium / Wide distributions"
+        },
+        {
+          "label": "Electrical class",
+          "value": ""
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "HOLOSOne Bluetooth wireless control with PIR & daylight harvesting (.H1L up to 5m / .H1H up to 17m mounting); 4-pin Zhaga socket (.TZ02) for controls by others"
+        },
+        {
+          "label": "Warranty",
+          "value": ""
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @tq 30°C)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/hol/hol-dimensions.png",
+        "note": "HOL1 Small (Large Housing) and HOL2 Large (Large Housing) use the large gear housing to support higher lumen packages and integral emergency — see the brochure's ordering details for configuration limits. Weight is per-fitting, standard version.",
+        "variants": [
+          {
+            "label": "HOL1 Small",
+            "length": "Ø 480 mm",
+            "width": "—",
+            "height": "274 mm",
+            "weight": "15 kg"
+          },
+          {
+            "label": "HOL1 Small (Large Housing)",
+            "length": "Ø 480 mm",
+            "width": "—",
+            "height": "288 mm",
+            "weight": "17 kg"
+          },
+          {
+            "label": "HOL2 Large (Large Housing)",
+            "length": "Ø 590 mm",
+            "width": "—",
+            "height": "294 mm",
+            "weight": "20 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".ND",
+          "name": "Narrow Distribution (SHR 1.0–1.15)",
+          "chart": "assets/img/products/hol/distributions/nd.png"
+        },
+        {
+          "code": ".AD",
+          "name": "Aisle Distribution (SHR 1.25–1.34)",
+          "chart": "assets/img/products/hol/distributions/ad.png"
+        },
+        {
+          "code": ".MD",
+          "name": "Medium Distribution (SHR 1.25–1.48)",
+          "chart": "assets/img/products/hol/distributions/md.png"
+        },
+        {
+          "code": ".WD",
+          "name": "Wide Distribution (SHR 1.5–1.75)",
+          "chart": "assets/img/products/hol/distributions/wd.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "HOL.SUS",
+          "desc": "Suspension kit (1m) — 4× suspension wire, fixing kit and anti-rotation tether for single-point suspension"
+        },
+        {
+          "code": "HEL.PRG",
+          "desc": "Remote programming device, suitable for PHD/PL1/PH1 PIR devices — programming range up to 20m"
+        },
+        {
+          "code": ".SM",
+          "desc": "Stirrup mounting bracket"
+        },
+        {
+          "code": ".WG",
+          "desc": "Wire guard"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN60598",
+        "IP65",
+        "TM66 Circularity 2.6 (Preliminary)",
+        "Build Back Better Green Award Winner",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-hol-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-hol-installation-guide.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/HOL-IES-files.zip",
+          "meta": ""
+        }
+      }
     }
   ]
 }
