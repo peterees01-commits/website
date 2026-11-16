@@ -491,7 +491,7 @@
     var mountBlock = m ? (
       '<div>' +
         '<p class="eyebrow">Mounting</p>' +
-        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Suggested mounting heights</h2>' +
+        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">' + esc(m.heading || "Suggested mounting heights") + '</h2>' +
         '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(m.note) + '</p>' +
         '<div class="table-scroll" style="max-width:420px">' +
           '<table class="perf-table" style="min-width:0">' +

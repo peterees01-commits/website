@@ -188,6 +188,7 @@
         }
       ],
       "mountingHeights": {
+        "heading": "AS1158.3 – PC Spacing Guide",
         "note": "Suitable from 3m to 8m mounting heights, based on PC Category (Car Parks) under AS 1158.3.1. Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
         "rows": [
           {
@@ -1392,11 +1393,15 @@
         }
       ],
       "mountingHeights": {
-        "note": "Suitable for spacings of 15m to 20m at 3m mounting height (5 lux average). Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "note": "Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
         "rows": [
           {
             "height": "3 m",
-            "range": "15 – 20 m"
+            "range": "10 m"
+          },
+          {
+            "height": "5 m",
+            "range": "15 m"
           }
         ]
       },
@@ -2155,6 +2160,15 @@
           "desc": "Set of 4 bolts M10 x 100mm for flange base fixing"
         }
       ],
+      "mountingHeights": {
+        "note": "Indicative spacing guidance only — not a substitute for a lighting design calculation.",
+        "rows": [
+          {
+            "height": "All heights",
+            "range": "10 m"
+          }
+        ]
+      },
       "certifications": [
         "CE",
         "UKCA",
@@ -2333,6 +2347,15 @@
           "desc": "IP68 connector, suitable for 5-core cable"
         }
       ],
+      "mountingHeights": {
+        "note": "Indicative spacing guidance only — not a substitute for a lighting design calculation.",
+        "rows": [
+          {
+            "height": "All heights",
+            "range": "10 m"
+          }
+        ]
+      },
       "certifications": [
         "CE",
         "UKCA",
@@ -3837,12 +3860,11 @@
       "family": "Advanced Optix",
       "tagline": "High mast area lighting luminaire with prismatic borosilicate glass refractor optics, scaling from 30,000 to 100,000 delivered lumens across 6, 9 or 12 optical pod configurations, for freight terminals, ports, airports and motorways.",
       "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements.",
-      "applications": ["Industrial", "Car Parks"],
+      "applications": ["Area Lighting"],
       "images": [
         {"file": "assets/img/products/hmao/hmao-01-pods.png", "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"},
         {"file": "assets/img/products/hmao/hmao-02-housing.png", "alt": "HMAO viewed from above, showing the two-piece electrical housing and optical pod housing"},
         {"file": "assets/img/products/hmao/hmao-03-install-night.jpg", "alt": "Ten HMAO luminaires mounted in a ring on a high mast, photographed at night from below"},
-        {"file": "assets/img/products/hmao/hmao-04-install-day.jpg", "alt": "Six HMAO luminaires mounted on a high mast, photographed in daylight from below"},
         {"file": "assets/img/products/hmao/hmao-dimensions.png", "alt": "HMAO dimension diagram, 584mm by 686mm by 254mm"}
       ],
       "backlightControl": {
@@ -3920,7 +3942,7 @@
 ,
     {
       "code": "VAL",
-      "name": "Vanguard Linear Gen2",
+      "name": "Vanguard",
       "manufacturer": "Holophane",
       "manufacturerSlug": "holophane",
       "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
@@ -3931,10 +3953,10 @@
       "summary": "Vanguard Linear is a range of low maintenance luminaires, ideally suited for interior and exterior lighting applications where energy efficiency and maintenance costs are of prime importance. The sealed polycarbonate enclosure with high-transmission opal diffuser is IK10 rated for impact protection and IP66 rated for ingress protection, making it suitable for demanding environments, while stainless-steel clips keep the enclosure sealed for both surface and suspended installation. A comprehensive mounting and suspension kit is supplied as standard with every luminaire.",
       "applications": ["Industrial", "Warehousing"],
       "images": [
-        {"file": "assets/img/products/val/val-01-pair.png", "alt": "Vanguard Linear Gen2, 1200mm and 1500mm housings side by side, lit"},
-        {"file": "assets/img/products/val/val-02-install.jpg", "alt": "Vanguard Linear Gen2 suspended from roof purlins in a warehouse, lit"},
-        {"file": "assets/img/products/val/val-03-open.png", "alt": "Vanguard Linear Gen2 with cover open, showing the gear tray, wiring and opal diffuser"},
-        {"file": "assets/img/products/val/val-dimensions.png", "alt": "Vanguard Linear Gen2 dimension diagram for the 1200mm and 1500mm housings"}
+        {"file": "assets/img/products/val/val-01-pair.png", "alt": "Vanguard, 1200mm and 1500mm housings side by side, lit"},
+        {"file": "assets/img/products/val/val-02-install.jpg", "alt": "Vanguard suspended from roof purlins in a warehouse, lit"},
+        {"file": "assets/img/products/val/val-03-open.png", "alt": "Vanguard with cover open, showing the gear tray, wiring and opal diffuser"},
+        {"file": "assets/img/products/val/val-dimensions.png", "alt": "Vanguard dimension diagram for the 1200mm and 1500mm housings"}
       ],
       "backlightControl": {
         "eyebrow": "Simple Installation",
@@ -3947,12 +3969,12 @@
         ],
         "hardwarePhoto": {
           "file": "assets/img/products/val/val-03-open.png",
-          "alt": "Vanguard Linear Gen2 gear tray and wiring with cover open",
+          "alt": "Vanguard gear tray and wiring with cover open",
           "caption": "External clips and IP glands give access to the gear tray without breaking the IP66 seal."
         },
         "comparisonPhoto": {
           "file": "assets/img/products/val/val-02-install.jpg",
-          "alt": "Vanguard Linear Gen2 suspended from roof purlins",
+          "alt": "Vanguard suspended from roof purlins",
           "caption": "Suspended or surface mounted — the mounting and suspension kit is supplied as standard."
         }
       },
@@ -3960,11 +3982,10 @@
         {"label": "IP66", "detail": "Ingress protection"},
         {"label": "IK10", "detail": "Impact rating"},
         {"label": "Up to 148 lm/W", "detail": "System efficacy"},
-        {"label": "Class I", "detail": "Electrical class"},
-        {"label": "3hr Emergency option", "detail": "DALI-enabled self-test emergency pack (.EM3)"}
+        {"label": "Class I", "detail": "Electrical class"}
       ],
       "keySpecs": [
-        {"label": "Delivered lumens", "value": "3,000 – 8,000 lm across six lumen packages (LA034–LA084)"},
+        {"label": "Delivered lumens", "value": "3,000 – 8,000 lm across six lumen packages"},
         {"label": "Colour temperature", "value": "4000K"},
         {"label": "CRI", "value": "80+"},
         {"label": "Ingress protection", "value": "IP66"},
