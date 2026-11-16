@@ -3826,6 +3826,98 @@
         "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf", "meta": ""}
       }
     }
+,
+    {
+      "code": "HMAO",
+      "name": "High Mast Advanced Optix",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=HMAO",
+      "category": "High Mast / Industrial / Area Lighting",
+      "family": "Advanced Optix",
+      "tagline": "High mast area lighting luminaire with prismatic borosilicate glass refractor optics, scaling from 30,000 to 100,000 delivered lumens across 6, 9 or 12 optical pod configurations, for freight terminals, ports, airports and motorways.",
+      "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements. Compatible with Controlux Air wireless lighting control for remote configuration and reporting.",
+      "applications": ["Industrial", "Car Parks"],
+      "images": [
+        {"file": "assets/img/products/hmao/hmao-01-pods.png", "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"},
+        {"file": "assets/img/products/hmao/hmao-02-housing.png", "alt": "HMAO viewed from above, showing the two-piece electrical housing and optical pod housing"},
+        {"file": "assets/img/products/hmao/hmao-03-install-night.jpg", "alt": "Ten HMAO luminaires mounted in a ring on a high mast, photographed at night from below"},
+        {"file": "assets/img/products/hmao/hmao-04-install-day.jpg", "alt": "Six HMAO luminaires mounted on a high mast, photographed in daylight from below"},
+        {"file": "assets/img/products/hmao/hmao-dimensions.png", "alt": "HMAO dimension diagram, 584mm by 686mm by 254mm"}
+      ],
+      "backlightControl": {
+        "eyebrow": "Glass Refractor Optics",
+        "heading": "PrismGlow optics for uniform, low-glare high mast lighting",
+        "body": "By combining the latest LED technology with Holophane's advanced glass refractor optic, HMAO breaks up the image of the LEDs with a PrismGlow effect. This reduces the glare normally associated with individual LEDs and eliminates hot spots on the working environment, creating a more uniform vertical and horizontal lighting solution. Glass's low electrostatic charge makes it less attractive to dust and dirt than aluminium or plastic optics, and works with the ventilated, finned heat-sink chassis to create a self-cleaning effect that enhances lumen maintenance over time.",
+        "points": [
+          "Prismatic borosilicate glass refractor lenses, one per LED module, forming individually ventilated optical pods — 6, 9 or 12 per luminaire depending on lumen package",
+          "Self-cleaning optic: low-electrostatic glass plus a ventilated, finned heat-sink chassis reduce dirt depreciation and extend lumen maintenance",
+          "Rotatable optical assembly for on-site alignment of distributions to specific lighting requirements and balanced weight on existing mast-head frames"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/hmao/hmao-02-housing.png",
+          "alt": "HMAO two-piece electrical housing with hinged upper casting",
+          "caption": "Two-piece electrical housing; the upper casting detaches/hinges to aid installation."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/hmao/hmao-01-pods.png",
+          "alt": "HMAO glass refractor optical pods",
+          "caption": "Each LED module sits behind its own prismatic glass refractor, forming an individual optical pod."
+        }
+      },
+      "badges": [
+        {"label": "IP65", "detail": "Electrical housing; IP65 overall with .T1/.T7 photocell options"},
+        {"label": "Up to 167 lm/W", "detail": "System efficacy"},
+        {"label": "IK07", "detail": "Impact rating"},
+        {"label": "TM66: 2.3 Preliminary", "detail": "Definite/substantial progress to circularity"},
+        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, at 3000K"}
+      ],
+      "keySpecs": [
+        {"label": "Delivered lumens", "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)"},
+        {"label": "Colour temperature", "value": "3000K or 4000K (3000K or warmer required for IDA Dark-Sky certification)"},
+        {"label": "CRI", "value": "> 70"},
+        {"label": "ULOR", "value": ""},
+        {"label": "Ingress protection", "value": "IP65"},
+        {"label": "IK rating", "value": "IK07"},
+        {"label": "Operating temperature", "value": "-20°C to +45°C (LC75X limited to +40°C; LC100X limited to +35°C)"},
+        {"label": "Body material", "value": "Prismatic borosilicate glass refractor lenses; ventilated, finned aluminium optical pod housing; two-piece cast aluminium electrical housing with hinged upper casting"},
+        {"label": "Optics", "value": "Individual glass refractor optical pods per LED module (6, 9 or 12 depending on lumen package); seven distributions with a rotatable optical assembly for on-site alignment"},
+        {"label": "Electrical class", "value": "Class I"},
+        {"label": "Dimming", "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"},
+        {"label": "Smart controls", "value": "Compatible with Controlux Air wireless lighting control — wireless controller, motion sensor and gateway for remote configuration, map-based monitoring and automatic failure reporting"},
+        {"label": "Warranty", "value": "5 years"},
+        {"label": "Life rating", "value": "100,000 hrs (L70B50 @Tq 25°C)"}
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/hmao/hmao-dimensions.png",
+        "note": "Dimensions, weight and windage are a single figure for the luminaire body across all 10 lumen packages and all 6/9/12 pod configurations. Mounting is via four-bolt side arm mounting suitable for 42mm and 60mm side entry, with +/-5° tilt.",
+        "variants": [
+          {"label": "HMAO (all configurations)", "length": "686 mm", "width": "584 mm", "height": "254 mm", "weight": "23 kg"}
+        ],
+        "windage": "0.120 m²"
+      },
+      "distributions": [
+        {"code": ".SQ", "name": "Square", "chart": "assets/img/products/hmao/distributions/sq.png"},
+        {"code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/hmao/distributions/ay.png"},
+        {"code": ".SY", "name": "Symmetric", "chart": "assets/img/products/hmao/distributions/sy.png"},
+        {"code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/hmao/distributions/fw.png"},
+        {"code": ".NR", "name": "Long & Narrow", "chart": "assets/img/products/hmao/distributions/nr.png"},
+        {"code": ".HS", "name": "High Beam Symmetric", "chart": "assets/img/products/hmao/distributions/hs.png"},
+        {"code": ".SQW", "name": "Square Wide", "chart": "assets/img/products/hmao/distributions/sqw.png", "note": "Series 4 only"}
+      ],
+      "accessories": [
+        {"code": "HMAO.SD90", "desc": "90° shield"},
+        {"code": "HMAO.SD120", "desc": "120° shield"},
+        {"code": "HMAO.SD180", "desc": "180° shield"}
+      ],
+      "certifications": ["EN60598", "IP65", "IK07", "CE", "UKCA", "Made in Britain", "International Dark-Sky Association Fixture Seal of Approval (at 3000K)", "TM66 CEAM 2.3 — Preliminary (Definite/substantial progress to circularity)"],
+      "downloads": {
+        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-hmao-brochure.pdf", "meta": ""},
+        "ies": {"label": "IES photometric files", "file": "assets/downloads/ies/HMAO-IES-files.zip", "meta": ""},
+        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-hmao-installation-guide.pdf", "meta": ""}
+      }
+    }
 
   ]
 }
