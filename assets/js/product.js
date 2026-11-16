@@ -342,7 +342,7 @@
       );
     } else {
       leftCol = (
-        '<div style="display:flex;flex-direction:column;height:100%">' +
+        '<div style="display:flex;flex-direction:column;height:100%;gap:var(--space-6)">' +
           '<div>' +
             '<p class="eyebrow">Overview</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + overviewHeading + '</h2>' +
