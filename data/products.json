@@ -1779,14 +1779,8 @@
       ],
       "images": [
         {
-          "file": "assets/img/products/sig/sig-01-profile-v4.png",
-          "alt": "Signature Post Top, close-up of the canopy and twin cast support arms in black finish",
-          "size": "Post Top"
-        },
-        {
           "file": "assets/img/products/sig/sig-01-profile-v3.png",
-          "alt": "Signature Post Top, front-on profile showing the full canopy, twin cast support arms and pole",
-          "size": "Post Top"
+          "alt": "Signature Post Top, front-on profile showing the full canopy, twin cast support arms and pole"
         },
         {
           "file": "assets/img/products/sig/sig-02-head-detail.png",
