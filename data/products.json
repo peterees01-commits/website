@@ -3582,7 +3582,7 @@
       ],
       "images": [
         {
-          "file": "assets/img/products/pse/pse-02-angle.png",
+          "file": "assets/img/products/pse/pse-02-angle-v2.png",
           "alt": "Prismashield Elite, angled view showing the end cap knockouts and constant-pressure door edge"
         },
         {
@@ -3608,7 +3608,7 @@
           "Pressure equalisation valve balances internal/external pressure, extending joint and electronics life"
         ],
         "hardwarePhoto": {
-          "file": "assets/img/products/pse/pse-02-angle.png",
+          "file": "assets/img/products/pse/pse-02-angle-v2.png",
           "alt": "Prismashield Elite angled view showing the constant-pressure door edge and end cap",
           "caption": "Dual-contact clip-in and bolt door retention for a constant IP65 seal."
         },
