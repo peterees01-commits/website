@@ -622,6 +622,10 @@
   border: 1px solid var(--border-light);
   color: var(--text-muted);
   white-space: nowrap;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .product-card__link {

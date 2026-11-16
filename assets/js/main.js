@@ -256,7 +256,7 @@
       var ip = p.keySpecs.find(function (s) { return s.label === "Ingress protection"; });
       var cct = p.keySpecs.find(function (s) { return s.label === "Colour temperature"; });
       var chips = [];
-      if (lumens) chips.push(lumens.value);
+      if (lumens) chips.push(lumens.value.split("(")[0].trim());
       if (cct) chips.push(cct.value.split("(")[0].trim());
       if (ip) chips.push(ip.value.split(",")[0].trim());
       return (
