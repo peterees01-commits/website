@@ -464,7 +464,7 @@
       ipBadge ? ipBadge.label : null,
       ikBadge ? ikBadge.label : null,
       ulorBadge ? ulorBadge.label : null,
-      p.backlightControl ? p.backlightControl.eyebrow : null
+      (p.backlightControl && !p.backlightControl.hideFromStatBand) ? p.backlightControl.eyebrow : null
     ].filter(Boolean);
 
     return (

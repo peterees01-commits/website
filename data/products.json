@@ -3093,6 +3093,7 @@
       ],
       "backlightControl": {
         "imagesRight": true,
+        "hideFromStatBand": true,
         "eyebrow": "Product Versions",
         "heading": "Application Flexibility",
         "body": "Prismaspace is ordered as a combination of options, so it's worth knowing what each one actually changes. The two that affect the physical luminaire are efficacy tier (Standard or HE) and sealing (IP40 or IP65) — the rest are driver and control choices that apply the same way across most Holophane ranges.",
