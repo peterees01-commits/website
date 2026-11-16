@@ -360,6 +360,15 @@
         '<div>' + photoBlocks(b.hardwarePhoto) + '</div>' +
         '<div>' + opticsGrid + '</div>' +
       '</div>'
+    ) : b.imagesRight ? (
+      // Opt-in: keep the left column text-only and stack both photos in
+      // the right column, instead of the default where hardwarePhoto sits
+      // under the text on the left.
+      '<div class="two-col two-col--wide-left" style="margin-bottom:' + (hasOptics ? 'var(--space-6)' : '0') + '">' +
+        '<div>' + introBlock + '</div>' +
+        '<div>' + photoBlocks(b.hardwarePhoto) + photoBlocks(b.comparisonPhoto) + '</div>' +
+      '</div>' +
+      (hasOptics ? opticsGrid : "")
     ) : (
       '<div class="two-col two-col--wide-left" style="margin-bottom:' + (hasOptics ? 'var(--space-6)' : '0') + '">' +
         '<div>' + introBlock + photoBlocks(b.hardwarePhoto) + '</div>' +
