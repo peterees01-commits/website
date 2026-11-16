@@ -2657,15 +2657,15 @@
       "hideWindage": true,
       "images": [
         {
-          "file": "assets/img/products/hol/hol-01-profile.png",
+          "file": "assets/img/products/hol/hol-01-profile-v2.png",
           "alt": "Holobay high bay, front elevation showing the PrismaLED glass optic and finned gear housing"
         },
         {
-          "file": "assets/img/products/hol/hol-02-angle.png",
+          "file": "assets/img/products/hol/hol-02-angle-v2.png",
           "alt": "Holobay high bay, angled view showing hook mount and finned ventilation housing"
         },
         {
-          "file": "assets/img/products/hol/hol-03-bracket.png",
+          "file": "assets/img/products/hol/hol-03-bracket-v2.png",
           "alt": "Holobay high bay fitted with the stirrup mounting bracket"
         },
         {
@@ -2673,7 +2673,7 @@
           "alt": "Holobay high bay, angled underside view showing the standard hook mount"
         },
         {
-          "file": "assets/img/products/hol/hol-05-gear-open.png",
+          "file": "assets/img/products/hol/hol-05-gear-open-v2.png",
           "alt": "Holobay gear compartment open on its patented hinged lid, showing driver and emergency battery"
         },
         {
@@ -2696,7 +2696,7 @@
           "caption": "Conduction, convection and radiation, plus a venturi-effect self-cleaning airstream across the glass optic."
         },
         "comparisonPhoto": {
-          "file": "assets/img/products/hol/hol-05-gear-open.png",
+          "file": "assets/img/products/hol/hol-05-gear-open-v2.png",
           "alt": "Holobay gear compartment open on its patented hinged lid",
           "caption": "Patented hinged lid gives direct access to the driver and emergency battery, cutting install and maintenance time."
         }
