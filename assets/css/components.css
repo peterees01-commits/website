@@ -135,7 +135,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
   .site-header {
     /* backdrop-filter establishes a containing block for position:fixed
        descendants, which breaks the full-screen mobile nav overlay below

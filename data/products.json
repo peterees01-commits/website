@@ -118,7 +118,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02), Controlux Air compatible"
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02)"
         },
         {
           "label": "Warranty",
@@ -400,7 +400,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02/TZ03), Controlux Air compatible"
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01/TZ02/TZ03)"
         },
         {
           "label": "Warranty",
@@ -664,7 +664,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora / Controlux Air compatible"
+          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora compatible"
         },
         {
           "label": "Tilt adjustment",
@@ -887,7 +887,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora / Controlux Air compatible"
+          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora compatible"
         },
         {
           "label": "Tilt adjustment",
@@ -1217,7 +1217,7 @@
       "manufacturerSlug": "holophane",
       "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
       "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=DWL",
-      "category": "Area & Amenity Lighting / Perimeter",
+      "category": "Area & Amenity Lighting / Security Lighting",
       "family": "Denver iD",
       "tagline": "Wall-mounted LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
       "summary": "Denver iD Wall is a two-part die-cast aluminium wall-mounted luminaire covering 700–4,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field — the wall-mount sibling to Denver iD Pole and Denver iD Bollard.",
@@ -1321,7 +1321,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01), Controlux Air compatible"
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01)"
         },
         {
           "label": "Warranty",
@@ -1443,7 +1443,7 @@
       "category": "Pole / Pathways / Urban Realm",
       "family": "Pebble",
       "tagline": "Light shaped for comfort, people and environment.",
-      "summary": "Pebble is a brand-new addition to the Holophane range — a post-top area luminaire built from the ground up around visual comfort, and a Build Back Better Gold Award winner. At its centre is a recessed Comfort Optic paired with Holophane's PrismaLED diffusion technology, blending the six-module LED array into a single soft, evenly lit surface instead of six individual points of glare. The optic is fully rotatable and available across five distributions, from a tight Symmetric spread to Forward Throw Extra, and the recessed design keeps ULOR at a flat 0% for genuine dark-sky compliance. Pebble ships in three mounting configurations — Post-top, Side-entry and Cradle-mount — so one luminaire family covers pathways, plazas, car parks and campus routes without changing specification. A single-fixing replaceable optical pod and a thermally engineered aluminium housing keep it serviceable in the field, and it's ready to integrate with Holophane's HOLOSOne wireless controls for daylight, presence and time-based operation. Covering 3,100–20,000 delivered lumens, it's patent-pending — genuinely new technology, not a reskin of an existing range.",
+      "summary": "Pebble is a brand-new addition to the Holophane range — a post-top area luminaire built from the ground up around visual comfort, and a Build Back Better Gold Award winner. At its centre is a recessed Comfort Optic paired with Holophane's PrismaLED diffusion technology, blending the six-module LED array into a single soft, evenly lit surface instead of six individual points of glare. The optic is fully rotatable and available across five distributions, from a tight Symmetric spread to Forward Throw Extra, and the recessed design keeps ULOR at a flat 0% for genuine dark-sky compliance. Pebble ships in three mounting configurations — Post-top, Side-entry and Cradle-mount — so one luminaire family covers pathways, plazas, car parks and campus routes without changing specification. A single-fixing replaceable optical pod and a thermally engineered aluminium housing keep it serviceable in the field, and it's ready to integrate with wireless lighting controls for daylight, presence and time-based operation. Covering 3,100–20,000 delivered lumens, it's patent-pending — genuinely new technology, not a reskin of an existing range.",
       "applications": [
         "Pathways",
         "Public Realm"
@@ -1543,7 +1543,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "HOLOSOne compatible — daylight, presence and time-based operation"
+          "value": "Daylight, presence and time-based operation"
         }
       ],
       "dimensions": {
@@ -1731,7 +1731,7 @@
       "category": "Pole / Pathways / Urban Realm",
       "family": "Signature",
       "tagline": "Architecturally-led post-top and arm-mount LED area luminaire with a patent-pending Transition Zone, built for visually comfortable, sculptural pedestrian lighting.",
-      "summary": "Signature is Holophane's design-led area luminaire, available as a Post Top (.VB1) or Arm Mount (.SE) from the same luminaire family. A recessed, uniformly luminous waveguide and a patent-pending Transition Zone soften the light source's visual signature, cutting glare without sacrificing task-area performance. Covers 3,000–14,000 delivered lumens across three optical distributions, with Controlux Air wireless control compatibility throughout.",
+      "summary": "Signature is Holophane's design-led area luminaire, available as a Post Top (.VB1) or Arm Mount (.SE) from the same luminaire family. A recessed, uniformly luminous waveguide and a patent-pending Transition Zone soften the light source's visual signature, cutting glare without sacrificing task-area performance. Covers 3,000–14,000 delivered lumens across three optical distributions.",
       "applications": [
         "Pathways",
         "Public Realm"
@@ -1833,7 +1833,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "Controlux Air compatible (wireless controller option .T1Z4, node ordered separately as IOT.TZ4.TSK), 4-pin Zhaga socket (.TZ01)"
+          "value": "4-pin Zhaga socket (.TZ01)"
         },
         {
           "label": "Warranty",
@@ -2097,7 +2097,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "HOLOSOne Bluetooth NLC wireless node with PIR and daylight harvesting (.H1L), or Controlux Air wireless node (.CA, includes 2-year subscription); integrated single/dual/groupable PIR options"
+          "value": "PIR and daylight harvesting; integrated single/dual/groupable PIR options"
         },
         {
           "label": "Warranty",
@@ -2520,7 +2520,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "HOLOSOne Bluetooth wireless control with PIR & daylight harvesting; compatible with HOLOSAir and HOLOS Wired"
+          "value": "PIR & daylight harvesting"
         },
         {
           "label": "Warranty",
@@ -2766,7 +2766,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "HOLOSOne Bluetooth wireless control with PIR & daylight harvesting (.H1L up to 5m / .H1H up to 17m mounting); 4-pin Zhaga socket (.TZ02) for controls by others"
+          "value": "PIR & daylight harvesting (.H1L up to 5m / .H1H up to 17m mounting); 4-pin Zhaga socket (.TZ02) for controls by others"
         },
         {
           "label": "Warranty",
@@ -2879,7 +2879,7 @@
       "manufacturerSlug": "holophane",
       "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
       "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=WAP",
-      "category": "Area & Amenity Lighting / Perimeter",
+      "category": "Area & Amenity Lighting / Security Lighting",
       "family": "Wallpack",
       "tagline": "Wall-mounted bulkhead luminaire for building perimeters and loading bays, delivering 3,000 to 9,000 lumens across four optical distributions with 0% uplight and up to 135 lm/W.",
       "summary": "Wallpack combines high-performance LEDs and optical versatility in a robust, 2-part die-cast aluminium housing. Designed for mounting heights up to 5m, it offers 0% uplight to fit the needs of harsh environments, with recessed LED modules for BREEAM-compliant night-time lighting. The LED driver is mounted separately from the LED modules to promote low operating temperature and long system life, with the 2-part housing giving easy access for maintenance or emergency battery changes.",
@@ -2974,7 +2974,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "5/7-pin NEMA photocell sockets (.T7/.T7T) or 4-Pin Zhaga top/bottom sockets (.TZ01/.TZ02/.TZ03) for D4i integration; integrated PIR (.PL1/.PL2) or Controlux Air wireless lighting node (.CA/.CAP)"
+          "value": "5/7-pin NEMA photocell sockets (.T7/.T7T) or 4-Pin Zhaga top/bottom sockets (.TZ01/.TZ02/.TZ03) for D4i integration; integrated PIR (.PL1/.PL2)"
         },
         {
           "label": "Warranty",
@@ -3065,7 +3065,7 @@
       "category": "High Bay / Industrial",
       "family": "Prismaspace",
       "tagline": "Rotatable prismatic linear luminaire for warehouses and logistics centres, scaling from 3,000 to 42,000 lumens across single and double modules, with optics that adjust up to 180° on site.",
-      "summary": "Prismaspace fuses mid-power LEDs with Holophane's distinguished prismatic optics to deliver unparalleled uniformity for commercial and industrial interiors. Available as a single or double optical module, in IP40 or a sealed IP65 version, the IP65 optics rotate up to 180° (single) or 45° (double) in 15° increments — letting the distribution be customised on site to focus on the working plane, horizontal or vertical. Suspension or trunking mounted, with DALI dimming and HOLOSOne wireless control built in.",
+      "summary": "Prismaspace fuses mid-power LEDs with Holophane's distinguished prismatic optics to deliver unparalleled uniformity for commercial and industrial interiors. Available as a single or double optical module, in IP40 or a sealed IP65 version, the IP65 optics rotate up to 180° (single) or 45° (double) in 15° increments — letting the distribution be customised on site to focus on the working plane, horizontal or vertical. Suspension or trunking mounted, with DALI dimming and wireless PIR/daylight control built in.",
       "applications": [
         "Industrial",
         "Warehousing"
@@ -3184,7 +3184,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "HOLOSOne Bluetooth NLC wireless node with PIR & daylight harvesting (.H1H up to 16m range / .H1L up to 5m mounting height)"
+          "value": "PIR & daylight harvesting (.H1H up to 16m range / .H1L up to 5m mounting height)"
         },
         {
           "label": "Warranty",
@@ -3405,7 +3405,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "Integrated PIR (.PH0/.PH1 up to 15m, .PL0/.PL1 up to 9m) with switching or dynamic dimming, or HOLOSAir wireless node (.WIH/.WIL) for luminaire grouping and cloud-based control"
+          "value": "Integrated PIR (.PH0/.PH1 up to 15m, .PL0/.PL1 up to 9m) with switching or dynamic dimming"
         },
         {
           "label": "Warranty",
@@ -3510,7 +3510,7 @@
       "manufacturerSlug": "holophane",
       "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
       "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=PSE",
-      "category": "Area & Amenity Lighting / Perimeter",
+      "category": "Area & Amenity Lighting / Industrial",
       "family": "Prismashield",
       "tagline": "Anti-vandal bulkhead luminaire engineered for rail and metro infrastructure, scaling from 2,000 to 14,000 delivered lumens across two enclosure lengths, with a constant-pressure door seal and vandal-resistant hardware.",
       "summary": "Prismashield™ Elite is Holophane's robust anti-vandal bulkhead, purpose-built for the demanding environments of metro and rail infrastructure — train stations, rail yards, underpasses and pedestrian walkways exposed to physical attack, weather and vibration. A dual-contact clip-in-and-bolt door retention system keeps a constant IP65 seal even through repeated cleaning or wash-down cycles, while a pressure equalisation valve balances internal and external pressure to extend joint life. Available with a frosted glass (FGL, IK07) or prismatic polycarbonate frosted (PFL, IK10++) lens, in surface or cornice mounting, with an optional cable management system and infill panels for seamless continuous runs. Lumen packages span\nM1 (678mm): 2,000–8,000 lm\nM2 (1287mm): 10,000–14,000 lm",
@@ -3625,7 +3625,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "Integrated microwave sensor (.PL0/.PL1, switching or dynamic dimming, up to 6m) or HOLOSAir wireless node (.WIL) for luminaire grouping and cloud-based control"
+          "value": "Integrated microwave sensor (.PL0/.PL1, switching or dynamic dimming, up to 6m)"
         },
         {
           "label": "Warranty",
@@ -3693,8 +3693,6 @@
         "EN60598",
         "IP65",
         "IK10",
-        "BS EN 55015",
-        "London Underground Section 12 compliance",
         "TM66 Circularity 2.4 (Preliminary)"
       ],
       "downloads": {
@@ -3718,6 +3716,7 @@
 ,
     {
       "code": "VMXII",
+      "statDistributionCount": 12,
       "name": "V-Max II",
       "manufacturer": "Holophane",
       "manufacturerSlug": "holophane",
@@ -3792,35 +3791,35 @@
         "windage": "0.03 m² (V1) · 0.033 m² (V2) · 0.036 m² (V3) · 0.039 m² (V4) · 0.042 m² (V5) · 0.045 m² (V6)"
       },
       "distributions": [
-        {"code": "F4L2 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-f4l2.png", "note": "Glare Class: G3"},
-        {"code": "L2L3 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l3.png", "note": "Glare Class: G3"},
-        {"code": "L2L4 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l4.png", "note": "Glare Class: G3"},
-        {"code": "L2Q1 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2q1.png", "note": "Glare Class: G3"},
-        {"code": "L3Q1 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3q1.png", "note": "Glare Class: G3"},
-        {"code": "F4Q1 · LA", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-f4q1.png", "note": "Glare Class: G4"},
-        {"code": "X2L2 · LA", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l2.png", "note": "Glare Class: G3"},
-        {"code": "X2L3 · LA", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l3.png", "note": "Glare Class: G3"},
-        {"code": "D4D4 · LA", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-d4d4.png", "note": "Glare Class: G3"},
-        {"code": "L5L5 · LA", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-l5l5.png", "note": "Glare Class: G3"},
-        {"code": "L3L4 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3l4.png", "note": "Glare Class: G4"},
-        {"code": "L4L4 · LA", "name": "Type II Very Short", "chart": "assets/img/products/vmxii/distributions/la-l4l4.png", "note": "Glare Class: G6"},
-        {"code": "D4D4 · LB", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png", "note": "Glare Class: G4"},
-        {"code": "F4L2 · LB", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png", "note": "Glare Class: G4"},
-        {"code": "F4L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png", "note": "Glare Class: G6"},
-        {"code": "L2L3 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png", "note": "Glare Class: G4"},
-        {"code": "L2L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png", "note": "Glare Class: G6"},
-        {"code": "L2Q1 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png", "note": "Glare Class: G4"},
-        {"code": "L3L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png", "note": "Glare Class: G6"},
-        {"code": "L3Q1 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png", "note": "Glare Class: G4"},
-        {"code": "L4L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png", "note": "Glare Class: G6"},
-        {"code": "L5L5 · LB", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png", "note": "Glare Class: G3"},
-        {"code": "X2L2 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png", "note": "Glare Class: G4"},
-        {"code": "X2L3 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4"}
+        {"code": "F4L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-f4l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l4.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "F4Q1", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-f4q1.png", "note": "Glare Class: G4", "group": "LA Optics"},
+        {"code": "X2L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "X2L3", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "D4D4", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-d4d4.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L5L5", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-l5l5.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3l4.png", "note": "Glare Class: G4", "group": "LA Optics"},
+        {"code": "L4L4", "name": "Type II Very Short", "chart": "assets/img/products/vmxii/distributions/la-l4l4.png", "note": "Glare Class: G6", "group": "LA Optics"},
+        {"code": "D4D4", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "F4L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "F4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "L4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L5L5", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png", "note": "Glare Class: G3", "group": "LB Optics"},
+        {"code": "X2L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "X2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4", "group": "LB Optics"}
       ],
       "accessories": [
         {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"}
       ],
-      "certifications": ["BS EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
+      "certifications": ["EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
       "downloads": {
         "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-vmxii-brochure.pdf", "meta": ""},
         "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf", "meta": ""}
@@ -3837,7 +3836,7 @@
       "category": "High Mast / Industrial / Area Lighting",
       "family": "Advanced Optix",
       "tagline": "High mast area lighting luminaire with prismatic borosilicate glass refractor optics, scaling from 30,000 to 100,000 delivered lumens across 6, 9 or 12 optical pod configurations, for freight terminals, ports, airports and motorways.",
-      "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements. Compatible with Controlux Air wireless lighting control for remote configuration and reporting.",
+      "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements.",
       "applications": ["Industrial", "Car Parks"],
       "images": [
         {"file": "assets/img/products/hmao/hmao-01-pods.png", "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"},
@@ -3885,7 +3884,7 @@
         {"label": "Optics", "value": "Individual glass refractor optical pods per LED module (6, 9 or 12 depending on lumen package); seven distributions with a rotatable optical assembly for on-site alignment"},
         {"label": "Electrical class", "value": "Class I"},
         {"label": "Dimming", "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"},
-        {"label": "Smart controls", "value": "Compatible with Controlux Air wireless lighting control — wireless controller, motion sensor and gateway for remote configuration, map-based monitoring and automatic failure reporting"},
+        {"label": "Smart controls", "value": ""},
         {"label": "Warranty", "value": "5 years"},
         {"label": "Life rating", "value": "100,000 hrs (L70B50 @Tq 25°C)"}
       ],

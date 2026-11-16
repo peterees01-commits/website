@@ -448,22 +448,44 @@
   function distributionsSection(p) {
     var m = p.mountingHeights;
     var hasDist = p.distributions && p.distributions.length && !p.hideDistributionsSection;
+    function distCard(d) {
+      return (
+        '<div class="dist-card">' +
+          '<img class="dist-card__icon" src="../' + esc(d.chart) + '" alt="' + esc(d.name) + ' light distribution plot">' +
+          '<code>' + esc(d.code) + '</code>' +
+          '<span>' + esc(d.name) + '</span>' +
+          (d.note ? '<small>' + esc(d.note) + '</small>' : '') +
+        '</div>'
+      );
+    }
+    var hasGroups = hasDist && p.distributions.some(function (d) { return d.group; });
+    var distGrid;
+    if (hasGroups) {
+      var groupOrder = [];
+      var groupMap = {};
+      p.distributions.forEach(function (d) {
+        var g = d.group || "";
+        if (!groupMap[g]) { groupMap[g] = []; groupOrder.push(g); }
+        groupMap[g].push(d);
+      });
+      distGrid = groupOrder.map(function (g, i) {
+        return (
+          '<div' + (i > 0 ? ' style="margin-top:var(--space-6)"' : '') + '>' +
+            (g ? '<h3 style="font-size:var(--text-lg);margin-bottom:var(--space-3)">' + esc(g) + '</h3>' : "") +
+            '<div class="dist-grid">' +
+              groupMap[g].map(distCard).join("") +
+            '</div>' +
+          '</div>'
+        );
+      }).join("");
+    } else if (hasDist) {
+      distGrid = '<div class="dist-grid">' + p.distributions.map(distCard).join("") + '</div>';
+    }
     var distBlock = hasDist ? (
       '<div>' +
         '<p class="eyebrow">Optical distributions</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Optical Distributions</h2>' +
-        '<div class="dist-grid">' +
-          p.distributions.map(function (d) {
-            return (
-              '<div class="dist-card">' +
-                '<img class="dist-card__icon" src="../' + esc(d.chart) + '" alt="' + esc(d.name) + ' light distribution plot">' +
-                '<code>' + esc(d.code) + '</code>' +
-                '<span>' + esc(d.name) + '</span>' +
-                (d.note ? '<small>' + esc(d.note) + '</small>' : '') +
-              '</div>'
-            );
-          }).join("") +
-        '</div>' +
+        distGrid +
       '</div>'
     ) : "";
     var mountBlock = m ? (
@@ -522,7 +544,7 @@
     var ulorBadge = (p.badges || []).find(function (b) { return /ULOR/i.test(b.label); });
     var stats = [
       range ? range + " mounting range" : null,
-      p.distributions ? p.distributions.length + " optical distributions" : null,
+      p.distributions ? (p.statDistributionCount || p.distributions.length) + " optical distributions" : null,
       ipBadge ? ipBadge.label : null,
       ikBadge ? ikBadge.label : null,
       ulorBadge ? ulorBadge.label : null,
