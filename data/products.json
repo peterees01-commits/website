@@ -2028,7 +2028,7 @@
       "category": "Bollard / Pathways / Urban Realm",
       "family": "Denver iD",
       "tagline": "Bollard-mounted LED amenity luminaire with a patented Transition Zone, completing the Denver iD family alongside Pole and Wall.",
-      "summary": "Denver iD Bollard brings the same cohesive family aesthetic and patented Transition Zone glare control as Denver iD Pole and Denver iD Wall to ground-level pedestrian lighting. A removable, plug-and-play LED module sits in an extruded LM6 aluminium body, available in single-sided (5 LED) or double-sided (10 LED) optical configurations across 500–3,000 delivered lumens, with two body heights (750mm or 1000mm) and enhanced IK10 vandal resistance for amenity spaces, town squares and car parks.",
+      "summary": "Denver iD Bollard brings the same cohesive family aesthetic and patented Transition Zone glare control as Denver iD Pole and Denver iD Wall to ground-level pedestrian lighting. A removable, plug-and-play LED module sits in an extruded LM6 aluminium body, delivering 500–3,000 lumens with enhanced IK10 vandal resistance for amenity spaces, town squares and car parks.",
       "applications": [
         "Car Parks",
         "Pathways",
@@ -2051,18 +2051,8 @@
           "size": "Double Sided"
         },
         {
-          "file": "assets/img/products/dbd/dbd-06-module-exploded.png",
-          "alt": "Denver iD Bollard with the removable LED module and gear compartment exposed",
-          "size": "Double Sided"
-        },
-        {
           "file": "assets/img/products/dbd/dbd-02-profile-side.png",
           "alt": "Denver iD Bollard, side profile showing the 143mm face",
-          "size": "Single Sided"
-        },
-        {
-          "file": "assets/img/products/dbd/dbd-05-head-side-detail.png",
-          "alt": "Denver iD Bollard head, angled detail from the narrow face",
           "size": "Single Sided"
         },
         {
