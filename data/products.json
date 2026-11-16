@@ -65,6 +65,10 @@
         {
           "label": "−25°C to +45°C",
           "detail": "Operating temperature range"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "PC Amber colour temperature option"
         }
       ],
       "keySpecs": [
@@ -616,6 +620,10 @@
         {
           "label": "−40°C to +50°C",
           "detail": "Operating temperature range"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "On request"
         }
       ],
       "keySpecs": [
@@ -839,6 +847,10 @@
         {
           "label": "−40°C to +50°C",
           "detail": "Operating temperature range"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "On request"
         }
       ],
       "keySpecs": [
@@ -1269,6 +1281,10 @@
         {
           "label": "Made in Britain",
           "detail": "Manufactured in the UK"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "PC Amber colour temperature option"
         }
       ],
       "keySpecs": [
@@ -2053,6 +2069,10 @@
         {
           "label": "Made in Britain",
           "detail": "Manufactured in the UK"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "PC Amber colour temperature option"
         }
       ],
       "keySpecs": [
@@ -3782,7 +3802,8 @@
         {"label": "Up to 184 lm/W", "detail": "System efficacy"},
         {"label": "IK06 / IK10 option", "detail": "IK10 with optional polycarbonate optics"},
         {"label": "TM66: 2.8 Excellent Circularity", "detail": "LIA/CIBSE Circular Economy Assured Scheme"},
-        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, 3000K/4000K"}
+        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, 3000K/4000K"},
+        {"label": "Amber Available", "detail": "PC Amber colour temperature option"}
       ],
       "keySpecs": [
         {"label": "Delivered lumens", "value": "1,000 – 54,000 lm (LA variant up to 50,000 lm; LB variant up to 54,000 lm)"},
