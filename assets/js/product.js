@@ -41,7 +41,6 @@
       distributionsSection(p);
 
     initGallery();
-    initMagnifier();
     if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
       window.LumenMethod.initScrollReveal(root);
     }
@@ -220,83 +219,88 @@
       });
     });
 
-    if (thumbs.length > 1) {
-      var frame = gallery.querySelector(".product-gallery__main");
-      var list = Array.prototype.slice.call(thumbs);
-      var advance = function () {
-        var visible = list.filter(function (b) { return b.style.display !== "none"; });
-        var activeIndex = visible.findIndex(function (b) { return b.classList.contains("is-active"); });
-        activate(visible[(activeIndex + 1) % visible.length]);
-      };
-      frame.classList.add("is-cyclable");
-      frame.setAttribute("role", "button");
-      frame.setAttribute("tabindex", "0");
-      frame.setAttribute("aria-label", "Show next product image");
-      frame.addEventListener("click", advance);
-      frame.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          advance();
-        }
+    var frame = gallery.querySelector(".product-gallery__main");
+    var list = Array.prototype.slice.call(thumbs);
+    function visibleThumbs() {
+      return list.filter(function (b) { return b.style.display !== "none"; });
+    }
+    function activeVisibleIndex() {
+      return visibleThumbs().findIndex(function (b) { return b.classList.contains("is-active"); });
+    }
+
+    frame.classList.add("is-cyclable");
+    frame.setAttribute("role", "button");
+    frame.setAttribute("tabindex", "0");
+    frame.setAttribute("aria-label", "Open larger image");
+    var openLightbox = function () { initLightbox().open(activeVisibleIndex()); };
+    frame.addEventListener("click", openLightbox);
+    frame.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openLightbox();
+      }
+    });
+
+    function initLightbox() {
+      var box = document.getElementById("imgLightbox");
+      if (box) return { open: box._lightboxOpen };
+
+      box = document.createElement("div");
+      box.className = "img-lightbox";
+      box.id = "imgLightbox";
+      box.innerHTML =
+        '<button type="button" class="img-lightbox__close" aria-label="Close">&times;</button>' +
+        '<button type="button" class="img-lightbox__nav img-lightbox__prev" aria-label="Previous image">&#8249;</button>' +
+        '<img class="img-lightbox__img" alt="">' +
+        '<button type="button" class="img-lightbox__nav img-lightbox__next" aria-label="Next image">&#8250;</button>';
+      document.body.appendChild(box);
+
+      var imgEl = box.querySelector(".img-lightbox__img");
+      var closeBtn = box.querySelector(".img-lightbox__close");
+      var prevBtn = box.querySelector(".img-lightbox__prev");
+      var nextBtn = box.querySelector(".img-lightbox__next");
+
+      function close() {
+        box.classList.remove("is-open");
+        document.body.classList.remove("lightbox-locked");
+      }
+
+      function show(index) {
+        var visible = visibleThumbs();
+        if (!visible.length) return;
+        index = ((index % visible.length) + visible.length) % visible.length;
+        var btn = visible[index];
+        activate(btn);
+        imgEl.src = btn.getAttribute("data-src");
+        imgEl.alt = btn.getAttribute("data-alt") || "";
+        var multi = visible.length > 1;
+        prevBtn.style.display = multi ? "" : "none";
+        nextBtn.style.display = multi ? "" : "none";
+      }
+
+      function open(index) {
+        show(index);
+        box.classList.add("is-open");
+        document.body.classList.add("lightbox-locked");
+        closeBtn.focus();
+      }
+
+      closeBtn.addEventListener("click", close);
+      box.addEventListener("click", function (e) {
+        if (e.target === box) close();
       });
+      prevBtn.addEventListener("click", function () { show(activeVisibleIndex() - 1); });
+      nextBtn.addEventListener("click", function () { show(activeVisibleIndex() + 1); });
+      document.addEventListener("keydown", function (e) {
+        if (!box.classList.contains("is-open")) return;
+        if (e.key === "Escape") close();
+        else if (e.key === "ArrowLeft") show(activeVisibleIndex() - 1);
+        else if (e.key === "ArrowRight") show(activeVisibleIndex() + 1);
+      });
+
+      box._lightboxOpen = open;
+      return { open: open };
     }
-  }
-
-  function initMagnifier() {
-    var frame = document.querySelector(".product-gallery__main");
-    var img = document.getElementById("galleryMainImg");
-    if (!frame || !img) return;
-    if (!window.matchMedia || !window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
-
-    var ZOOM = 2.4;
-    var glass = document.createElement("div");
-    glass.className = "img-magnifier-glass";
-    glass.setAttribute("aria-hidden", "true");
-    frame.appendChild(glass);
-
-    // img has object-fit:contain, so its rendered content can be letterboxed
-    // inside its own box — work out the actual drawn rect, not just the element box.
-    function contentRect() {
-      var rect = img.getBoundingClientRect();
-      var natW = img.naturalWidth, natH = img.naturalHeight;
-      if (!natW || !natH || !rect.width || !rect.height) return rect;
-      var elAspect = rect.width / rect.height;
-      var imgAspect = natW / natH;
-      var w, h, dx = 0, dy = 0;
-      if (imgAspect > elAspect) {
-        w = rect.width;
-        h = w / imgAspect;
-        dy = (rect.height - h) / 2;
-      } else {
-        h = rect.height;
-        w = h * imgAspect;
-        dx = (rect.width - w) / 2;
-      }
-      return { left: rect.left + dx, top: rect.top + dy, width: w, height: h };
-    }
-
-    function hide() { glass.style.display = "none"; }
-
-    function move(e) {
-      var cr = contentRect();
-      var x = e.clientX - cr.left;
-      var y = e.clientY - cr.top;
-      if (!cr.width || !cr.height || x < 0 || y < 0 || x > cr.width || y > cr.height) {
-        hide();
-        return;
-      }
-      var frameRect = frame.getBoundingClientRect();
-      var gw = glass.offsetWidth, gh = glass.offsetHeight;
-      glass.style.display = "block";
-      glass.style.left = (e.clientX - frameRect.left - gw / 2) + "px";
-      glass.style.top = (e.clientY - frameRect.top - gh / 2) + "px";
-      glass.style.backgroundImage = "url('" + img.currentSrc + "')";
-      glass.style.backgroundSize = (cr.width * ZOOM) + "px " + (cr.height * ZOOM) + "px";
-      glass.style.backgroundPosition = "-" + (x * ZOOM - gw / 2) + "px -" + (y * ZOOM - gh / 2) + "px";
-    }
-
-    frame.addEventListener("mousemove", move);
-    frame.addEventListener("mouseleave", hide);
   }
 
   function overviewSection(p) {

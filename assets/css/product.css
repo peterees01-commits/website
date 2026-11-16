@@ -107,26 +107,88 @@
 }
 
 .product-gallery__main.is-cyclable {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
-.img-magnifier-glass {
+.img-lightbox {
   display: none;
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  border: 2px solid var(--glow);
-  border-radius: 50%;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
-  background-color: var(--near-black);
-  background-repeat: no-repeat;
-  pointer-events: none;
-  z-index: 5;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(10, 10, 9, 0.92);
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 900px) {
-  .img-magnifier-glass {
-    display: none !important;
+.img-lightbox.is-open {
+  display: flex;
+}
+
+body.lightbox-locked {
+  overflow: hidden;
+}
+
+.img-lightbox__img {
+  max-width: 88vw;
+  max-height: 86vh;
+  object-fit: contain;
+}
+
+.img-lightbox__close {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-on-dark);
+  background: transparent;
+  color: var(--text-on-dark);
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+
+.img-lightbox__close:hover,
+.img-lightbox__close:focus-visible {
+  border-color: var(--glow);
+  color: var(--glow-soft);
+}
+
+.img-lightbox__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--border-on-dark);
+  background: rgba(10, 10, 9, 0.6);
+  color: var(--text-on-dark);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+
+.img-lightbox__nav:hover,
+.img-lightbox__nav:focus-visible {
+  border-color: var(--glow);
+  color: var(--glow-soft);
+}
+
+.img-lightbox__prev { left: var(--space-4); }
+.img-lightbox__next { right: var(--space-4); }
+
+@media (max-width: 640px) {
+  .img-lightbox__nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  .img-lightbox__close {
+    width: 36px;
+    height: 36px;
+    font-size: 1.4rem;
   }
 }
 
