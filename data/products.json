@@ -3715,6 +3715,117 @@
         }
       }
     }
+,
+    {
+      "code": "VMXII",
+      "name": "V-Max II",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=VMXII",
+      "category": "Pole / Car Parks / Road Lighting",
+      "family": "V-Max",
+      "tagline": "Patented modular chevron streetlighting luminaire, scaling from 1,000 to 54,000 delivered lumens across six LED-chevron configurations, with best-in-class optics tuned for roadway classes from residential streets to highways.",
+      "summary": "V-Max II retains V-Max's patented, award-winning modular design — individual LED \"chevron\" light engine modules that are fully scalable, serviceable and upgradeable without changing the luminaire's footprint. A Transition Zone between the brighter LEDs and the darker surrounding housing softens the cascade of contrast around the light source, cutting perceived glare. Available in two LED variants (LA single-die for best optical control and high lm/W; LB multi-die for the highest lumen output and efficacy) across 12 optical distributions, with class-leading up to 184 lm/W efficacy, IP69 sealing and International Dark-Sky Association approval at 3000K/4000K. Scales from\nV1 (1 chevron, 16 LEDs): 1,000–9,000lm\nV6 (6 chevrons, 96 LEDs): up to 54,000lm",
+      "applications": ["Car Parks", "Roadways"],
+      "images": [
+        {"file": "assets/img/products/vmxii/vmxii-01-profile.png", "alt": "V-Max II streetlighting luminaire, side profile showing the chevron modules, spigot adaptor and pole mount"},
+        {"file": "assets/img/products/vmxii/vmxii-02-angle.png", "alt": "V-Max II, angled view of the LED chevron modules and optics"},
+        {"file": "assets/img/products/vmxii/vmxii-03-underside.png", "alt": "V-Max II underside view showing the chevron light engine modules and gear access plate"},
+        {"file": "assets/img/products/vmxii/vmxii-04-gear-open.png", "alt": "V-Max II with hinged canopy open, showing the easily removable gear tray and push-in terminal block"},
+        {"file": "assets/img/products/vmxii/vmxii-dimensions.jpg", "alt": "V-Max II dimension diagram and A/B length table for the V1–V6 chevron configurations"}
+      ],
+      "backlightControl": {
+        "eyebrow": "Transition Zone",
+        "heading": "A softer cascade from bright LED to dark housing",
+        "body": "The transition zone acts as an intermediary luminous area between the brighter LEDs and the darker surfaces surrounding the luminaire. This cascade of contrast ratios drastically reduces the perception of glare and gives the light source a softer appearance — without sacrificing the class-leading optical control and efficacy of the chevron light engine.",
+        "points": [
+          "Patented modular chevron design: individual LED light engine modules are fully scalable, serviceable and upgradeable, from 1 to 6 chevrons on the same body footprint",
+          "Hinged canopy with integrated locked service position and anti-fall device provision for fast, safe installation and maintenance",
+          "Tool-less entry option, piano-key push-in terminal block and internal M20 cable gland speed up installation and keep a consistent IP69 seal"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/vmxii/vmxii-04-gear-open.png",
+          "alt": "V-Max II hinged canopy open showing the removable gear tray and push-in terminal block",
+          "caption": "Hinged canopy with locked service position and easily removable gear."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/vmxii/vmxii-03-underside.png",
+          "alt": "V-Max II underside view showing the individual chevron light engine modules",
+          "caption": "Individually scalable, serviceable chevron light engine modules — 1 to 6 per luminaire."
+        }
+      },
+      "badges": [
+        {"label": "IP69", "detail": "Light engines & gear compartment"},
+        {"label": "Up to 184 lm/W", "detail": "System efficacy"},
+        {"label": "IK06 / IK10 option", "detail": "IK10 with optional polycarbonate optics"},
+        {"label": "TM66: 2.8 Excellent Circularity", "detail": "LIA/CIBSE Circular Economy Assured Scheme"},
+        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, 3000K/4000K"}
+      ],
+      "keySpecs": [
+        {"label": "Delivered lumens", "value": "1,000 – 54,000 lm (LA variant up to 50,000 lm; LB variant up to 54,000 lm)"},
+        {"label": "Colour temperature", "value": "3000K, 4000K, or PC Amber"},
+        {"label": "CRI", "value": "70 CRI"},
+        {"label": "ULOR", "value": "0%"},
+        {"label": "Ingress protection", "value": "IP69 (light engines and gear compartment)"},
+        {"label": "IK rating", "value": "IK06 standard; IK10 with optional polycarbonate optics"},
+        {"label": "Operating temperature", "value": "-40°C to +50°C"},
+        {"label": "Body material", "value": "Die-cast LM6 marine grade aluminium body, pole adaptor and chevrons; extruded 6063-T6 aluminium spine; injection moulded polycarbonate end caps"},
+        {"label": "Optics", "value": "Two LED variants — LA (single-die, best optical control, high lm/W) and LB (multi-die, highest lumen output and lm/W) — across 12 optical distributions; PMMA optics standard, polycarbonate optional"},
+        {"label": "Electrical class", "value": "Class I (Class II available as an option, .CII)"},
+        {"label": "Dimming", "value": "DALI & DALI 2.0; programmable pre-set profiles delivering 70% / 80% / 90% of initial lumens over life; switching via photocell"},
+        {"label": "Smart controls", "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; axora Connect CMS control protocol; constant light output (CLO) available"},
+        {"label": "Warranty", "value": "5 years"},
+        {"label": "Life rating", "value": "100,000 hrs (L90B50 @ 25°C)"}
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/vmxii/vmxii-dimensions.jpg",
+        "note": "Length is given as A (post-top mounting) and B (side-entry mounting); height is the mounting arm overhang, 243mm for post-top and 163mm for side-entry, constant across all six configurations. Weight is per-fitting. Luminaire Optical Outreach/Centres (from pole centreline) ranges from 0.4m (post-top) / 0.42m (side-entry) on V1 to 0.65m / 0.67m on V6 — see the brochure for the full table. Lumen output, power and efficacy scale with chevron count and LED variant (LA/LB) — see the brochure's Typical Luminaire Performance table for exact per-configuration figures.",
+        "variants": [
+          {"label": "V1 (1 chevron)", "length": "498 mm (A) / 578 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "6.3 kg"},
+          {"label": "V2 (2 chevrons)", "length": "599 mm (A) / 679 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "7.8 kg"},
+          {"label": "V3 (3 chevrons)", "length": "700 mm (A) / 780 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "8.8 kg"},
+          {"label": "V4 (4 chevrons)", "length": "801 mm (A) / 881 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "10.5 kg"},
+          {"label": "V5 (5 chevrons)", "length": "902 mm (A) / 982 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "11.9 kg"},
+          {"label": "V6 (6 chevrons)", "length": "1003 mm (A) / 1083 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "13.3 kg"}
+        ],
+        "windage": "0.03 m² (V1) · 0.033 m² (V2) · 0.036 m² (V3) · 0.039 m² (V4) · 0.042 m² (V5) · 0.045 m² (V6)"
+      },
+      "distributions": [
+        {"code": "F4L2 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-f4l2.png", "note": "Glare Class: G3"},
+        {"code": "L2L3 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l3.png", "note": "Glare Class: G3"},
+        {"code": "L2L4 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l4.png", "note": "Glare Class: G3"},
+        {"code": "L2Q1 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2q1.png", "note": "Glare Class: G3"},
+        {"code": "L3Q1 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3q1.png", "note": "Glare Class: G3"},
+        {"code": "F4Q1 · LA", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-f4q1.png", "note": "Glare Class: G4"},
+        {"code": "X2L2 · LA", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l2.png", "note": "Glare Class: G3"},
+        {"code": "X2L3 · LA", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l3.png", "note": "Glare Class: G3"},
+        {"code": "D4D4 · LA", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-d4d4.png", "note": "Glare Class: G3"},
+        {"code": "L5L5 · LA", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-l5l5.png", "note": "Glare Class: G3"},
+        {"code": "L3L4 · LA", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3l4.png", "note": "Glare Class: G4"},
+        {"code": "L4L4 · LA", "name": "Type II Very Short", "chart": "assets/img/products/vmxii/distributions/la-l4l4.png", "note": "Glare Class: G6"},
+        {"code": "D4D4 · LB", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png", "note": "Glare Class: G4"},
+        {"code": "F4L2 · LB", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png", "note": "Glare Class: G4"},
+        {"code": "F4L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png", "note": "Glare Class: G6"},
+        {"code": "L2L3 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png", "note": "Glare Class: G4"},
+        {"code": "L2L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png", "note": "Glare Class: G6"},
+        {"code": "L2Q1 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png", "note": "Glare Class: G4"},
+        {"code": "L3L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png", "note": "Glare Class: G6"},
+        {"code": "L3Q1 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png", "note": "Glare Class: G4"},
+        {"code": "L4L4 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png", "note": "Glare Class: G6"},
+        {"code": "L5L5 · LB", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png", "note": "Glare Class: G3"},
+        {"code": "X2L2 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png", "note": "Glare Class: G4"},
+        {"code": "X2L3 · LB", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4"}
+      ],
+      "accessories": [
+        {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"}
+      ],
+      "certifications": ["BS EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
+      "downloads": {
+        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-vmxii-brochure.pdf", "meta": ""},
+        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf", "meta": ""}
+      }
+    }
 
   ]
 }
