@@ -41,6 +41,7 @@
       distributionsSection(p);
 
     initGallery();
+    initMagnifier();
     if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
       window.LumenMethod.initScrollReveal(root);
     }
@@ -239,6 +240,63 @@
         }
       });
     }
+  }
+
+  function initMagnifier() {
+    var frame = document.querySelector(".product-gallery__main");
+    var img = document.getElementById("galleryMainImg");
+    if (!frame || !img) return;
+    if (!window.matchMedia || !window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+
+    var ZOOM = 2.4;
+    var glass = document.createElement("div");
+    glass.className = "img-magnifier-glass";
+    glass.setAttribute("aria-hidden", "true");
+    frame.appendChild(glass);
+
+    // img has object-fit:contain, so its rendered content can be letterboxed
+    // inside its own box — work out the actual drawn rect, not just the element box.
+    function contentRect() {
+      var rect = img.getBoundingClientRect();
+      var natW = img.naturalWidth, natH = img.naturalHeight;
+      if (!natW || !natH || !rect.width || !rect.height) return rect;
+      var elAspect = rect.width / rect.height;
+      var imgAspect = natW / natH;
+      var w, h, dx = 0, dy = 0;
+      if (imgAspect > elAspect) {
+        w = rect.width;
+        h = w / imgAspect;
+        dy = (rect.height - h) / 2;
+      } else {
+        h = rect.height;
+        w = h * imgAspect;
+        dx = (rect.width - w) / 2;
+      }
+      return { left: rect.left + dx, top: rect.top + dy, width: w, height: h };
+    }
+
+    function hide() { glass.style.display = "none"; }
+
+    function move(e) {
+      var cr = contentRect();
+      var x = e.clientX - cr.left;
+      var y = e.clientY - cr.top;
+      if (!cr.width || !cr.height || x < 0 || y < 0 || x > cr.width || y > cr.height) {
+        hide();
+        return;
+      }
+      var frameRect = frame.getBoundingClientRect();
+      var gw = glass.offsetWidth, gh = glass.offsetHeight;
+      glass.style.display = "block";
+      glass.style.left = (e.clientX - frameRect.left - gw / 2) + "px";
+      glass.style.top = (e.clientY - frameRect.top - gh / 2) + "px";
+      glass.style.backgroundImage = "url('" + img.currentSrc + "')";
+      glass.style.backgroundSize = (cr.width * ZOOM) + "px " + (cr.height * ZOOM) + "px";
+      glass.style.backgroundPosition = "-" + (x * ZOOM - gw / 2) + "px -" + (y * ZOOM - gh / 2) + "px";
+    }
+
+    frame.addEventListener("mousemove", move);
+    frame.addEventListener("mouseleave", hide);
   }
 
   function overviewSection(p) {
