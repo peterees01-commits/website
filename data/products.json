@@ -3448,17 +3448,17 @@
         {
           "code": ".TD",
           "name": "Tight Distribution",
-          "chart": "assets/img/products/hib/distributions/td.png"
+          "chart": "assets/img/products/hib/distributions/td-v2.png"
         },
         {
           "code": ".BD",
           "name": "Broad Distribution",
-          "chart": "assets/img/products/hib/distributions/bd-v2.png"
+          "chart": "assets/img/products/hib/distributions/bd-v3.png"
         },
         {
           "code": ".OD",
           "name": "Open Distribution",
-          "chart": "assets/img/products/hib/distributions/od.png"
+          "chart": "assets/img/products/hib/distributions/od-v2.png"
         }
       ],
       "accessories": [
