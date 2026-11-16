@@ -3091,6 +3091,27 @@
           "alt": "Prismaspace dimension diagram for Single and Double Module, IP40 and IP65 versions"
         }
       ],
+      "backlightControl": {
+        "eyebrow": "Product Versions",
+        "heading": "Choosing the right version",
+        "body": "Prismaspace is ordered as a combination of options, so it's worth knowing what each one actually changes. The two that affect the physical luminaire are efficacy tier (Standard or HE) and sealing (IP40 or IP65) — the rest are driver and control choices that apply the same way across most Holophane ranges.",
+        "points": [
+          "Standard vs HE (High Efficacy): Standard delivers each listed lumen package at the base efficacy; the .HE option bins the same mid-power LEDs for higher lm/W (up to 179 lm/W) at the same lumen output, cutting power draw and payback time without changing brightness",
+          "IP40 vs IP65: IP40 is the standard sealing for typical indoor environments; the IP65 version adds a fully sealed housing and unlocks the rotatable optical arm, letting the distribution be adjusted up to 180° (single module) or 45° (double module) in 15° increments on site",
+          "Emergency options (.EM1 / .EM3): a self-contained maintained emergency battery and inverter, in 1-hour or 3-hour duration, delivering c.500 lumens of emergency output",
+          "Control gear tiers (.CL7 / .CL8 / .CL9): pre-set constant light output profiles that hold the driver at 70%, 80% or 90% of initial lumens over the luminaire's life, compensating for natural LED lumen depreciation"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/prs/prs-01-profile.png",
+          "alt": "Prismaspace Single Module IP40, fixed optic with no rotating arm",
+          "caption": "IP40 standard version — fixed optic, no rotation."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/prs/prs-02-rotatable.png",
+          "alt": "Prismaspace Double Module IP65 with the rotatable optical arm visible",
+          "caption": "IP65 sealed version — optics rotate up to 180° / 45° on site, on either the Standard or HE lumen package."
+        }
+      },
       "badges": [
         {
           "label": "IP40 (IP65 optional)",
