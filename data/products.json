@@ -3073,8 +3073,8 @@
       "hideWindage": true,
       "images": [
         {
-          "file": "assets/img/products/prs/prs-01-profile.png",
-          "alt": "Prismaspace Single Module, side profile showing the prismatic lens"
+          "file": "assets/img/products/prs/prs-01-profile-v2.png",
+          "alt": "Prismaspace Double Module suspended from wire drops, showing the double prismatic lens and end-cap detail"
         },
         {
           "file": "assets/img/products/prs/prs-02-rotatable.png",
@@ -3229,17 +3229,17 @@
         {
           "code": ".ND",
           "name": "Narrow Distribution",
-          "chart": "assets/img/products/prs/distributions/nd.png"
+          "chart": "assets/img/products/prs/distributions/nd-v2.png"
         },
         {
           "code": ".MD",
           "name": "Medium Distribution",
-          "chart": "assets/img/products/prs/distributions/md.png"
+          "chart": "assets/img/products/prs/distributions/md-v2.png"
         },
         {
           "code": ".OD",
           "name": "Open Distribution",
-          "chart": "assets/img/products/prs/distributions/od.png"
+          "chart": "assets/img/products/prs/distributions/od-v2.png"
         }
       ],
       "accessories": [
