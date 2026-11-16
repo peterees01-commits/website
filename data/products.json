@@ -3275,6 +3275,228 @@
           "meta": ""
         }
       }
+    },
+    {
+      "code": "HIB",
+      "name": "Hi-Beam",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=HIB",
+      "category": "High Bay / Industrial",
+      "family": "Hi-Beam",
+      "tagline": "LED high bay purpose-built for warehouse aisle and racking applications, scaling from 20,000 to 40,000 delivered lumens across three body lengths, with a patented Transition Zone optic for lower perceived glare.",
+      "summary": "HI-BEAM is Holophane's next-generation high bay, with an optic specifically developed for aisle and racking applications where precise control of light is needed to hit ground-level lux targets while maximising luminaire spacing and uniformity. A patented Transition Zone acts as an intermediary luminous band between the bright LEDs and the darker surrounding housing, softening the cascade of contrast and reducing perceived glare. The universal mounting bracket adapts to most trunking and busbar systems, hinges tool-less into a service position, and pairs with a snap-fit cover for fast access to drivers and emergency gear in situ. Lumen packages span\nM1 (630mm): 20,000–25,000 lm\nM2 (915mm): 30,000 lm\nM3 (1200mm): 35,000–40,000 lm",
+      "applications": [
+        "Industrial",
+        "Warehousing"
+      ],
+      "hideWindage": true,
+      "images": [
+        {
+          "file": "assets/img/products/hib/hib-01-profile.png",
+          "alt": "Hi-Beam high bay, front elevation showing the twin LED light engines and extruded aluminium housing"
+        },
+        {
+          "file": "assets/img/products/hib/hib-02-angle.png",
+          "alt": "Hi-Beam high bay, angled view showing the universal trunking mount bracket"
+        },
+        {
+          "file": "assets/img/products/hib/hib-03-end.png",
+          "alt": "Hi-Beam high bay, end-on view showing the LED light engines set behind the Transition Zone housing wall"
+        },
+        {
+          "file": "assets/img/products/hib/hib-04-mount.png",
+          "alt": "Hi-Beam high bay fitted with the frosted flat lens and universal trunking bracket"
+        },
+        {
+          "file": "assets/img/products/hib/hib-dimensions.png",
+          "alt": "Hi-Beam dimension diagram for M1 Small, M2 Medium and M3 Large"
+        }
+      ],
+      "backlightControl": {
+        "eyebrow": "Patented Transition Zone",
+        "heading": "A softer, lower-glare light source",
+        "body": "Between the bright LED array and the darker surrounding housing, HI-BEAM's Transition Zone acts as an intermediary luminous band — a cascade of contrast ratios that softens the perceived brightness of the source and reduces glare compared with a high-contrast LED array sitting directly against a dark housing. Combined with the universal mounting bracket's tool-less service position and snap-fit cover, maintenance is as straightforward as the light itself is comfortable to work under.",
+        "points": [
+          "Transition zone softens the jump from bright LEDs to dark housing, cutting perceived glare in aisles and racking viewed from below",
+          "Universal bracket hinges the luminaire into a tool-less service position without removing it from its mount",
+          "Snap-fit plastic cover gives direct access to drivers, DALI gear and emergency battery for cable work or servicing"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/hib/hib-03-end.png",
+          "alt": "End view of Hi-Beam showing the LED light engines set back behind the Transition Zone housing wall",
+          "caption": "End view — LEDs sit back from the housing wall behind the Transition Zone."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/hib/hib-04-mount.png",
+          "alt": "Hi-Beam universal trunking bracket with tool-less wing-nut release",
+          "caption": "Universal trunking bracket — tool-less wing-nut release into the service position."
+        }
+      },
+      "badges": [
+        {
+          "label": "IP20",
+          "detail": "Luminaire enclosure rating"
+        },
+        {
+          "label": "Up to 165 lm/W",
+          "detail": "System efficacy, across all lumen packages"
+        },
+        {
+          "label": "TM66: 2.3 Preliminary",
+          "detail": "CEAM circularity score"
+        },
+        {
+          "label": "5m – 20m mounting",
+          "detail": "Trunking or suspension mount height range"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "20,000 – 40,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "4000K (5700K available on request)"
+        },
+        {
+          "label": "CRI",
+          "value": ">80 CRI"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP20"
+        },
+        {
+          "label": "IK rating",
+          "value": "IK09"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-10°C to +40°C"
+        },
+        {
+          "label": "Body material",
+          "value": "Extruded aluminium (6063-T6) body with steel end-caps, polyester powder-coated Smooth White (RAL9016)"
+        },
+        {
+          "label": "Optics",
+          "value": "Bespoke PMMA optics for racking and aisle applications; Tight / Broad / Open distributions. Clear or frosted flat lens options"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "Integrated PIR (.PH0/.PH1 up to 15m, .PL0/.PL1 up to 9m) with switching or dynamic dimming, or HOLOSAir wireless node (.WIH/.WIL) for luminaire grouping and cloud-based control"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L90B50 @ 25°C)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/hib/hib-dimensions.png",
+        "note": "M1 (630mm) is available with the 20,000/25,000lm light engines only, M2 (915mm) with 30,000lm only, and M3 (1200mm) with 35,000/40,000lm only — see the brochure's ordering details. Weight is per-fitting; figures in brackets are with emergency gear fitted.",
+        "variants": [
+          {
+            "label": "M1 Small",
+            "length": "630 mm",
+            "width": "165 mm",
+            "height": "108 mm",
+            "weight": "3.7 kg (4.2 kg)"
+          },
+          {
+            "label": "M2 Medium",
+            "length": "914 mm",
+            "width": "165 mm",
+            "height": "108 mm",
+            "weight": "5.0 kg (5.5 kg)"
+          },
+          {
+            "label": "M3 Large",
+            "length": "1199 mm",
+            "width": "165 mm",
+            "height": "108 mm",
+            "weight": "6.3 kg (6.8 kg)"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".TD",
+          "name": "Tight Distribution",
+          "chart": "assets/img/products/hib/distributions/td.png"
+        },
+        {
+          "code": ".BD",
+          "name": "Broad Distribution",
+          "chart": "assets/img/products/hib/distributions/bd.png"
+        },
+        {
+          "code": ".OD",
+          "name": "Open Distribution",
+          "chart": "assets/img/products/hib/distributions/od.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "HIB.SUS",
+          "desc": "Suspension kit (1m) — includes 2× suspension wire and fixing kit"
+        },
+        {
+          "code": "HEL.PRG",
+          "desc": "Remote programming device, suitable for luminaires with PH0/PL1/PH1 PIR devices — programming range up to 20m"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN60598",
+        "IP20",
+        "IK09",
+        "TM66 Circularity 2.3 (Preliminary)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-hib-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-hib-installation-guide.pdf",
+          "meta": ""
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/HIB-BIM-Revit.zip",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/HIB-IES-files.zip",
+          "meta": ""
+        }
+      }
     }
+
   ]
 }
