@@ -2957,6 +2957,10 @@
       ],
       "images": [
         {
+          "file": "assets/img/products/wap/wap-04-heatsink-top.png",
+          "alt": "Wallpack, top-down angled view showing the finned heat sink"
+        },
+        {
           "file": "assets/img/products/wap/wap-01-profile.png",
           "alt": "Wallpack bulkhead luminaire, angled view showing the 2-module LED array"
         },
