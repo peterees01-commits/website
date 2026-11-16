@@ -2425,9 +2425,9 @@
           "size": "1 Module"
         },
         {
-          "file": "assets/img/products/pps/pps-03-m1-alt.png",
-          "alt": "Prismpack 1 Module configuration, showing gear compartment and mounting bracket",
-          "size": "1 Module"
+          "file": "assets/img/products/pps/pps-03-m6.png",
+          "alt": "Prismpack 6 Module configuration, 2x3 light engine array",
+          "size": "6 Module"
         },
         {
           "file": "assets/img/products/pps/pps-01-profile.png",
@@ -3342,12 +3342,12 @@
       "hideWindage": true,
       "images": [
         {
-          "file": "assets/img/products/hib/hib-01-profile.png",
-          "alt": "Hi-Beam high bay, front elevation showing the twin LED light engines and extruded aluminium housing"
-        },
-        {
           "file": "assets/img/products/hib/hib-02-angle.png",
           "alt": "Hi-Beam high bay, angled view showing the universal trunking mount bracket"
+        },
+        {
+          "file": "assets/img/products/hib/hib-01-profile.png",
+          "alt": "Hi-Beam high bay, front elevation showing the twin LED light engines and extruded aluminium housing"
         },
         {
           "file": "assets/img/products/hib/hib-03-end.png",
@@ -3563,12 +3563,12 @@
       ],
       "images": [
         {
-          "file": "assets/img/products/pse/pse-01-profile.png",
-          "alt": "Prismashield Elite bulkhead, side profile showing the frosted lens and extruded aluminium body"
-        },
-        {
           "file": "assets/img/products/pse/pse-02-angle.png",
           "alt": "Prismashield Elite, angled view showing the end cap knockouts and constant-pressure door edge"
+        },
+        {
+          "file": "assets/img/products/pse/pse-01-profile.png",
+          "alt": "Prismashield Elite bulkhead, side profile showing the frosted lens and extruded aluminium body"
         },
         {
           "file": "assets/img/products/pse/pse-03-mount.png",
