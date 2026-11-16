@@ -3087,6 +3087,11 @@
           "size": "Double Module IP65"
         },
         {
+          "file": "assets/img/products/prs/prs-04-single-module.png",
+          "alt": "Prismaspace Single Module IP65, side view showing the rotatable optical arm on a single head",
+          "size": "Single Module IP65"
+        },
+        {
           "file": "assets/img/products/prs/prs-dimensions.png",
           "alt": "Prismaspace dimension diagram for Single and Double Module, IP40 and IP65 versions"
         }
