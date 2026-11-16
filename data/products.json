@@ -3502,6 +3502,218 @@
           "meta": ""
         }
       }
+    },
+    {
+      "code": "PSE",
+      "name": "Prismashield Elite",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=PSE",
+      "category": "Area & Amenity Lighting / Perimeter",
+      "family": "Prismashield",
+      "tagline": "Anti-vandal bulkhead luminaire engineered for rail and metro infrastructure, scaling from 2,000 to 14,000 delivered lumens across two enclosure lengths, with a constant-pressure door seal and vandal-resistant hardware.",
+      "summary": "Prismashield™ Elite is Holophane's robust anti-vandal bulkhead, purpose-built for the demanding environments of metro and rail infrastructure — train stations, rail yards, underpasses and pedestrian walkways exposed to physical attack, weather and vibration. A dual-contact clip-in-and-bolt door retention system keeps a constant IP65 seal even through repeated cleaning or wash-down cycles, while a pressure equalisation valve balances internal and external pressure to extend joint life. Available with a frosted glass (FGL, IK07) or prismatic polycarbonate frosted (PFL, IK10++) lens, in surface or cornice mounting, with an optional cable management system and infill panels for seamless continuous runs. Lumen packages span\nM1 (678mm): 2,000–8,000 lm\nM2 (1287mm): 10,000–14,000 lm",
+      "applications": [
+        "Perimeter",
+        "Pathways"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/pse/pse-01-profile.png",
+          "alt": "Prismashield Elite bulkhead, side profile showing the frosted lens and extruded aluminium body"
+        },
+        {
+          "file": "assets/img/products/pse/pse-02-angle.png",
+          "alt": "Prismashield Elite, angled view showing the end cap knockouts and constant-pressure door edge"
+        },
+        {
+          "file": "assets/img/products/pse/pse-03-mount.png",
+          "alt": "Prismashield Elite end-on view showing the mounting plate and cable entry knockouts"
+        },
+        {
+          "file": "assets/img/products/pse/pse-dimensions.png",
+          "alt": "Prismashield Elite dimension diagram for M1 and M2 enclosures"
+        }
+      ],
+      "backlightControl": {
+        "eyebrow": "Constant Pressure Door",
+        "heading": "Built to stay sealed under pressure",
+        "body": "Prismashield Elite uses a dual-contact door retention design, combining a clip-in interface with a bolt system to ensure a constant and reliable IP65 seal — an advantage in environments where cleaning or wash-down activities take place. The door can be easily replaced if damaged. A pressure equalisation valve balances internal and external pressure while preventing the penetration of solid and liquid contaminants, extending the life of the joints and internal electronics in demanding rail and metro environments.",
+        "points": [
+          "Clip-in and bolt door retention gives a constant, reliable IP65 seal that survives repeated wash-down cycles",
+          "Damaged doors can be replaced on site without discarding the whole luminaire",
+          "Pressure equalisation valve balances internal/external pressure, extending joint and electronics life"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/pse/pse-02-angle.png",
+          "alt": "Prismashield Elite angled view showing the constant-pressure door edge and end cap",
+          "caption": "Dual-contact clip-in and bolt door retention for a constant IP65 seal."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/pse/pse-03-mount.png",
+          "alt": "Prismashield Elite end view showing cable entry knockouts and mounting plate",
+          "caption": "Multiple knockout entry points for flexible cable routing, plus the pressure equalisation valve."
+        }
+      },
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Gear compartment & light engine"
+        },
+        {
+          "label": "Up to 135 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "IK10++",
+          "detail": "Impact rating, PFL lens option"
+        },
+        {
+          "label": "TM66: 2.4 Preliminary",
+          "detail": "CEAM circularity score"
+        },
+        {
+          "label": "Vandal & Weather Resistant",
+          "detail": "Vandal-resistant screws, pressure equalisation valve"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "2,000 – 14,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "4000K (3000K available on request)"
+        },
+        {
+          "label": "CRI",
+          "value": "> 80"
+        },
+        {
+          "label": "ULOR",
+          "value": ""
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": "IK10++ (PFL lens) / IK07 (FGL lens)"
+        },
+        {
+          "label": "Operating temperature",
+          "value": ""
+        },
+        {
+          "label": "Body material",
+          "value": "Extruded aluminium body with LM6 die-cast aluminium end caps"
+        },
+        {
+          "label": "Optics",
+          "value": "Bespoke LED system providing a symmetric distribution; frosted glass (FGL) or prismatic polycarbonate frosted (PFL) lens options"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I (Class II available as an option, .CII)"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "Integrated microwave sensor (.PL0/.PL1, switching or dynamic dimming, up to 6m) or HOLOSAir wireless node (.WIL) for luminaire grouping and cloud-based control"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @Ta 50°C)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/pse/pse-dimensions.png",
+        "note": "M1 (2,000–8,000lm) and M2 (10,000–14,000lm) are the lumen packages given in the current brochure's ordering details. M3 (1588mm) is a confirmed physical size from the installation guide, but its lumen package isn't specified in the current brochure. Weight is per-fitting; figures shown are for the glass (FGL) lens, with polycarbonate (PFL) lens weight in brackets.",
+        "variants": [
+          {
+            "label": "M1",
+            "length": "678 mm",
+            "width": "103 mm",
+            "height": "289 mm",
+            "weight": "7 kg (5 kg)"
+          },
+          {
+            "label": "M2",
+            "length": "1287 mm",
+            "width": "103 mm",
+            "height": "289 mm",
+            "weight": "13 kg (9 kg)"
+          },
+          {
+            "label": "M3",
+            "length": "1588 mm",
+            "width": "103 mm",
+            "height": "289 mm",
+            "weight": "16 kg (11 kg)"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".SY",
+          "name": "Symmetric Distribution",
+          "chart": "assets/img/products/pse/distributions/sy.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "PSE.VK",
+          "desc": "Key for vandal-resistant screw"
+        },
+        {
+          "code": "PSE.CMS.SM.C1 / .C9",
+          "desc": "3m length of surface-mount cable management system, white (RAL9016) or silver (RAL9006)"
+        },
+        {
+          "code": "PSE.CRC",
+          "desc": "Cable retention clips for use with the Cable Management System (pack of 9)"
+        },
+        {
+          "code": "PSE.JMA",
+          "desc": "Infill/Cable Management System variable 0–90° mitre joint mounting aid (1 required per joint)"
+        }
+      ],
+      "certifications": [
+        "EN60598",
+        "IP65",
+        "IK10",
+        "BS EN 55015",
+        "London Underground Section 12 compliance",
+        "TM66 Circularity 2.4 (Preliminary)"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-pse-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-pse-installation-guide.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/PSE-IES-files.zip",
+          "meta": ""
+        }
+      }
     }
 
   ]
