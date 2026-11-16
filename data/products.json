@@ -3054,6 +3054,204 @@
           "meta": ""
         }
       }
+    },
+    {
+      "code": "PRS",
+      "name": "Prismaspace",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=PRS",
+      "category": "Linear / Industrial / Warehousing",
+      "family": "Prismaspace",
+      "tagline": "Rotatable prismatic linear luminaire for warehouses and logistics centres, scaling from 3,000 to 42,000 lumens across single and double modules, with optics that adjust up to 180° on site.",
+      "summary": "Prismaspace fuses mid-power LEDs with Holophane's distinguished prismatic optics to deliver unparalleled uniformity for commercial and industrial interiors. Available as a single or double optical module, in IP40 or a sealed IP65 version, the IP65 optics rotate up to 180° (single) or 45° (double) in 15° increments — letting the distribution be customised on site to focus on the working plane, horizontal or vertical. Suspension or trunking mounted, with DALI dimming and HOLOSOne wireless control built in.",
+      "applications": [
+        "Industrial",
+        "Warehousing"
+      ],
+      "hideWindage": true,
+      "images": [
+        {
+          "file": "assets/img/products/prs/prs-01-profile.png",
+          "alt": "Prismaspace Single Module, side profile showing the prismatic lens"
+        },
+        {
+          "file": "assets/img/products/prs/prs-02-rotatable.png",
+          "alt": "Prismaspace Double Module IP65, side view showing the rotatable optical arm assembly",
+          "size": "Double Module IP65"
+        },
+        {
+          "file": "assets/img/products/prs/prs-03-joint-detail.png",
+          "alt": "Prismaspace Double Module IP65, close-up of the rotatable joint mechanism",
+          "size": "Double Module IP65"
+        },
+        {
+          "file": "assets/img/products/prs/prs-dimensions.png",
+          "alt": "Prismaspace dimension diagram for Single and Double Module, IP40 and IP65 versions"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP40 (IP65 optional)",
+          "detail": "Sealed version adds rotatable optics"
+        },
+        {
+          "label": "Up to 179 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "TM66: 2.0 Preliminary",
+          "detail": "CEAM circularity rating"
+        },
+        {
+          "label": "180° Rotatable Optics",
+          "detail": "IP65 version — customise distribution on site"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "c.3,000 – c.42,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "4000K / 5700K"
+        },
+        {
+          "label": "CRI",
+          "value": "70 or 80 CRI"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP40 standard; IP65 sealed version available"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-20°C to +45°C (+25°C max for Emergency versions)"
+        },
+        {
+          "label": "Body material",
+          "value": "Extruded aluminium (6063 T6) body with bespoke moulded plastic (glass-filled PA6-6) end caps"
+        },
+        {
+          "label": "Optics",
+          "value": "PrismaLED mid-power LEDs behind UV-stabilised PMMA prismatic lens; Narrow / Medium / Open distributions; rotatable up to 180° (single) or 45° (double) in 15° increments on the IP65 version"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI HF (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "HOLOSOne Bluetooth NLC wireless node with PIR & daylight harvesting (.H1H up to 16m range / .H1L up to 5m mounting height)"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000+ hrs"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/prs/prs-dimensions.png",
+        "note": "IP65 versions carry the rotatable optical arm assembly (optics rotatable up to 180° single / 45° double, in 15° increments). Width not confirmed for Single Module IP65 — not clearly dimensioned in the supplied drawing. Weight is per-fitting.",
+        "variants": [
+          {
+            "label": "Single Module IP40",
+            "length": "650 mm",
+            "width": "145 mm",
+            "height": "78 mm",
+            "weight": "3.2 kg"
+          },
+          {
+            "label": "Double Module IP40",
+            "length": "680 mm",
+            "width": "305 mm",
+            "height": "82 mm",
+            "weight": "4.6 kg"
+          },
+          {
+            "label": "Single Module IP65",
+            "length": "677 mm",
+            "width": "—",
+            "height": "102 mm",
+            "weight": "4.0 kg"
+          },
+          {
+            "label": "Double Module IP65",
+            "length": "812 mm",
+            "width": "305 mm",
+            "height": "90 mm",
+            "weight": "4.6 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".ND",
+          "name": "Narrow Distribution",
+          "chart": "assets/img/products/prs/distributions/nd.png"
+        },
+        {
+          "code": ".MD",
+          "name": "Medium Distribution",
+          "chart": "assets/img/products/prs/distributions/md.png"
+        },
+        {
+          "code": ".OD",
+          "name": "Open Distribution",
+          "chart": "assets/img/products/prs/distributions/od.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "HEL.SUS.PRS",
+          "desc": "Prismaspace suspension kit (1m to 6m) — includes 2× suspension wire and fixing kit"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN60598",
+        "TM66 Circularity 2.0 (Preliminary)",
+        "ILP Gold Group Member",
+        "LIA Member",
+        "LUX Awards 2016 Commended",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-prs-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-prs-installation-guide.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/PRS-IES-files.zip",
+          "meta": ""
+        }
+      }
     }
   ]
 }
