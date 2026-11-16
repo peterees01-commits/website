@@ -3918,6 +3918,89 @@
         "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-hmao-installation-guide.pdf", "meta": ""}
       }
     }
+,
+    {
+      "code": "VAL",
+      "name": "Vanguard Linear Gen2",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=VAL",
+      "category": "Linear Batten / Industrial / Interior & Exterior",
+      "family": "Vanguard Linear",
+      "tagline": "Low maintenance IP66/IK10 LED batten for interior and exterior general illuminance, delivering 3,000 to 8,000 lumens across two housing lengths.",
+      "summary": "Vanguard Linear is a range of low maintenance luminaires, ideally suited for interior and exterior lighting applications where energy efficiency and maintenance costs are of prime importance. The sealed polycarbonate enclosure with high-transmission opal diffuser is IK10 rated for impact protection and IP66 rated for ingress protection, making it suitable for demanding environments, while stainless-steel clips keep the enclosure sealed for both surface and suspended installation. A comprehensive mounting and suspension kit is supplied as standard with every luminaire.",
+      "applications": ["Industrial", "Warehousing"],
+      "images": [
+        {"file": "assets/img/products/val/val-01-pair.png", "alt": "Vanguard Linear Gen2, 1200mm and 1500mm housings side by side, lit"},
+        {"file": "assets/img/products/val/val-02-install.jpg", "alt": "Vanguard Linear Gen2 suspended from roof purlins in a warehouse, lit"},
+        {"file": "assets/img/products/val/val-03-open.png", "alt": "Vanguard Linear Gen2 with cover open, showing the gear tray, wiring and opal diffuser"},
+        {"file": "assets/img/products/val/val-dimensions.png", "alt": "Vanguard Linear Gen2 dimension diagram for the 1200mm and 1500mm housings"}
+      ],
+      "backlightControl": {
+        "eyebrow": "Simple Installation",
+        "heading": "Built for fast fitting and low maintenance",
+        "body": "The sealed polycarbonate enclosure utilises stainless-steel clips, keeping the fitting sealed to IP66 through repeated access. Electrical termination can be accessed via the external clips and the IP glands supplied, with cable access via the side of the luminaire. A comprehensive mounting and suspension kit is provided with each luminaire, allowing mounting to and suspension from a variety of surfaces (suspension wire supplied by others), so installers don't need to source separate fixings.",
+        "points": [
+          "Stainless-steel enclosure clips give external access for electrical termination without compromising the IP66 seal",
+          "Mounting and suspension kit supplied as standard with every luminaire; cable access via IP glands at the side",
+          "High-transmission opal diffuser is optimised for a wide photometric distribution, delivering efficient general illuminance"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/val/val-03-open.png",
+          "alt": "Vanguard Linear Gen2 gear tray and wiring with cover open",
+          "caption": "External clips and IP glands give access to the gear tray without breaking the IP66 seal."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/val/val-02-install.jpg",
+          "alt": "Vanguard Linear Gen2 suspended from roof purlins",
+          "caption": "Suspended or surface mounted — the mounting and suspension kit is supplied as standard."
+        }
+      },
+      "badges": [
+        {"label": "IP66", "detail": "Ingress protection"},
+        {"label": "IK10", "detail": "Impact rating"},
+        {"label": "Up to 148 lm/W", "detail": "System efficacy"},
+        {"label": "Class I", "detail": "Electrical class"},
+        {"label": "3hr Emergency option", "detail": "DALI-enabled self-test emergency pack (.EM3)"}
+      ],
+      "keySpecs": [
+        {"label": "Delivered lumens", "value": "3,000 – 8,000 lm across six lumen packages (LA034–LA084)"},
+        {"label": "Colour temperature", "value": "4000K"},
+        {"label": "CRI", "value": "80+"},
+        {"label": "Ingress protection", "value": "IP66"},
+        {"label": "IK rating", "value": "IK10"},
+        {"label": "Operating temperature", "value": "Up to 25°C ambient"},
+        {"label": "Body material", "value": "Sealed polycarbonate enclosure with opal diffuser and stainless-steel clips; electronic ballast 230V; grey body"},
+        {"label": "Optics", "value": "High-transmission opal diffuser, optimised for a wide photometric distribution and efficient general illuminance"},
+        {"label": "Electrical class", "value": "Class I (Earth); 220–240V AC, 50/60Hz"},
+        {"label": "Dimming", "value": "DALI option; 3-hour DALI-enabled self-test emergency pack available (.EM3)"},
+        {"label": "Smart controls", "value": ""},
+        {"label": "Warranty", "value": "5 years"},
+        {"label": "Life rating", "value": "> 50,000 hrs"}
+      ],
+      "hideWindage": true,
+      "dimensions": {
+        "diagram": "assets/img/products/val/val-dimensions.png",
+        "note": "1200mm housing covers the LA034–LA064 lumen packages (3,000–6,000lm); 1500mm covers LA074–LA084 (7,000–8,000lm). Cross-section is 95mm x 80mm for both. Mounting bracket spacing is 800–860mm on the 1200mm housing and 1080–1150mm on the 1500mm housing. Weight is per-fitting; a mounting and suspension kit is supplied as standard (suspension wire by others).",
+        "variants": [
+          {"label": "1200mm", "length": "1200 mm", "width": "95 mm", "height": "80 mm", "weight": "1.7 kg"},
+          {"label": "1500mm", "length": "1500 mm", "width": "95 mm", "height": "80 mm", "weight": "2.2 kg"}
+        ]
+      },
+      "distributions": [
+        {"code": ".SY", "name": "Symmetric", "chart": "assets/img/products/val/distributions/sy.png", "note": "One general-illuminance distribution; shape is consistent across all six lumen packages"}
+      ],
+      "accessories": [
+        {"code": "Included", "desc": "Mounting & suspension kit, supplied as standard with every luminaire — suspension wire to be supplied by others"},
+        {"code": ".EM3", "desc": "3-hour DALI-enabled self-test emergency pack (1200mm housing: 367lm emergency output; 1500mm housing: 369lm)"}
+      ],
+      "certifications": ["EN/IEC 60598-1:2015", "IP66", "IK10", "CE", "Class I"],
+      "downloads": {
+        "brochure": {"label": "Product datasheet", "file": "assets/downloads/lumen-method-val-brochure.pdf", "meta": ""},
+        "ies": {"label": "IES photometric files", "file": "assets/downloads/ies/VAL-IES-files.zip", "meta": ""}
+      }
+    }
 
   ]
 }
