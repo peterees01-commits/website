@@ -772,6 +772,14 @@
         {
           "code": "RLI.C-PROTEC",
           "desc": "Overvoltage surge protector — protects electronic parts against overvoltage up to 10kV/10kA"
+        },
+        {
+          "code": "RLI.BLS1 / .BLS2 / .BLS3",
+          "desc": "Back lighting shield — reduces house-side spill light, in 25mm / 50mm / 100mm depths"
+        },
+        {
+          "code": "RLI.FLS1 / .FLS2 / .FLS3",
+          "desc": "Front lighting shield — reduces street-side spill light, in 25mm / 50mm / 100mm depths"
         }
       ],
       "certifications": [
@@ -994,6 +1002,14 @@
         {
           "code": "SLI.C-PROTEC",
           "desc": "Overvoltage surge protector — protects electronic parts against overvoltage up to 10kV/10kA"
+        },
+        {
+          "code": "SLI.BLS1 / .BLS2 / .BLS3",
+          "desc": "Back lighting shield — reduces house-side spill light, in 25mm / 50mm / 100mm depths"
+        },
+        {
+          "code": "SLI.FLS1 / .FLS2 / .FLS3",
+          "desc": "Front lighting shield — reduces street-side spill light, in 25mm / 50mm / 100mm depths"
         }
       ],
       "certifications": [
@@ -1193,6 +1209,10 @@
         {
           "code": "FTS.FF10S / .FS10S / .F510S",
           "desc": "10m flex, twin-and-earth or 5-core cable entry options"
+        },
+        {
+          "code": "FTS.EBLS",
+          "desc": "External backlight shield, reduces house-side spill light; available finished in RAL7011, RAL7035, RAL9005 or RAL9006"
         }
       ],
       "certifications": [
@@ -3861,7 +3881,8 @@
         {"code": "X2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4", "group": "LB Optics"}
       ],
       "accessories": [
-        {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"}
+        {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"},
+        {"code": "VMXII.BLS", "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"}
       ],
       "certifications": ["EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
       "downloads": {
