@@ -54,15 +54,10 @@
           "Fully removable LED module keeps the fixture serviceable in the field without replacing the whole luminaire",
           "Available in Small and Large module sizes across five optical distributions, sharing the same Transition Zone treatment"
         ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/dpl/dpl-03-large-module-detail.png",
-          "alt": "Denver iD Pole Large module LED array, close-up angled view showing the Transition Zone diffuser",
-          "caption": "Large module LED array, showing the Transition Zone diffuser around each lens."
-        },
         "comparisonPhoto": {
           "file": "assets/img/products/dpl/dpl-05-small-module-underside.png",
           "alt": "Denver iD Pole Small module, straight-on underside view showing the Transition Zone diffuser",
-          "caption": "Small module — the same Transition Zone treatment on a lower-lumen body."
+          "caption": "The Transition Zone diffuser around each lens, shared across Small and Large module sizes."
         }
       },
       "badges": [
@@ -478,33 +473,17 @@
           "Dedicated light-absorbing backlight shields provide additional control without sacrificing luminaire efficiency",
           "LEDs aren't visible from behind the fitting, reducing glare when viewed from the rear"
         ],
+        "threeCol": true,
         "hardwarePhoto": {
-          "file": "assets/img/products/dsx/backlight-hardware.png",
-          "alt": "D-Series luminaire with a close-up of the internal light-absorbing backlight shield modules",
-          "caption": "Point-source light engine and the light-absorbing backlight shield modules behind it."
-        },
-        "comparisonPhoto": {
           "file": "assets/img/products/dsx/backlight-comparison.png",
           "alt": "Same car park and building lit without backlight control (left) and with D-Series Extreme Cutoff Optics (right), showing spill light on the building virtually eliminated",
           "caption": "Standard distribution (left) vs. Extreme Cutoff Optics (right) — same site, same mounting height."
         },
-        "optics": [
-          {
-            "code": ".BLC",
-            "name": "Backlight Control optic",
-            "chart": "assets/img/products/dsx/distributions/blc-v2.png"
-          },
-          {
-            "code": ".RCCO",
-            "name": "Right Corner Cutoff optic",
-            "chart": "assets/img/products/dsx/distributions/rcco-v2.png"
-          },
-          {
-            "code": ".LCCO",
-            "name": "Left Corner Cutoff optic",
-            "chart": "assets/img/products/dsx/distributions/lcco-v2.png"
-          }
-        ]
+        "comparisonPhoto": {
+          "file": "assets/img/products/dsx/backlight-hardware.png",
+          "alt": "D-Series luminaire with a close-up of the internal light-absorbing backlight shield modules",
+          "caption": "The light-absorbing backlight shield modules, behind the point-source light engine."
+        }
       },
       "distributions": [
         {
@@ -1441,30 +1420,11 @@
           "Recessed optical architecture positions the light source deeper within the luminaire, reducing glare and improving visual comfort at pedestrian viewing angles",
           "A single-fixing, interchangeable optical POD carries the Comfort Optic across all five distributions, simplifying servicing and future reconfiguration in the field"
         ],
-        "hardwarePhoto": [
-          {
-            "file": "assets/img/products/pbl/comfort-optic-close-up.png",
-            "alt": "Close-up detail of Pebble's PrismaLED diffusion lenses",
-            "caption": "Close-up detail of the PrismaLED diffusion lenses."
-          },
-          {
-            "file": "assets/img/products/pbl/pbl-03-angle-alt.png",
-            "alt": "Pebble's six-module Comfort Optic array, alternate angle",
-            "caption": "The six-module Comfort Optic array — a single-fixing, interchangeable pod. Available with backlight shield accessories."
-          }
-        ],
-        "comparisonPhoto": [
-          {
-            "file": "assets/img/products/pbl/comfort-optic-standard-path.png",
-            "alt": "Pathway lit with a standard optic, showing visible point-source glare at each pole",
-            "caption": "Standard optic — visible point-source glare at each pole."
-          },
-          {
-            "file": "assets/img/products/pbl/comfort-optic-pebble-path.png",
-            "alt": "Same pathway lit with Pebble's Comfort Optic, producing a softer, more even light with no visible glare",
-            "caption": "Pebble Comfort Optic — same path, same mounting height, no visible glare."
-          }
-        ]
+        "comparisonPhoto": {
+          "file": "assets/img/products/pbl/pbl-03-angle-alt.png",
+          "alt": "Pebble's six-module Comfort Optic array, alternate angle",
+          "caption": "The six-module Comfort Optic array — a single-fixing, interchangeable pod. Available with backlight shield accessories."
+        }
       },
       "distributions": [
         {
@@ -1630,15 +1590,10 @@
           "Recessed, uniformly luminous waveguide blends the light source into a single even surface rather than a visible point source",
           "Shared across both the Post Top (.VB1) and Arm Mount (.SE) configurations from the same luminaire family"
         ],
-        "hardwarePhoto": {
+        "comparisonPhoto": {
           "file": "assets/img/products/sig/sig-03-diffuser-texture.png",
           "alt": "Signature waveguide diffuser surface, macro detail showing the uniformly luminous ink texture",
           "caption": "The uniformly luminous waveguide surface, up close."
-        },
-        "comparisonPhoto": {
-          "file": "assets/img/products/sig/sig-05-arm-mount-profile.png",
-          "alt": "Signature Arm Mount side profile, showing the luminaire head, hidden-wiring arm and pole mounting",
-          "caption": "The same Transition Zone treatment on the Arm Mount configuration."
         }
       },
       "badges": [
@@ -1995,11 +1950,6 @@
           "Self-cleaning optic: low-electrostatic glass plus a ventilated, finned heat-sink chassis reduce dirt depreciation and extend lumen maintenance",
           "Rotatable optical assembly for on-site alignment of distributions to specific lighting requirements and balanced weight on existing mast-head frames"
         ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/hmao/hmao-02-housing.png",
-          "alt": "HMAO two-piece electrical housing with hinged upper casting",
-          "caption": "Two-piece electrical housing; the upper casting detaches/hinges to aid installation."
-        },
         "comparisonPhoto": {
           "file": "assets/img/products/hmao/hmao-01-pods.png",
           "alt": "HMAO glass refractor optical pods",
@@ -2519,15 +2469,10 @@
           "Removable, plug-and-play LED module keeps the fixture serviceable without replacing the whole bollard",
           "Shares the same Transition Zone treatment and design language as Denver iD Pole and Denver iD Wall"
         ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/dbd/dbd-03-head-angle.png",
-          "alt": "Denver iD Bollard head, three-quarter angle detail showing the Transition Zone and polycarbonate lens",
-          "caption": "The Transition Zone and polycarbonate lens, in close detail."
-        },
         "comparisonPhoto": {
           "file": "assets/img/products/dbd/dbd-04-head-angle-close.png",
           "alt": "Denver iD Bollard head, close three-quarter angle detail",
-          "caption": "The removable LED module sits behind the sealed polycarbonate extrusion."
+          "caption": "The removable LED module sits behind the sealed polycarbonate extrusion, with the Transition Zone and polycarbonate lens visible in close detail."
         }
       },
       "badges": [
@@ -2968,37 +2913,17 @@
           "Narrow (0.5:1 SHR), Medium (1:1 SHR) and Wide (1.6:1 SHR) reflector geometries tailor the beam to the building's geometry without sacrificing visual comfort",
           "Available with a clear glass or prismatic glass (PrismaLED) lens, protecting the reflectors and LEDs from the industrial environment within"
         ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/pps/pps-optimax-optics-v2.png",
-          "alt": "Narrow, Medium and Wide Optimax reflector rings and the corresponding LED module arrangement behind each",
-          "caption": "Narrow (0.5:1 SHR), Medium (1:1 SHR) and Wide (1.6:1 SHR) Optimax reflector rings, with the LED module arrangement behind each."
-        },
         "comparisonPhoto": {
           "file": "assets/img/products/pps/pps-glass-lens-v2.png",
           "alt": "Prismpack fitted with the prismatic glass (PrismaLED) lens option",
           "caption": "The prismatic glass (PrismaLED) lens option blends the LED array into a single diffused, uniform surface and masks the appearance of an individual LED failure. A clear glass or polycarbonate lens is also available."
-        },
-        "opticsLabel": "Optical Distributions",
-        "opticsInline": true,
-        "optics": [
-          {
-            "code": ".ND",
-            "name": "Narrow Distribution (0.5:1 SHR)",
-            "chart": "assets/img/products/pps/distributions/nd.png"
-          },
-          {
-            "code": ".MD",
-            "name": "Medium Distribution (1:1 SHR)",
-            "chart": "assets/img/products/pps/distributions/md.png"
-          },
-          {
-            "code": ".WD",
-            "name": "Wide Distribution (1.6:1 SHR)",
-            "chart": "assets/img/products/pps/distributions/wd.png"
-          }
-        ]
+        }
       },
-      "hideDistributionsSection": true,
+      "distributionsPhoto": {
+        "file": "assets/img/products/pps/pps-optimax-optics-v2.png",
+        "alt": "Narrow, Medium and Wide Optimax reflector rings and the corresponding LED module arrangement behind each",
+        "caption": "Narrow (0.5:1 SHR), Medium (1:1 SHR) and Wide (1.6:1 SHR) Optimax reflector rings, with the LED module arrangement behind each."
+      },
       "badges": [
         {
           "label": "IP65",
@@ -3230,6 +3155,7 @@
         }
       ],
       "backlightControl": {
+        "threeCol": true,
         "eyebrow": "Self-Cleaning & Thermal Management",
         "heading": "Engineered to stay cooler, cleaner, longer",
         "body": "Holobay's low-electrostatic-charge glass optic resists dust and dirt accumulation, while curved ventilation fins create a venturi-effect self-cleaning airstream that draws cool, dense air across the optical lens and critical components. Conduction, convection and radiation are all engineered into the finned housing and thermally decoupled driver compartment, keeping LEDs within their thermal limit — and the patented hinged lid means the gear compartment stays just as easy to reach as it was to keep cool.",
@@ -3682,6 +3608,7 @@
         }
       ],
       "backlightControl": {
+        "threeCol": true,
         "eyebrow": "Patented Transition Zone",
         "heading": "A softer, lower-glare light source",
         "body": "Between the bright LED array and the darker surrounding housing, HI-BEAM's Transition Zone acts as an intermediary luminous band — a cascade of contrast ratios that softens the perceived brightness of the source and reduces glare compared with a high-contrast LED array sitting directly against a dark housing. Combined with the universal mounting bracket's tool-less service position and snap-fit cover, maintenance is as straightforward as the light itself is comfortable to work under.",
@@ -3906,15 +3833,10 @@
           "Damaged doors can be replaced on site without discarding the whole luminaire",
           "Pressure equalisation valve balances internal/external pressure, extending joint and electronics life"
         ],
-        "hardwarePhoto": {
+        "comparisonPhoto": {
           "file": "assets/img/products/pse/pse-02-angle-v2.png",
           "alt": "Prismashield Elite angled view showing the constant-pressure door edge and end cap",
           "caption": "Dual-contact clip-in and bolt door retention for a constant IP65 seal."
-        },
-        "comparisonPhoto": {
-          "file": "assets/img/products/pse/pse-03-mount.png",
-          "alt": "Prismashield Elite end view showing cable entry knockouts and mounting plate",
-          "caption": "Multiple knockout entry points for flexible cable routing, plus the pressure equalisation valve."
         }
       },
       "badges": [
@@ -4102,15 +4024,10 @@
           "Mounting and suspension kit supplied as standard with every luminaire; cable access via IP glands at the side",
           "High-transmission opal diffuser is optimised for a wide photometric distribution, delivering efficient general illuminance"
         ],
-        "hardwarePhoto": {
+        "comparisonPhoto": {
           "file": "assets/img/products/val/val-03-open.png",
           "alt": "Vanguard gear tray and wiring with cover open",
           "caption": "External clips and IP glands give access to the gear tray without breaking the IP66 seal."
-        },
-        "comparisonPhoto": {
-          "file": "assets/img/products/val/val-02-install.jpg",
-          "alt": "Vanguard suspended from roof purlins",
-          "caption": "Suspended or surface mounted — the mounting and suspension kit is supplied as standard."
         }
       },
       "badges": [

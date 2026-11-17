@@ -559,6 +559,22 @@ body.lightbox-locked {
   }
 }
 
+.three-col {
+  display: grid;
+  grid-template-columns: 1.3fr 0.85fr 0.85fr;
+  gap: var(--space-7);
+}
+
+.three-col > * {
+  min-width: 0;
+}
+
+@media (max-width: 1000px) {
+  .three-col {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ---- Stat band (pull-statement) ---- */
 .stat-band {
   padding-block: var(--space-6);

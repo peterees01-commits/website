@@ -415,7 +415,16 @@
     // optics grid land in the same implicit grid row — lining the optics
     // cards up with the top of the reflector photo, not just wherever they
     // fall after the comparison photo's variable-height caption.
-    var bodyHtml = b.opticsInline ? (
+    var bodyHtml = b.threeCol ? (
+      // Opt-in: text, hardwarePhoto and comparisonPhoto as three separate
+      // grid columns side by side, instead of stacking an image under the
+      // text — keeps the section to one row's height even with two photos.
+      '<div class="three-col">' +
+        '<div>' + introBlock + '</div>' +
+        '<div>' + photoBlocks(b.hardwarePhoto) + '</div>' +
+        '<div>' + photoBlocks(b.comparisonPhoto) + '</div>' +
+      '</div>'
+    ) : b.opticsInline ? (
       '<div class="two-col two-col--wide-left">' +
         '<div>' + introBlock + '</div>' +
         '<div>' + photoBlocks(b.comparisonPhoto) + '</div>' +
@@ -526,11 +535,13 @@
         '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3);max-width:60ch">' + esc(ps.config) + '</p>' +
       '</div>'
     ) : "";
+    var distPhoto = p.distributionsPhoto;
+    var distPhotoBlock = distPhoto ? photoBlocks(distPhoto) : "";
     if (!hasDist && !m && !ps) return "";
     return (
       '<section class="section section--surface product-section">' +
-        '<div class="section__inner' + (hasDist && (m || ps) ? ' two-col' : '') + '">' +
-          distBlock + '<div>' + mountBlock + psBlock + '</div>' +
+        '<div class="section__inner' + (hasDist && (m || ps || distPhoto) ? ' two-col' : '') + '">' +
+          distBlock + '<div>' + mountBlock + psBlock + distPhotoBlock + '</div>' +
         '</div>' +
       '</section>'
     );
