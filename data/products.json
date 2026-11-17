@@ -546,9 +546,7 @@
         },
         {
           "code": "640-1221 / HAUABRK.1A.AU0.60",
-          "desc": "HAUA single-head pole top adaptor, 60mm spigot (standard)",
-          "image": "assets/img/products/dsx/dsx-haua-single.png",
-          "imageAlt": "HAUA single-head pole top adaptor, pictorial view"
+          "desc": "HAUA single-head pole top adaptor, 60mm spigot (standard)"
         },
         {
           "code": "640-1222 / HAUABRK.1A.AU0.76",
@@ -556,9 +554,7 @@
         },
         {
           "code": "HAUABRK.2A180.AU0.76",
-          "desc": "HAUA double-head (180°) pole top adaptor, 76mm spigot — the only spigot double-headed fittings are rated for; not available on the 60mm spigot",
-          "image": "assets/img/products/dsx/dsx-haua-double.png",
-          "imageAlt": "HAUA double-head pole top adaptor, pictorial view"
+          "desc": "HAUA double-head (180°) pole top adaptor, 76mm spigot — the only spigot double-headed fittings are rated for; not available on the 60mm spigot"
         },
         {
           "code": "DSX.TZ01 / .TZ02 / .TZ03",
