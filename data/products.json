@@ -1247,237 +1247,6 @@
       }
     },
     {
-      "code": "DWL",
-      "name": "Denver iD Wall",
-      "manufacturer": "Holophane",
-      "manufacturerSlug": "holophane",
-      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
-      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=DWL",
-      "category": "Area & Amenity Lighting / Security Lighting",
-      "family": "Denver iD",
-      "tagline": "Wall-mounted LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
-      "summary": "Denver iD Wall is a two-part die-cast aluminium wall-mounted luminaire covering 700–4,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field — the wall-mount sibling to Denver iD Pole and Denver iD Bollard.",
-      "applications": [
-        "Car Parks",
-        "Pathways",
-        "Urban Realm"
-      ],
-      "images": [
-        {
-          "file": "assets/img/products/dwl/dwl-01-angle.png",
-          "alt": "Denver iD Wall, three-quarter angle view showing the LED module"
-        },
-        {
-          "file": "assets/img/products/dwl/dwl-02-rear-angle.png",
-          "alt": "Denver iD Wall, rear three-quarter view showing the back casting and mounting points"
-        },
-        {
-          "file": "assets/img/products/dwl/dwl-03-side-profile.png",
-          "alt": "Denver iD Wall side profile"
-        },
-        {
-          "file": "assets/img/products/dwl/dwl-04-front.png",
-          "alt": "Denver iD Wall, straight-on front view"
-        },
-        {
-          "file": "assets/img/products/dwl/dwl-dimensions.png",
-          "alt": "Denver iD Wall dimension diagram, standard body and back box options"
-        }
-      ],
-      "badges": [
-        {
-          "label": "IP65 / IK10",
-          "detail": "Ingress & impact protection"
-        },
-        {
-          "label": "0% ULOR",
-          "detail": "No upward light output"
-        },
-        {
-          "label": "Dark Sky Approved",
-          "detail": "IDA — at 3000K or warmer"
-        },
-        {
-          "label": "−20°C to +45°C",
-          "detail": "Operating temperature range"
-        },
-        {
-          "label": "Made in Britain",
-          "detail": "Manufactured in the UK"
-        },
-        {
-          "label": "Amber Available",
-          "detail": "PC Amber colour temperature option"
-        }
-      ],
-      "keySpecs": [
-        {
-          "label": "Delivered lumens",
-          "value": "700 – 4,000 lm"
-        },
-        {
-          "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (Amber available)",
-          "short": "2700K / 3000K / 4000K / AMBER"
-        },
-        {
-          "label": "CRI",
-          "value": "> 70"
-        },
-        {
-          "label": "ULOR",
-          "value": "0%"
-        },
-        {
-          "label": "Ingress protection",
-          "value": "IP65 (body & LED module)"
-        },
-        {
-          "label": "Impact resistance",
-          "value": "IK10"
-        },
-        {
-          "label": "Operating temperature",
-          "value": "−20°C to +45°C"
-        },
-        {
-          "label": "Body material",
-          "value": "LM6 marine-grade die-cast aluminium"
-        },
-        {
-          "label": "Optics",
-          "value": "Individual PMMA lenses, patented Transition Zone diffuser"
-        },
-        {
-          "label": "Glass cover",
-          "value": "High-transparency hydrophilic glass"
-        },
-        {
-          "label": "Electrical class",
-          "value": "Class II (optional)"
-        },
-        {
-          "label": "Dimming",
-          "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)"
-        },
-        {
-          "label": "Smart controls",
-          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01)"
-        },
-        {
-          "label": "Warranty",
-          "value": "5 years"
-        },
-        {
-          "label": "Life rating",
-          "value": "L98B50 @ 50,000 hrs / L97B50 @ 100,000 hrs (average)"
-        }
-      ],
-      "dimensions": {
-        "diagram": "assets/img/products/dwl/dwl-dimensions.png",
-        "note": "Depth increases with back-box option: 148mm standard (6.5kg), 187mm with .B (7.1kg), 214mm with .PLx.B (7.3kg).",
-        "variants": [
-          {
-            "label": "Denver iD Wall (DWL)",
-            "length": "309 mm",
-            "width": "148 mm",
-            "height": "157 mm",
-            "weight": "6.5 kg"
-          }
-        ],
-        "windage": ""
-      },
-      "distributions": [
-        {
-          "code": ".SY",
-          "name": "Symmetric",
-          "chart": "assets/img/products/dwl/distributions/sy.png"
-        },
-        {
-          "code": ".AY",
-          "name": "Asymmetric",
-          "chart": "assets/img/products/dwl/distributions/ay.png"
-        },
-        {
-          "code": ".NR",
-          "name": "Long & Narrow",
-          "chart": "assets/img/products/dwl/distributions/nr.png"
-        },
-        {
-          "code": ".FW",
-          "name": "Forward Throw",
-          "chart": "assets/img/products/dwl/distributions/fw.png"
-        },
-        {
-          "code": ".HN",
-          "name": "High Beam Long & Narrow",
-          "chart": "assets/img/products/dwl/distributions/hn.png"
-        }
-      ],
-      "accessories": [
-        {
-          "code": "DWL.VK",
-          "desc": "Vandal key"
-        },
-        {
-          "code": "DWL.FLS",
-          "desc": "Front light shield"
-        },
-        {
-          "code": "DWL.BB",
-          "desc": "Back box"
-        },
-        {
-          "code": "DWL.PM",
-          "desc": "Pole mount adapter"
-        }
-      ],
-      "mountingHeights": {
-        "note": "Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
-        "rows": [
-          {
-            "height": "3 m",
-            "range": "10 m"
-          },
-          {
-            "height": "5 m",
-            "range": "15 m"
-          }
-        ]
-      },
-      "certifications": [
-        "CE",
-        "UKCA",
-        "EN 60598",
-        "IP65",
-        "IK10",
-        "IDA Dark Sky Approved (3000K or warmer)",
-        "Made in Britain"
-      ],
-      "downloads": {
-        "brochure": {
-          "label": "Product brochure",
-          "file": "assets/downloads/lumen-method-dwl-brochure.pdf",
-          "meta": ""
-        },
-        "installGuide": {
-          "label": "Installation instructions",
-          "file": "assets/downloads/lumen-method-dwl-installation-guide.pdf",
-          "meta": ""
-        },
-        "bim": {
-          "label": "BIM objects",
-          "file": "assets/downloads/bim/DWL-BIM-Revit.zip",
-          "meta": ""
-        },
-        "ies": {
-          "label": "IES photometric files",
-          "file": "assets/downloads/ies/DWL-IES-files.zip",
-          "meta": ""
-        }
-      }
-    },
-    {
       "code": "PEB",
       "name": "Pebble",
       "stackPhysicalWithKeySpecs": true,
@@ -2015,6 +1784,623 @@
       },
       "overviewHeading": "Design-Inspired Landscape",
       "disableGalleryFilter": true
+    },
+    {
+      "code": "VMXII",
+      "statDistributionCount": 12,
+      "name": "V-Max II",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=VMXII",
+      "category": "Pole / Car Parks / Road Lighting",
+      "family": "V-Max",
+      "tagline": "Patented modular chevron streetlighting luminaire, scaling from 1,000 to 54,000 delivered lumens across six LED-chevron configurations, with best-in-class optics tuned for roadway classes from residential streets to highways.",
+      "summary": "V-Max II retains V-Max's patented, award-winning modular design — individual LED \"chevron\" light engine modules that are fully scalable, serviceable and upgradeable without changing the luminaire's footprint. A Transition Zone between the brighter LEDs and the darker surrounding housing softens the cascade of contrast around the light source, cutting perceived glare. Available in two LED variants (LA single-die for best optical control and high lm/W; LB multi-die for the highest lumen output and efficacy) across 12 optical distributions, with class-leading up to 184 lm/W efficacy, IP69 sealing and International Dark-Sky Association approval at 3000K/4000K. Scales from\nV1 (1 chevron, 16 LEDs): 1,000–9,000lm\nV6 (6 chevrons, 96 LEDs): up to 54,000lm",
+      "applications": ["Car Parks", "Roadways"],
+      "images": [
+        {"file": "assets/img/products/vmxii/vmxii-01-profile.png", "alt": "V-Max II streetlighting luminaire, side profile showing the chevron modules, spigot adaptor and pole mount"},
+        {"file": "assets/img/products/vmxii/vmxii-02-angle.png", "alt": "V-Max II, angled view of the LED chevron modules and optics"},
+        {"file": "assets/img/products/vmxii/vmxii-03-underside.png", "alt": "V-Max II underside view showing the chevron light engine modules and gear access plate"},
+        {"file": "assets/img/products/vmxii/vmxii-04-gear-open.png", "alt": "V-Max II with hinged canopy open, showing the easily removable gear tray and push-in terminal block"},
+        {"file": "assets/img/products/vmxii/vmxii-dimensions.jpg", "alt": "V-Max II dimension diagram and A/B length table for the V1–V6 chevron configurations"}
+      ],
+      "backlightControl": {
+        "eyebrow": "Transition Zone",
+        "heading": "A softer cascade from bright LED to dark housing",
+        "body": "The transition zone acts as an intermediary luminous area between the brighter LEDs and the darker surfaces surrounding the luminaire. This cascade of contrast ratios drastically reduces the perception of glare and gives the light source a softer appearance — without sacrificing the class-leading optical control and efficacy of the chevron light engine.",
+        "points": [
+          "Patented modular chevron design: individual LED light engine modules are fully scalable, serviceable and upgradeable, from 1 to 6 chevrons on the same body footprint",
+          "Hinged canopy with integrated locked service position and anti-fall device provision for fast, safe installation and maintenance",
+          "Tool-less entry option, piano-key push-in terminal block and internal M20 cable gland speed up installation and keep a consistent IP69 seal"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/vmxii/vmxii-04-gear-open.png",
+          "alt": "V-Max II hinged canopy open showing the removable gear tray and push-in terminal block",
+          "caption": "Hinged canopy with locked service position and easily removable gear."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/vmxii/vmxii-03-underside.png",
+          "alt": "V-Max II underside view showing the individual chevron light engine modules",
+          "caption": "Individually scalable, serviceable chevron light engine modules — 1 to 6 per luminaire."
+        }
+      },
+      "badges": [
+        {"label": "IP69", "detail": "Light engines & gear compartment"},
+        {"label": "Up to 184 lm/W", "detail": "System efficacy"},
+        {"label": "IK06 / IK10 option", "detail": "IK10 with optional polycarbonate optics"},
+        {"label": "TM66: 2.8 Excellent Circularity", "detail": "LIA/CIBSE Circular Economy Assured Scheme"},
+        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, 3000K/4000K"},
+        {"label": "Amber Available", "detail": "PC Amber colour temperature option"}
+      ],
+      "keySpecs": [
+        {"label": "Delivered lumens", "value": "1,000 – 54,000 lm (LA variant up to 50,000 lm; LB variant up to 54,000 lm)"},
+        {"label": "Colour temperature", "value": "3000K, 4000K, or PC Amber"},
+        {"label": "CRI", "value": "70 CRI"},
+        {"label": "ULOR", "value": "0%"},
+        {"label": "Ingress protection", "value": "IP69 (light engines and gear compartment)"},
+        {"label": "IK rating", "value": "IK06 standard; IK10 with optional polycarbonate optics"},
+        {"label": "Operating temperature", "value": "-40°C to +50°C"},
+        {"label": "Body material", "value": "Die-cast LM6 marine grade aluminium body, pole adaptor and chevrons; extruded 6063-T6 aluminium spine; injection moulded polycarbonate end caps"},
+        {"label": "Optics", "value": "Two LED variants — LA (single-die, best optical control, high lm/W) and LB (multi-die, highest lumen output and lm/W) — across 12 optical distributions; PMMA optics standard, polycarbonate optional"},
+        {"label": "Electrical class", "value": "Class I (Class II available as an option, .CII)"},
+        {"label": "Dimming", "value": "DALI & DALI 2.0; programmable pre-set profiles delivering 70% / 80% / 90% of initial lumens over life; switching via photocell"},
+        {"label": "Smart controls", "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; axora Connect CMS control protocol; constant light output (CLO) available"},
+        {"label": "Warranty", "value": "5 years"},
+        {"label": "Life rating", "value": "100,000 hrs (L90B50 @ 25°C)"}
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/vmxii/vmxii-dimensions.jpg",
+        "note": "Length is given as A (post-top mounting) and B (side-entry mounting); height is the mounting arm overhang, 243mm for post-top and 163mm for side-entry, constant across all six configurations. Weight is per-fitting. Luminaire Optical Outreach/Centres (from pole centreline) ranges from 0.4m (post-top) / 0.42m (side-entry) on V1 to 0.65m / 0.67m on V6 — see the brochure for the full table. Lumen output, power and efficacy scale with chevron count and LED variant (LA/LB) — see the brochure's Typical Luminaire Performance table for exact per-configuration figures.",
+        "variants": [
+          {"label": "V1 (1 chevron)", "length": "498 mm (A) / 578 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "6.3 kg"},
+          {"label": "V2 (2 chevrons)", "length": "599 mm (A) / 679 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "7.8 kg"},
+          {"label": "V3 (3 chevrons)", "length": "700 mm (A) / 780 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "8.8 kg"},
+          {"label": "V4 (4 chevrons)", "length": "801 mm (A) / 881 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "10.5 kg"},
+          {"label": "V5 (5 chevrons)", "length": "902 mm (A) / 982 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "11.9 kg"},
+          {"label": "V6 (6 chevrons)", "length": "1003 mm (A) / 1083 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "13.3 kg"}
+        ],
+        "windage": "0.03 m² (V1) · 0.033 m² (V2) · 0.036 m² (V3) · 0.039 m² (V4) · 0.042 m² (V5) · 0.045 m² (V6)"
+      },
+      "distributions": [
+        {"code": "F4L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-f4l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l4.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "F4Q1", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-f4q1.png", "note": "Glare Class: G4", "group": "LA Optics"},
+        {"code": "X2L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "X2L3", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "D4D4", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-d4d4.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L5L5", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-l5l5.png", "note": "Glare Class: G3", "group": "LA Optics"},
+        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3l4.png", "note": "Glare Class: G4", "group": "LA Optics"},
+        {"code": "L4L4", "name": "Type II Very Short", "chart": "assets/img/products/vmxii/distributions/la-l4l4.png", "note": "Glare Class: G6", "group": "LA Optics"},
+        {"code": "D4D4", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "F4L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "F4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "L4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
+        {"code": "L5L5", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png", "note": "Glare Class: G3", "group": "LB Optics"},
+        {"code": "X2L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
+        {"code": "X2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4", "group": "LB Optics"}
+      ],
+      "accessories": [
+        {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"},
+        {"code": "VMXII.BLS", "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"}
+      ],
+      "certifications": ["EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
+      "downloads": {
+        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-vmxii-brochure.pdf", "meta": ""},
+        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf", "meta": ""}
+      }
+    },
+    {
+      "code": "HMAO",
+      "name": "High Mast Advanced Optix",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=HMAO",
+      "category": "High Mast / Industrial / Area Lighting",
+      "family": "Advanced Optix",
+      "tagline": "High mast area lighting luminaire with prismatic borosilicate glass refractor optics, scaling from 30,000 to 100,000 delivered lumens across 6, 9 or 12 optical pod configurations, for freight terminals, ports, airports and motorways.",
+      "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements.",
+      "applications": ["Area Lighting"],
+      "images": [
+        {"file": "assets/img/products/hmao/hmao-01-pods.png", "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"},
+        {"file": "assets/img/products/hmao/hmao-02-housing.png", "alt": "HMAO viewed from above, showing the two-piece electrical housing and optical pod housing"},
+        {"file": "assets/img/products/hmao/hmao-03-install-night.jpg", "alt": "Ten HMAO luminaires mounted in a ring on a high mast, photographed at night from below"},
+        {"file": "assets/img/products/hmao/hmao-dimensions.png", "alt": "HMAO dimension diagram, 584mm by 686mm by 254mm"}
+      ],
+      "backlightControl": {
+        "eyebrow": "Glass Refractor Optics",
+        "heading": "PrismGlow optics for uniform, low-glare high mast lighting",
+        "body": "By combining the latest LED technology with Holophane's advanced glass refractor optic, HMAO breaks up the image of the LEDs with a PrismGlow effect. This reduces the glare normally associated with individual LEDs and eliminates hot spots on the working environment, creating a more uniform vertical and horizontal lighting solution. Glass's low electrostatic charge makes it less attractive to dust and dirt than aluminium or plastic optics, and works with the ventilated, finned heat-sink chassis to create a self-cleaning effect that enhances lumen maintenance over time.",
+        "points": [
+          "Prismatic borosilicate glass refractor lenses, one per LED module, forming individually ventilated optical pods — 6, 9 or 12 per luminaire depending on lumen package",
+          "Self-cleaning optic: low-electrostatic glass plus a ventilated, finned heat-sink chassis reduce dirt depreciation and extend lumen maintenance",
+          "Rotatable optical assembly for on-site alignment of distributions to specific lighting requirements and balanced weight on existing mast-head frames"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/hmao/hmao-02-housing.png",
+          "alt": "HMAO two-piece electrical housing with hinged upper casting",
+          "caption": "Two-piece electrical housing; the upper casting detaches/hinges to aid installation."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/hmao/hmao-01-pods.png",
+          "alt": "HMAO glass refractor optical pods",
+          "caption": "Each LED module sits behind its own prismatic glass refractor, forming an individual optical pod."
+        }
+      },
+      "badges": [
+        {"label": "IP65", "detail": "Electrical housing; IP65 overall with .T1/.T7 photocell options"},
+        {"label": "Up to 167 lm/W", "detail": "System efficacy"},
+        {"label": "IK07", "detail": "Impact rating"},
+        {"label": "TM66: 2.3 Preliminary", "detail": "Definite/substantial progress to circularity"},
+        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, at 3000K"}
+      ],
+      "keySpecs": [
+        {"label": "Delivered lumens", "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)", "short": "30,000 – 100,000 lm"},
+        {"label": "Colour temperature", "value": "3000K or 4000K (3000K or warmer required for IDA Dark-Sky certification)"},
+        {"label": "CRI", "value": "> 70"},
+        {"label": "ULOR", "value": ""},
+        {"label": "Ingress protection", "value": "IP65"},
+        {"label": "IK rating", "value": "IK07"},
+        {"label": "Operating temperature", "value": "-20°C to +45°C (LC75X limited to +40°C; LC100X limited to +35°C)"},
+        {"label": "Body material", "value": "Prismatic borosilicate glass refractor lenses; ventilated, finned aluminium optical pod housing; two-piece cast aluminium electrical housing with hinged upper casting"},
+        {"label": "Optics", "value": "Individual glass refractor optical pods per LED module (6, 9 or 12 depending on lumen package); seven distributions with a rotatable optical assembly for on-site alignment"},
+        {"label": "Electrical class", "value": "Class I"},
+        {"label": "Dimming", "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"},
+        {"label": "Smart controls", "value": ""},
+        {"label": "Warranty", "value": "5 years"},
+        {"label": "Life rating", "value": "100,000 hrs (L70B50 @Tq 25°C)"}
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/hmao/hmao-dimensions.png",
+        "note": "Dimensions, weight and windage are a single figure for the luminaire body across all 10 lumen packages and all 6/9/12 pod configurations. Mounting is via four-bolt side arm mounting suitable for 42mm and 60mm side entry, with +/-5° tilt.",
+        "variants": [
+          {"label": "HMAO (all configurations)", "length": "686 mm", "width": "584 mm", "height": "254 mm", "weight": "23 kg"}
+        ],
+        "windage": "0.120 m²"
+      },
+      "distributions": [
+        {"code": ".SQ", "name": "Square", "chart": "assets/img/products/hmao/distributions/sq.png"},
+        {"code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/hmao/distributions/ay.png"},
+        {"code": ".SY", "name": "Symmetric", "chart": "assets/img/products/hmao/distributions/sy.png"},
+        {"code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/hmao/distributions/fw.png"},
+        {"code": ".NR", "name": "Long & Narrow", "chart": "assets/img/products/hmao/distributions/nr.png"},
+        {"code": ".HS", "name": "High Beam Symmetric", "chart": "assets/img/products/hmao/distributions/hs.png"},
+        {"code": ".SQW", "name": "Square Wide", "chart": "assets/img/products/hmao/distributions/sqw.png", "note": "Series 4 only"}
+      ],
+      "accessories": [
+        {"code": "HMAO.SD90", "desc": "90° shield"},
+        {"code": "HMAO.SD120", "desc": "120° shield"},
+        {"code": "HMAO.SD180", "desc": "180° shield"}
+      ],
+      "certifications": ["EN60598", "IP65", "IK07", "CE", "UKCA", "Made in Britain", "International Dark-Sky Association Fixture Seal of Approval (at 3000K)", "TM66 CEAM 2.3 — Preliminary (Definite/substantial progress to circularity)"],
+      "downloads": {
+        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-hmao-brochure.pdf", "meta": ""},
+        "ies": {"label": "IES photometric files", "file": "assets/downloads/ies/HMAO-IES-files.zip", "meta": ""},
+        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-hmao-installation-guide.pdf", "meta": ""}
+      }
+    },
+    {
+      "code": "DWL",
+      "name": "Denver iD Wall",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=DWL",
+      "category": "Area & Amenity Lighting / Security Lighting",
+      "family": "Denver iD",
+      "tagline": "Wall-mounted LED area luminaire with patented Transition Zone glare control, built for pedestrian-friendly amenity spaces.",
+      "summary": "Denver iD Wall is a two-part die-cast aluminium wall-mounted luminaire covering 700–4,000 delivered lumens across five optical distributions. A patented Transition Zone softens the LED array's visual signature, while a fully removable LED module keeps the fixture serviceable in the field — the wall-mount sibling to Denver iD Pole and Denver iD Bollard.",
+      "applications": [
+        "Car Parks",
+        "Pathways",
+        "Urban Realm"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/dwl/dwl-01-angle.png",
+          "alt": "Denver iD Wall, three-quarter angle view showing the LED module"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-02-rear-angle.png",
+          "alt": "Denver iD Wall, rear three-quarter view showing the back casting and mounting points"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-03-side-profile.png",
+          "alt": "Denver iD Wall side profile"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-04-front.png",
+          "alt": "Denver iD Wall, straight-on front view"
+        },
+        {
+          "file": "assets/img/products/dwl/dwl-dimensions.png",
+          "alt": "Denver iD Wall dimension diagram, standard body and back box options"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65 / IK10",
+          "detail": "Ingress & impact protection"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "No upward light output"
+        },
+        {
+          "label": "Dark Sky Approved",
+          "detail": "IDA — at 3000K or warmer"
+        },
+        {
+          "label": "−20°C to +45°C",
+          "detail": "Operating temperature range"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "PC Amber colour temperature option"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "700 – 4,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 4000K (Amber available)",
+          "short": "2700K / 3000K / 4000K / AMBER"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65 (body & LED module)"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "−20°C to +45°C"
+        },
+        {
+          "label": "Body material",
+          "value": "LM6 marine-grade die-cast aluminium"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual PMMA lenses, patented Transition Zone diffuser"
+        },
+        {
+          "label": "Glass cover",
+          "value": "High-transparency hydrophilic glass"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class II (optional)"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (LRD) or pre-set profiles (50/60/70% dim 12am–6am)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "ZD4i-ready, 4-pin Zhaga socket (TZ01)"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "L98B50 @ 50,000 hrs / L97B50 @ 100,000 hrs (average)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/dwl/dwl-dimensions.png",
+        "note": "Depth increases with back-box option: 148mm standard (6.5kg), 187mm with .B (7.1kg), 214mm with .PLx.B (7.3kg).",
+        "variants": [
+          {
+            "label": "Denver iD Wall (DWL)",
+            "length": "309 mm",
+            "width": "148 mm",
+            "height": "157 mm",
+            "weight": "6.5 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/dwl/distributions/sy.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/dwl/distributions/ay.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/dwl/distributions/nr.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/dwl/distributions/fw.png"
+        },
+        {
+          "code": ".HN",
+          "name": "High Beam Long & Narrow",
+          "chart": "assets/img/products/dwl/distributions/hn.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "DWL.VK",
+          "desc": "Vandal key"
+        },
+        {
+          "code": "DWL.FLS",
+          "desc": "Front light shield"
+        },
+        {
+          "code": "DWL.BB",
+          "desc": "Back box"
+        },
+        {
+          "code": "DWL.PM",
+          "desc": "Pole mount adapter"
+        }
+      ],
+      "mountingHeights": {
+        "note": "Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",
+        "rows": [
+          {
+            "height": "3 m",
+            "range": "10 m"
+          },
+          {
+            "height": "5 m",
+            "range": "15 m"
+          }
+        ]
+      },
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN 60598",
+        "IP65",
+        "IK10",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-dwl-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-dwl-installation-guide.pdf",
+          "meta": ""
+        },
+        "bim": {
+          "label": "BIM objects",
+          "file": "assets/downloads/bim/DWL-BIM-Revit.zip",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/DWL-IES-files.zip",
+          "meta": ""
+        }
+      }
+    },
+    {
+      "code": "WAP",
+      "name": "Wallpack",
+      "manufacturer": "Holophane",
+      "manufacturerSlug": "holophane",
+      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
+      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=WAP",
+      "category": "Area & Amenity Lighting / Security Lighting",
+      "family": "Wallpack",
+      "tagline": "Wall-mounted bulkhead luminaire for building perimeters and loading bays, delivering 3,000 to 9,000 lumens across four optical distributions with 0% uplight and up to 135 lm/W.",
+      "summary": "Wallpack combines high-performance LEDs and optical versatility in a robust, 2-part die-cast aluminium housing. Designed for mounting heights up to 5m, it offers 0% uplight to fit the needs of harsh environments, with recessed LED modules for BREEAM-compliant night-time lighting. The LED driver is mounted separately from the LED modules to promote low operating temperature and long system life, with the 2-part housing giving easy access for maintenance or emergency battery changes.",
+      "applications": [
+        "Perimeter",
+        "Loading Bays"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/wap/wap-04-heatsink-top.png",
+          "alt": "Wallpack, top-down angled view showing the finned heat sink"
+        },
+        {
+          "file": "assets/img/products/wap/wap-01-profile.png",
+          "alt": "Wallpack bulkhead luminaire, angled view showing the 2-module LED array"
+        },
+        {
+          "file": "assets/img/products/wap/wap-03-2part-exploded.png",
+          "alt": "Wallpack's 2-part housing exploded, showing the back box, wiring and LED module separated for maintenance"
+        },
+        {
+          "file": "assets/img/products/wap/wap-dimensions.jpg",
+          "alt": "Wallpack dimension diagram, 1 and 2 LED module configurations"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP65",
+          "detail": "Body & light engine"
+        },
+        {
+          "label": "0% ULOR",
+          "detail": "Recessed light source, BREEAM compliant"
+        },
+        {
+          "label": "Up to 135 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "TM66: 2.4 Preliminary",
+          "detail": "CEAM circularity rating"
+        },
+        {
+          "label": "Made in Britain",
+          "detail": "Manufactured in the UK"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "c.3,000 – c.9,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K / 4000K"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": ""
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-20°C to +40°C"
+        },
+        {
+          "label": "Body material",
+          "value": "Marine grade die-cast aluminium, two-piece housing conforming to EN1706 AC-46500"
+        },
+        {
+          "label": "Optics",
+          "value": "Bespoke UV-stabilised PMMA optics; Asymmetric, Asymmetric Long, Forward Throw and Long & Narrow distributions"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": "5/7-pin NEMA photocell sockets (.T7/.T7T) or 4-Pin Zhaga top/bottom sockets (.TZ01/.TZ02/.TZ03) for D4i integration; integrated PIR (.PL1/.PL2)"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @tq 25°C)"
+        }
+      ],
+      "dimensions": {
+        "diagram": "assets/img/products/wap/wap-dimensions.jpg",
+        "note": "1 and 2 LED module configurations share the same external case dimensions — module count changes only lumen output and wattage, not size. Weight is per-fitting.",
+        "variants": [
+          {
+            "label": "Wallpack",
+            "length": "392 mm",
+            "width": "121 mm",
+            "height": "293 mm",
+            "weight": "10 kg"
+          }
+        ],
+        "windage": ""
+      },
+      "distributions": [
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/wap/distributions/ay.png"
+        },
+        {
+          "code": ".HA",
+          "name": "Asymmetric Long",
+          "chart": "assets/img/products/wap/distributions/ha.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/wap/distributions/fw.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/wap/distributions/nr.png"
+        }
+      ],
+      "accessories": [
+        {
+          "code": "WAP.CTR",
+          "desc": "Conduit thread reducer adapter, 3/4 inch NPT to 20mm (2 supplied in box when ordered with the .CTR option)"
+        }
+      ],
+      "certifications": [
+        "CE",
+        "UKCA",
+        "EN60598",
+        "IP65",
+        "TM66 Circularity 2.4 (Preliminary)",
+        "IDA Dark Sky Approved (3000K or warmer)",
+        "D4i Ready",
+        "Made in Britain"
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-wap-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-wap-installation-guide.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/WAP-IES-files.zip",
+          "meta": ""
+        }
+      }
     },
     {
       "code": "DBD",
@@ -2930,189 +3316,6 @@
       }
     },
     {
-      "code": "WAP",
-      "name": "Wallpack",
-      "manufacturer": "Holophane",
-      "manufacturerSlug": "holophane",
-      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
-      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=WAP",
-      "category": "Area & Amenity Lighting / Security Lighting",
-      "family": "Wallpack",
-      "tagline": "Wall-mounted bulkhead luminaire for building perimeters and loading bays, delivering 3,000 to 9,000 lumens across four optical distributions with 0% uplight and up to 135 lm/W.",
-      "summary": "Wallpack combines high-performance LEDs and optical versatility in a robust, 2-part die-cast aluminium housing. Designed for mounting heights up to 5m, it offers 0% uplight to fit the needs of harsh environments, with recessed LED modules for BREEAM-compliant night-time lighting. The LED driver is mounted separately from the LED modules to promote low operating temperature and long system life, with the 2-part housing giving easy access for maintenance or emergency battery changes.",
-      "applications": [
-        "Perimeter",
-        "Loading Bays"
-      ],
-      "images": [
-        {
-          "file": "assets/img/products/wap/wap-04-heatsink-top.png",
-          "alt": "Wallpack, top-down angled view showing the finned heat sink"
-        },
-        {
-          "file": "assets/img/products/wap/wap-01-profile.png",
-          "alt": "Wallpack bulkhead luminaire, angled view showing the 2-module LED array"
-        },
-        {
-          "file": "assets/img/products/wap/wap-03-2part-exploded.png",
-          "alt": "Wallpack's 2-part housing exploded, showing the back box, wiring and LED module separated for maintenance"
-        },
-        {
-          "file": "assets/img/products/wap/wap-dimensions.jpg",
-          "alt": "Wallpack dimension diagram, 1 and 2 LED module configurations"
-        }
-      ],
-      "badges": [
-        {
-          "label": "IP65",
-          "detail": "Body & light engine"
-        },
-        {
-          "label": "0% ULOR",
-          "detail": "Recessed light source, BREEAM compliant"
-        },
-        {
-          "label": "Up to 135 lm/W",
-          "detail": "System efficacy"
-        },
-        {
-          "label": "TM66: 2.4 Preliminary",
-          "detail": "CEAM circularity rating"
-        },
-        {
-          "label": "Made in Britain",
-          "detail": "Manufactured in the UK"
-        }
-      ],
-      "keySpecs": [
-        {
-          "label": "Delivered lumens",
-          "value": "c.3,000 – c.9,000 lm"
-        },
-        {
-          "label": "Colour temperature",
-          "value": "3000K / 4000K"
-        },
-        {
-          "label": "CRI",
-          "value": "> 70"
-        },
-        {
-          "label": "ULOR",
-          "value": "0%"
-        },
-        {
-          "label": "Ingress protection",
-          "value": "IP65"
-        },
-        {
-          "label": "IK rating",
-          "value": ""
-        },
-        {
-          "label": "Operating temperature",
-          "value": "-20°C to +40°C"
-        },
-        {
-          "label": "Body material",
-          "value": "Marine grade die-cast aluminium, two-piece housing conforming to EN1706 AC-46500"
-        },
-        {
-          "label": "Optics",
-          "value": "Bespoke UV-stabilised PMMA optics; Asymmetric, Asymmetric Long, Forward Throw and Long & Narrow distributions"
-        },
-        {
-          "label": "Electrical class",
-          "value": "Class I"
-        },
-        {
-          "label": "Dimming",
-          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
-        },
-        {
-          "label": "Smart controls",
-          "value": "5/7-pin NEMA photocell sockets (.T7/.T7T) or 4-Pin Zhaga top/bottom sockets (.TZ01/.TZ02/.TZ03) for D4i integration; integrated PIR (.PL1/.PL2)"
-        },
-        {
-          "label": "Warranty",
-          "value": "5 years"
-        },
-        {
-          "label": "Life rating",
-          "value": "100,000 hrs (L70B50 @tq 25°C)"
-        }
-      ],
-      "dimensions": {
-        "diagram": "assets/img/products/wap/wap-dimensions.jpg",
-        "note": "1 and 2 LED module configurations share the same external case dimensions — module count changes only lumen output and wattage, not size. Weight is per-fitting.",
-        "variants": [
-          {
-            "label": "Wallpack",
-            "length": "392 mm",
-            "width": "121 mm",
-            "height": "293 mm",
-            "weight": "10 kg"
-          }
-        ],
-        "windage": ""
-      },
-      "distributions": [
-        {
-          "code": ".AY",
-          "name": "Asymmetric",
-          "chart": "assets/img/products/wap/distributions/ay.png"
-        },
-        {
-          "code": ".HA",
-          "name": "Asymmetric Long",
-          "chart": "assets/img/products/wap/distributions/ha.png"
-        },
-        {
-          "code": ".FW",
-          "name": "Forward Throw",
-          "chart": "assets/img/products/wap/distributions/fw.png"
-        },
-        {
-          "code": ".NR",
-          "name": "Long & Narrow",
-          "chart": "assets/img/products/wap/distributions/nr.png"
-        }
-      ],
-      "accessories": [
-        {
-          "code": "WAP.CTR",
-          "desc": "Conduit thread reducer adapter, 3/4 inch NPT to 20mm (2 supplied in box when ordered with the .CTR option)"
-        }
-      ],
-      "certifications": [
-        "CE",
-        "UKCA",
-        "EN60598",
-        "IP65",
-        "TM66 Circularity 2.4 (Preliminary)",
-        "IDA Dark Sky Approved (3000K or warmer)",
-        "D4i Ready",
-        "Made in Britain"
-      ],
-      "downloads": {
-        "brochure": {
-          "label": "Product brochure",
-          "file": "assets/downloads/lumen-method-wap-brochure.pdf",
-          "meta": ""
-        },
-        "installGuide": {
-          "label": "Installation instructions",
-          "file": "assets/downloads/lumen-method-wap-installation-guide.pdf",
-          "meta": ""
-        },
-        "ies": {
-          "label": "IES photometric files",
-          "file": "assets/downloads/ies/WAP-IES-files.zip",
-          "meta": ""
-        }
-      }
-    },
-    {
       "code": "PRS",
       "name": "Prismaspace",
       "manufacturer": "Holophane",
@@ -3770,213 +3973,7 @@
           "meta": ""
         }
       }
-    }
-,
-    {
-      "code": "VMXII",
-      "statDistributionCount": 12,
-      "name": "V-Max II",
-      "manufacturer": "Holophane",
-      "manufacturerSlug": "holophane",
-      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
-      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=VMXII",
-      "category": "Pole / Car Parks / Road Lighting",
-      "family": "V-Max",
-      "tagline": "Patented modular chevron streetlighting luminaire, scaling from 1,000 to 54,000 delivered lumens across six LED-chevron configurations, with best-in-class optics tuned for roadway classes from residential streets to highways.",
-      "summary": "V-Max II retains V-Max's patented, award-winning modular design — individual LED \"chevron\" light engine modules that are fully scalable, serviceable and upgradeable without changing the luminaire's footprint. A Transition Zone between the brighter LEDs and the darker surrounding housing softens the cascade of contrast around the light source, cutting perceived glare. Available in two LED variants (LA single-die for best optical control and high lm/W; LB multi-die for the highest lumen output and efficacy) across 12 optical distributions, with class-leading up to 184 lm/W efficacy, IP69 sealing and International Dark-Sky Association approval at 3000K/4000K. Scales from\nV1 (1 chevron, 16 LEDs): 1,000–9,000lm\nV6 (6 chevrons, 96 LEDs): up to 54,000lm",
-      "applications": ["Car Parks", "Roadways"],
-      "images": [
-        {"file": "assets/img/products/vmxii/vmxii-01-profile.png", "alt": "V-Max II streetlighting luminaire, side profile showing the chevron modules, spigot adaptor and pole mount"},
-        {"file": "assets/img/products/vmxii/vmxii-02-angle.png", "alt": "V-Max II, angled view of the LED chevron modules and optics"},
-        {"file": "assets/img/products/vmxii/vmxii-03-underside.png", "alt": "V-Max II underside view showing the chevron light engine modules and gear access plate"},
-        {"file": "assets/img/products/vmxii/vmxii-04-gear-open.png", "alt": "V-Max II with hinged canopy open, showing the easily removable gear tray and push-in terminal block"},
-        {"file": "assets/img/products/vmxii/vmxii-dimensions.jpg", "alt": "V-Max II dimension diagram and A/B length table for the V1–V6 chevron configurations"}
-      ],
-      "backlightControl": {
-        "eyebrow": "Transition Zone",
-        "heading": "A softer cascade from bright LED to dark housing",
-        "body": "The transition zone acts as an intermediary luminous area between the brighter LEDs and the darker surfaces surrounding the luminaire. This cascade of contrast ratios drastically reduces the perception of glare and gives the light source a softer appearance — without sacrificing the class-leading optical control and efficacy of the chevron light engine.",
-        "points": [
-          "Patented modular chevron design: individual LED light engine modules are fully scalable, serviceable and upgradeable, from 1 to 6 chevrons on the same body footprint",
-          "Hinged canopy with integrated locked service position and anti-fall device provision for fast, safe installation and maintenance",
-          "Tool-less entry option, piano-key push-in terminal block and internal M20 cable gland speed up installation and keep a consistent IP69 seal"
-        ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/vmxii/vmxii-04-gear-open.png",
-          "alt": "V-Max II hinged canopy open showing the removable gear tray and push-in terminal block",
-          "caption": "Hinged canopy with locked service position and easily removable gear."
-        },
-        "comparisonPhoto": {
-          "file": "assets/img/products/vmxii/vmxii-03-underside.png",
-          "alt": "V-Max II underside view showing the individual chevron light engine modules",
-          "caption": "Individually scalable, serviceable chevron light engine modules — 1 to 6 per luminaire."
-        }
-      },
-      "badges": [
-        {"label": "IP69", "detail": "Light engines & gear compartment"},
-        {"label": "Up to 184 lm/W", "detail": "System efficacy"},
-        {"label": "IK06 / IK10 option", "detail": "IK10 with optional polycarbonate optics"},
-        {"label": "TM66: 2.8 Excellent Circularity", "detail": "LIA/CIBSE Circular Economy Assured Scheme"},
-        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, 3000K/4000K"},
-        {"label": "Amber Available", "detail": "PC Amber colour temperature option"}
-      ],
-      "keySpecs": [
-        {"label": "Delivered lumens", "value": "1,000 – 54,000 lm (LA variant up to 50,000 lm; LB variant up to 54,000 lm)"},
-        {"label": "Colour temperature", "value": "3000K, 4000K, or PC Amber"},
-        {"label": "CRI", "value": "70 CRI"},
-        {"label": "ULOR", "value": "0%"},
-        {"label": "Ingress protection", "value": "IP69 (light engines and gear compartment)"},
-        {"label": "IK rating", "value": "IK06 standard; IK10 with optional polycarbonate optics"},
-        {"label": "Operating temperature", "value": "-40°C to +50°C"},
-        {"label": "Body material", "value": "Die-cast LM6 marine grade aluminium body, pole adaptor and chevrons; extruded 6063-T6 aluminium spine; injection moulded polycarbonate end caps"},
-        {"label": "Optics", "value": "Two LED variants — LA (single-die, best optical control, high lm/W) and LB (multi-die, highest lumen output and lm/W) — across 12 optical distributions; PMMA optics standard, polycarbonate optional"},
-        {"label": "Electrical class", "value": "Class I (Class II available as an option, .CII)"},
-        {"label": "Dimming", "value": "DALI & DALI 2.0; programmable pre-set profiles delivering 70% / 80% / 90% of initial lumens over life; switching via photocell"},
-        {"label": "Smart controls", "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; axora Connect CMS control protocol; constant light output (CLO) available"},
-        {"label": "Warranty", "value": "5 years"},
-        {"label": "Life rating", "value": "100,000 hrs (L90B50 @ 25°C)"}
-      ],
-      "dimensions": {
-        "diagram": "assets/img/products/vmxii/vmxii-dimensions.jpg",
-        "note": "Length is given as A (post-top mounting) and B (side-entry mounting); height is the mounting arm overhang, 243mm for post-top and 163mm for side-entry, constant across all six configurations. Weight is per-fitting. Luminaire Optical Outreach/Centres (from pole centreline) ranges from 0.4m (post-top) / 0.42m (side-entry) on V1 to 0.65m / 0.67m on V6 — see the brochure for the full table. Lumen output, power and efficacy scale with chevron count and LED variant (LA/LB) — see the brochure's Typical Luminaire Performance table for exact per-configuration figures.",
-        "variants": [
-          {"label": "V1 (1 chevron)", "length": "498 mm (A) / 578 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "6.3 kg"},
-          {"label": "V2 (2 chevrons)", "length": "599 mm (A) / 679 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "7.8 kg"},
-          {"label": "V3 (3 chevrons)", "length": "700 mm (A) / 780 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "8.8 kg"},
-          {"label": "V4 (4 chevrons)", "length": "801 mm (A) / 881 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "10.5 kg"},
-          {"label": "V5 (5 chevrons)", "length": "902 mm (A) / 982 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "11.9 kg"},
-          {"label": "V6 (6 chevrons)", "length": "1003 mm (A) / 1083 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "13.3 kg"}
-        ],
-        "windage": "0.03 m² (V1) · 0.033 m² (V2) · 0.036 m² (V3) · 0.039 m² (V4) · 0.042 m² (V5) · 0.045 m² (V6)"
-      },
-      "distributions": [
-        {"code": "F4L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-f4l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l4.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "F4Q1", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-f4q1.png", "note": "Glare Class: G4", "group": "LA Optics"},
-        {"code": "X2L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "X2L3", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "D4D4", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-d4d4.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L5L5", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-l5l5.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3l4.png", "note": "Glare Class: G4", "group": "LA Optics"},
-        {"code": "L4L4", "name": "Type II Very Short", "chart": "assets/img/products/vmxii/distributions/la-l4l4.png", "note": "Glare Class: G6", "group": "LA Optics"},
-        {"code": "D4D4", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "F4L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "F4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "L4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L5L5", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png", "note": "Glare Class: G3", "group": "LB Optics"},
-        {"code": "X2L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "X2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4", "group": "LB Optics"}
-      ],
-      "accessories": [
-        {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"},
-        {"code": "VMXII.BLS", "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"}
-      ],
-      "certifications": ["EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
-      "downloads": {
-        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-vmxii-brochure.pdf", "meta": ""},
-        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf", "meta": ""}
-      }
-    }
-,
-    {
-      "code": "HMAO",
-      "name": "High Mast Advanced Optix",
-      "manufacturer": "Holophane",
-      "manufacturerSlug": "holophane",
-      "manufacturerNote": "Manufactured by Holophane (UK). Lumen Method is the exclusive Holophane specification agent for Australia.",
-      "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=HMAO",
-      "category": "High Mast / Industrial / Area Lighting",
-      "family": "Advanced Optix",
-      "tagline": "High mast area lighting luminaire with prismatic borosilicate glass refractor optics, scaling from 30,000 to 100,000 delivered lumens across 6, 9 or 12 optical pod configurations, for freight terminals, ports, airports and motorways.",
-      "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements.",
-      "applications": ["Area Lighting"],
-      "images": [
-        {"file": "assets/img/products/hmao/hmao-01-pods.png", "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"},
-        {"file": "assets/img/products/hmao/hmao-02-housing.png", "alt": "HMAO viewed from above, showing the two-piece electrical housing and optical pod housing"},
-        {"file": "assets/img/products/hmao/hmao-03-install-night.jpg", "alt": "Ten HMAO luminaires mounted in a ring on a high mast, photographed at night from below"},
-        {"file": "assets/img/products/hmao/hmao-dimensions.png", "alt": "HMAO dimension diagram, 584mm by 686mm by 254mm"}
-      ],
-      "backlightControl": {
-        "eyebrow": "Glass Refractor Optics",
-        "heading": "PrismGlow optics for uniform, low-glare high mast lighting",
-        "body": "By combining the latest LED technology with Holophane's advanced glass refractor optic, HMAO breaks up the image of the LEDs with a PrismGlow effect. This reduces the glare normally associated with individual LEDs and eliminates hot spots on the working environment, creating a more uniform vertical and horizontal lighting solution. Glass's low electrostatic charge makes it less attractive to dust and dirt than aluminium or plastic optics, and works with the ventilated, finned heat-sink chassis to create a self-cleaning effect that enhances lumen maintenance over time.",
-        "points": [
-          "Prismatic borosilicate glass refractor lenses, one per LED module, forming individually ventilated optical pods — 6, 9 or 12 per luminaire depending on lumen package",
-          "Self-cleaning optic: low-electrostatic glass plus a ventilated, finned heat-sink chassis reduce dirt depreciation and extend lumen maintenance",
-          "Rotatable optical assembly for on-site alignment of distributions to specific lighting requirements and balanced weight on existing mast-head frames"
-        ],
-        "hardwarePhoto": {
-          "file": "assets/img/products/hmao/hmao-02-housing.png",
-          "alt": "HMAO two-piece electrical housing with hinged upper casting",
-          "caption": "Two-piece electrical housing; the upper casting detaches/hinges to aid installation."
-        },
-        "comparisonPhoto": {
-          "file": "assets/img/products/hmao/hmao-01-pods.png",
-          "alt": "HMAO glass refractor optical pods",
-          "caption": "Each LED module sits behind its own prismatic glass refractor, forming an individual optical pod."
-        }
-      },
-      "badges": [
-        {"label": "IP65", "detail": "Electrical housing; IP65 overall with .T1/.T7 photocell options"},
-        {"label": "Up to 167 lm/W", "detail": "System efficacy"},
-        {"label": "IK07", "detail": "Impact rating"},
-        {"label": "TM66: 2.3 Preliminary", "detail": "Definite/substantial progress to circularity"},
-        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, at 3000K"}
-      ],
-      "keySpecs": [
-        {"label": "Delivered lumens", "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)", "short": "30,000 – 100,000 lm"},
-        {"label": "Colour temperature", "value": "3000K or 4000K (3000K or warmer required for IDA Dark-Sky certification)"},
-        {"label": "CRI", "value": "> 70"},
-        {"label": "ULOR", "value": ""},
-        {"label": "Ingress protection", "value": "IP65"},
-        {"label": "IK rating", "value": "IK07"},
-        {"label": "Operating temperature", "value": "-20°C to +45°C (LC75X limited to +40°C; LC100X limited to +35°C)"},
-        {"label": "Body material", "value": "Prismatic borosilicate glass refractor lenses; ventilated, finned aluminium optical pod housing; two-piece cast aluminium electrical housing with hinged upper casting"},
-        {"label": "Optics", "value": "Individual glass refractor optical pods per LED module (6, 9 or 12 depending on lumen package); seven distributions with a rotatable optical assembly for on-site alignment"},
-        {"label": "Electrical class", "value": "Class I"},
-        {"label": "Dimming", "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"},
-        {"label": "Smart controls", "value": ""},
-        {"label": "Warranty", "value": "5 years"},
-        {"label": "Life rating", "value": "100,000 hrs (L70B50 @Tq 25°C)"}
-      ],
-      "dimensions": {
-        "diagram": "assets/img/products/hmao/hmao-dimensions.png",
-        "note": "Dimensions, weight and windage are a single figure for the luminaire body across all 10 lumen packages and all 6/9/12 pod configurations. Mounting is via four-bolt side arm mounting suitable for 42mm and 60mm side entry, with +/-5° tilt.",
-        "variants": [
-          {"label": "HMAO (all configurations)", "length": "686 mm", "width": "584 mm", "height": "254 mm", "weight": "23 kg"}
-        ],
-        "windage": "0.120 m²"
-      },
-      "distributions": [
-        {"code": ".SQ", "name": "Square", "chart": "assets/img/products/hmao/distributions/sq.png"},
-        {"code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/hmao/distributions/ay.png"},
-        {"code": ".SY", "name": "Symmetric", "chart": "assets/img/products/hmao/distributions/sy.png"},
-        {"code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/hmao/distributions/fw.png"},
-        {"code": ".NR", "name": "Long & Narrow", "chart": "assets/img/products/hmao/distributions/nr.png"},
-        {"code": ".HS", "name": "High Beam Symmetric", "chart": "assets/img/products/hmao/distributions/hs.png"},
-        {"code": ".SQW", "name": "Square Wide", "chart": "assets/img/products/hmao/distributions/sqw.png", "note": "Series 4 only"}
-      ],
-      "accessories": [
-        {"code": "HMAO.SD90", "desc": "90° shield"},
-        {"code": "HMAO.SD120", "desc": "120° shield"},
-        {"code": "HMAO.SD180", "desc": "180° shield"}
-      ],
-      "certifications": ["EN60598", "IP65", "IK07", "CE", "UKCA", "Made in Britain", "International Dark-Sky Association Fixture Seal of Approval (at 3000K)", "TM66 CEAM 2.3 — Preliminary (Definite/substantial progress to circularity)"],
-      "downloads": {
-        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-hmao-brochure.pdf", "meta": ""},
-        "ies": {"label": "IES photometric files", "file": "assets/downloads/ies/HMAO-IES-files.zip", "meta": ""},
-        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-hmao-installation-guide.pdf", "meta": ""}
-      }
-    }
-,
+    },
     {
       "code": "VAL",
       "name": "Vanguard",
