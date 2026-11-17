@@ -8,6 +8,7 @@
       "location": "London, UK",
       "manufacturer": "Holophane",
       "product": "Prismpack",
+      "productCode": "PPS",
       "detailHero": {
         "image": "assets/img/case-studies/holophane-hays-galleria.webp",
         "caption": "Hays Galleria's glazed Victorian roof, lit beneath the exposed steel trusswork it shares the space with."
@@ -53,6 +54,7 @@
       "location": "Gothenburg, Sweden",
       "manufacturer": "Holophane",
       "product": "Prismaspace",
+      "productCode": "PRS",
       "detailHero": {
         "image": "assets/img/case-studies/holophane-gothenburg-tennis.webp",
         "caption": "One of Gothenburg Lawn Tennis Club's indoor courts, lit by a row of Prismaspace luminaires along the roof trusses."
@@ -98,6 +100,7 @@
       "location": "Nigg, Scotland",
       "manufacturer": "Holophane",
       "product": "HMAO (High Mast Advanced Optic)",
+      "productCode": "HMAO",
       "detailHero": {
         "image": "assets/img/case-studies/holophane-port-of-nigg.webp",
         "caption": "The 900m deep-water quayside at Port of Nigg, lit along the West Finger Jetty."
@@ -139,6 +142,7 @@
       "location": "North West England, UK",
       "manufacturer": "Holophane",
       "product": "V-MAX II",
+      "productCode": "VMXII",
       "detailHero": {
         "image": "assets/img/case-studies/holophane-national-highways-nw.webp",
         "caption": "A North West England motorway under the V-MAX II retrofit, light trails from passing traffic."
@@ -184,6 +188,7 @@
       "location": "Coventry, UK",
       "manufacturer": "Holophane",
       "product": "Signature",
+      "productCode": "SIG",
       "detailHero": {
         "image": "assets/img/case-studies/holophane-warwick-faculty-arts.webp",
         "caption": "The Faculty of Arts building's glazed entrance, lit by Signature post-tops along the approach."
