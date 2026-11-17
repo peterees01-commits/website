@@ -2572,7 +2572,7 @@
         "note": "Indicative spacing guidance only — not a substitute for a lighting design calculation.",
         "rows": [
           {
-            "height": "All heights",
+            "height": "1 m",
             "range": "10 m"
           }
         ]
@@ -2759,7 +2759,7 @@
         "note": "Indicative spacing guidance only — not a substitute for a lighting design calculation.",
         "rows": [
           {
-            "height": "All heights",
+            "height": "1 m",
             "range": "10 m"
           }
         ]
