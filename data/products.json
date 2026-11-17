@@ -2705,6 +2705,10 @@
       "hideWindage": true,
       "images": [
         {
+          "file": "assets/img/products/hol/hol-06-angle-detail.png",
+          "alt": "Holobay high bay, three-quarter view showing the PrismaLED glass optic, finned gear housing and hook mount"
+        },
+        {
           "file": "assets/img/products/hol/hol-01-profile-v2.png",
           "alt": "Holobay high bay, front elevation showing the PrismaLED glass optic and finned gear housing"
         },
