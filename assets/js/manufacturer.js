@@ -54,7 +54,7 @@
           '<div>' +
             '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Solutions</a> / ' + esc(m.name) + '</p>' +
             '<h1>' + esc(m.name) + '</h1>' +
-            '<p class="manu-hero__bio">' + esc(m.bio) + '</p>' +
+            '<p class="manu-hero__bio">' + esc(m.bio).replace(/\n/g, "<br><br>") + '</p>' +
           '</div>' +
         '</div>' +
       '</section>' +
