@@ -190,6 +190,10 @@
         {
           "code": "DPL.WB",
           "desc": "Wall bracket"
+        },
+        {
+          "code": "DPL.TZ01 / .TZ02",
+          "desc": "4-pin Zhaga socket — accepts photocells, PIR/microwave motion sensors or control nodes"
         }
       ],
       "mountingHeights": {
@@ -541,8 +545,20 @@
           "desc": ""
         },
         {
-          "code": "DSX.BRKT",
-          "desc": "Post-top bracket — sold separately, enquire for the full range of mounting options"
+          "code": "HAUABRK.1A.AU0.60 / .76",
+          "desc": "HAUA single-head wall bracket, 60mm or 76mm spigot as standard (other spigot sizes and tilt angles available on request)",
+          "image": "assets/img/products/dsx/dsx-haua-single.png",
+          "imageAlt": "HAUA single-head wall bracket, pictorial view"
+        },
+        {
+          "code": "HAUABRK.2A180.AU0.76",
+          "desc": "HAUA double-head (180°) wall bracket — must be fitted on the 76mm spigot; double-headed fittings are not rated for the 60mm spigot",
+          "image": "assets/img/products/dsx/dsx-haua-double.png",
+          "imageAlt": "HAUA double-head wall bracket, pictorial view"
+        },
+        {
+          "code": "DSX.TZ01 / .TZ02 / .TZ03",
+          "desc": "4-pin Zhaga socket — accepts photocells, PIR/microwave motion sensors or control nodes"
         }
       ],
       "certifications": [
@@ -782,6 +798,14 @@
         {
           "code": "RLI.FLS1 / .FLS2 / .FLS3",
           "desc": "Front lighting shield — reduces street-side spill light, in 25mm / 50mm / 100mm depths"
+        },
+        {
+          "code": "NEMA socket",
+          "desc": "3/5/7-pin NEMA socket — accepts photocells or PIR/microwave motion sensors"
+        },
+        {
+          "code": "Zhaga socket",
+          "desc": "D4i 4-pin Zhaga socket — accepts photocells, motion sensors or control nodes, axora compatible"
         }
       ],
       "certifications": [
@@ -1013,6 +1037,14 @@
         {
           "code": "SLI.FLS1 / .FLS2 / .FLS3",
           "desc": "Front lighting shield — reduces street-side spill light, in 25mm / 50mm / 100mm depths"
+        },
+        {
+          "code": "NEMA socket",
+          "desc": "3/5/7-pin NEMA socket — accepts photocells or PIR/microwave motion sensors"
+        },
+        {
+          "code": "Zhaga socket",
+          "desc": "D4i 4-pin Zhaga socket — accepts photocells, motion sensors or control nodes, axora compatible"
         }
       ],
       "certifications": [
@@ -1195,7 +1227,7 @@
         },
         {
           "code": "FTS.T1 / .TSZ / .TSZA / .TSZB",
-          "desc": "NEMA photocell socket, or factory-fitted miniature photocell (70/55/35 lux)"
+          "desc": "NEMA photocell socket, or factory-fitted miniature photocell (70/55/35 lux); the NEMA socket also accepts PIR/microwave motion sensors"
         },
         {
           "code": "FTS.T7 / .T7T",
@@ -1747,6 +1779,10 @@
         {
           "code": "HEL.IP68C.5W",
           "desc": "IP68 connector, suitable for 5-core cable"
+        },
+        {
+          "code": "SIG.TZ01",
+          "desc": "4-pin Zhaga socket — accepts photocells, PIR/microwave motion sensors or control nodes"
         }
       ],
       "certifications": [
@@ -1882,7 +1918,9 @@
       ],
       "accessories": [
         {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"},
-        {"code": "VMXII.BLS", "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"}
+        {"code": "VMXII.BLS", "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"},
+        {"code": "NEMA socket", "desc": "3/5/7-pin NEMA socket — accepts photocells or PIR/microwave motion sensors"},
+        {"code": "Zhaga socket (ZD4i)", "desc": "4-pin Zhaga socket — accepts photocells, motion sensors or control nodes; axora Connect compatible"}
       ],
       "certifications": ["EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
       "downloads": {
