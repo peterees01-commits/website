@@ -3462,7 +3462,6 @@
         }
       ],
       "backlightControl": {
-        "imagesRight": true,
         "hideFromStatBand": true,
         "eyebrow": "Product Versions",
         "heading": "Application Flexibility",
@@ -3686,7 +3685,6 @@
         }
       ],
       "backlightControl": {
-        "imagesRight": true,
         "eyebrow": "Patented Transition Zone",
         "heading": "A softer, lower-glare light source",
         "body": "Between the bright LED array and the darker surrounding housing, HI-BEAM's Transition Zone acts as an intermediary luminous band — a cascade of contrast ratios that softens the perceived brightness of the source and reduces glare compared with a high-contrast LED array sitting directly against a dark housing. Combined with the universal mounting bracket's tool-less service position and snap-fit cover, maintenance is as straightforward as the light itself is comfortable to work under.",
