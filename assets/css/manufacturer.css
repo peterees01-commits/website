@@ -83,3 +83,7 @@
   line-height: 1.75;
   max-width: 62ch;
 }
+
+.manu-hero__bio + .manu-hero__bio {
+  margin-top: var(--space-3);
+}
