@@ -569,6 +569,10 @@ body.lightbox-locked {
   min-width: 0;
 }
 
+.three-col--wide-right {
+  grid-template-columns: 1.3fr 0.7fr 1.7fr;
+}
+
 @media (max-width: 1000px) {
   .three-col {
     grid-template-columns: 1fr;

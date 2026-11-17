@@ -474,6 +474,7 @@
           "LEDs aren't visible from behind the fitting, reducing glare when viewed from the rear"
         ],
         "threeCol": true,
+        "threeColWideRight": true,
         "hardwarePhoto": {
           "file": "assets/img/products/dsx/backlight-comparison.png",
           "alt": "Same car park and building lit without backlight control (left) and with D-Series Extreme Cutoff Optics (right), showing spill light on the building virtually eliminated",
@@ -3385,6 +3386,7 @@
         }
       ],
       "backlightControl": {
+        "threeCol": true,
         "hideFromStatBand": true,
         "eyebrow": "Product Versions",
         "heading": "Application Flexibility",

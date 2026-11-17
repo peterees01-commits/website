@@ -419,7 +419,7 @@
       // Opt-in: text, hardwarePhoto and comparisonPhoto as three separate
       // grid columns side by side, instead of stacking an image under the
       // text — keeps the section to one row's height even with two photos.
-      '<div class="three-col">' +
+      '<div class="three-col' + (b.threeColWideRight ? ' three-col--wide-right' : '') + '">' +
         '<div>' + introBlock + '</div>' +
         '<div>' + photoBlocks(b.hardwarePhoto) + '</div>' +
         '<div>' + photoBlocks(b.comparisonPhoto) + '</div>' +
