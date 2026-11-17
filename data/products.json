@@ -45,6 +45,26 @@
           "alt": "Denver iD Pole dimension diagram, small and large body sizes"
         }
       ],
+      "backlightControl": {
+        "eyebrow": "Transition Zone",
+        "heading": "A softer transition from LED to housing",
+        "body": "Denver iD Pole's patented Transition Zone diffuser sits around each individual PMMA lens, acting as an intermediary luminous area between the bright LED array and the darker housing surrounding it. This cascade of contrast softens the light source's visual signature and reduces the perception of glare at typical pedestrian viewing angles, without sacrificing optical control across the five standard distributions.",
+        "points": [
+          "Patented Transition Zone diffuser softens the contrast between the LED array and the housing, reducing glare at pedestrian eye level",
+          "Fully removable LED module keeps the fixture serviceable in the field without replacing the whole luminaire",
+          "Available in Small and Large module sizes across five optical distributions, sharing the same Transition Zone treatment"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/dpl/dpl-03-large-module-detail.png",
+          "alt": "Denver iD Pole Large module LED array, close-up angled view showing the Transition Zone diffuser",
+          "caption": "Large module LED array, showing the Transition Zone diffuser around each lens."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/dpl/dpl-05-small-module-underside.png",
+          "alt": "Denver iD Pole Small module, straight-on underside view showing the Transition Zone diffuser",
+          "caption": "Small module — the same Transition Zone treatment on a lower-lumen body."
+        }
+      },
       "badges": [
         {
           "label": "IP65 / IK10",
@@ -1601,6 +1621,26 @@
           "alt": "Signature dimension diagram, Post Top and Arm Mount configurations"
         }
       ],
+      "backlightControl": {
+        "eyebrow": "Transition Zone",
+        "heading": "A softer, sculptural transition from light to shade",
+        "body": "Signature's patent-pending Transition Zone surrounds the recessed, uniformly luminous waveguide, acting as an intermediary luminous area between the bright diffuser and the darker canopy around it. This cascade of contrast softens the light source's visual signature and cuts glare, without sacrificing the task-area performance of Signature's three optical distributions — shared across both the Post Top and Arm Mount configurations from the same luminaire family.",
+        "points": [
+          "Patent-pending Transition Zone softens the contrast between the luminous waveguide and the dark canopy, cutting glare without sacrificing output",
+          "Recessed, uniformly luminous waveguide blends the light source into a single even surface rather than a visible point source",
+          "Shared across both the Post Top (.VB1) and Arm Mount (.SE) configurations from the same luminaire family"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/sig/sig-03-diffuser-texture.png",
+          "alt": "Signature waveguide diffuser surface, macro detail showing the uniformly luminous ink texture",
+          "caption": "The uniformly luminous waveguide surface, up close."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/sig/sig-05-arm-mount-profile.png",
+          "alt": "Signature Arm Mount side profile, showing the luminaire head, hidden-wiring arm and pole mounting",
+          "caption": "The same Transition Zone treatment on the Arm Mount configuration."
+        }
+      },
       "badges": [
         {
           "label": "IP65",
@@ -2470,6 +2510,26 @@
           "alt": "Denver iD Bollard dimension diagram, front and side elevations with base plate"
         }
       ],
+      "backlightControl": {
+        "eyebrow": "Transition Zone",
+        "heading": "A softer line of sight at ground level",
+        "body": "Denver iD Bollard's patented white Transition Zone surrounds each individual PMMA lens, sealed behind a high-transparency clear polycarbonate extrusion. Acting as an intermediary luminous area between the bright LED array and the darker body around it, the Transition Zone softens the light source's visual signature and cuts glare at pedestrian eye level — completing the same family treatment used across Denver iD Pole and Denver iD Wall.",
+        "points": [
+          "Patented white Transition Zone softens the contrast between the LED array and the surrounding body, reducing glare at ground level",
+          "Removable, plug-and-play LED module keeps the fixture serviceable without replacing the whole bollard",
+          "Shares the same Transition Zone treatment and design language as Denver iD Pole and Denver iD Wall"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/dbd/dbd-03-head-angle.png",
+          "alt": "Denver iD Bollard head, three-quarter angle detail showing the Transition Zone and polycarbonate lens",
+          "caption": "The Transition Zone and polycarbonate lens, in close detail."
+        },
+        "comparisonPhoto": {
+          "file": "assets/img/products/dbd/dbd-04-head-angle-close.png",
+          "alt": "Denver iD Bollard head, close three-quarter angle detail",
+          "caption": "The removable LED module sits behind the sealed polycarbonate extrusion."
+        }
+      },
       "badges": [
         {
           "label": "IP65",
@@ -2673,6 +2733,21 @@
           "alt": "Signature Bollard dimension diagram, overall height and diameter"
         }
       ],
+      "backlightControl": {
+        "eyebrow": "Transition Zone",
+        "heading": "A softer transition at ground level",
+        "body": "Signature Bollard shares the same patent-pending Transition Zone glare control and uniformly luminous waveguide as Signature Post Top and Arm Mount, bringing the family's cohesive design language down to pathway level. The Transition Zone acts as an intermediary luminous area between the bright waveguide and the darker body around it, softening the light source's visual signature without sacrificing task-area performance.",
+        "points": [
+          "Patent-pending Transition Zone softens the contrast between the luminous waveguide and the dark body, cutting glare at pathway level",
+          "Uniformly luminous waveguide blends the light source into a single even surface rather than a visible point source",
+          "Shares the same Transition Zone treatment and design language as Signature Post Top and Arm Mount"
+        ],
+        "hardwarePhoto": {
+          "file": "assets/img/products/sgb/sgb-01-profile-v3.png",
+          "alt": "Signature Bollard, front profile showing the Transition Zone head and round column",
+          "caption": "The Transition Zone head, on the same round column as the rest of the Signature family."
+        }
+      },
       "badges": [
         {
           "label": "IP65",
