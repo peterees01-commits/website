@@ -3204,7 +3204,8 @@
         },
         {
           "label": "Ingress protection",
-          "value": "IP40 standard; IP65 sealed version available"
+          "value": "IP40 standard; IP65 sealed version available",
+          "short": "IP40/IP65"
         },
         {
           "label": "IK rating",
@@ -3922,7 +3923,7 @@
         {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, at 3000K"}
       ],
       "keySpecs": [
-        {"label": "Delivered lumens", "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)"},
+        {"label": "Delivered lumens", "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)", "short": "30,000 – 100,000 lm"},
         {"label": "Colour temperature", "value": "3000K or 4000K (3000K or warmer required for IDA Dark-Sky certification)"},
         {"label": "CRI", "value": "> 70"},
         {"label": "ULOR", "value": ""},
@@ -3979,6 +3980,7 @@
       "tagline": "Low maintenance IP66/IK10 LED batten for interior and exterior general illuminance, delivering 3,000 to 8,000 lumens across two housing lengths.",
       "summary": "Vanguard Linear is a range of low maintenance luminaires, ideally suited for interior and exterior lighting applications where energy efficiency and maintenance costs are of prime importance. The sealed polycarbonate enclosure with high-transmission opal diffuser is IK10 rated for impact protection and IP66 rated for ingress protection, making it suitable for demanding environments, while stainless-steel clips keep the enclosure sealed for both surface and suspended installation. A comprehensive mounting and suspension kit is supplied as standard with every luminaire.",
       "applications": ["Industrial", "Warehousing"],
+      "cardExtraChips": ["IK10"],
       "images": [
         {"file": "assets/img/products/val/val-01-pair.png", "alt": "Vanguard, 1200mm and 1500mm housings side by side, lit"},
         {"file": "assets/img/products/val/val-02-install.jpg", "alt": "Vanguard suspended from roof purlins in a warehouse, lit"},
@@ -4012,7 +4014,7 @@
         {"label": "Class I", "detail": "Electrical class"}
       ],
       "keySpecs": [
-        {"label": "Delivered lumens", "value": "3,000 – 8,000 lm across six lumen packages"},
+        {"label": "Delivered lumens", "value": "3,000 – 8,000 lm across six lumen packages", "short": "3,000 – 8,000 lm"},
         {"label": "Colour temperature", "value": "4000K"},
         {"label": "CRI", "value": "80+"},
         {"label": "Ingress protection", "value": "IP66"},

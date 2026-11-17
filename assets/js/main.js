@@ -256,9 +256,10 @@
       var ip = p.keySpecs.find(function (s) { return s.label === "Ingress protection"; });
       var cct = p.keySpecs.find(function (s) { return s.label === "Colour temperature"; });
       var chips = [];
-      if (lumens) chips.push(lumens.value.split("(")[0].trim());
-      if (cct) chips.push(cct.value.split("(")[0].trim());
-      if (ip) chips.push(ip.value.split(",")[0].trim());
+      if (lumens) chips.push(lumens.short || lumens.value.split("(")[0].trim());
+      if (cct) chips.push(cct.short || cct.value.split("(")[0].trim());
+      if (ip) chips.push(ip.short || ip.value.split("(")[0].split(";")[0].trim());
+      if (p.cardExtraChips) chips.push.apply(chips, p.cardExtraChips);
       return (
         '<a class="product-card" href="' + base + 'products/product.html?code=' + encodeURIComponent(p.code) + '">' +
           '<div class="product-card__frame">' +
