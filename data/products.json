@@ -545,14 +545,18 @@
           "desc": ""
         },
         {
-          "code": "HAUABRK.1A.AU0.60 / .76",
-          "desc": "HAUA single-head wall bracket, 60mm or 76mm spigot as standard (other spigot sizes and tilt angles available on request)",
+          "code": "640-1221 / HAUABRK.1A.AU0.60",
+          "desc": "HAUA single-head wall bracket, 60mm spigot (standard)",
           "image": "assets/img/products/dsx/dsx-haua-single.png",
           "imageAlt": "HAUA single-head wall bracket, pictorial view"
         },
         {
+          "code": "640-1222 / HAUABRK.1A.AU0.76",
+          "desc": "HAUA single-head wall bracket, 76mm spigot (standard)"
+        },
+        {
           "code": "HAUABRK.2A180.AU0.76",
-          "desc": "HAUA double-head (180°) wall bracket — must be fitted on the 76mm spigot; double-headed fittings are not rated for the 60mm spigot",
+          "desc": "HAUA double-head (180°) wall bracket, 76mm spigot — the only spigot double-headed fittings are rated for; not available on the 60mm spigot",
           "image": "assets/img/products/dsx/dsx-haua-double.png",
           "imageAlt": "HAUA double-head wall bracket, pictorial view"
         },
