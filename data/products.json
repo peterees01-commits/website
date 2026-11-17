@@ -1202,16 +1202,8 @@
           "desc": "7-pin dimming NEMA ANSI C136.41 socket, plain or with weatherproof locking top"
         },
         {
-          "code": "FTS.CL7 / .CL8 / .CL9 / .D2",
-          "desc": "Constant light output profile (70/80/90% of initial lumens) or DALI HF control gear"
-        },
-        {
-          "code": "FTS.LRT56 / .LRT66 / .LRT76",
-          "desc": "Pre-set dimming to 50/60/70% between 12am–6am"
-        },
-        {
-          "code": "FTS.FF10S / .FS10S / .F510S",
-          "desc": "10m flex, twin-and-earth or 5-core cable entry options"
+          "code": "FTS.D2",
+          "desc": "DALI HF control gear"
         },
         {
           "code": "FTS.EBLS",
