@@ -78,7 +78,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (PC Amber available)"
+          "value": "2700K / 3000K / 4000K (PC Amber available)",
+          "short": "2700K / 3000K / 4000K / Amber"
         },
         {
           "label": "CRI",
@@ -633,7 +634,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "3000K / 4000K (2700K or Amber available on request)"
+          "value": "3000K / 4000K (2700K or Amber available on request)",
+          "short": "3000K / 4000K / Amber"
         },
         {
           "label": "CRI",
@@ -868,7 +870,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "3000K / 4000K (2700K or Amber available on request)"
+          "value": "3000K / 4000K (2700K or Amber available on request)",
+          "short": "3000K / 4000K / Amber"
         },
         {
           "label": "CRI",
@@ -1314,7 +1317,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (Amber available)"
+          "value": "2700K / 3000K / 4000K (Amber available)",
+          "short": "2700K / 3000K / 4000K / Amber"
         },
         {
           "label": "CRI",
@@ -2087,7 +2091,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (Amber available)"
+          "value": "2700K / 3000K / 4000K (Amber available)",
+          "short": "2700K / 3000K / 4000K / Amber"
         },
         {
           "label": "CRI",
