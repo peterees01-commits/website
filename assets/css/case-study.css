@@ -169,6 +169,17 @@ button.case-photo__frame {
   color: var(--glow-soft);
 }
 
+.case-product-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
 /* ---- Lightbox ---- */
 .case-lightbox {
   position: fixed;

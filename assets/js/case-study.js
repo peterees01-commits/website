@@ -81,7 +81,7 @@
               '<h2 style="margin-bottom:var(--space-4)">' + esc(cs.product) + '</h2>' +
               (cs.productCode ?
                 '<p style="margin-top:calc(-1 * var(--space-3));margin-bottom:var(--space-4)">' +
-                  '<a class="case-back-link" href="../products/product.html?code=' + esc(cs.productCode) + '">View product page &rarr;</a>' +
+                  '<a class="case-product-link" href="../products/product.html?code=' + esc(cs.productCode) + '">View product page &rarr;</a>' +
                 '</p>' : "") +
               '<table class="spec-table" style="margin-bottom:var(--space-5)">' +
                 cs.performance.map(function (r) {
