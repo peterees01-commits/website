@@ -2813,11 +2813,6 @@
           "size": "1 Module"
         },
         {
-          "file": "assets/img/products/pps/pps-03-m6.png",
-          "alt": "Prismpack 6 Module configuration, 2x3 light engine array",
-          "size": "6 Module"
-        },
-        {
           "file": "assets/img/products/pps/pps-01-profile.png",
           "alt": "Prismpack high bay, front elevation showing gear housing, mounting bracket and PrismaLED module",
           "size": "1 Module"
@@ -2836,6 +2831,11 @@
           "file": "assets/img/products/pps/pps-06-m4.png",
           "alt": "Prismpack 4 Module configuration, 2x2 light engine array",
           "size": "4 Module"
+        },
+        {
+          "file": "assets/img/products/pps/pps-03-m6.png",
+          "alt": "Prismpack 6 Module configuration, 2x3 light engine array",
+          "size": "6 Module"
         },
         {
           "file": "assets/img/products/pps/pps-07-mounting.png",
