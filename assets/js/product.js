@@ -432,8 +432,8 @@
       '<table class="spec-table">' +
         (d.continuousLength ? (
           '<tr><th>Length</th><td>' + esc(d.lengthRange) + '</td></tr>' +
-          '<tr><th>Width</th><td>' + esc(d.width) + '</td></tr>' +
-          '<tr><th>Height</th><td>' + esc(d.height) + '</td></tr>' +
+          '<tr><th>Width' + (d.depthFootnote ? '*' : '') + '</th><td>' + esc(d.width) + '</td></tr>' +
+          '<tr><th>Height' + (d.depthFootnote ? '*' : '') + '</th><td>' + esc(d.height) + '</td></tr>' +
           '<tr><th>Weight</th><td>' + esc(d.weightRange) + '</td></tr>'
         ) : d.variants.map(function (v) {
           return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';

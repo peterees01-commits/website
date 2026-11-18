@@ -4860,11 +4860,12 @@
       ],
       "dimensions": {
         "continuousLength": true,
+        "depthFootnote": true,
         "lengthRange": "500 mm – 2900 mm (continuous extrusion; lengths are made to order)",
-        "width": "63 mm",
-        "height": "81 mm",
-        "weightRange": "0.8 – 4.9 kg depending on length",
-        "note": "Width and height are constant across every length and mounting configuration. Length and weight scale with the ordered size — see the datasheets for the full length table."
+        "width": "75 mm",
+        "height": "105 mm",
+        "weightRange": "2.0 – 12.2 kg depending on length",
+        "note": "* Width and height shown are for the Box mounting configuration. Other configurations (Surface, Recessed, Semi-Recessed, Suspended, Naked, Naked-Suspended) have a different cross-section and weight — consult the datasheets for configuration-specific dimensions. Length and weight scale with the ordered size."
       },
       "hideWindage": true,
       "certifications": [
@@ -5332,11 +5333,12 @@
       ],
       "dimensions": {
         "continuousLength": true,
+        "depthFootnote": true,
         "lengthRange": "500 mm – 2400 mm (continuous extrusion; lengths are made to order)",
-        "width": "65 mm",
-        "height": "80 mm",
+        "width": "75 mm",
+        "height": "105 mm",
         "weightRange": "",
-        "note": "Width and height are constant across every length and mounting configuration. Length scales with the ordered size — see the datasheets for the full length table. Weight not confirmed by the manufacturer for this range."
+        "note": "* Width and height shown are for the Box mounting configuration. Other configurations (Surface, Recessed, Semi-Recessed, Suspended, Naked, Naked-Suspended) have a different cross-section — consult the datasheets for configuration-specific dimensions. Length scales with the ordered size. Weight not confirmed by the manufacturer for this range."
       },
       "downloads": {
         "brochure": {
@@ -5754,11 +5756,12 @@
       ],
       "dimensions": {
         "continuousLength": true,
+        "depthFootnote": true,
         "lengthRange": "500 mm – 2900 mm (continuous extrusion; lengths are made to order)",
-        "width": "105 mm",
-        "height": "85 mm",
-        "weightRange": "1.4 – 8.8 kg depending on length",
-        "note": "Width and height are constant across every length and mounting configuration. Length scales with the ordered size — see the datasheets for the full length table."
+        "width": "210 mm",
+        "height": "100 mm",
+        "weightRange": "3.7 – 22.2 kg depending on length",
+        "note": "* Width and height shown are for the Cornice mounting configuration. Other configurations (Box, Surface, Recessed, Semi-Recessed, Suspended, Naked, Naked-Suspended) have a different cross-section and weight — consult the datasheets for configuration-specific dimensions. Length and weight scale with the ordered size."
       },
       "downloads": {
         "brochure": {
@@ -6176,11 +6179,12 @@
       ],
       "dimensions": {
         "continuousLength": true,
+        "depthFootnote": true,
         "lengthRange": "500 mm – 2900 mm (continuous extrusion; lengths are made to order)",
-        "width": "105 mm",
-        "height": "85 mm",
-        "weightRange": "1.2 – 7.6 kg depending on length",
-        "note": "Width and height are constant across every length and mounting configuration. Length scales with the ordered size — see the datasheets for the full length table."
+        "width": "210 mm",
+        "height": "100 mm",
+        "weightRange": "3.5 – 21.1 kg depending on length",
+        "note": "* Width and height shown are for the Cornice mounting configuration. Other configurations (Box, Surface, Recessed, Semi-Recessed, Suspended, Naked, Naked-Suspended) have a different cross-section and weight — consult the datasheets for configuration-specific dimensions. Length and weight scale with the ordered size."
       },
       "downloads": {
         "brochure": {
