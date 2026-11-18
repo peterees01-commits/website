@@ -108,7 +108,7 @@
     ) : "";
 
     return (
-      '<div class="product-gallery" id="productGallery">' +
+      '<div class="product-gallery' + (p.lightGalleryBackground ? ' product-gallery--light' : '') + '" id="productGallery">' +
         '<div class="product-hero__frame product-gallery__main">' +
           '<img id="galleryMainImg" src="../' + esc(images[0].file) + '" alt="' + esc(images[0].alt) + '">' +
           (images[0].size ? '<span class="product-gallery__size-badge" id="galleryMainSize">' + esc(images[0].size) + '</span>' : '<span class="product-gallery__size-badge" id="galleryMainSize" hidden></span>') +

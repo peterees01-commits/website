@@ -276,6 +276,18 @@ body.lightbox-locked {
   border-color: var(--glow);
 }
 
+/* Opt-in for products shot as white-background renders (transparent PNGs),
+   which read as washed-out/low-contrast against the usual dark frame. */
+.product-gallery--light .product-hero__frame,
+.product-gallery--light .product-gallery__thumb {
+  background: #fff;
+  border-color: var(--border-light);
+}
+
+.product-gallery--light .product-gallery__thumb:hover {
+  border-color: var(--grey-400);
+}
+
 .manu-note {
   font-size: var(--text-xs);
   color: var(--grey-500);
@@ -539,6 +551,12 @@ body.lightbox-locked {
   min-width: 180px;
   background: var(--ink);
   border: 1px solid var(--border-on-dark);
+}
+
+/* display:flex must only apply while the menu isn't [hidden] — setting it
+   unconditionally on .dl-dropdown__menu overrides the browser's native
+   hidden-attribute styling, so the menu never actually closes. */
+.dl-dropdown__menu:not([hidden]) {
   display: flex;
   flex-direction: column;
 }

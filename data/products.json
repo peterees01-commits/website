@@ -4965,7 +4965,8 @@
           "chart": "assets/img/products/surv050eco/distributions/sy.png",
           "note": "One symmetric distribution; shape is consistent across every length and mounting presentation."
         }
-      ]
+      ],
+      "lightGalleryBackground": true
     }
   ]
 }
