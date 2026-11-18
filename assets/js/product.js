@@ -169,7 +169,7 @@
         '<div class="product-hero__frame">' +
           '<svg viewBox="0 0 240 180" width="70%" aria-hidden="true">' +
             '<polygon points="70,10 170,10 210,170 30,170" fill="#e2a33f" opacity="0.10"/>' +
-            '<text x="120" y="98" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="26" fill="#f2ecde" opacity="0.85">' + esc(p.code) + '</text>' +
+            '<text x="120" y="98" text-anchor="middle" font-family="Roboto Mono, monospace" font-size="26" fill="#f2ecde" opacity="0.85">' + esc(p.code) + '</text>' +
           '</svg>' +
           '<p class="product-hero__frame-note">Product imagery pending.</p>' +
         '</div>'

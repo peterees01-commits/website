@@ -288,7 +288,7 @@
       '<svg viewBox="0 0 200 150" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' +
         '<rect width="200" height="150" fill="#16150f"/>' +
         '<polygon points="60,10 140,10 175,140 25,140" fill="#e2a33f" opacity="0.12"/>' +
-        '<text x="100" y="82" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="22" fill="#f2ecde" opacity="0.85">' + code + '</text>' +
+        '<text x="100" y="82" text-anchor="middle" font-family="Roboto Mono, monospace" font-size="22" fill="#f2ecde" opacity="0.85">' + code + '</text>' +
       '</svg>'
     );
   }

@@ -34,7 +34,7 @@
   /* ---- Type ---- */
   --font-display: "Archivo", "Arial Narrow", sans-serif;
   --font-body: "IBM Plex Sans", -apple-system, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-mono: "Roboto Mono", ui-monospace, monospace;
 
   /* ---- Type scale ---- */
   --text-xs: 0.75rem;
