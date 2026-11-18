@@ -4976,7 +4976,8 @@
         "file": "assets/video/survivor/survivor-install-surface.mp4",
         "poster": "assets/img/products/surv050eco/survivor-install-poster.jpg",
         "caption": "Illustrative surface-mount installation sequence (early-cut reference video, subject to change). See the Installation instructions download above for the full written methodology."
-      }
+      },
+      "statBandLabel": "Easy Installation"
     }
   ]
 }

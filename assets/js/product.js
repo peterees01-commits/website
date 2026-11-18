@@ -637,7 +637,7 @@
     var ulorBadge = (p.badges || []).find(function (b) { return /ULOR/i.test(b.label); });
     var stats = [
       range ? range + " mounting range" : null,
-      p.distributions ? (p.statDistributionCount || p.distributions.length) + " optical distributions" : null,
+      p.statBandLabel ? p.statBandLabel : (p.distributions ? (p.statDistributionCount || p.distributions.length) + " optical distributions" : null),
       ipBadge ? ipBadge.label : null,
       ikBadge ? ikBadge.label : null,
       ulorBadge ? ulorBadge.label : null,
@@ -707,7 +707,7 @@
           '<div>' +
             '<p class="eyebrow">' + esc(v.eyebrow || "Installation") + '</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(v.heading) + '</h2>' +
-            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(v.body) + '</p>' +
+            '<p style="max-width:52ch;color:var(--text-muted-on-dark);font-size:var(--text-md);line-height:1.7">' + esc(v.body) + '</p>' +
           '</div>' +
           '<div>' +
             '<video class="install-video" src="../' + esc(v.file) + '"' +
