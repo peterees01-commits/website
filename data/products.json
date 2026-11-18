@@ -4781,8 +4781,12 @@
       ],
       "badges": [
         {
-          "label": "IP66 / IK15",
-          "detail": "Ingress & impact protection"
+          "label": "IP66",
+          "detail": "Ingress protection"
+        },
+        {
+          "label": "IK15",
+          "detail": "Impact resistance"
         },
         {
           "label": "AT06",
@@ -4791,18 +4795,6 @@
         {
           "label": "Australian Made",
           "detail": "Designed and manufactured in Australia"
-        },
-        {
-          "label": "7yr Warranty",
-          "detail": "Standard (10yr on application)"
-        },
-        {
-          "label": "CRI 80+",
-          "detail": "90+ available on request"
-        },
-        {
-          "label": "DALI-2 Ready",
-          "detail": "Native control & dimming options"
         }
       ],
       "keySpecs": [
