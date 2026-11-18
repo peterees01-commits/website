@@ -4916,9 +4916,42 @@
       ],
       "downloads": {
         "brochure": {
-          "label": "Product datasheets (all presentations)",
-          "file": "assets/downloads/lumen-method-surv050eco-datasheets.zip",
-          "meta": "ZIP — 7 files"
+          "label": "Product datasheets",
+          "meta": "7 presentations",
+          "options": [
+            {
+              "label": "Box",
+              "file": "assets/downloads/lumen-method-surv050eco-box-datasheet.pdf"
+            },
+            {
+              "label": "Surface",
+              "file": "assets/downloads/lumen-method-surv050eco-surface-datasheet.pdf"
+            },
+            {
+              "label": "Recessed",
+              "file": "assets/downloads/lumen-method-surv050eco-recessed-datasheet.pdf"
+            },
+            {
+              "label": "Semi-Recessed",
+              "file": "assets/downloads/lumen-method-surv050eco-semi-recessed-datasheet.pdf"
+            },
+            {
+              "label": "Suspended",
+              "file": "assets/downloads/lumen-method-surv050eco-suspended-datasheet.pdf"
+            },
+            {
+              "label": "Naked",
+              "file": "assets/downloads/lumen-method-surv050eco-naked-datasheet.pdf"
+            },
+            {
+              "label": "Naked, Suspended",
+              "file": "assets/downloads/lumen-method-surv050eco-naked-suspended-datasheet.pdf"
+            },
+            {
+              "label": "All presentations (ZIP)",
+              "file": "assets/downloads/lumen-method-surv050eco-datasheets.zip"
+            }
+          ]
         }
       },
       "certificationLogo": {

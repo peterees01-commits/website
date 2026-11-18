@@ -42,6 +42,7 @@
       distributionsSection(p);
 
     initGallery();
+    initDownloadDropdowns(root);
     if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
       window.LumenMethod.initScrollReveal(root);
     }
@@ -153,11 +154,61 @@
         '<div class="hero-downloads__grid">' +
           order.map(function (key) {
             var d = dl[key];
-            return d ? downloadCard(d.label, d.meta, "../" + d.file, true) : pendingDownloadCard(key);
+            if (!d) return pendingDownloadCard(key);
+            return (d.options && d.options.length)
+              ? downloadCardWithOptions(d.label, d.meta, d.options)
+              : downloadCard(d.label, d.meta, "../" + d.file, true);
           }).join("") +
         '</div>' +
       '</div>'
     );
+  }
+
+  // For products with several datasheets (one per mounting style, say) rather
+  // than a single brochure file — the card opens a small menu of files
+  // instead of linking straight to one.
+  function downloadCardWithOptions(label, meta, options) {
+    return (
+      '<div class="download-card download-card--compact">' +
+        '<div>' +
+          (meta ? '<span class="download-card__meta">' + esc(meta) + '</span>' : '') +
+          '<h4>' + esc(label) + '</h4>' +
+        '</div>' +
+        '<div class="dl-dropdown">' +
+          '<button type="button" class="btn btn-ghost-dark dl-dropdown__toggle" aria-haspopup="true" aria-expanded="false">Download &#9662;</button>' +
+          '<div class="dl-dropdown__menu" role="menu" hidden>' +
+            options.map(function (o) {
+              return '<a role="menuitem" href="../' + esc(o.file) + '" download>' + esc(o.label) + '</a>';
+            }).join("") +
+          '</div>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function initDownloadDropdowns(root) {
+    var toggles = root.querySelectorAll(".dl-dropdown__toggle");
+    function closeAll(except) {
+      toggles.forEach(function (t) {
+        if (t === except) return;
+        t.setAttribute("aria-expanded", "false");
+        t.nextElementSibling.hidden = true;
+      });
+    }
+    toggles.forEach(function (btn) {
+      var menu = btn.nextElementSibling;
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var open = btn.getAttribute("aria-expanded") === "true";
+        closeAll(open ? null : btn);
+        btn.setAttribute("aria-expanded", open ? "false" : "true");
+        menu.hidden = open;
+      });
+    });
+    document.addEventListener("click", function () { closeAll(null); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeAll(null);
+    });
   }
 
   function pendingDownloadCard(key) {
