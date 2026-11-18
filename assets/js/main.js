@@ -195,7 +195,6 @@
       return;
     }
     container.innerHTML = manufacturers.map(function (m) {
-      var count = products.filter(function (p) { return p.manufacturerSlug === m.slug; }).length;
       return (
         '<a class="product-card manu-card" href="manufacturers/manufacturer.html?slug=' + encodeURIComponent(m.slug) + '">' +
           '<div class="product-card__frame manu-card__badge">' +
@@ -209,7 +208,7 @@
             '<p class="product-card__cat">' + esc(m.hq || "") + ' · Est. ' + esc(m.founded || "") + '</p>' +
             '<h3 class="product-card__name">' + esc(m.name) + '</h3>' +
             '<p class="manu-card__bio">' + esc(m.bioShort) + '</p>' +
-            '<span class="product-card__link">' + count + (count === 1 ? ' range available ' : ' ranges available ') + '<span class="arrow">→</span></span>' +
+            '<span class="product-card__link">View manufacturer <span class="arrow">→</span></span>' +
           '</div>' +
         '</a>'
       );
