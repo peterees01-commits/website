@@ -35,6 +35,7 @@
     root.innerHTML =
       heroSection(p) +
       overviewSection(p) +
+      installVideoSection(p) +
       statBandSection(p) +
       mountingOptionsSection(p) +
       certificationsSection(p) +
@@ -689,6 +690,31 @@
               }).join("") +
             '</div>'
           ) : "<div></div>") +
+        '</div>' +
+      '</section>'
+    );
+  }
+
+  // Opt-in short demo video for products whose main selling point is how
+  // quick/simple installation is — a photo gallery can't really show that,
+  // a short clip can. No controls autoplay; the viewer presses play.
+  function installVideoSection(p) {
+    var v = p.installVideo;
+    if (!v) return "";
+    return (
+      '<section class="section section--dark product-section">' +
+        '<div class="section__inner two-col two-col--wide-left">' +
+          '<div>' +
+            '<p class="eyebrow">' + esc(v.eyebrow || "Installation") + '</p>' +
+            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(v.heading) + '</h2>' +
+            '<p style="max-width:52ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7">' + esc(v.body) + '</p>' +
+          '</div>' +
+          '<div>' +
+            '<video class="install-video" src="../' + esc(v.file) + '"' +
+              (v.poster ? ' poster="../' + esc(v.poster) + '"' : '') +
+              ' controls loop playsinline preload="metadata"></video>' +
+            (v.caption ? '<p class="backlight-photo__caption" style="border:1px solid var(--border-on-dark);border-top:none;padding:var(--space-2) var(--space-3);font-size:var(--text-xs);color:var(--grey-500)">' + esc(v.caption) + '</p>' : "") +
+          '</div>' +
         '</div>' +
       '</section>'
     );
