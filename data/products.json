@@ -4622,33 +4622,23 @@
       ],
       "images": [
         {
-          "file": "assets/img/products/surv050eco/surv050eco-naked-side.png",
-          "alt": "Survivor 50 Eco naked profile, side view",
-          "size": "Naked"
+          "file": "assets/img/products/surv050eco/surv050eco-box-side.png",
+          "alt": "Survivor 50 Eco box profile, side view",
+          "size": "Box"
         },
         {
-          "file": "assets/img/products/surv050eco/surv050eco-naked-end.png",
-          "alt": "Survivor 50 Eco naked profile, end view",
-          "size": "Naked"
-        },
-        {
-          "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-side.png",
-          "alt": "Survivor 50 Eco naked-suspended profile, side view",
-          "size": "Naked-Suspended"
-        },
-        {
-          "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-end.png",
-          "alt": "Survivor 50 Eco naked-suspended profile, end view",
-          "size": "Naked-Suspended"
+          "file": "assets/img/products/surv050eco/surv050eco-box-end.png",
+          "alt": "Survivor 50 Eco box profile, end view",
+          "size": "Box"
         },
         {
           "file": "assets/img/products/surv050eco/surv050eco-surface-side.png",
-          "alt": "Survivor 50 Eco surface-mounted profile, side view",
+          "alt": "Survivor 50 Eco surface profile, side view",
           "size": "Surface"
         },
         {
           "file": "assets/img/products/surv050eco/surv050eco-surface-end.png",
-          "alt": "Survivor 50 Eco surface-mounted profile, end view",
+          "alt": "Survivor 50 Eco surface profile, end view",
           "size": "Surface"
         },
         {
@@ -4663,12 +4653,12 @@
         },
         {
           "file": "assets/img/products/surv050eco/surv050eco-semi-recessed-side.png",
-          "alt": "Survivor 50 Eco semi-recessed profile, side view",
+          "alt": "Survivor 50 Eco semi recessed profile, side view",
           "size": "Semi-Recessed"
         },
         {
           "file": "assets/img/products/surv050eco/surv050eco-semi-recessed-end.png",
-          "alt": "Survivor 50 Eco semi-recessed profile, end view",
+          "alt": "Survivor 50 Eco semi recessed profile, end view",
           "size": "Semi-Recessed"
         },
         {
@@ -4682,56 +4672,51 @@
           "size": "Suspended"
         },
         {
-          "file": "assets/img/products/surv050eco/surv050eco-box-side.png",
-          "alt": "Survivor 50 Eco box profile, side view",
-          "size": "Box"
+          "file": "assets/img/products/surv050eco/surv050eco-naked-side.png",
+          "alt": "Survivor 50 Eco naked profile, side view",
+          "size": "Naked"
         },
         {
-          "file": "assets/img/products/surv050eco/surv050eco-box-end.png",
-          "alt": "Survivor 50 Eco box profile, end view",
-          "size": "Box"
+          "file": "assets/img/products/surv050eco/surv050eco-naked-end.png",
+          "alt": "Survivor 50 Eco naked profile, end view",
+          "size": "Naked"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-side.png",
+          "alt": "Survivor 50 Eco naked suspended profile, side view",
+          "size": "Naked-Suspended"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-end.png",
+          "alt": "Survivor 50 Eco naked suspended profile, end view",
+          "size": "Naked-Suspended"
         }
       ],
       "mountingOptionsHeading": "One light engine, seven presentations",
       "mountingOptions": [
         {
-          "key": "naked",
-          "label": "Naked",
+          "key": "box",
+          "label": "Box",
           "photo": {
-            "file": "assets/img/products/surv050eco/surv050eco-naked-side.png",
-            "alt": "Survivor 50 Eco naked profile"
+            "file": "assets/img/products/surv050eco/surv050eco-box-side.png",
+            "alt": "Survivor 50 Eco box profile"
           },
           "icon": {
-            "file": "assets/img/products/surv050eco/icons/surv050-naked-icon.png"
+            "file": "assets/img/products/surv050eco/icons/surv050-box-icon.png"
           },
-          "description": "The bare profile, direct-fixed to the surface on aluminium mounting brackets — no additional housing.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-naked-datasheet.pdf"
-        },
-        {
-          "key": "naked-suspended",
-          "label": "Naked, Suspended",
-          "photo": {
-            "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-side.png",
-            "alt": "Survivor 50 Eco naked-suspended profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv050eco/icons/surv050-naked-suspended-icon.png"
-          },
-          "description": "The same bare profile hung as a pendant on suspension wires instead of fixed to a surface.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-naked-suspended-datasheet.pdf"
+          "description": "Fully enclosed box-section housing with security end caps — the most tamper-resistant presentation."
         },
         {
           "key": "surface",
           "label": "Surface",
           "photo": {
             "file": "assets/img/products/surv050eco/surv050eco-surface-side.png",
-            "alt": "Survivor 50 Eco surface-mounted profile"
+            "alt": "Survivor 50 Eco surface profile"
           },
           "icon": {
             "file": "assets/img/products/surv050eco/icons/surv050-surface-icon.png"
           },
-          "description": "Profile housed in a surface-mounted base, fixed directly to a wall or ceiling.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-surface-datasheet.pdf"
+          "description": "Profile housed in a surface-mounted base, fixed directly to a wall or ceiling."
         },
         {
           "key": "recessed",
@@ -4743,21 +4728,19 @@
           "icon": {
             "file": "assets/img/products/surv050eco/icons/surv050-recessed-icon.png"
           },
-          "description": "Fully recessed into the ceiling or structure for a flush, concealed finish.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-recessed-datasheet.pdf"
+          "description": "Fully recessed into the ceiling or structure for a flush, concealed finish."
         },
         {
           "key": "semi-recessed",
           "label": "Semi-Recessed",
           "photo": {
             "file": "assets/img/products/surv050eco/surv050eco-semi-recessed-side.png",
-            "alt": "Survivor 50 Eco semi-recessed profile"
+            "alt": "Survivor 50 Eco semi recessed profile"
           },
           "icon": {
             "file": "assets/img/products/surv050eco/icons/surv050-semi-recessed-icon.png"
           },
-          "description": "Partially recessed, with a trim flange sitting proud of the surface.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-semi-recessed-datasheet.pdf"
+          "description": "Partially recessed, with a trim flange sitting proud of the surface."
         },
         {
           "key": "suspended",
@@ -4769,21 +4752,31 @@
           "icon": {
             "file": "assets/img/products/surv050eco/icons/surv050-suspended-icon.png"
           },
-          "description": "Housed profile hung as a pendant on suspension wires.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-suspended-datasheet.pdf"
+          "description": "Housed profile hung as a pendant on suspension wires."
         },
         {
-          "key": "box",
-          "label": "Box",
+          "key": "naked",
+          "label": "Naked",
           "photo": {
-            "file": "assets/img/products/surv050eco/surv050eco-box-side.png",
-            "alt": "Survivor 50 Eco box profile"
+            "file": "assets/img/products/surv050eco/surv050eco-naked-side.png",
+            "alt": "Survivor 50 Eco naked profile"
           },
           "icon": {
-            "file": "assets/img/products/surv050eco/icons/surv050-box-icon.png"
+            "file": "assets/img/products/surv050eco/icons/surv050-naked-icon.png"
           },
-          "description": "Fully enclosed box-section housing with security end caps — the most tamper-resistant presentation.",
-          "datasheet": "assets/downloads/lumen-method-surv050eco-box-datasheet.pdf"
+          "description": "The bare profile, direct-fixed to the surface on aluminium mounting brackets — no additional housing."
+        },
+        {
+          "key": "naked-suspended",
+          "label": "Naked, Suspended",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-side.png",
+            "alt": "Survivor 50 Eco naked suspended profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-naked-suspended-icon.png"
+          },
+          "description": "The same bare profile hung as a pendant on suspension wires instead of fixed to a surface."
         }
       ],
       "badges": [
@@ -4878,79 +4871,12 @@
         }
       ],
       "dimensions": {
-        "note": "Cross-section (W×H) is constant across all ten lengths and all seven mounting presentations. L is the nominal ordering length; actual overall length is marginally shorter to allow for end caps.",
-        "variants": [
-          {
-            "label": "500mm",
-            "length": "430 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "0.8 kg"
-          },
-          {
-            "label": "700mm",
-            "length": "660 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "1.2 kg"
-          },
-          {
-            "label": "1000mm",
-            "length": "940 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "1.6 kg"
-          },
-          {
-            "label": "1200mm",
-            "length": "1220 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "2.0 kg"
-          },
-          {
-            "label": "1500mm",
-            "length": "1500 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "2.4 kg"
-          },
-          {
-            "label": "1800mm",
-            "length": "1780 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "2.9 kg"
-          },
-          {
-            "label": "2100mm",
-            "length": "2060 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "3.6 kg"
-          },
-          {
-            "label": "2400mm",
-            "length": "2340 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "4.1 kg"
-          },
-          {
-            "label": "2600mm",
-            "length": "2620 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "4.4 kg"
-          },
-          {
-            "label": "2900mm",
-            "length": "2900 mm",
-            "width": "63 mm",
-            "height": "81 mm",
-            "weight": "4.9 kg"
-          }
-        ]
+        "continuousLength": true,
+        "lengthRange": "500 mm – 2900 mm (continuous extrusion; lengths are made to order)",
+        "width": "63 mm",
+        "height": "81 mm",
+        "weightRange": "0.8 – 4.9 kg depending on length",
+        "note": "Width and height are constant across every length and mounting presentation. Length and weight scale with the ordered size — see the datasheets for the full length table."
       },
       "hideWindage": true,
       "certifications": [
@@ -4990,11 +4916,23 @@
       ],
       "downloads": {
         "brochure": {
-          "label": "Product datasheet (naked)",
-          "file": "assets/downloads/lumen-method-surv050eco-naked-datasheet.pdf",
-          "meta": ""
+          "label": "Product datasheets (all presentations)",
+          "file": "assets/downloads/lumen-method-surv050eco-datasheets.zip",
+          "meta": "ZIP — 7 files"
         }
-      }
+      },
+      "certificationLogo": {
+        "file": "assets/img/certifications/australian-made-and-owned.png",
+        "alt": "Australian Made and Owned"
+      },
+      "distributions": [
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/surv050eco/distributions/sy.png",
+          "note": "One symmetric distribution; shape is consistent across every length and mounting presentation."
+        }
+      ]
     }
   ]
 }

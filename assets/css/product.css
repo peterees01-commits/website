@@ -650,6 +650,13 @@ body.lightbox-locked {
   border-color: var(--glow);
 }
 
+.cert-logo {
+  display: block;
+  height: 72px;
+  width: auto;
+  margin-bottom: var(--space-4);
+}
+
 .mounting-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -699,15 +706,4 @@ body.lightbox-locked {
   font-size: var(--text-sm);
   line-height: 1.6;
   flex-grow: 1;
-}
-
-.mounting-card__dl {
-  margin: 0 var(--space-3) var(--space-3);
-  align-self: flex-start;
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--ink);
-  text-decoration: underline;
 }

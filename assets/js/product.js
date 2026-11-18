@@ -307,12 +307,21 @@
   function overviewSection(p) {
     var d = p.dimensions;
     var overviewHeading = esc(p.overviewHeading || "Built for the brief");
+    // d.continuousLength opts into a range-based table for products sold as a
+    // cut-to-length continuous extrusion (e.g. Survivor) instead of discrete
+    // SKU'd sizes — width/height are fixed, length and weight are given as a
+    // range rather than one row per stocked length.
     var physicalBlock = (
       '<p class="eyebrow">Physical characteristics</p>' +
       '<table class="spec-table">' +
-        d.variants.map(function (v) {
+        (d.continuousLength ? (
+          '<tr><th>Length</th><td>' + esc(d.lengthRange) + '</td></tr>' +
+          '<tr><th>Width</th><td>' + esc(d.width) + '</td></tr>' +
+          '<tr><th>Height</th><td>' + esc(d.height) + '</td></tr>' +
+          '<tr><th>Weight</th><td>' + esc(d.weightRange) + '</td></tr>'
+        ) : d.variants.map(function (v) {
           return '<tr><th>' + esc(v.label) + '</th><td>' + esc(v.length) + ' L × ' + esc(v.width) + ' W × ' + esc(v.height) + ' H — ' + esc(v.weight) + '</td></tr>';
-        }).join("") +
+        }).join("")) +
         (p.hideWindage ? '' : '<tr><th>Windage</th><td>' + esc(d.windage) + '</td></tr>') +
       '</table>' +
       '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3)">' + esc(d.note) + '</p>'
@@ -581,6 +590,7 @@
           '<div>' +
             '<p class="eyebrow">Certifications</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Certifications &amp; approvals</h2>' +
+            (p.certificationLogo ? '<img class="cert-logo" src="../' + esc(p.certificationLogo.file) + '" alt="' + esc(p.certificationLogo.alt) + '">' : "") +
             '<div class="cert-badge-row">' +
               p.certifications.map(function (c) { return '<span class="cert-badge">' + esc(c) + '</span>'; }).join("") +
             '</div>' +
@@ -635,7 +645,6 @@
                   '</div>' +
                   '<h3>' + esc(m.label) + '</h3>' +
                   '<p>' + esc(m.description) + '</p>' +
-                  (m.datasheet ? '<a class="mounting-card__dl" href="../' + esc(m.datasheet) + '" download>Datasheet &darr;</a>' : "") +
                 '</div>'
               );
             }).join("") +
