@@ -768,7 +768,7 @@
     return (
       '<section class="section section--surface product-section">' +
         '<div class="section__inner">' +
-          '<p class="eyebrow">Presentation</p>' +
+          '<p class="eyebrow">' + esc(p.mountingOptionsEyebrow || "Configuration") + '</p>' +
           '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">' + esc(p.mountingOptionsHeading || "Mounting options") + '</h2>' +
           '<div class="mounting-grid">' +
             opts.map(function (m) {

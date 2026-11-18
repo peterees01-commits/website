@@ -4613,7 +4613,7 @@
       "category": "Linear / Security & Infrastructure",
       "family": "Survivor 50",
       "tagline": "Serviceable IK15, IP66 linear luminaire built for Australia's most demanding environments — naked, surface, recessed, semi-recessed, suspended or boxed, from one light engine.",
-      "summary": "Survivor 50 Eco is a serviceable aluminium-profile linear luminaire built around a single replaceable light module cassette, sealed to IP66 and impact-rated to IK15 (125 J). Internal security-torx fasteners (AT06) and a 1.0 m circular flex connection come standard across all seven mounting presentations — naked, naked-suspended, surface, recessed, semi-recessed, suspended and box — so the same light engine, control options and photometry carry across whichever presentation suits the application.",
+      "summary": "Survivor 50 Eco is a serviceable aluminium-profile linear luminaire built around a single replaceable light module cassette, sealed to IP66 and impact-rated to IK15 (125 J). Internal security-torx fasteners (AT06) and a 1.0 m circular flex connection come standard across all seven mounting configurations — naked, naked-suspended, surface, recessed, semi-recessed, suspended and box — so the same light engine, control options and photometry carry across whichever configuration suits the application.",
       "applications": [
         "Prisons",
         "Transport Infrastructure",
@@ -4692,7 +4692,7 @@
           "size": "Naked-Suspended"
         }
       ],
-      "mountingOptionsHeading": "One light engine, seven presentations",
+      "mountingOptionsHeading": "One light engine, seven configurations",
       "mountingOptions": [
         {
           "key": "box",
@@ -4704,7 +4704,7 @@
           "icon": {
             "file": "assets/img/products/surv050eco/icons/surv050-box-icon.png"
           },
-          "description": "Fully enclosed box-section housing with security end caps — the most tamper-resistant presentation."
+          "description": "Fully enclosed box-section housing with security end caps — the most tamper-resistant configuration."
         },
         {
           "key": "surface",
@@ -4864,7 +4864,7 @@
         "width": "63 mm",
         "height": "81 mm",
         "weightRange": "0.8 – 4.9 kg depending on length",
-        "note": "Width and height are constant across every length and mounting presentation. Length and weight scale with the ordered size — see the datasheets for the full length table."
+        "note": "Width and height are constant across every length and mounting configuration. Length and weight scale with the ordered size — see the datasheets for the full length table."
       },
       "hideWindage": true,
       "certifications": [
@@ -4905,7 +4905,7 @@
       "downloads": {
         "brochure": {
           "label": "Product datasheets",
-          "meta": "7 presentations",
+          "meta": "7 configurations",
           "options": [
             {
               "label": "Box",
@@ -4936,7 +4936,7 @@
               "file": "assets/downloads/lumen-method-surv050eco-naked-suspended-datasheet.pdf"
             },
             {
-              "label": "All presentations (ZIP)",
+              "label": "All configurations (ZIP)",
               "file": "assets/downloads/lumen-method-surv050eco-datasheets.zip"
             }
           ]
@@ -4965,14 +4965,14 @@
           "code": ".SY",
           "name": "Symmetric",
           "chart": "assets/img/products/surv050eco/distributions/sy.png",
-          "note": "One symmetric distribution; shape is consistent across every length and mounting presentation."
+          "note": "One symmetric distribution; shape is consistent across every length and mounting configuration."
         }
       ],
       "lightGalleryBackground": true,
       "installVideo": {
         "eyebrow": "Installation",
         "heading": "Click-in, not wired-in",
-        "body": "Survivor's light module cassette clips straight into a pre-installed base and secures with a single quick-connect plug — no rewiring, no loose fixings on site. The same snap-in cassette and fastening sequence is shared across every mounting presentation, cutting installation time — and labour cost — from hours down to minutes per fitting.",
+        "body": "Survivor's light module cassette clips straight into a pre-installed base and secures with a single quick-connect plug — no rewiring, no loose fixings on site. The same snap-in cassette and fastening sequence is shared across every mounting configuration, significantly cutting down installation time.",
         "file": "assets/video/survivor/survivor-install-surface.mp4",
         "poster": "assets/img/products/surv050eco/survivor-install-poster.jpg",
         "caption": "Illustrative surface-mount installation sequence (early-cut reference video, subject to change). See the Installation instructions download above for the full written methodology."
