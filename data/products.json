@@ -4692,7 +4692,7 @@
           "size": "Naked-Suspended"
         }
       ],
-      "mountingOptionsHeading": "One light engine, seven configurations",
+      "mountingOptionsHeading": "One light engine, multiple configurations",
       "mountingOptions": [
         {
           "key": "box",
@@ -4994,6 +4994,10 @@
             {
               "label": "Emergency, Surface",
               "file": "assets/downloads/ies/lumen-method-surv050eco-ies-emergency-surface.zip"
+            },
+            {
+              "label": "All configurations (ZIP)",
+              "file": "assets/downloads/ies/lumen-method-surv050eco-ies-all.zip"
             }
           ]
         }
@@ -5034,7 +5038,7 @@
         "Public Amenity Lighting",
         "Healthcare"
       ],
-      "mountingOptionsHeading": "One light engine, seven configurations",
+      "mountingOptionsHeading": "One light engine, multiple configurations",
       "hideWindage": true,
       "certifications": [
         "Australian Made and Owned",
@@ -5412,6 +5416,10 @@
             {
               "label": "Emergency, Surface",
               "file": "assets/downloads/ies/lumen-method-surv050cla-ies-emergency-surface.zip"
+            },
+            {
+              "label": "All configurations (ZIP)",
+              "file": "assets/downloads/ies/lumen-method-surv050cla-ies-all.zip"
             }
           ]
         },
@@ -5452,7 +5460,7 @@
         "Public Amenity Lighting",
         "Healthcare"
       ],
-      "mountingOptionsHeading": "One light engine, seven configurations",
+      "mountingOptionsHeading": "One light engine, multiple configurations",
       "hideWindage": true,
       "certifications": [
         "Australian Made and Owned",
@@ -5830,6 +5838,10 @@
             {
               "label": "Emergency, Surface",
               "file": "assets/downloads/ies/lumen-method-surv100cla-ies-emergency-surface.zip"
+            },
+            {
+              "label": "All configurations (ZIP)",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-all.zip"
             }
           ]
         },
@@ -5870,7 +5882,7 @@
         "Public Amenity Lighting",
         "Healthcare"
       ],
-      "mountingOptionsHeading": "One light engine, seven configurations",
+      "mountingOptionsHeading": "One light engine, multiple configurations",
       "hideWindage": true,
       "certifications": [
         "Australian Made and Owned",
@@ -6248,6 +6260,10 @@
             {
               "label": "Emergency, Surface",
               "file": "assets/downloads/ies/lumen-method-surv100eco-ies-emergency-surface.zip"
+            },
+            {
+              "label": "All configurations (ZIP)",
+              "file": "assets/downloads/ies/lumen-method-surv100eco-ies-all.zip"
             }
           ]
         },
