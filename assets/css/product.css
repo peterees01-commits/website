@@ -693,7 +693,7 @@ body.lightbox-locked {
 
 .mounting-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: var(--space-5);
 }
 
@@ -706,18 +706,33 @@ body.lightbox-locked {
 .mounting-card__photo {
   position: relative;
   background: #fff;
-  padding: var(--space-4);
-  min-height: 110px;
+  padding: var(--space-6) var(--space-5);
+  min-height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid var(--border-light);
 }
 
+.mounting-card__photo--zoomable {
+  cursor: zoom-in;
+}
+
+.mounting-card__photo--zoomable:hover img:not(.mounting-card__icon),
+.mounting-card__photo--zoomable:focus-visible img:not(.mounting-card__icon) {
+  transform: scale(1.04);
+}
+
+.mounting-card__photo--zoomable:focus-visible {
+  outline: 2px solid var(--glow);
+  outline-offset: -2px;
+}
+
 .mounting-card__photo img {
   width: 100%;
   height: auto;
   display: block;
+  transition: transform var(--dur-fast) var(--ease-out);
 }
 
 .mounting-card__icon {

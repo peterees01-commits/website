@@ -293,6 +293,26 @@
       }
     });
 
+    // Mounting-style cards (if present) show the same photos again, larger —
+    // clicking one filters the gallery above to that style and opens it in
+    // the lightbox, rather than running a second, separate viewer.
+    var mountingZooms = document.querySelectorAll(".mounting-card__photo--zoomable");
+    mountingZooms.forEach(function (el) {
+      var openForSize = function () {
+        var size = el.getAttribute("data-size");
+        var fbtn = Array.prototype.find.call(filterBtns, function (b) { return b.getAttribute("data-filter") === size; });
+        if (fbtn) fbtn.click();
+        openLightbox();
+      };
+      el.addEventListener("click", openForSize);
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openForSize();
+        }
+      });
+    });
+
     function initLightbox() {
       var box = document.getElementById("imgLightbox");
       if (box) return { open: box._lightboxOpen };
@@ -690,7 +710,7 @@
             opts.map(function (m) {
               return (
                 '<div class="mounting-card">' +
-                  '<div class="mounting-card__photo">' +
+                  '<div class="mounting-card__photo mounting-card__photo--zoomable" data-size="' + esc(m.label) + '" role="button" tabindex="0" aria-label="View ' + esc(m.label) + ' larger">' +
                     '<img src="../' + esc(m.photo.file) + '" alt="' + esc(m.photo.alt) + '" loading="lazy">' +
                     (m.icon ? '<img class="mounting-card__icon" src="../' + esc(m.icon.file) + '" alt="" loading="lazy">' : "") +
                   '</div>' +
