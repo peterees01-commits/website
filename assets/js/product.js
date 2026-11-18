@@ -27,6 +27,88 @@
     });
   }
 
+  // DGI (discomfort glare index) compliance widget — AS/NZS 1158.3.1 Table 3.9
+  // only sets a DGI limit for the PR/PP and LATM/RAB road/pathway categories,
+  // not PA/PE/PC area lighting, so this only ever appears for an optic that
+  // carries real Table 3.9 figures (d.dgi on a distributions entry).
+  var DGI_CATS = [
+    { key: "PR6", label: "PR / PP — below 6 m" },
+    { key: "PR10", label: "PR / PP — 6–10 m" },
+    { key: "LR6", label: "LATM / RAB — below 6 m" },
+    { key: "LR10", label: "LATM / RAB — 6–10 m" }
+  ];
+
+  function dgiPct(cell) { return Math.round((cell.dgi / cell.limit) * 1000) / 10; }
+  function dgiRamp(pct) { return pct > 95 ? "crit" : pct > 85 ? "warn" : "good"; }
+
+  function dgiComplianceBlock(p) {
+    var optics = (p.distributions || []).filter(function (d) { return d.dgi; });
+    if (!optics.length) return "";
+    return (
+      '<div class="dgi-block" data-dgi-widget style="margin-top:var(--space-6)">' +
+        '<p class="eyebrow">Glare screening</p>' +
+        '<h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2)">AS/NZS 1158.3.1 — DGI compliance</h3>' +
+        '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Road and pathway categories only — Table 3.9 sets no DGI limit for PA/PE/PC area lighting.</p>' +
+        '<div class="dgi-controls">' +
+          '<select class="dgi-select" data-dgi-optic>' +
+            optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
+          '</select>' +
+          '<select class="dgi-select" data-dgi-cat>' +
+            DGI_CATS.map(function (c) { return '<option value="' + c.key + '">' + esc(c.label) + '</option>'; }).join("") +
+          '</select>' +
+        '</div>' +
+        '<div class="dgi-readout">' +
+          '<div class="dgi-readout__head">' +
+            '<div class="dgi-readout__name" data-dgi-name></div>' +
+            '<div class="dgi-status-pill" data-dgi-status></div>' +
+          '</div>' +
+          '<div class="dgi-big-pct" data-dgi-pct></div>' +
+          '<div class="dgi-bar-track"><div class="dgi-bar-fill" data-dgi-fill></div></div>' +
+          '<div class="dgi-bar-foot">' +
+            '<span>DGI used: <b data-dgi-used></b></span>' +
+            '<span>Table 3.9 limit: <b data-dgi-limit></b></span>' +
+          '</div>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function initDgiWidget(root, p) {
+    var block = root.querySelector("[data-dgi-widget]");
+    if (!block) return;
+    var optics = p.distributions.filter(function (d) { return d.dgi; });
+
+    var opticSel = block.querySelector("[data-dgi-optic]");
+    var catSel = block.querySelector("[data-dgi-cat]");
+    var nameEl = block.querySelector("[data-dgi-name]");
+    var statusEl = block.querySelector("[data-dgi-status]");
+    var pctEl = block.querySelector("[data-dgi-pct]");
+    var fillEl = block.querySelector("[data-dgi-fill]");
+    var usedEl = block.querySelector("[data-dgi-used]");
+    var limitEl = block.querySelector("[data-dgi-limit]");
+
+    function render() {
+      var optic = optics.find(function (d) { return d.code === opticSel.value; });
+      var cell = optic.dgi[catSel.value];
+      var pct = dgiPct(cell);
+      var kind = dgiRamp(pct);
+      var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
+
+      nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
+      statusEl.textContent = cell.status + " · " + cell.w;
+      statusEl.className = "dgi-status-pill dgi-status-pill--" + (cell.status === "MAX AVAILABLE" ? "good" : "warn");
+      pctEl.innerHTML = pct + '<small> % of limit used</small>';
+      fillEl.style.width = pct + "%";
+      fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
+      usedEl.textContent = cell.dgi.toLocaleString("en-AU");
+      limitEl.textContent = cell.limit.toLocaleString("en-AU");
+    }
+
+    opticSel.addEventListener("change", render);
+    catSel.addEventListener("change", render);
+    render();
+  }
+
   function render(p) {
     document.title = p.name + " — " + p.manufacturer + " — Lumen Method";
     var titleEl = document.getElementById("pageTitle");
@@ -44,6 +126,7 @@
 
     initGallery();
     initDownloadDropdowns(root);
+    initDgiWidget(root, p);
     if (window.LumenMethod && window.LumenMethod.initScrollReveal) {
       window.LumenMethod.initScrollReveal(root);
     }
@@ -621,6 +704,7 @@
         '<p class="eyebrow">Optical distributions</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Optical Distributions</h2>' +
         distGrid +
+        dgiComplianceBlock(p) +
       '</div>'
     ) : "";
     var mountBlock = m ? (

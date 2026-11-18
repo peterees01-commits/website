@@ -174,27 +174,157 @@
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/dpl/distributions/sy-v2.png"
+          "chart": "assets/img/products/dpl/distributions/sy-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "87W",
+              "status": "MAX AVAILABLE",
+              "dgi": 32311,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "87W",
+              "status": "MAX AVAILABLE",
+              "dgi": 32311,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "87W",
+              "status": "MAX AVAILABLE",
+              "dgi": 32311,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "87W",
+              "status": "MAX AVAILABLE",
+              "dgi": 32311,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/dpl/distributions/ay-v2.png"
+          "chart": "assets/img/products/dpl/distributions/ay-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "57W",
+              "status": "DGI LIMITED",
+              "dgi": 31881,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "66W",
+              "status": "DGI LIMITED",
+              "dgi": 36076,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "69W",
+              "status": "DGI LIMITED",
+              "dgi": 40820,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "87W",
+              "status": "MAX AVAILABLE",
+              "dgi": 49175,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/dpl/distributions/nr-v2.png"
+          "chart": "assets/img/products/dpl/distributions/nr-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "24W",
+              "status": "DGI LIMITED",
+              "dgi": 32831,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "24W",
+              "status": "DGI LIMITED",
+              "dgi": 32831,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "24W",
+              "status": "DGI LIMITED",
+              "dgi": 32831,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "30W",
+              "status": "DGI LIMITED",
+              "dgi": 45543,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/dpl/distributions/fw-v2.png"
+          "chart": "assets/img/products/dpl/distributions/fw-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "30W",
+              "status": "DGI LIMITED",
+              "dgi": 29305,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "38W",
+              "status": "DGI LIMITED",
+              "dgi": 36023,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "49W",
+              "status": "DGI LIMITED",
+              "dgi": 41241,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "57W",
+              "status": "DGI LIMITED",
+              "dgi": 46676,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".HN",
           "name": "High Beam Long & Narrow",
-          "chart": "assets/img/products/dpl/distributions/hn-v2.png"
+          "chart": "assets/img/products/dpl/distributions/hn-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "24W",
+              "status": "DGI LIMITED",
+              "dgi": 30023,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "24W",
+              "status": "DGI LIMITED",
+              "dgi": 30023,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "30W",
+              "status": "DGI LIMITED",
+              "dgi": 41885,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "30W",
+              "status": "DGI LIMITED",
+              "dgi": 41885,
+              "limit": 50000
+            }
+          }
         }
       ],
       "accessories": [
@@ -968,27 +1098,157 @@
         {
           "code": ".Q1",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 31041,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 39251,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 39251,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 39251,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".R3",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 30380,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 35546,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "59W",
+              "status": "DGI LIMITED",
+              "dgi": 40203,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 44629,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".2S",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "59W",
+              "status": "DGI LIMITED",
+              "dgi": 32743,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36558,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36558,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36558,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 26778,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 26778,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 26778,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 26778,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".HN",
           "name": "Type III Short",
-          "chart": "assets/img/products/sli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 25624,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 25624,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 25624,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "34W",
+              "status": "MAX AVAILABLE",
+              "dgi": 25624,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".5R",
@@ -998,27 +1258,157 @@
         {
           "code": ".A2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "37W",
+              "status": "DGI LIMITED",
+              "dgi": 30268,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "37W",
+              "status": "DGI LIMITED",
+              "dgi": 30268,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 40507,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 47615,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".R2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "23W",
+              "status": "CANDELA LIMIT",
+              "dgi": 19257,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "23W",
+              "status": "CANDELA LIMIT",
+              "dgi": 19257,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "23W",
+              "status": "CANDELA LIMIT",
+              "dgi": 19257,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "23W",
+              "status": "CANDELA LIMIT",
+              "dgi": 19257,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Type II Medium",
-          "chart": "assets/img/products/sli/distributions/type2-medium-v2.png"
+          "chart": "assets/img/products/sli/distributions/type2-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "24W",
+              "status": "BOTH LIMITS",
+              "dgi": 24745,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "24W",
+              "status": "CANDELA LIMIT",
+              "dgi": 24745,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "24W",
+              "status": "CANDELA LIMIT",
+              "dgi": 24745,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "24W",
+              "status": "CANDELA LIMIT",
+              "dgi": 24745,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".A4",
           "name": "Type IV Medium",
-          "chart": "assets/img/products/sli/distributions/type4-medium-v2.png"
+          "chart": "assets/img/products/sli/distributions/type4-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 33931,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 39918,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 39918,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "MAX AVAILABLE",
+              "dgi": 49369,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".HA",
           "name": "Type IV Medium",
-          "chart": "assets/img/products/sli/distributions/type4-medium-v2.png"
+          "chart": "assets/img/products/sli/distributions/type4-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "24W",
+              "status": "BOTH LIMITS",
+              "dgi": 26569,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "24W",
+              "status": "CANDELA LIMIT",
+              "dgi": 26569,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "24W",
+              "status": "CANDELA LIMIT",
+              "dgi": 26569,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "24W",
+              "status": "CANDELA LIMIT",
+              "dgi": 26569,
+              "limit": 50000
+            }
+          }
         }
       ],
       "accessories": [
@@ -1431,27 +1821,157 @@
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/pbl/distributions/sy.png"
+          "chart": "assets/img/products/pbl/distributions/sy.png",
+          "dgi": {
+            "PR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 21067,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 21067,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 21067,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 21067,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/pbl/distributions/ay.png"
+          "chart": "assets/img/products/pbl/distributions/ay.png",
+          "dgi": {
+            "PR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 33496,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 33496,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 33496,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 33496,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/pbl/distributions/nr.png"
+          "chart": "assets/img/products/pbl/distributions/nr.png",
+          "dgi": {
+            "PR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 29158,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 29158,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 29158,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 29158,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/pbl/distributions/fw.png"
+          "chart": "assets/img/products/pbl/distributions/fw.png",
+          "dgi": {
+            "PR6": {
+              "w": "113W",
+              "status": "DGI LIMITED",
+              "dgi": 33297,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 39209,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 39209,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 39209,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".FWE",
           "name": "Forward Throw Extra",
-          "chart": "assets/img/products/pbl/distributions/fwe.png"
+          "chart": "assets/img/products/pbl/distributions/fwe.png",
+          "dgi": {
+            "PR6": {
+              "w": "85W",
+              "status": "DGI LIMITED",
+              "dgi": 33149,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "105W",
+              "status": "DGI LIMITED",
+              "dgi": 39969,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "105W",
+              "status": "DGI LIMITED",
+              "dgi": 39969,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "139W",
+              "status": "AREA CHECK",
+              "dgi": 49981,
+              "limit": 50000
+            }
+          }
         }
       ],
       "pedestrianSpacing": {

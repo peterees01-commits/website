@@ -503,6 +503,120 @@ body.lightbox-locked {
   margin-top: 2px;
 }
 
+/* ---- DGI compliance widget ---- */
+.dgi-controls {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-3);
+}
+
+.dgi-select {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-2);
+  color: var(--text-primary);
+  flex: 1 1 180px;
+  min-width: 0;
+}
+
+.dgi-readout {
+  border: 1px solid var(--border-light);
+  background: var(--cream-soft);
+  padding: var(--space-4);
+}
+
+.dgi-readout__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.dgi-readout__name {
+  font-family: var(--font-display);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.dgi-status-pill {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.dgi-status-pill--good {
+  background: rgba(74, 107, 79, 0.12);
+  color: #3f5b43;
+}
+
+.dgi-status-pill--warn {
+  background: rgba(226, 163, 63, 0.18);
+  color: #8a641f;
+}
+
+.dgi-big-pct {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-3xl);
+  line-height: 1;
+  margin-top: var(--space-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.dgi-big-pct small {
+  font-size: 0.32em;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text-muted);
+  margin-left: var(--space-1);
+}
+
+.dgi-bar-track {
+  height: 14px;
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-top: var(--space-3);
+}
+
+.dgi-bar-fill {
+  height: 100%;
+  width: 0%;
+  transition: width var(--dur-slow) var(--ease-out), background-color var(--dur-base) var(--ease-out);
+}
+
+.dgi-bar-fill--good { background: #4a6b4f; }
+.dgi-bar-fill--warn { background: var(--glow); }
+.dgi-bar-fill--crit { background: #a8392f; }
+
+.dgi-bar-foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+}
+
+.dgi-bar-foot b {
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-weight: 500;
+}
+
 /* ---- Downloads ---- */
 .downloads-grid {
   display: grid;
