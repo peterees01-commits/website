@@ -6033,429 +6033,6 @@
         "caption": "Illustrative surface-mount installation sequence (early-cut reference video, subject to change). See the Installation instructions download above for the full written methodology."
       },
       "statBandLabel": "Easy Installation",
-      "code": "SURV100CLA",
-      "name": "Survivor 100 Classic",
-      "tagline": "Serviceable IK17, IP66 linear luminaire built for Australia's most demanding environments — naked, surface, recessed, semi-recessed, suspended or cornice-mounted, from one light engine.",
-      "summary": "Survivor 100 Classic is a serviceable aluminium-profile linear luminaire built around a single replaceable light module cassette, sealed to IP66 and impact-rated to IK17 (175 J). Internal security-torx fasteners (AT06) and a 1.0 m circular flex connection come standard across all seven mounting configurations — naked, naked-suspended, surface, recessed, semi-recessed, suspended and cornice — so the same light engine, control options and photometry carry across whichever configuration suits the application.",
-      "badges": [
-        {
-          "label": "IP66",
-          "detail": "Ingress protection"
-        },
-        {
-          "label": "IK17",
-          "detail": "Impact resistance"
-        },
-        {
-          "label": "Australian Made",
-          "detail": "Designed and manufactured in Australia"
-        }
-      ],
-      "keySpecs": [
-        {
-          "label": "Delivered lumens",
-          "value": "280 – 14,400 lm across 500–2900mm lengths, 20–100% dimmable",
-          "short": "to 14,400 lm"
-        },
-        {
-          "label": "Wattage",
-          "value": "2.5 – 125 W depending on length and output setting"
-        },
-        {
-          "label": "Colour temperature",
-          "value": "2700K / 3000K / 3500K / 4000K / 5000K / 6500K / tunable white",
-          "short": "2700K–6500K"
-        },
-        {
-          "label": "CRI",
-          "value": "80+ (90+ available)"
-        },
-        {
-          "label": "Coloured LEDs",
-          "value": "RGB / RGB+W / RGBW / RGBW+W / red / green / blue available"
-        },
-        {
-          "label": "Ingress protection",
-          "value": "IP66, hermetically sealed light module",
-          "short": "IP66"
-        },
-        {
-          "label": "Impact resistance",
-          "value": "IK17 (175 joules)"
-        },
-        {
-          "label": "Tamper resistance",
-          "value": "AT06 — internal socket-drive security-torx 304 stainless steel fasteners"
-        },
-        {
-          "label": "Body material",
-          "value": "Aluminium mounting bracket, durable polyester powder-coat finish"
-        },
-        {
-          "label": "Light module",
-          "value": "Impact-resistant UV-stabilised high-transmission polycarbonate diffuser; serviceable, replaceable light module cassette"
-        },
-        {
-          "label": "Electrical class",
-          "value": "Class I"
-        },
-        {
-          "label": "Electrical connection",
-          "value": "IP68 quick-connect plug+socket, or IP20 plug — 1.0 m circular flex"
-        },
-        {
-          "label": "Dimming / control",
-          "value": "DALI-2, Casambi wireless, switchDIM, 0–10V or fixed output"
-        },
-        {
-          "label": "Warranty",
-          "value": "7 years standard (10 years on application)"
-        },
-        {
-          "label": "Country of origin",
-          "value": "Australia"
-        }
-      ],
-      "images": [
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-cornice-side.png",
-          "alt": "Survivor 100 Classic cornice profile, side view",
-          "size": "Cornice"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-cornice-end.png",
-          "alt": "Survivor 100 Classic cornice profile, end view",
-          "size": "Cornice"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-surface-side.png",
-          "alt": "Survivor 100 Classic surface profile, side view",
-          "size": "Surface"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-surface-end.png",
-          "alt": "Survivor 100 Classic surface profile, end view",
-          "size": "Surface"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-recessed-side.png",
-          "alt": "Survivor 100 Classic recessed profile, side view",
-          "size": "Recessed"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-recessed-end.png",
-          "alt": "Survivor 100 Classic recessed profile, end view",
-          "size": "Recessed"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-semi-recessed-side.png",
-          "alt": "Survivor 100 Classic semi recessed profile, side view",
-          "size": "Semi-Recessed"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-semi-recessed-end.png",
-          "alt": "Survivor 100 Classic semi recessed profile, end view",
-          "size": "Semi-Recessed"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-suspended-side.png",
-          "alt": "Survivor 100 Classic suspended profile, side view",
-          "size": "Suspended"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-suspended-end.png",
-          "alt": "Survivor 100 Classic suspended profile, end view",
-          "size": "Suspended"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-naked-side.png",
-          "alt": "Survivor 100 Classic naked profile, side view",
-          "size": "Naked"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-naked-end.png",
-          "alt": "Survivor 100 Classic naked profile, end view",
-          "size": "Naked"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-naked-suspended-side.png",
-          "alt": "Survivor 100 Classic naked suspended profile, side view",
-          "size": "Naked, Suspended"
-        },
-        {
-          "file": "assets/img/products/surv100cla/surv100cla-naked-suspended-end.png",
-          "alt": "Survivor 100 Classic naked suspended profile, end view",
-          "size": "Naked, Suspended"
-        }
-      ],
-      "mountingOptions": [
-        {
-          "key": "cornice",
-          "label": "Cornice",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-cornice-side.png",
-            "alt": "Survivor 100 Classic cornice profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-cornice-icon.png"
-          },
-          "description": "Cornice-profile housing with concealed fixings, for a clean architectural ceiling or wall junction."
-        },
-        {
-          "key": "surface",
-          "label": "Surface",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-surface-side.png",
-            "alt": "Survivor 100 Classic surface profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-surface-icon.png"
-          },
-          "description": "Profile housed in a surface-mounted base, fixed directly to a wall or ceiling."
-        },
-        {
-          "key": "recessed",
-          "label": "Recessed",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-recessed-side.png",
-            "alt": "Survivor 100 Classic recessed profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-recessed-icon.png"
-          },
-          "description": "Fully recessed into the ceiling or structure for a flush, concealed finish."
-        },
-        {
-          "key": "semi-recessed",
-          "label": "Semi-Recessed",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-semi-recessed-side.png",
-            "alt": "Survivor 100 Classic semi recessed profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-semi-recessed-icon.png"
-          },
-          "description": "Partially recessed, with a trim flange sitting proud of the surface."
-        },
-        {
-          "key": "suspended",
-          "label": "Suspended",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-suspended-side.png",
-            "alt": "Survivor 100 Classic suspended profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-suspended-icon.png"
-          },
-          "description": "Housed profile hung as a pendant on suspension wires."
-        },
-        {
-          "key": "naked",
-          "label": "Naked",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-naked-side.png",
-            "alt": "Survivor 100 Classic naked profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-naked-icon.png"
-          },
-          "description": "The bare profile, direct-fixed to the surface on aluminium mounting brackets — no additional housing."
-        },
-        {
-          "key": "naked-suspended",
-          "label": "Naked, Suspended",
-          "photo": {
-            "file": "assets/img/products/surv100cla/surv100cla-naked-suspended-side.png",
-            "alt": "Survivor 100 Classic naked suspended profile"
-          },
-          "icon": {
-            "file": "assets/img/products/surv100cla/icons/100-naked-suspended-icon.png"
-          },
-          "description": "The same bare profile hung as a pendant on suspension wires instead of fixed to a surface."
-        }
-      ],
-      "dimensions": {
-        "continuousLength": true,
-        "depthFootnote": true,
-        "lengthRange": "500 mm – 2900 mm (continuous extrusion; lengths are made to order)",
-        "width": "210 mm",
-        "height": "100 mm",
-        "weightRange": "3.7 – 22.2 kg depending on length",
-        "note": "* Width and height shown are for the Cornice mounting configuration. Other configurations (Box, Surface, Recessed, Semi-Recessed, Suspended, Naked, Naked-Suspended) have a different cross-section and weight — consult the datasheets for configuration-specific dimensions. Length and weight scale with the ordered size."
-      },
-      "downloads": {
-        "brochure": {
-          "label": "Product datasheets",
-          "meta": "7 configurations",
-          "options": [
-            {
-              "label": "Cornice",
-              "file": "assets/downloads/lumen-method-surv100cla-cornice-datasheet.pdf"
-            },
-            {
-              "label": "Surface",
-              "file": "assets/downloads/lumen-method-surv100cla-surface-datasheet.pdf"
-            },
-            {
-              "label": "Recessed",
-              "file": "assets/downloads/lumen-method-surv100cla-recessed-datasheet.pdf"
-            },
-            {
-              "label": "Semi-Recessed",
-              "file": "assets/downloads/lumen-method-surv100cla-semi-recessed-datasheet.pdf"
-            },
-            {
-              "label": "Suspended",
-              "file": "assets/downloads/lumen-method-surv100cla-suspended-datasheet.pdf"
-            },
-            {
-              "label": "Naked",
-              "file": "assets/downloads/lumen-method-surv100cla-naked-datasheet.pdf"
-            },
-            {
-              "label": "Naked, Suspended",
-              "file": "assets/downloads/lumen-method-surv100cla-naked-suspended-datasheet.pdf"
-            },
-            {
-              "label": "All configurations (ZIP)",
-              "file": "assets/downloads/lumen-method-surv100cla-datasheets.zip"
-            }
-          ]
-        },
-        "ies": {
-          "label": "IES photometric files",
-          "meta": "9 configurations",
-          "options": [
-            {
-              "label": "Box",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-box.zip"
-            },
-            {
-              "label": "Surface",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-surface.zip"
-            },
-            {
-              "label": "Recessed",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-recessed.zip"
-            },
-            {
-              "label": "Semi-Recessed",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-semi-recessed.zip"
-            },
-            {
-              "label": "Suspended",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-suspended.zip"
-            },
-            {
-              "label": "Naked",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-naked.zip"
-            },
-            {
-              "label": "Naked, Suspended",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-naked-suspended.zip"
-            },
-            {
-              "label": "Cornice",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-cornice.zip"
-            },
-            {
-              "label": "Emergency, Surface",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-emergency-surface.zip"
-            },
-            {
-              "label": "All configurations (ZIP)",
-              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-all.zip"
-            }
-          ]
-        },
-        "installGuide": {
-          "label": "Installation instructions",
-          "meta": "2 files",
-          "options": [
-            {
-              "label": "Individual luminaire (Surface, Quick-Connect)",
-              "file": "assets/downloads/lumen-method-survivor-install-surface-quick-connect.pdf"
-            },
-            {
-              "label": "System (Surface)",
-              "file": "assets/downloads/lumen-method-survivor-install-system-surface.pdf"
-            }
-          ]
-        }
-      },
-      "distributions": [
-        {
-          "code": ".SY",
-          "name": "Symmetric",
-          "chart": "assets/img/products/surv100cla/distributions/sy.png",
-          "note": "One symmetric distribution; shape is consistent across every length and mounting configuration."
-        }
-      ]
-    },
-    {
-      "manufacturer": "Survivor Lighting",
-      "manufacturerSlug": "survivor",
-      "manufacturerNote": "Manufactured by Survivor Lighting (Australia). Lumen Method is the exclusive Survivor Lighting specification agent for Victoria and Tasmania.",
-      "manufacturerUrl": "https://survivorlighting.com",
-      "category": "Linear / Area & Amenity / Infrastructure",
-      "family": "Survivor 50",
-      "applications": [
-        "Correctional Facilities",
-        "Transport Infrastructure",
-        "Public Amenity Lighting",
-        "Healthcare"
-      ],
-      "mountingOptionsHeading": "One light engine, multiple configurations",
-      "hideWindage": true,
-      "certifications": [
-        "Australian Made and Owned",
-        "DALI Alliance Member",
-        "RCM",
-        "EESS",
-        "AS/NZS 60598.1:2017",
-        "AS/NZS 60598.2.1:2014",
-        "AS/NZS 60598.2.22:2019",
-        "AS/NZS 2293.3:2018",
-        "AS 60529-2004",
-        "IEC/EN 62262:2002+A1:2021",
-        "ANSI/IES LM-79-19",
-        "ANSI/IES LM-80-21",
-        "ANSI/IES TM-21-21"
-      ],
-      "accessoriesEyebrow": "Configuration",
-      "accessoriesHeading": "Configuration options",
-      "accessories": [
-        {
-          "code": "Control",
-          "desc": "DALI-2, Casambi wireless, switchDIM, 0–10V or fixed output"
-        },
-        {
-          "code": "Sensors",
-          "desc": "Optional microwave or PIR sensor — presence or ambient-light detection, DALI-2/Casambi/basic on-off control"
-        },
-        {
-          "code": "Emergency",
-          "desc": "Optional integrated emergency pack — maintained, non-maintained or sustained operation, DALI-2 or OEM monitoring"
-        },
-        {
-          "code": "Finish",
-          "desc": "Black or white textured polyester powder coat standard; non-standard colours available on request, with a 35-year warranty powder coat option"
-        }
-      ],
-      "certificationLogo": {
-        "file": "assets/img/certifications/australian-made-and-owned.png",
-        "alt": "Australian Made and Owned"
-      },
-      "lightGalleryBackground": true,
-      "installVideo": {
-        "eyebrow": "Installation",
-        "heading": "Click-in, not wired-in",
-        "body": "Survivor's light module cassette clips straight into a pre-installed base and secures with a single quick-connect plug — no rewiring, no loose fixings on site. The same snap-in cassette and fastening sequence is shared across every mounting configuration, significantly cutting down installation time and making future maintenance a breeze.",
-        "file": "assets/video/survivor/survivor-install-surface.mp4",
-        "poster": "assets/img/products/surv050eco/survivor-install-poster.jpg",
-        "caption": "Illustrative surface-mount installation sequence (early-cut reference video, subject to change). See the Installation instructions download above for the full written methodology."
-      },
-      "statBandLabel": "Easy Installation",
       "code": "SURV100ECO",
       "name": "Survivor 100 Eco",
       "tagline": "Serviceable IK15, IP66 linear luminaire built for Australia's most demanding environments — naked, surface, recessed, semi-recessed, suspended or cornice-mounted, from one light engine.",
@@ -6811,6 +6388,429 @@
           "code": ".SY",
           "name": "Symmetric",
           "chart": "assets/img/products/surv100eco/distributions/sy.png",
+          "note": "One symmetric distribution; shape is consistent across every length and mounting configuration."
+        }
+      ]
+    },
+    {
+      "manufacturer": "Survivor Lighting",
+      "manufacturerSlug": "survivor",
+      "manufacturerNote": "Manufactured by Survivor Lighting (Australia). Lumen Method is the exclusive Survivor Lighting specification agent for Victoria and Tasmania.",
+      "manufacturerUrl": "https://survivorlighting.com",
+      "category": "Linear / Area & Amenity / Infrastructure",
+      "family": "Survivor 50",
+      "applications": [
+        "Correctional Facilities",
+        "Transport Infrastructure",
+        "Public Amenity Lighting",
+        "Healthcare"
+      ],
+      "mountingOptionsHeading": "One light engine, multiple configurations",
+      "hideWindage": true,
+      "certifications": [
+        "Australian Made and Owned",
+        "DALI Alliance Member",
+        "RCM",
+        "EESS",
+        "AS/NZS 60598.1:2017",
+        "AS/NZS 60598.2.1:2014",
+        "AS/NZS 60598.2.22:2019",
+        "AS/NZS 2293.3:2018",
+        "AS 60529-2004",
+        "IEC/EN 62262:2002+A1:2021",
+        "ANSI/IES LM-79-19",
+        "ANSI/IES LM-80-21",
+        "ANSI/IES TM-21-21"
+      ],
+      "accessoriesEyebrow": "Configuration",
+      "accessoriesHeading": "Configuration options",
+      "accessories": [
+        {
+          "code": "Control",
+          "desc": "DALI-2, Casambi wireless, switchDIM, 0–10V or fixed output"
+        },
+        {
+          "code": "Sensors",
+          "desc": "Optional microwave or PIR sensor — presence or ambient-light detection, DALI-2/Casambi/basic on-off control"
+        },
+        {
+          "code": "Emergency",
+          "desc": "Optional integrated emergency pack — maintained, non-maintained or sustained operation, DALI-2 or OEM monitoring"
+        },
+        {
+          "code": "Finish",
+          "desc": "Black or white textured polyester powder coat standard; non-standard colours available on request, with a 35-year warranty powder coat option"
+        }
+      ],
+      "certificationLogo": {
+        "file": "assets/img/certifications/australian-made-and-owned.png",
+        "alt": "Australian Made and Owned"
+      },
+      "lightGalleryBackground": true,
+      "installVideo": {
+        "eyebrow": "Installation",
+        "heading": "Click-in, not wired-in",
+        "body": "Survivor's light module cassette clips straight into a pre-installed base and secures with a single quick-connect plug — no rewiring, no loose fixings on site. The same snap-in cassette and fastening sequence is shared across every mounting configuration, significantly cutting down installation time and making future maintenance a breeze.",
+        "file": "assets/video/survivor/survivor-install-surface.mp4",
+        "poster": "assets/img/products/surv050eco/survivor-install-poster.jpg",
+        "caption": "Illustrative surface-mount installation sequence (early-cut reference video, subject to change). See the Installation instructions download above for the full written methodology."
+      },
+      "statBandLabel": "Easy Installation",
+      "code": "SURV100CLA",
+      "name": "Survivor 100 Classic",
+      "tagline": "Serviceable IK17, IP66 linear luminaire built for Australia's most demanding environments — naked, surface, recessed, semi-recessed, suspended or cornice-mounted, from one light engine.",
+      "summary": "Survivor 100 Classic is a serviceable aluminium-profile linear luminaire built around a single replaceable light module cassette, sealed to IP66 and impact-rated to IK17 (175 J). Internal security-torx fasteners (AT06) and a 1.0 m circular flex connection come standard across all seven mounting configurations — naked, naked-suspended, surface, recessed, semi-recessed, suspended and cornice — so the same light engine, control options and photometry carry across whichever configuration suits the application.",
+      "badges": [
+        {
+          "label": "IP66",
+          "detail": "Ingress protection"
+        },
+        {
+          "label": "IK17",
+          "detail": "Impact resistance"
+        },
+        {
+          "label": "Australian Made",
+          "detail": "Designed and manufactured in Australia"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "280 – 14,400 lm across 500–2900mm lengths, 20–100% dimmable",
+          "short": "to 14,400 lm"
+        },
+        {
+          "label": "Wattage",
+          "value": "2.5 – 125 W depending on length and output setting"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 3500K / 4000K / 5000K / 6500K / tunable white",
+          "short": "2700K–6500K"
+        },
+        {
+          "label": "CRI",
+          "value": "80+ (90+ available)"
+        },
+        {
+          "label": "Coloured LEDs",
+          "value": "RGB / RGB+W / RGBW / RGBW+W / red / green / blue available"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP66, hermetically sealed light module",
+          "short": "IP66"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK17 (175 joules)"
+        },
+        {
+          "label": "Tamper resistance",
+          "value": "AT06 — internal socket-drive security-torx 304 stainless steel fasteners"
+        },
+        {
+          "label": "Body material",
+          "value": "Aluminium mounting bracket, durable polyester powder-coat finish"
+        },
+        {
+          "label": "Light module",
+          "value": "Impact-resistant UV-stabilised high-transmission polycarbonate diffuser; serviceable, replaceable light module cassette"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Electrical connection",
+          "value": "IP68 quick-connect plug+socket, or IP20 plug — 1.0 m circular flex"
+        },
+        {
+          "label": "Dimming / control",
+          "value": "DALI-2, Casambi wireless, switchDIM, 0–10V or fixed output"
+        },
+        {
+          "label": "Warranty",
+          "value": "7 years standard (10 years on application)"
+        },
+        {
+          "label": "Country of origin",
+          "value": "Australia"
+        }
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-cornice-side.png",
+          "alt": "Survivor 100 Classic cornice profile, side view",
+          "size": "Cornice"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-cornice-end.png",
+          "alt": "Survivor 100 Classic cornice profile, end view",
+          "size": "Cornice"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-surface-side.png",
+          "alt": "Survivor 100 Classic surface profile, side view",
+          "size": "Surface"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-surface-end.png",
+          "alt": "Survivor 100 Classic surface profile, end view",
+          "size": "Surface"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-recessed-side.png",
+          "alt": "Survivor 100 Classic recessed profile, side view",
+          "size": "Recessed"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-recessed-end.png",
+          "alt": "Survivor 100 Classic recessed profile, end view",
+          "size": "Recessed"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-semi-recessed-side.png",
+          "alt": "Survivor 100 Classic semi recessed profile, side view",
+          "size": "Semi-Recessed"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-semi-recessed-end.png",
+          "alt": "Survivor 100 Classic semi recessed profile, end view",
+          "size": "Semi-Recessed"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-suspended-side.png",
+          "alt": "Survivor 100 Classic suspended profile, side view",
+          "size": "Suspended"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-suspended-end.png",
+          "alt": "Survivor 100 Classic suspended profile, end view",
+          "size": "Suspended"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-naked-side.png",
+          "alt": "Survivor 100 Classic naked profile, side view",
+          "size": "Naked"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-naked-end.png",
+          "alt": "Survivor 100 Classic naked profile, end view",
+          "size": "Naked"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-naked-suspended-side.png",
+          "alt": "Survivor 100 Classic naked suspended profile, side view",
+          "size": "Naked, Suspended"
+        },
+        {
+          "file": "assets/img/products/surv100cla/surv100cla-naked-suspended-end.png",
+          "alt": "Survivor 100 Classic naked suspended profile, end view",
+          "size": "Naked, Suspended"
+        }
+      ],
+      "mountingOptions": [
+        {
+          "key": "cornice",
+          "label": "Cornice",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-cornice-side.png",
+            "alt": "Survivor 100 Classic cornice profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-cornice-icon.png"
+          },
+          "description": "Cornice-profile housing with concealed fixings, for a clean architectural ceiling or wall junction."
+        },
+        {
+          "key": "surface",
+          "label": "Surface",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-surface-side.png",
+            "alt": "Survivor 100 Classic surface profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-surface-icon.png"
+          },
+          "description": "Profile housed in a surface-mounted base, fixed directly to a wall or ceiling."
+        },
+        {
+          "key": "recessed",
+          "label": "Recessed",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-recessed-side.png",
+            "alt": "Survivor 100 Classic recessed profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-recessed-icon.png"
+          },
+          "description": "Fully recessed into the ceiling or structure for a flush, concealed finish."
+        },
+        {
+          "key": "semi-recessed",
+          "label": "Semi-Recessed",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-semi-recessed-side.png",
+            "alt": "Survivor 100 Classic semi recessed profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-semi-recessed-icon.png"
+          },
+          "description": "Partially recessed, with a trim flange sitting proud of the surface."
+        },
+        {
+          "key": "suspended",
+          "label": "Suspended",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-suspended-side.png",
+            "alt": "Survivor 100 Classic suspended profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-suspended-icon.png"
+          },
+          "description": "Housed profile hung as a pendant on suspension wires."
+        },
+        {
+          "key": "naked",
+          "label": "Naked",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-naked-side.png",
+            "alt": "Survivor 100 Classic naked profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-naked-icon.png"
+          },
+          "description": "The bare profile, direct-fixed to the surface on aluminium mounting brackets — no additional housing."
+        },
+        {
+          "key": "naked-suspended",
+          "label": "Naked, Suspended",
+          "photo": {
+            "file": "assets/img/products/surv100cla/surv100cla-naked-suspended-side.png",
+            "alt": "Survivor 100 Classic naked suspended profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv100cla/icons/100-naked-suspended-icon.png"
+          },
+          "description": "The same bare profile hung as a pendant on suspension wires instead of fixed to a surface."
+        }
+      ],
+      "dimensions": {
+        "continuousLength": true,
+        "depthFootnote": true,
+        "lengthRange": "500 mm – 2900 mm (continuous extrusion; lengths are made to order)",
+        "width": "210 mm",
+        "height": "100 mm",
+        "weightRange": "3.7 – 22.2 kg depending on length",
+        "note": "* Width and height shown are for the Cornice mounting configuration. Other configurations (Box, Surface, Recessed, Semi-Recessed, Suspended, Naked, Naked-Suspended) have a different cross-section and weight — consult the datasheets for configuration-specific dimensions. Length and weight scale with the ordered size."
+      },
+      "downloads": {
+        "brochure": {
+          "label": "Product datasheets",
+          "meta": "7 configurations",
+          "options": [
+            {
+              "label": "Cornice",
+              "file": "assets/downloads/lumen-method-surv100cla-cornice-datasheet.pdf"
+            },
+            {
+              "label": "Surface",
+              "file": "assets/downloads/lumen-method-surv100cla-surface-datasheet.pdf"
+            },
+            {
+              "label": "Recessed",
+              "file": "assets/downloads/lumen-method-surv100cla-recessed-datasheet.pdf"
+            },
+            {
+              "label": "Semi-Recessed",
+              "file": "assets/downloads/lumen-method-surv100cla-semi-recessed-datasheet.pdf"
+            },
+            {
+              "label": "Suspended",
+              "file": "assets/downloads/lumen-method-surv100cla-suspended-datasheet.pdf"
+            },
+            {
+              "label": "Naked",
+              "file": "assets/downloads/lumen-method-surv100cla-naked-datasheet.pdf"
+            },
+            {
+              "label": "Naked, Suspended",
+              "file": "assets/downloads/lumen-method-surv100cla-naked-suspended-datasheet.pdf"
+            },
+            {
+              "label": "All configurations (ZIP)",
+              "file": "assets/downloads/lumen-method-surv100cla-datasheets.zip"
+            }
+          ]
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "meta": "9 configurations",
+          "options": [
+            {
+              "label": "Box",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-box.zip"
+            },
+            {
+              "label": "Surface",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-surface.zip"
+            },
+            {
+              "label": "Recessed",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-recessed.zip"
+            },
+            {
+              "label": "Semi-Recessed",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-semi-recessed.zip"
+            },
+            {
+              "label": "Suspended",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-suspended.zip"
+            },
+            {
+              "label": "Naked",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-naked.zip"
+            },
+            {
+              "label": "Naked, Suspended",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-naked-suspended.zip"
+            },
+            {
+              "label": "Cornice",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-cornice.zip"
+            },
+            {
+              "label": "Emergency, Surface",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-emergency-surface.zip"
+            },
+            {
+              "label": "All configurations (ZIP)",
+              "file": "assets/downloads/ies/lumen-method-surv100cla-ies-all.zip"
+            }
+          ]
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "meta": "2 files",
+          "options": [
+            {
+              "label": "Individual luminaire (Surface, Quick-Connect)",
+              "file": "assets/downloads/lumen-method-survivor-install-surface-quick-connect.pdf"
+            },
+            {
+              "label": "System (Surface)",
+              "file": "assets/downloads/lumen-method-survivor-install-system-surface.pdf"
+            }
+          ]
+        }
+      },
+      "distributions": [
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/surv100cla/distributions/sy.png",
           "note": "One symmetric distribution; shape is consistent across every length and mounting configuration."
         }
       ]
