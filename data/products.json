@@ -4944,6 +4944,20 @@
               "file": "assets/downloads/lumen-method-surv050eco-datasheets.zip"
             }
           ]
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "meta": "2 files",
+          "options": [
+            {
+              "label": "Individual luminaire (Surface, Quick-Connect)",
+              "file": "assets/downloads/lumen-method-survivor-install-surface-quick-connect.pdf"
+            },
+            {
+              "label": "System (Surface)",
+              "file": "assets/downloads/lumen-method-survivor-install-system-surface.pdf"
+            }
+          ]
         }
       },
       "certificationLogo": {
