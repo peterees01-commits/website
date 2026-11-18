@@ -293,7 +293,7 @@ body.lightbox-locked {
    which read as washed-out/low-contrast against the usual dark frame. */
 .product-gallery--light .product-hero__frame,
 .product-gallery--light .product-gallery__thumb {
-  background: #fff;
+  background: var(--cream);
   border-color: var(--border-light);
 }
 
