@@ -1821,13 +1821,31 @@
       "family": "V-Max",
       "tagline": "Patented modular chevron streetlighting luminaire, scaling from 1,000 to 54,000 delivered lumens across six LED-chevron configurations, with best-in-class optics tuned for roadway classes from residential streets to highways.",
       "summary": "V-Max II retains V-Max's patented, award-winning modular design — individual LED \"chevron\" light engine modules that are fully scalable, serviceable and upgradeable without changing the luminaire's footprint. A Transition Zone between the brighter LEDs and the darker surrounding housing softens the cascade of contrast around the light source, cutting perceived glare. Available in two LED variants (LA single-die for best optical control and high lm/W; LB multi-die for the highest lumen output and efficacy) across 12 optical distributions, with class-leading up to 184 lm/W efficacy, IP69 sealing and International Dark-Sky Association approval at 3000K/4000K. Scales from\nV1 (1 chevron, 16 LEDs): 1,000–9,000lm\nV6 (6 chevrons, 96 LEDs): up to 54,000lm",
-      "applications": ["Car Parks", "Roadways"],
+      "applications": [
+        "Car Parks",
+        "Roadways"
+      ],
       "images": [
-        {"file": "assets/img/products/vmxii/vmxii-01-profile.png", "alt": "V-Max II streetlighting luminaire, side profile showing the chevron modules, spigot adaptor and pole mount"},
-        {"file": "assets/img/products/vmxii/vmxii-02-angle.png", "alt": "V-Max II, angled view of the LED chevron modules and optics"},
-        {"file": "assets/img/products/vmxii/vmxii-03-underside.png", "alt": "V-Max II underside view showing the chevron light engine modules and gear access plate"},
-        {"file": "assets/img/products/vmxii/vmxii-04-gear-open.png", "alt": "V-Max II with hinged canopy open, showing the easily removable gear tray and push-in terminal block"},
-        {"file": "assets/img/products/vmxii/vmxii-dimensions.jpg", "alt": "V-Max II dimension diagram and A/B length table for the V1–V6 chevron configurations"}
+        {
+          "file": "assets/img/products/vmxii/vmxii-01-profile.png",
+          "alt": "V-Max II streetlighting luminaire, side profile showing the chevron modules, spigot adaptor and pole mount"
+        },
+        {
+          "file": "assets/img/products/vmxii/vmxii-02-angle.png",
+          "alt": "V-Max II, angled view of the LED chevron modules and optics"
+        },
+        {
+          "file": "assets/img/products/vmxii/vmxii-03-underside.png",
+          "alt": "V-Max II underside view showing the chevron light engine modules and gear access plate"
+        },
+        {
+          "file": "assets/img/products/vmxii/vmxii-04-gear-open.png",
+          "alt": "V-Max II with hinged canopy open, showing the easily removable gear tray and push-in terminal block"
+        },
+        {
+          "file": "assets/img/products/vmxii/vmxii-dimensions.jpg",
+          "alt": "V-Max II dimension diagram and A/B length table for the V1–V6 chevron configurations"
+        }
       ],
       "backlightControl": {
         "eyebrow": "Transition Zone",
@@ -1850,78 +1868,345 @@
         }
       },
       "badges": [
-        {"label": "IP69", "detail": "Light engines & gear compartment"},
-        {"label": "Up to 184 lm/W", "detail": "System efficacy"},
-        {"label": "IK06 / IK10 option", "detail": "IK10 with optional polycarbonate optics"},
-        {"label": "TM66: 2.8 Excellent Circularity", "detail": "LIA/CIBSE Circular Economy Assured Scheme"},
-        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, 3000K/4000K"},
-        {"label": "Amber Available", "detail": "PC Amber colour temperature option"}
+        {
+          "label": "IP69",
+          "detail": "Light engines & gear compartment"
+        },
+        {
+          "label": "Up to 184 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "IK06 / IK10 option",
+          "detail": "IK10 with optional polycarbonate optics"
+        },
+        {
+          "label": "TM66: 2.8 Excellent Circularity",
+          "detail": "LIA/CIBSE Circular Economy Assured Scheme"
+        },
+        {
+          "label": "Dark-Sky Approved",
+          "detail": "International Dark-Sky Association, 3000K/4000K"
+        },
+        {
+          "label": "Amber Available",
+          "detail": "PC Amber colour temperature option"
+        }
       ],
       "keySpecs": [
-        {"label": "Delivered lumens", "value": "1,000 – 54,000 lm (LA variant up to 50,000 lm; LB variant up to 54,000 lm)"},
-        {"label": "Colour temperature", "value": "3000K, 4000K, or PC Amber"},
-        {"label": "CRI", "value": "70 CRI"},
-        {"label": "ULOR", "value": "0%"},
-        {"label": "Ingress protection", "value": "IP69 (light engines and gear compartment)"},
-        {"label": "IK rating", "value": "IK06 standard; IK10 with optional polycarbonate optics"},
-        {"label": "Operating temperature", "value": "-40°C to +50°C"},
-        {"label": "Body material", "value": "Die-cast LM6 marine grade aluminium body, pole adaptor and chevrons; extruded 6063-T6 aluminium spine; injection moulded polycarbonate end caps"},
-        {"label": "Optics", "value": "Two LED variants — LA (single-die, best optical control, high lm/W) and LB (multi-die, highest lumen output and lm/W) — across 12 optical distributions; PMMA optics standard, polycarbonate optional"},
-        {"label": "Electrical class", "value": "Class I (Class II available as an option, .CII)"},
-        {"label": "Dimming", "value": "DALI & DALI 2.0; programmable pre-set profiles delivering 70% / 80% / 90% of initial lumens over life; switching via photocell"},
-        {"label": "Smart controls", "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; axora Connect CMS control protocol; constant light output (CLO) available"},
-        {"label": "Warranty", "value": "5 years"},
-        {"label": "Life rating", "value": "100,000 hrs (L90B50 @ 25°C)"}
+        {
+          "label": "Delivered lumens",
+          "value": "1,000 – 54,000 lm (LA variant up to 50,000 lm; LB variant up to 54,000 lm)"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K, 4000K, or PC Amber"
+        },
+        {
+          "label": "CRI",
+          "value": "70 CRI"
+        },
+        {
+          "label": "ULOR",
+          "value": "0%"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP69 (light engines and gear compartment)"
+        },
+        {
+          "label": "IK rating",
+          "value": "IK06 standard; IK10 with optional polycarbonate optics"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-40°C to +50°C"
+        },
+        {
+          "label": "Body material",
+          "value": "Die-cast LM6 marine grade aluminium body, pole adaptor and chevrons; extruded 6063-T6 aluminium spine; injection moulded polycarbonate end caps"
+        },
+        {
+          "label": "Optics",
+          "value": "Two LED variants — LA (single-die, best optical control, high lm/W) and LB (multi-die, highest lumen output and lm/W) — across 12 optical distributions; PMMA optics standard, polycarbonate optional"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I (Class II available as an option, .CII)"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI & DALI 2.0; programmable pre-set profiles delivering 70% / 80% / 90% of initial lumens over life; switching via photocell"
+        },
+        {
+          "label": "Smart controls",
+          "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; axora Connect CMS control protocol; constant light output (CLO) available"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L90B50 @ 25°C)"
+        }
       ],
       "dimensions": {
         "diagram": "assets/img/products/vmxii/vmxii-dimensions.jpg",
         "note": "Length is given as A (post-top mounting) and B (side-entry mounting); height is the mounting arm overhang, 243mm for post-top and 163mm for side-entry, constant across all six configurations. Weight is per-fitting. Luminaire Optical Outreach/Centres (from pole centreline) ranges from 0.4m (post-top) / 0.42m (side-entry) on V1 to 0.65m / 0.67m on V6 — see the brochure for the full table. Lumen output, power and efficacy scale with chevron count and LED variant (LA/LB) — see the brochure's Typical Luminaire Performance table for exact per-configuration figures.",
         "variants": [
-          {"label": "V1 (1 chevron)", "length": "498 mm (A) / 578 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "6.3 kg"},
-          {"label": "V2 (2 chevrons)", "length": "599 mm (A) / 679 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "7.8 kg"},
-          {"label": "V3 (3 chevrons)", "length": "700 mm (A) / 780 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "8.8 kg"},
-          {"label": "V4 (4 chevrons)", "length": "801 mm (A) / 881 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "10.5 kg"},
-          {"label": "V5 (5 chevrons)", "length": "902 mm (A) / 982 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "11.9 kg"},
-          {"label": "V6 (6 chevrons)", "length": "1003 mm (A) / 1083 mm (B)", "width": "366 mm", "height": "243 mm (A) / 163 mm (B)", "weight": "13.3 kg"}
+          {
+            "label": "V1 (1 chevron)",
+            "length": "498 mm (A) / 578 mm (B)",
+            "width": "366 mm",
+            "height": "243 mm (A) / 163 mm (B)",
+            "weight": "6.3 kg"
+          },
+          {
+            "label": "V2 (2 chevrons)",
+            "length": "599 mm (A) / 679 mm (B)",
+            "width": "366 mm",
+            "height": "243 mm (A) / 163 mm (B)",
+            "weight": "7.8 kg"
+          },
+          {
+            "label": "V3 (3 chevrons)",
+            "length": "700 mm (A) / 780 mm (B)",
+            "width": "366 mm",
+            "height": "243 mm (A) / 163 mm (B)",
+            "weight": "8.8 kg"
+          },
+          {
+            "label": "V4 (4 chevrons)",
+            "length": "801 mm (A) / 881 mm (B)",
+            "width": "366 mm",
+            "height": "243 mm (A) / 163 mm (B)",
+            "weight": "10.5 kg"
+          },
+          {
+            "label": "V5 (5 chevrons)",
+            "length": "902 mm (A) / 982 mm (B)",
+            "width": "366 mm",
+            "height": "243 mm (A) / 163 mm (B)",
+            "weight": "11.9 kg"
+          },
+          {
+            "label": "V6 (6 chevrons)",
+            "length": "1003 mm (A) / 1083 mm (B)",
+            "width": "366 mm",
+            "height": "243 mm (A) / 163 mm (B)",
+            "weight": "13.3 kg"
+          }
         ],
         "windage": "0.03 m² (V1) · 0.033 m² (V2) · 0.036 m² (V3) · 0.039 m² (V4) · 0.042 m² (V5) · 0.045 m² (V6)"
       },
       "distributions": [
-        {"code": "F4L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-f4l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2l4.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l2q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3q1.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "F4Q1", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-f4q1.png", "note": "Glare Class: G4", "group": "LA Optics"},
-        {"code": "X2L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l2.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "X2L3", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/la-x2l3.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "D4D4", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-d4d4.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L5L5", "name": "Type III Medium", "chart": "assets/img/products/vmxii/distributions/la-l5l5.png", "note": "Glare Class: G3", "group": "LA Optics"},
-        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/la-l3l4.png", "note": "Glare Class: G4", "group": "LA Optics"},
-        {"code": "L4L4", "name": "Type II Very Short", "chart": "assets/img/products/vmxii/distributions/la-l4l4.png", "note": "Glare Class: G6", "group": "LA Optics"},
-        {"code": "D4D4", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "F4L2", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "F4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "L2L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L2Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "L3L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L3Q1", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "L4L4", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png", "note": "Glare Class: G6", "group": "LB Optics"},
-        {"code": "L5L5", "name": "Type III Short", "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png", "note": "Glare Class: G3", "group": "LB Optics"},
-        {"code": "X2L2", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png", "note": "Glare Class: G4", "group": "LB Optics"},
-        {"code": "X2L3", "name": "Type II Short", "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png", "note": "Glare Class: G4", "group": "LB Optics"}
+        {
+          "code": "F4L2",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/la-f4l2.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L2L3",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/la-l2l3.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L2L4",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/la-l2l4.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L2Q1",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/la-l2q1.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L3Q1",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/la-l3q1.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "F4Q1",
+          "name": "Type III Short",
+          "chart": "assets/img/products/vmxii/distributions/la-f4q1.png",
+          "note": "Glare Class: G4",
+          "group": "LA Optics"
+        },
+        {
+          "code": "X2L2",
+          "name": "Type III Short",
+          "chart": "assets/img/products/vmxii/distributions/la-x2l2.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "X2L3",
+          "name": "Type III Short",
+          "chart": "assets/img/products/vmxii/distributions/la-x2l3.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "D4D4",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/vmxii/distributions/la-d4d4.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L5L5",
+          "name": "Type III Medium",
+          "chart": "assets/img/products/vmxii/distributions/la-l5l5.png",
+          "note": "Glare Class: G3",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L3L4",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/la-l3l4.png",
+          "note": "Glare Class: G4",
+          "group": "LA Optics"
+        },
+        {
+          "code": "L4L4",
+          "name": "Type II Very Short",
+          "chart": "assets/img/products/vmxii/distributions/la-l4l4.png",
+          "note": "Glare Class: G6",
+          "group": "LA Optics"
+        },
+        {
+          "code": "D4D4",
+          "name": "Type III Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-d4d4.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        },
+        {
+          "code": "F4L2",
+          "name": "Type III Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-f4l2.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        },
+        {
+          "code": "F4L4",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-f4l4.png",
+          "note": "Glare Class: G6",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L2L3",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l2l3.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L2L4",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l2l4.png",
+          "note": "Glare Class: G6",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L2Q1",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l2q1.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L3L4",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l3l4.png",
+          "note": "Glare Class: G6",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L3Q1",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l3q1.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L4L4",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l4l4.png",
+          "note": "Glare Class: G6",
+          "group": "LB Optics"
+        },
+        {
+          "code": "L5L5",
+          "name": "Type III Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-l5l5.png",
+          "note": "Glare Class: G3",
+          "group": "LB Optics"
+        },
+        {
+          "code": "X2L2",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-x2l2.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        },
+        {
+          "code": "X2L3",
+          "name": "Type II Short",
+          "chart": "assets/img/products/vmxii/distributions/lb-x2l3.png",
+          "note": "Glare Class: G4",
+          "group": "LB Optics"
+        }
       ],
       "accessories": [
-        {"code": "VMXII.LAN34 – .LAN194", "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"},
-        {"code": "VMXII.BLS", "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"},
-        {"code": "NEMA socket", "desc": "3/5/7-pin NEMA socket — accepts photocells or PIR/microwave motion sensors"},
-        {"code": "Zhaga socket (ZD4i)", "desc": "4-pin Zhaga socket — accepts photocells, motion sensors or control nodes; axora Connect compatible"}
+        {
+          "code": "VMXII.LAN34 – .LAN194",
+          "desc": "V-Max II securing lanyard — 15 sizes covering mounting tube diameters from 34mm to 194mm; one required per luminaire, matched to the fixing diameter ordered"
+        },
+        {
+          "code": "VMXII.BLS",
+          "desc": "Backlight shield, fits over the chevron LED module to control house-side spill light"
+        },
+        {
+          "code": "NEMA socket",
+          "desc": "3/5/7-pin NEMA socket — accepts photocells or PIR/microwave motion sensors"
+        },
+        {
+          "code": "Zhaga socket (ZD4i)",
+          "desc": "4-pin Zhaga socket — accepts photocells, motion sensors or control nodes; axora Connect compatible"
+        }
       ],
-      "certifications": ["EN 60598:2020", "IP69", "IK06 (IK10 optional)", "International Dark-Sky Association Fixture Seal of Approval", "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)", "ENEC"],
+      "certifications": [
+        "EN 60598:2020",
+        "IP69",
+        "IK06 (IK10 optional)",
+        "International Dark-Sky Association Fixture Seal of Approval",
+        "TM66 CEAM 2.8 — Excellent Circularity (LIA/CIBSE Circular Economy Assured Scheme)",
+        "ENEC"
+      ],
       "downloads": {
-        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-vmxii-brochure.pdf", "meta": ""},
-        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf", "meta": ""}
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-vmxii-brochure.pdf",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-vmxii-installation-guide.pdf",
+          "meta": ""
+        }
       }
     },
     {
@@ -1935,12 +2220,26 @@
       "family": "Advanced Optix",
       "tagline": "High mast area lighting luminaire with prismatic borosilicate glass refractor optics, scaling from 30,000 to 100,000 delivered lumens across 6, 9 or 12 optical pod configurations, for freight terminals, ports, airports and motorways.",
       "summary": "High Mast Advanced Optix (HMAO) pairs the latest high-efficiency LED technology with Holophane's glass refractor optics to deliver a complete lighting solution for new-build and retrofit high mast applications, from the simplest to the most complex area lighting layouts. Each LED module sits behind its own prismatic borosilicate glass lens, forming an individual optical pod; HMAO is built from 6, 9 or 12 pods depending on the lumen package. The glass refractor's PrismGlow effect breaks up the image of the LEDs, reducing glare and hot spots for a more uniform vertical and horizontal lighting solution, while its low electrostatic charge and the ventilated, finned heat-sink chassis create a self-cleaning optic with lower lumen depreciation over time. Seven dedicated distributions and a rotatable optical assembly allow on-site alignment to specific lighting requirements.",
-      "applications": ["Area Lighting"],
+      "applications": [
+        "Area Lighting"
+      ],
       "images": [
-        {"file": "assets/img/products/hmao/hmao-01-pods.png", "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"},
-        {"file": "assets/img/products/hmao/hmao-02-housing.png", "alt": "HMAO viewed from above, showing the two-piece electrical housing and optical pod housing"},
-        {"file": "assets/img/products/hmao/hmao-03-install-night.jpg", "alt": "Ten HMAO luminaires mounted in a ring on a high mast, photographed at night from below"},
-        {"file": "assets/img/products/hmao/hmao-dimensions.png", "alt": "HMAO dimension diagram, 584mm by 686mm by 254mm"}
+        {
+          "file": "assets/img/products/hmao/hmao-01-pods.png",
+          "alt": "HMAO high mast luminaire, angled view of the glass refractor optical pods"
+        },
+        {
+          "file": "assets/img/products/hmao/hmao-02-housing.png",
+          "alt": "HMAO viewed from above, showing the two-piece electrical housing and optical pod housing"
+        },
+        {
+          "file": "assets/img/products/hmao/hmao-03-install-night.jpg",
+          "alt": "Ten HMAO luminaires mounted in a ring on a high mast, photographed at night from below"
+        },
+        {
+          "file": "assets/img/products/hmao/hmao-dimensions.png",
+          "alt": "HMAO dimension diagram, 584mm by 686mm by 254mm"
+        }
       ],
       "backlightControl": {
         "eyebrow": "Glass Refractor Optics",
@@ -1958,55 +2257,178 @@
         }
       },
       "badges": [
-        {"label": "IP65", "detail": "Electrical housing; IP65 overall with .T1/.T7 photocell options"},
-        {"label": "Up to 167 lm/W", "detail": "System efficacy"},
-        {"label": "IK07", "detail": "Impact rating"},
-        {"label": "TM66: 2.3 Preliminary", "detail": "Definite/substantial progress to circularity"},
-        {"label": "Dark-Sky Approved", "detail": "International Dark-Sky Association, at 3000K"}
+        {
+          "label": "IP65",
+          "detail": "Electrical housing; IP65 overall with .T1/.T7 photocell options"
+        },
+        {
+          "label": "Up to 167 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "IK07",
+          "detail": "Impact rating"
+        },
+        {
+          "label": "TM66: 2.3 Preliminary",
+          "detail": "Definite/substantial progress to circularity"
+        },
+        {
+          "label": "Dark-Sky Approved",
+          "detail": "International Dark-Sky Association, at 3000K"
+        }
       ],
       "keySpecs": [
-        {"label": "Delivered lumens", "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)", "short": "30,000 – 100,000 lm"},
-        {"label": "Colour temperature", "value": "3000K or 4000K (3000K or warmer required for IDA Dark-Sky certification)"},
-        {"label": "CRI", "value": "> 70"},
-        {"label": "ULOR", "value": ""},
-        {"label": "Ingress protection", "value": "IP65"},
-        {"label": "IK rating", "value": "IK07"},
-        {"label": "Operating temperature", "value": "-20°C to +45°C (LC75X limited to +40°C; LC100X limited to +35°C)"},
-        {"label": "Body material", "value": "Prismatic borosilicate glass refractor lenses; ventilated, finned aluminium optical pod housing; two-piece cast aluminium electrical housing with hinged upper casting"},
-        {"label": "Optics", "value": "Individual glass refractor optical pods per LED module (6, 9 or 12 depending on lumen package); seven distributions with a rotatable optical assembly for on-site alignment"},
-        {"label": "Electrical class", "value": "Class I"},
-        {"label": "Dimming", "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"},
-        {"label": "Smart controls", "value": ""},
-        {"label": "Warranty", "value": "5 years"},
-        {"label": "Life rating", "value": "100,000 hrs (L70B50 @Tq 25°C)"}
+        {
+          "label": "Delivered lumens",
+          "value": "30,000 – 100,000 lm across 10 lumen packages (LC30X–LC100X)",
+          "short": "30,000 – 100,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "3000K or 4000K (3000K or warmer required for IDA Dark-Sky certification)"
+        },
+        {
+          "label": "CRI",
+          "value": "> 70"
+        },
+        {
+          "label": "ULOR",
+          "value": ""
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP65"
+        },
+        {
+          "label": "IK rating",
+          "value": "IK07"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "-20°C to +45°C (LC75X limited to +40°C; LC100X limited to +35°C)"
+        },
+        {
+          "label": "Body material",
+          "value": "Prismatic borosilicate glass refractor lenses; ventilated, finned aluminium optical pod housing; two-piece cast aluminium electrical housing with hinged upper casting"
+        },
+        {
+          "label": "Optics",
+          "value": "Individual glass refractor optical pods per LED module (6, 9 or 12 depending on lumen package); seven distributions with a rotatable optical assembly for on-site alignment"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI (.LRD), or pre-set profiles delivering 70% / 80% / 90% of initial lumens over life (.CL7 / .CL8 / .CL9)"
+        },
+        {
+          "label": "Smart controls",
+          "value": ""
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "100,000 hrs (L70B50 @Tq 25°C)"
+        }
       ],
       "dimensions": {
         "diagram": "assets/img/products/hmao/hmao-dimensions.png",
         "note": "Dimensions, weight and windage are a single figure for the luminaire body across all 10 lumen packages and all 6/9/12 pod configurations. Mounting is via four-bolt side arm mounting suitable for 42mm and 60mm side entry, with +/-5° tilt.",
         "variants": [
-          {"label": "HMAO (all configurations)", "length": "686 mm", "width": "584 mm", "height": "254 mm", "weight": "23 kg"}
+          {
+            "label": "HMAO (all configurations)",
+            "length": "686 mm",
+            "width": "584 mm",
+            "height": "254 mm",
+            "weight": "23 kg"
+          }
         ],
         "windage": "0.120 m²"
       },
       "distributions": [
-        {"code": ".SQ", "name": "Square", "chart": "assets/img/products/hmao/distributions/sq.png"},
-        {"code": ".AY", "name": "Asymmetric", "chart": "assets/img/products/hmao/distributions/ay.png"},
-        {"code": ".SY", "name": "Symmetric", "chart": "assets/img/products/hmao/distributions/sy.png"},
-        {"code": ".FW", "name": "Forward Throw", "chart": "assets/img/products/hmao/distributions/fw.png"},
-        {"code": ".NR", "name": "Long & Narrow", "chart": "assets/img/products/hmao/distributions/nr.png"},
-        {"code": ".HS", "name": "High Beam Symmetric", "chart": "assets/img/products/hmao/distributions/hs.png"},
-        {"code": ".SQW", "name": "Square Wide", "chart": "assets/img/products/hmao/distributions/sqw.png", "note": "Series 4 only"}
+        {
+          "code": ".SQ",
+          "name": "Square",
+          "chart": "assets/img/products/hmao/distributions/sq.png"
+        },
+        {
+          "code": ".AY",
+          "name": "Asymmetric",
+          "chart": "assets/img/products/hmao/distributions/ay.png"
+        },
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/hmao/distributions/sy.png"
+        },
+        {
+          "code": ".FW",
+          "name": "Forward Throw",
+          "chart": "assets/img/products/hmao/distributions/fw.png"
+        },
+        {
+          "code": ".NR",
+          "name": "Long & Narrow",
+          "chart": "assets/img/products/hmao/distributions/nr.png"
+        },
+        {
+          "code": ".HS",
+          "name": "High Beam Symmetric",
+          "chart": "assets/img/products/hmao/distributions/hs.png"
+        },
+        {
+          "code": ".SQW",
+          "name": "Square Wide",
+          "chart": "assets/img/products/hmao/distributions/sqw.png",
+          "note": "Series 4 only"
+        }
       ],
       "accessories": [
-        {"code": "HMAO.SD90", "desc": "90° shield"},
-        {"code": "HMAO.SD120", "desc": "120° shield"},
-        {"code": "HMAO.SD180", "desc": "180° shield"}
+        {
+          "code": "HMAO.SD90",
+          "desc": "90° shield"
+        },
+        {
+          "code": "HMAO.SD120",
+          "desc": "120° shield"
+        },
+        {
+          "code": "HMAO.SD180",
+          "desc": "180° shield"
+        }
       ],
-      "certifications": ["EN60598", "IP65", "IK07", "CE", "UKCA", "Made in Britain", "International Dark-Sky Association Fixture Seal of Approval (at 3000K)", "TM66 CEAM 2.3 — Preliminary (Definite/substantial progress to circularity)"],
+      "certifications": [
+        "EN60598",
+        "IP65",
+        "IK07",
+        "CE",
+        "UKCA",
+        "Made in Britain",
+        "International Dark-Sky Association Fixture Seal of Approval (at 3000K)",
+        "TM66 CEAM 2.3 — Preliminary (Definite/substantial progress to circularity)"
+      ],
       "downloads": {
-        "brochure": {"label": "Product brochure", "file": "assets/downloads/lumen-method-hmao-brochure.pdf", "meta": ""},
-        "ies": {"label": "IES photometric files", "file": "assets/downloads/ies/HMAO-IES-files.zip", "meta": ""},
-        "installGuide": {"label": "Installation instructions", "file": "assets/downloads/lumen-method-hmao-installation-guide.pdf", "meta": ""}
+        "brochure": {
+          "label": "Product brochure",
+          "file": "assets/downloads/lumen-method-hmao-brochure.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/HMAO-IES-files.zip",
+          "meta": ""
+        },
+        "installGuide": {
+          "label": "Installation instructions",
+          "file": "assets/downloads/lumen-method-hmao-installation-guide.pdf",
+          "meta": ""
+        }
       }
     },
     {
@@ -4009,13 +4431,30 @@
       "family": "Vanguard Linear",
       "tagline": "Low maintenance IP66/IK10 LED batten for interior and exterior general illuminance, delivering 3,000 to 8,000 lumens across two housing lengths.",
       "summary": "Vanguard Linear is a range of low maintenance luminaires, ideally suited for interior and exterior lighting applications where energy efficiency and maintenance costs are of prime importance. The sealed polycarbonate enclosure with high-transmission opal diffuser is IK10 rated for impact protection and IP66 rated for ingress protection, making it suitable for demanding environments, while stainless-steel clips keep the enclosure sealed for both surface and suspended installation. A comprehensive mounting and suspension kit is supplied as standard with every luminaire.",
-      "applications": ["Industrial", "Warehousing"],
-      "cardExtraChips": ["IK10"],
+      "applications": [
+        "Industrial",
+        "Warehousing"
+      ],
+      "cardExtraChips": [
+        "IK10"
+      ],
       "images": [
-        {"file": "assets/img/products/val/val-01-pair.png", "alt": "Vanguard, 1200mm and 1500mm housings side by side, lit"},
-        {"file": "assets/img/products/val/val-02-install.jpg", "alt": "Vanguard suspended from roof purlins in a warehouse, lit"},
-        {"file": "assets/img/products/val/val-03-open.png", "alt": "Vanguard with cover open, showing the gear tray, wiring and opal diffuser"},
-        {"file": "assets/img/products/val/val-dimensions.png", "alt": "Vanguard dimension diagram for the 1200mm and 1500mm housings"}
+        {
+          "file": "assets/img/products/val/val-01-pair.png",
+          "alt": "Vanguard, 1200mm and 1500mm housings side by side, lit"
+        },
+        {
+          "file": "assets/img/products/val/val-02-install.jpg",
+          "alt": "Vanguard suspended from roof purlins in a warehouse, lit"
+        },
+        {
+          "file": "assets/img/products/val/val-03-open.png",
+          "alt": "Vanguard with cover open, showing the gear tray, wiring and opal diffuser"
+        },
+        {
+          "file": "assets/img/products/val/val-dimensions.png",
+          "alt": "Vanguard dimension diagram for the 1200mm and 1500mm housings"
+        }
       ],
       "backlightControl": {
         "eyebrow": "Simple Installation",
@@ -4033,48 +4472,529 @@
         }
       },
       "badges": [
-        {"label": "IP66", "detail": "Ingress protection"},
-        {"label": "IK10", "detail": "Impact rating"},
-        {"label": "Up to 148 lm/W", "detail": "System efficacy"},
-        {"label": "Class I", "detail": "Electrical class"}
+        {
+          "label": "IP66",
+          "detail": "Ingress protection"
+        },
+        {
+          "label": "IK10",
+          "detail": "Impact rating"
+        },
+        {
+          "label": "Up to 148 lm/W",
+          "detail": "System efficacy"
+        },
+        {
+          "label": "Class I",
+          "detail": "Electrical class"
+        }
       ],
       "keySpecs": [
-        {"label": "Delivered lumens", "value": "3,000 – 8,000 lm across six lumen packages", "short": "3,000 – 8,000 lm"},
-        {"label": "Colour temperature", "value": "4000K"},
-        {"label": "CRI", "value": "80+"},
-        {"label": "Ingress protection", "value": "IP66"},
-        {"label": "IK rating", "value": "IK10"},
-        {"label": "Operating temperature", "value": "Up to 25°C ambient"},
-        {"label": "Body material", "value": "Sealed polycarbonate enclosure with opal diffuser and stainless-steel clips; electronic ballast 230V; grey body"},
-        {"label": "Optics", "value": "High-transmission opal diffuser, optimised for a wide photometric distribution and efficient general illuminance"},
-        {"label": "Electrical class", "value": "Class I (Earth); 220–240V AC, 50/60Hz"},
-        {"label": "Dimming", "value": "DALI option; 3-hour DALI-enabled self-test emergency pack available (.EM3)"},
-        {"label": "Smart controls", "value": ""},
-        {"label": "Warranty", "value": "5 years"},
-        {"label": "Life rating", "value": "> 50,000 hrs"}
+        {
+          "label": "Delivered lumens",
+          "value": "3,000 – 8,000 lm across six lumen packages",
+          "short": "3,000 – 8,000 lm"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "4000K"
+        },
+        {
+          "label": "CRI",
+          "value": "80+"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP66"
+        },
+        {
+          "label": "IK rating",
+          "value": "IK10"
+        },
+        {
+          "label": "Operating temperature",
+          "value": "Up to 25°C ambient"
+        },
+        {
+          "label": "Body material",
+          "value": "Sealed polycarbonate enclosure with opal diffuser and stainless-steel clips; electronic ballast 230V; grey body"
+        },
+        {
+          "label": "Optics",
+          "value": "High-transmission opal diffuser, optimised for a wide photometric distribution and efficient general illuminance"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I (Earth); 220–240V AC, 50/60Hz"
+        },
+        {
+          "label": "Dimming",
+          "value": "DALI option; 3-hour DALI-enabled self-test emergency pack available (.EM3)"
+        },
+        {
+          "label": "Smart controls",
+          "value": ""
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        },
+        {
+          "label": "Life rating",
+          "value": "> 50,000 hrs"
+        }
       ],
       "hideWindage": true,
       "dimensions": {
         "diagram": "assets/img/products/val/val-dimensions.png",
         "note": "1200mm housing covers the LA034–LA064 lumen packages (3,000–6,000lm); 1500mm covers LA074–LA084 (7,000–8,000lm). Cross-section is 95mm x 80mm for both. Mounting bracket spacing is 800–860mm on the 1200mm housing and 1080–1150mm on the 1500mm housing. Weight is per-fitting; a mounting and suspension kit is supplied as standard (suspension wire by others).",
         "variants": [
-          {"label": "1200mm", "length": "1200 mm", "width": "95 mm", "height": "80 mm", "weight": "1.7 kg"},
-          {"label": "1500mm", "length": "1500 mm", "width": "95 mm", "height": "80 mm", "weight": "2.2 kg"}
+          {
+            "label": "1200mm",
+            "length": "1200 mm",
+            "width": "95 mm",
+            "height": "80 mm",
+            "weight": "1.7 kg"
+          },
+          {
+            "label": "1500mm",
+            "length": "1500 mm",
+            "width": "95 mm",
+            "height": "80 mm",
+            "weight": "2.2 kg"
+          }
         ]
       },
       "distributions": [
-        {"code": ".SY", "name": "Symmetric", "chart": "assets/img/products/val/distributions/sy.png", "note": "One general-illuminance distribution; shape is consistent across all six lumen packages"}
+        {
+          "code": ".SY",
+          "name": "Symmetric",
+          "chart": "assets/img/products/val/distributions/sy.png",
+          "note": "One general-illuminance distribution; shape is consistent across all six lumen packages"
+        }
       ],
       "accessories": [
-        {"code": "Included", "desc": "Mounting & suspension kit, supplied as standard with every luminaire — suspension wire to be supplied by others"},
-        {"code": ".EM3", "desc": "3-hour DALI-enabled self-test emergency pack (1200mm housing: 367lm emergency output; 1500mm housing: 369lm)"}
+        {
+          "code": "Included",
+          "desc": "Mounting & suspension kit, supplied as standard with every luminaire — suspension wire to be supplied by others"
+        },
+        {
+          "code": ".EM3",
+          "desc": "3-hour DALI-enabled self-test emergency pack (1200mm housing: 367lm emergency output; 1500mm housing: 369lm)"
+        }
       ],
-      "certifications": ["EN/IEC 60598-1:2015", "IP66", "IK10", "CE", "Class I"],
+      "certifications": [
+        "EN/IEC 60598-1:2015",
+        "IP66",
+        "IK10",
+        "CE",
+        "Class I"
+      ],
       "downloads": {
-        "brochure": {"label": "Product datasheet", "file": "assets/downloads/lumen-method-val-brochure.pdf", "meta": ""},
-        "ies": {"label": "IES photometric files", "file": "assets/downloads/ies/VAL-IES-files.zip", "meta": ""}
+        "brochure": {
+          "label": "Product datasheet",
+          "file": "assets/downloads/lumen-method-val-brochure.pdf",
+          "meta": ""
+        },
+        "ies": {
+          "label": "IES photometric files",
+          "file": "assets/downloads/ies/VAL-IES-files.zip",
+          "meta": ""
+        }
+      }
+    },
+    {
+      "code": "SURV050ECO",
+      "name": "Survivor 50 Eco",
+      "manufacturer": "Survivor Lighting",
+      "manufacturerSlug": "survivor",
+      "manufacturerNote": "Manufactured by Survivor Lighting (Australia). Lumen Method is the exclusive Survivor Lighting specification agent for Victoria and Tasmania.",
+      "manufacturerUrl": "https://survivorlighting.com",
+      "category": "Linear / Security & Infrastructure",
+      "family": "Survivor 50",
+      "tagline": "Serviceable IK15, IP66 linear luminaire built for Australia's most demanding environments — naked, surface, recessed, semi-recessed, suspended or boxed, from one light engine.",
+      "summary": "Survivor 50 Eco is a serviceable aluminium-profile linear luminaire built around a single replaceable light module cassette, sealed to IP66 and impact-rated to IK15 (125 J). Internal security-torx fasteners (AT06) and a 1.0 m circular flex connection come standard across all seven mounting presentations — naked, naked-suspended, surface, recessed, semi-recessed, suspended and box — so the same light engine, control options and photometry carry across whichever presentation suits the application.",
+      "applications": [
+        "Correctional & Detention",
+        "Transport Infrastructure",
+        "Public Amenities",
+        "Healthcare"
+      ],
+      "images": [
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-naked-side.png",
+          "alt": "Survivor 50 Eco naked profile, side view",
+          "size": "Naked"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-naked-end.png",
+          "alt": "Survivor 50 Eco naked profile, end view",
+          "size": "Naked"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-side.png",
+          "alt": "Survivor 50 Eco naked-suspended profile, side view",
+          "size": "Naked-Suspended"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-end.png",
+          "alt": "Survivor 50 Eco naked-suspended profile, end view",
+          "size": "Naked-Suspended"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-surface-side.png",
+          "alt": "Survivor 50 Eco surface-mounted profile, side view",
+          "size": "Surface"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-surface-end.png",
+          "alt": "Survivor 50 Eco surface-mounted profile, end view",
+          "size": "Surface"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-recessed-side.png",
+          "alt": "Survivor 50 Eco recessed profile, side view",
+          "size": "Recessed"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-recessed-end.png",
+          "alt": "Survivor 50 Eco recessed profile, end view",
+          "size": "Recessed"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-semi-recessed-side.png",
+          "alt": "Survivor 50 Eco semi-recessed profile, side view",
+          "size": "Semi-Recessed"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-semi-recessed-end.png",
+          "alt": "Survivor 50 Eco semi-recessed profile, end view",
+          "size": "Semi-Recessed"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-suspended-side.png",
+          "alt": "Survivor 50 Eco suspended profile, side view",
+          "size": "Suspended"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-suspended-end.png",
+          "alt": "Survivor 50 Eco suspended profile, end view",
+          "size": "Suspended"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-box-side.png",
+          "alt": "Survivor 50 Eco box profile, side view",
+          "size": "Box"
+        },
+        {
+          "file": "assets/img/products/surv050eco/surv050eco-box-end.png",
+          "alt": "Survivor 50 Eco box profile, end view",
+          "size": "Box"
+        }
+      ],
+      "mountingOptionsHeading": "One light engine, seven presentations",
+      "mountingOptions": [
+        {
+          "key": "naked",
+          "label": "Naked",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-naked-side.png",
+            "alt": "Survivor 50 Eco naked profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-naked-icon.png"
+          },
+          "description": "The bare profile, direct-fixed to the surface on aluminium mounting brackets — no additional housing.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-naked-datasheet.pdf"
+        },
+        {
+          "key": "naked-suspended",
+          "label": "Naked, Suspended",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-naked-suspended-side.png",
+            "alt": "Survivor 50 Eco naked-suspended profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-naked-suspended-icon.png"
+          },
+          "description": "The same bare profile hung as a pendant on suspension wires instead of fixed to a surface.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-naked-suspended-datasheet.pdf"
+        },
+        {
+          "key": "surface",
+          "label": "Surface",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-surface-side.png",
+            "alt": "Survivor 50 Eco surface-mounted profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-surface-icon.png"
+          },
+          "description": "Profile housed in a surface-mounted base, fixed directly to a wall or ceiling.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-surface-datasheet.pdf"
+        },
+        {
+          "key": "recessed",
+          "label": "Recessed",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-recessed-side.png",
+            "alt": "Survivor 50 Eco recessed profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-recessed-icon.png"
+          },
+          "description": "Fully recessed into the ceiling or structure for a flush, concealed finish.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-recessed-datasheet.pdf"
+        },
+        {
+          "key": "semi-recessed",
+          "label": "Semi-Recessed",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-semi-recessed-side.png",
+            "alt": "Survivor 50 Eco semi-recessed profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-semi-recessed-icon.png"
+          },
+          "description": "Partially recessed, with a trim flange sitting proud of the surface.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-semi-recessed-datasheet.pdf"
+        },
+        {
+          "key": "suspended",
+          "label": "Suspended",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-suspended-side.png",
+            "alt": "Survivor 50 Eco suspended profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-suspended-icon.png"
+          },
+          "description": "Housed profile hung as a pendant on suspension wires.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-suspended-datasheet.pdf"
+        },
+        {
+          "key": "box",
+          "label": "Box",
+          "photo": {
+            "file": "assets/img/products/surv050eco/surv050eco-box-side.png",
+            "alt": "Survivor 50 Eco box profile"
+          },
+          "icon": {
+            "file": "assets/img/products/surv050eco/icons/surv050-box-icon.png"
+          },
+          "description": "Fully enclosed box-section housing with security end caps — the most tamper-resistant presentation.",
+          "datasheet": "assets/downloads/lumen-method-surv050eco-box-datasheet.pdf"
+        }
+      ],
+      "badges": [
+        {
+          "label": "IP66 / IK15",
+          "detail": "Ingress & impact protection"
+        },
+        {
+          "label": "AT06",
+          "detail": "Anti-tamper security-torx fasteners"
+        },
+        {
+          "label": "Australian Made",
+          "detail": "Designed and manufactured in Australia"
+        },
+        {
+          "label": "7yr Warranty",
+          "detail": "Standard (10yr on application)"
+        },
+        {
+          "label": "CRI 80+",
+          "detail": "90+ available on request"
+        },
+        {
+          "label": "DALI-2 Ready",
+          "detail": "Native control & dimming options"
+        }
+      ],
+      "keySpecs": [
+        {
+          "label": "Delivered lumens",
+          "value": "1,480 – 14,820 lm across 500–2900mm lengths, 20–100% dimmable",
+          "short": "to 14,820 lm"
+        },
+        {
+          "label": "Wattage",
+          "value": "2.5 – 125 W depending on length and output setting"
+        },
+        {
+          "label": "Colour temperature",
+          "value": "2700K / 3000K / 3500K / 4000K / 5000K / 6500K / tunable white",
+          "short": "2700K–6500K"
+        },
+        {
+          "label": "CRI",
+          "value": "80+ (90+ available)"
+        },
+        {
+          "label": "Coloured LEDs",
+          "value": "RGB / RGB+W / RGBW / RGBW+W / red / green / blue available"
+        },
+        {
+          "label": "Ingress protection",
+          "value": "IP66, hermetically sealed light module",
+          "short": "IP66"
+        },
+        {
+          "label": "Impact resistance",
+          "value": "IK15 (125 joules)"
+        },
+        {
+          "label": "Tamper resistance",
+          "value": "AT06 — internal socket-drive security-torx 304 stainless steel fasteners"
+        },
+        {
+          "label": "Body material",
+          "value": "Aluminium mounting bracket, durable polyester powder-coat finish"
+        },
+        {
+          "label": "Light module",
+          "value": "Impact-resistant UV-stabilised high-transmission polycarbonate diffuser; serviceable, replaceable light module cassette"
+        },
+        {
+          "label": "Electrical class",
+          "value": "Class I"
+        },
+        {
+          "label": "Electrical connection",
+          "value": "IP68 quick-connect plug+socket, or IP20 plug — 1.0 m circular flex"
+        },
+        {
+          "label": "Dimming / control",
+          "value": "DALI-2, Casambi wireless, switchDIM, 0–10V or fixed output"
+        },
+        {
+          "label": "Warranty",
+          "value": "7 years standard (10 years on application)"
+        },
+        {
+          "label": "Country of origin",
+          "value": "Australia"
+        }
+      ],
+      "dimensions": {
+        "note": "Cross-section (W×H) is constant across all ten lengths and all seven mounting presentations. L is the nominal ordering length; actual overall length is marginally shorter to allow for end caps.",
+        "variants": [
+          {
+            "label": "500mm",
+            "length": "430 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "0.8 kg"
+          },
+          {
+            "label": "700mm",
+            "length": "660 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "1.2 kg"
+          },
+          {
+            "label": "1000mm",
+            "length": "940 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "1.6 kg"
+          },
+          {
+            "label": "1200mm",
+            "length": "1220 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "2.0 kg"
+          },
+          {
+            "label": "1500mm",
+            "length": "1500 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "2.4 kg"
+          },
+          {
+            "label": "1800mm",
+            "length": "1780 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "2.9 kg"
+          },
+          {
+            "label": "2100mm",
+            "length": "2060 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "3.6 kg"
+          },
+          {
+            "label": "2400mm",
+            "length": "2340 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "4.1 kg"
+          },
+          {
+            "label": "2600mm",
+            "length": "2620 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "4.4 kg"
+          },
+          {
+            "label": "2900mm",
+            "length": "2900 mm",
+            "width": "63 mm",
+            "height": "81 mm",
+            "weight": "4.9 kg"
+          }
+        ]
+      },
+      "hideWindage": true,
+      "certifications": [
+        "Australian Made and Owned",
+        "DALI Alliance Member",
+        "RCM",
+        "EESS",
+        "AS/NZS 60598.1:2017",
+        "AS/NZS 60598.2.1:2014",
+        "AS/NZS 60598.2.22:2019",
+        "AS/NZS 2293.3:2018",
+        "AS 60529-2004",
+        "IEC/EN 62262:2002+A1:2021",
+        "ANSI/IES LM-79-19",
+        "ANSI/IES LM-80-21",
+        "ANSI/IES TM-21-21"
+      ],
+      "accessoriesEyebrow": "Configuration",
+      "accessoriesHeading": "Configuration options",
+      "accessories": [
+        {
+          "code": "Control",
+          "desc": "DALI-2, Casambi wireless, switchDIM, 0–10V or fixed output"
+        },
+        {
+          "code": "Sensors",
+          "desc": "Optional microwave or PIR sensor — presence or ambient-light detection, DALI-2/Casambi/basic on-off control"
+        },
+        {
+          "code": "Emergency",
+          "desc": "Optional integrated emergency pack — maintained, non-maintained or sustained operation, DALI-2 or OEM monitoring"
+        },
+        {
+          "code": "Finish",
+          "desc": "Black or white textured polyester powder coat standard; non-standard colours available on request, with a 35-year warranty powder coat option"
+        }
+      ],
+      "downloads": {
+        "brochure": {
+          "label": "Product datasheet (naked)",
+          "file": "assets/downloads/lumen-method-surv050eco-naked-datasheet.pdf",
+          "meta": ""
+        }
       }
     }
-
   ]
 }

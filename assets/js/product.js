@@ -35,6 +35,7 @@
     root.innerHTML =
       heroSection(p) +
       overviewSection(p) +
+      mountingOptionsSection(p) +
       statBandSection(p) +
       certificationsSection(p) +
       backlightControlSection(p) +
@@ -69,7 +70,7 @@
           '</div>' +
           '<div>' +
             productGallery(p) +
-            '<p class="manu-note">' + esc(p.manufacturerNote) + ' Full manufacturer listing: <a href="' + esc(p.manufacturerUrl) + '" target="_blank" rel="noopener">holophane.co.uk ↗</a></p>' +
+            '<p class="manu-note">' + esc(p.manufacturerNote) + ' Full manufacturer listing: <a href="' + esc(p.manufacturerUrl) + '" target="_blank" rel="noopener">' + esc(p.manufacturerUrl.replace(/^https?:\/\//, "")) + ' ↗</a></p>' +
           '</div>' +
         '</div>' +
       '</section>'
@@ -584,25 +585,59 @@
               p.certifications.map(function (c) { return '<span class="cert-badge">' + esc(c) + '</span>'; }).join("") +
             '</div>' +
           '</div>' +
-          '<div>' +
-            '<p class="eyebrow">Accessories</p>' +
-            '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Available accessories</h2>' +
-            '<table class="spec-table">' +
-              p.accessories.map(function (a) {
-                return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
+          ((p.accessories && p.accessories.length) ? (
+            '<div>' +
+              '<p class="eyebrow">' + esc(p.accessoriesEyebrow || "Accessories") + '</p>' +
+              '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(p.accessoriesHeading || "Available accessories") + '</h2>' +
+              '<table class="spec-table">' +
+                p.accessories.map(function (a) {
+                  return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
+                }).join("") +
+              '</table>' +
+              p.accessories.filter(function (a) { return a.image || (a.images && a.images.length); }).map(function (a) {
+                var photos = a.image ? [{ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc }] : [];
+                photos = photos.concat(a.images || []);
+                return photos.map(function (im) {
+                  return (
+                    '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
+                      '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
+                      (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
+                    '</div>'
+                  );
+                }).join("");
               }).join("") +
-            '</table>' +
-            p.accessories.filter(function (a) { return a.image || (a.images && a.images.length); }).map(function (a) {
-              var photos = a.image ? [{ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc }] : [];
-              photos = photos.concat(a.images || []);
-              return photos.map(function (im) {
-                return (
-                  '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
-                    '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
-                    (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
-                  '</div>'
-                );
-              }).join("");
+            '</div>'
+          ) : "<div></div>") +
+        '</div>' +
+      '</section>'
+    );
+  }
+
+  // Opt-in section for products sold as one continuous extrusion offered in
+  // several mounting/installation styles (naked, recessed, surface, etc.)
+  // rather than discrete SKUs — the styles share specs/dimensions below,
+  // but each has its own photo, cross-section icon and datasheet.
+  function mountingOptionsSection(p) {
+    var opts = p.mountingOptions;
+    if (!opts || !opts.length) return "";
+    return (
+      '<section class="section section--surface product-section">' +
+        '<div class="section__inner">' +
+          '<p class="eyebrow">Presentation</p>' +
+          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">' + esc(p.mountingOptionsHeading || "Mounting options") + '</h2>' +
+          '<div class="mounting-grid">' +
+            opts.map(function (m) {
+              return (
+                '<div class="mounting-card">' +
+                  '<div class="mounting-card__photo">' +
+                    '<img src="../' + esc(m.photo.file) + '" alt="' + esc(m.photo.alt) + '" loading="lazy">' +
+                    (m.icon ? '<img class="mounting-card__icon" src="../' + esc(m.icon.file) + '" alt="" loading="lazy">' : "") +
+                  '</div>' +
+                  '<h3>' + esc(m.label) + '</h3>' +
+                  '<p>' + esc(m.description) + '</p>' +
+                  (m.datasheet ? '<a class="mounting-card__dl" href="../' + esc(m.datasheet) + '" download>Datasheet &darr;</a>' : "") +
+                '</div>'
+              );
             }).join("") +
           '</div>' +
         '</div>' +
