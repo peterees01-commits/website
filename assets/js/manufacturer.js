@@ -46,7 +46,6 @@
                 '<tr><th>Founded</th><td>' + esc(m.founded || "—") + '</td></tr>' +
                 '<tr><th>Headquarters</th><td>' + esc(m.hq || "—") + '</td></tr>' +
                 '<tr><th>Website</th><td><a href="' + esc(m.website) + '" target="_blank" rel="noopener">' + esc(m.website.replace(/^https?:\/\//, "")) + ' ↗</a></td></tr>' +
-                '<tr><th>Ranges represented</th><td>' + products.length + '</td></tr>' +
               '</table>' +
             '</div>' +
             (m.agentNote ? '<p class="manu-hero__agent-note">' + esc(m.agentNote) + '</p>' : "") +
