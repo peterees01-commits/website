@@ -226,6 +226,7 @@
   function initGallery() {
     var gallery = document.getElementById("productGallery");
     if (!gallery) return;
+    var isLightGallery = gallery.classList.contains("product-gallery--light");
     var mainImg = document.getElementById("galleryMainImg");
     var mainSize = document.getElementById("galleryMainSize");
     var thumbs = gallery.querySelectorAll(".product-gallery__thumb");
@@ -292,7 +293,7 @@
       });
       getLightbox().open(items, activeVisibleIndex(), function (item, index) {
         activate(visible[index]);
-      });
+      }, { whiteFrame: isLightGallery });
     };
     frame.addEventListener("click", openLightbox);
     frame.addEventListener("keydown", function (e) {
@@ -334,7 +335,7 @@
       img.setAttribute("role", "button");
       var openIcon = function (e) {
         e.stopPropagation();
-        getLightbox().open(iconItems, index);
+        getLightbox().open(iconItems, index, null, { whiteFrame: true });
       };
       img.addEventListener("click", openIcon);
       img.addEventListener("keydown", function (e) {
@@ -359,7 +360,7 @@
     box.innerHTML =
       '<button type="button" class="img-lightbox__close" aria-label="Close">&times;</button>' +
       '<button type="button" class="img-lightbox__nav img-lightbox__prev" aria-label="Previous image">&#8249;</button>' +
-      '<img class="img-lightbox__img" alt="">' +
+      '<div class="img-lightbox__frame"><img class="img-lightbox__img" alt=""></div>' +
       '<button type="button" class="img-lightbox__nav img-lightbox__next" aria-label="Next image">&#8250;</button>';
     document.body.appendChild(box);
 
@@ -387,9 +388,14 @@
       if (state.onShow) state.onShow(item, index);
     }
 
-    function open(items, startIndex, onShow) {
+    function open(items, startIndex, onShow, opts) {
       state.items = items || [];
       state.onShow = onShow || null;
+      // Dark, mostly-transparent line-art (the cross-section icons) disappears
+      // against the lightbox's near-black backdrop — give those a white card.
+      // Regular product photos stay seamless-on-dark as before, except on
+      // products that already use a white gallery background throughout.
+      box.classList.toggle("img-lightbox--white", !!(opts && opts.whiteFrame));
       show(startIndex || 0);
       box.classList.add("is-open");
       document.body.classList.add("lightbox-locked");

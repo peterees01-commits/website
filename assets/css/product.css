@@ -128,9 +128,22 @@ body.lightbox-locked {
   overflow: hidden;
 }
 
-.img-lightbox__img {
+.img-lightbox__frame {
   max-width: 88vw;
   max-height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-lightbox--white .img-lightbox__frame {
+  background: #fff;
+  padding: var(--space-5);
+}
+
+.img-lightbox__img {
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
 }
 
