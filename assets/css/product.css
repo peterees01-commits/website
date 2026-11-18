@@ -768,6 +768,15 @@ body.lightbox-locked {
   width: 34px !important;
   height: auto;
   opacity: 0.5;
+  cursor: zoom-in;
+  transition: opacity var(--dur-fast) var(--ease-out);
+}
+
+.mounting-card__icon:hover,
+.mounting-card__icon:focus-visible {
+  opacity: 0.9;
+  outline: 2px solid var(--glow);
+  outline-offset: 2px;
 }
 
 .mounting-card h3 {

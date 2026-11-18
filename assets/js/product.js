@@ -285,7 +285,15 @@
     frame.setAttribute("role", "button");
     frame.setAttribute("tabindex", "0");
     frame.setAttribute("aria-label", "Open larger image");
-    var openLightbox = function () { initLightbox().open(activeVisibleIndex()); };
+    var openLightbox = function () {
+      var visible = visibleThumbs();
+      var items = visible.map(function (b) {
+        return { src: b.getAttribute("data-src"), alt: b.getAttribute("data-alt") };
+      });
+      getLightbox().open(items, activeVisibleIndex(), function (item, index) {
+        activate(visible[index]);
+      });
+    };
     frame.addEventListener("click", openLightbox);
     frame.addEventListener("keydown", function (e) {
       if (e.key === "Enter" || e.key === " ") {
@@ -295,8 +303,11 @@
     });
 
     // Mounting-style cards (if present) show the same photos again, larger —
-    // clicking one filters the gallery above to that style and opens it in
-    // the lightbox, rather than running a second, separate viewer.
+    // clicking the photo itself filters the gallery above to that style and
+    // opens it in the lightbox, rather than running a second, separate
+    // viewer. The small cross-section icon overlaid on each card is a
+    // different image entirely (not part of the main gallery), so it opens
+    // its own lightbox run — cycling through just the icon set — instead.
     var mountingZooms = document.querySelectorAll(".mounting-card__photo--zoomable");
     mountingZooms.forEach(function (el) {
       var openForSize = function () {
@@ -314,66 +325,93 @@
       });
     });
 
-    function initLightbox() {
-      var box = document.getElementById("imgLightbox");
-      if (box) return { open: box._lightboxOpen };
-
-      box = document.createElement("div");
-      box.className = "img-lightbox";
-      box.id = "imgLightbox";
-      box.innerHTML =
-        '<button type="button" class="img-lightbox__close" aria-label="Close">&times;</button>' +
-        '<button type="button" class="img-lightbox__nav img-lightbox__prev" aria-label="Previous image">&#8249;</button>' +
-        '<img class="img-lightbox__img" alt="">' +
-        '<button type="button" class="img-lightbox__nav img-lightbox__next" aria-label="Next image">&#8250;</button>';
-      document.body.appendChild(box);
-
-      var imgEl = box.querySelector(".img-lightbox__img");
-      var closeBtn = box.querySelector(".img-lightbox__close");
-      var prevBtn = box.querySelector(".img-lightbox__prev");
-      var nextBtn = box.querySelector(".img-lightbox__next");
-
-      function close() {
-        box.classList.remove("is-open");
-        document.body.classList.remove("lightbox-locked");
-      }
-
-      function show(index) {
-        var visible = visibleThumbs();
-        if (!visible.length) return;
-        index = ((index % visible.length) + visible.length) % visible.length;
-        var btn = visible[index];
-        activate(btn);
-        imgEl.src = btn.getAttribute("data-src");
-        imgEl.alt = btn.getAttribute("data-alt") || "";
-        var multi = visible.length > 1;
-        prevBtn.style.display = multi ? "" : "none";
-        nextBtn.style.display = multi ? "" : "none";
-      }
-
-      function open(index) {
-        show(index);
-        box.classList.add("is-open");
-        document.body.classList.add("lightbox-locked");
-        closeBtn.focus();
-      }
-
-      closeBtn.addEventListener("click", close);
-      box.addEventListener("click", function (e) {
-        if (e.target === box) close();
+    var mountingIcons = document.querySelectorAll(".mounting-card__icon");
+    var iconItems = Array.prototype.map.call(mountingIcons, function (img) {
+      return { src: img.getAttribute("src"), alt: img.getAttribute("alt") || "" };
+    });
+    mountingIcons.forEach(function (img, index) {
+      img.setAttribute("tabindex", "0");
+      img.setAttribute("role", "button");
+      var openIcon = function (e) {
+        e.stopPropagation();
+        getLightbox().open(iconItems, index);
+      };
+      img.addEventListener("click", openIcon);
+      img.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          openIcon(e);
+        }
       });
-      prevBtn.addEventListener("click", function () { show(activeVisibleIndex() - 1); });
-      nextBtn.addEventListener("click", function () { show(activeVisibleIndex() + 1); });
-      document.addEventListener("keydown", function (e) {
-        if (!box.classList.contains("is-open")) return;
-        if (e.key === "Escape") close();
-        else if (e.key === "ArrowLeft") show(activeVisibleIndex() - 1);
-        else if (e.key === "ArrowRight") show(activeVisibleIndex() + 1);
-      });
+    });
+  }
 
-      box._lightboxOpen = open;
-      return { open: open };
+  // Shared lightbox used by the main gallery, the mounting-card photos and
+  // their cross-section icons — each opens it with its own item list
+  // ({src, alt}) and starting index, so it isn't tied to one fixed gallery.
+  function getLightbox() {
+    var box = document.getElementById("imgLightbox");
+    if (box) return box._lightboxApi;
+
+    box = document.createElement("div");
+    box.className = "img-lightbox";
+    box.id = "imgLightbox";
+    box.innerHTML =
+      '<button type="button" class="img-lightbox__close" aria-label="Close">&times;</button>' +
+      '<button type="button" class="img-lightbox__nav img-lightbox__prev" aria-label="Previous image">&#8249;</button>' +
+      '<img class="img-lightbox__img" alt="">' +
+      '<button type="button" class="img-lightbox__nav img-lightbox__next" aria-label="Next image">&#8250;</button>';
+    document.body.appendChild(box);
+
+    var imgEl = box.querySelector(".img-lightbox__img");
+    var closeBtn = box.querySelector(".img-lightbox__close");
+    var prevBtn = box.querySelector(".img-lightbox__prev");
+    var nextBtn = box.querySelector(".img-lightbox__next");
+    var state = { items: [], index: 0, onShow: null };
+
+    function close() {
+      box.classList.remove("is-open");
+      document.body.classList.remove("lightbox-locked");
     }
+
+    function show(index) {
+      if (!state.items.length) return;
+      index = ((index % state.items.length) + state.items.length) % state.items.length;
+      state.index = index;
+      var item = state.items[index];
+      imgEl.src = item.src;
+      imgEl.alt = item.alt || "";
+      var multi = state.items.length > 1;
+      prevBtn.style.display = multi ? "" : "none";
+      nextBtn.style.display = multi ? "" : "none";
+      if (state.onShow) state.onShow(item, index);
+    }
+
+    function open(items, startIndex, onShow) {
+      state.items = items || [];
+      state.onShow = onShow || null;
+      show(startIndex || 0);
+      box.classList.add("is-open");
+      document.body.classList.add("lightbox-locked");
+      closeBtn.focus();
+    }
+
+    closeBtn.addEventListener("click", close);
+    box.addEventListener("click", function (e) {
+      if (e.target === box) close();
+    });
+    prevBtn.addEventListener("click", function () { show(state.index - 1); });
+    nextBtn.addEventListener("click", function () { show(state.index + 1); });
+    document.addEventListener("keydown", function (e) {
+      if (!box.classList.contains("is-open")) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft") show(state.index - 1);
+      else if (e.key === "ArrowRight") show(state.index + 1);
+    });
+
+    var api = { open: open };
+    box._lightboxApi = api;
+    return api;
   }
 
   function overviewSection(p) {
@@ -738,7 +776,7 @@
                 '<div class="mounting-card">' +
                   '<div class="mounting-card__photo mounting-card__photo--zoomable" data-size="' + esc(m.label) + '" role="button" tabindex="0" aria-label="View ' + esc(m.label) + ' larger">' +
                     '<img src="../' + esc(m.photo.file) + '" alt="' + esc(m.photo.alt) + '" loading="lazy">' +
-                    (m.icon ? '<img class="mounting-card__icon" src="../' + esc(m.icon.file) + '" alt="" loading="lazy">' : "") +
+                    (m.icon ? '<img class="mounting-card__icon" src="../' + esc(m.icon.file) + '" alt="' + esc(m.label) + ' cross-section" loading="lazy">' : "") +
                   '</div>' +
                   '<h3>' + esc(m.label) + '</h3>' +
                   '<p>' + esc(m.description) + '</p>' +
