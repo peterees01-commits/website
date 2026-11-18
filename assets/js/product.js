@@ -35,8 +35,8 @@
     root.innerHTML =
       heroSection(p) +
       overviewSection(p) +
-      mountingOptionsSection(p) +
       statBandSection(p) +
+      mountingOptionsSection(p) +
       certificationsSection(p) +
       backlightControlSection(p) +
       distributionsSection(p);
