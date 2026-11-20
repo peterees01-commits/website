@@ -2222,17 +2222,95 @@
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/sig/distributions/ay-v2.png"
+          "chart": "assets/img/products/sig/distributions/ay-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 19473,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 19473,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 19473,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 19473,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/sig/distributions/sy-v2.png"
+          "chart": "assets/img/products/sig/distributions/sy-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 12591,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 12591,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 12591,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 12591,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/sig/distributions/nr-v2.png"
+          "chart": "assets/img/products/sig/distributions/nr-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 18404,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 18404,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 18404,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "100W",
+              "status": "MAX IN ZIP",
+              "dgi": 18404,
+              "limit": 50000
+            }
+          }
         }
       ],
       "pedestrianSpacing": {
