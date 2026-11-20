@@ -44,11 +44,12 @@
   function dgiComplianceBlock(p) {
     var optics = (p.distributions || []).filter(function (d) { return d.dgi; });
     if (!optics.length) return "";
+    var mutedColor = p.backlightControl ? "var(--text-muted-on-dark)" : "var(--text-muted)";
     return (
       '<div class="dgi-block" data-dgi-widget>' +
         '<p class="eyebrow">Glare assessment</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">AS/NZS 1158.3.1 -<br>DGI Compliance</h2>' +
-        '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Road and pathway categories only — Table 3.9 sets no DGI limit for PA/PE/PC area lighting.</p>' +
+        '<p style="color:' + mutedColor + ';font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Road and pathway categories only — Table 3.9 sets no DGI limit for PA/PE/PC area lighting.</p>' +
         '<div class="dgi-controls">' +
           '<select class="dgi-select" data-dgi-optic>' +
             optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
@@ -606,9 +607,9 @@
     var introBlock = (
       '<p class="eyebrow">' + esc(b.eyebrow) + '</p>' +
       '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(b.heading) + '</h2>' +
-      '<p style="max-width:56ch;color:var(--text-muted-on-dark);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
+      '<p style="max-width:56ch;color:var(--text-muted);font-size:var(--text-md);line-height:1.7;margin-bottom:var(--space-5)">' + esc(b.body) + '</p>' +
       (b.points && b.points.length ?
-        '<ul style="color:var(--text-muted-on-dark);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0 0 var(--space-5)">' +
+        '<ul style="color:var(--text-muted);font-size:var(--text-sm);line-height:1.8;padding-left:1.2em;margin:0 0 var(--space-5)">' +
           b.points.map(function (pt) { return '<li>' + esc(pt) + '</li>'; }).join("") +
         '</ul>' : ""
       )
@@ -653,7 +654,7 @@
       (hasOptics ? opticsGrid : "")
     );
     return (
-      '<section class="section section--dark product-section">' +
+      '<section class="section section--surface product-section">' +
         '<div class="section__inner">' + bodyHtml + '</div>' +
       '</section>'
     );
@@ -661,6 +662,15 @@
 
   function distributionsSection(p) {
     var m = p.mountingHeights;
+    // Products with a Transition Zone (backlightControl) section run
+    // certifications -> Transition Zone -> distributions back to back;
+    // Transition Zone is light, so distributions goes dark here to keep
+    // light/dark alternating all the way into the (always-dark) footer.
+    // Products without one keep distributions light, same as always,
+    // since it already follows dark certifications directly for them.
+    var isDark = !!p.backlightControl;
+    var mutedColor = isDark ? "var(--text-muted-on-dark)" : "var(--text-muted)";
+    var sectionClass = isDark ? "section--dark" : "section--surface";
     var hasDist = p.distributions && p.distributions.length && !p.hideDistributionsSection;
     function distCard(d) {
       return (
@@ -708,7 +718,7 @@
       '<div>' +
         '<p class="eyebrow">Mounting</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">' + esc(m.heading || "Suggested mounting heights").replace(/\n/g, "<br>") + '</h2>' +
-        '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(m.note) + '</p>' +
+        '<p style="color:' + mutedColor + ';font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(m.note) + '</p>' +
         '<div class="table-scroll" style="max-width:420px">' +
           '<table class="perf-table" style="min-width:0">' +
             '<thead><tr><th>Mounting height</th><th>Typical spacing</th></tr></thead>' +
@@ -724,7 +734,7 @@
       '<div' + (m ? ' style="margin-top:var(--space-7)"' : '') + '>' +
         '<p class="eyebrow">' + esc(ps.standard) + '</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">Pedestrian pathway spacing</h2>' +
-        '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(ps.note) + '</p>' +
+        '<p style="color:' + mutedColor + ';font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(ps.note) + '</p>' +
         '<div class="table-scroll" style="max-width:480px">' +
           '<table class="perf-table" style="min-width:0">' +
             '<thead><tr><th>P category</th>' +
@@ -739,7 +749,7 @@
             '</tbody>' +
           '</table>' +
         '</div>' +
-        '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-top:var(--space-3);max-width:60ch">' + esc(ps.config) + '</p>' +
+        '<p style="color:' + mutedColor + ';font-size:var(--text-xs);margin-top:var(--space-3);max-width:60ch">' + esc(ps.config) + '</p>' +
       '</div>'
     ) : "";
     var distPhoto = p.distributionsPhoto;
@@ -757,7 +767,7 @@
       var glareBlock = '<div>' + dgiComplianceBlock(p) + '</div>';
       var cols = [distBlock, guideBlock, glareBlock].filter(Boolean);
       return (
-        '<section class="section section--surface product-section">' +
+        '<section class="section ' + sectionClass + ' product-section">' +
           '<div class="section__inner ' + (cols.length === 3 ? "three-col" : "two-col") + '">' +
             cols.join("") +
           '</div>' +
@@ -766,7 +776,7 @@
     }
 
     return (
-      '<section class="section section--surface product-section">' +
+      '<section class="section ' + sectionClass + ' product-section">' +
         '<div class="section__inner' + (hasDist && (m || ps || distPhoto) ? ' two-col' : '') + '">' +
           distBlock + '<div>' + mountBlock + psBlock + distPhotoBlock + '</div>' +
         '</div>' +

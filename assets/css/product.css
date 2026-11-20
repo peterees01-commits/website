@@ -503,6 +503,36 @@ body.lightbox-locked {
   margin-top: 2px;
 }
 
+.section--dark .dist-card {
+  border-color: var(--border-on-dark);
+}
+
+.section--dark .dist-card code {
+  color: var(--grey-400);
+}
+
+.section--dark .dist-card small {
+  color: var(--grey-500);
+}
+
+.section--dark .table-scroll {
+  border-color: var(--border-on-dark);
+}
+
+.section--dark .perf-table th,
+.section--dark .perf-table td {
+  border-bottom-color: var(--border-on-dark);
+}
+
+.section--dark .perf-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.section--dark .perf-table thead th {
+  background: var(--near-black);
+  color: var(--grey-400);
+}
+
 /* ---- DGI compliance widget ---- */
 .dgi-controls {
   display: flex;
@@ -533,6 +563,34 @@ body.lightbox-locked {
   font-family: var(--font-display);
   font-size: var(--text-sm);
   font-weight: 600;
+}
+
+.section--dark .dgi-select {
+  background: var(--near-black);
+  border-color: var(--border-on-dark);
+  color: var(--text-on-dark);
+}
+
+.section--dark .dgi-readout {
+  background: var(--near-black);
+  border-color: var(--border-on-dark);
+}
+
+.section--dark .dgi-bar-track {
+  background: var(--near-black);
+  border-color: var(--border-on-dark);
+}
+
+.section--dark .dgi-bar-foot {
+  color: var(--text-muted-on-dark);
+}
+
+.section--dark .dgi-bar-foot b {
+  color: var(--text-on-dark);
+}
+
+.section--dark .dgi-big-pct small {
+  color: var(--text-muted-on-dark);
 }
 
 .dgi-big-pct {
