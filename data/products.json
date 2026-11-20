@@ -2463,7 +2463,8 @@
           "file": "assets/img/products/vmxii/vmxii-03-underside.png",
           "alt": "V-Max II underside view showing the individual chevron light engine modules",
           "caption": "Individually scalable, serviceable chevron light engine modules — 1 to 6 per luminaire."
-        }
+        },
+        "threeCol": true
       },
       "badges": [
         {
