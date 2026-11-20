@@ -58,10 +58,7 @@
           '</select>' +
         '</div>' +
         '<div class="dgi-readout">' +
-          '<div class="dgi-readout__head">' +
-            '<div class="dgi-readout__name" data-dgi-name></div>' +
-            '<div class="dgi-status-pill" data-dgi-status></div>' +
-          '</div>' +
+          '<div class="dgi-readout__name" data-dgi-name></div>' +
           '<div class="dgi-big-pct" data-dgi-watt></div>' +
           '<div class="dgi-bar-track"><div class="dgi-bar-fill" data-dgi-fill></div></div>' +
           '<div class="dgi-bar-foot">' +
@@ -81,7 +78,6 @@
     var opticSel = block.querySelector("[data-dgi-optic]");
     var catSel = block.querySelector("[data-dgi-cat]");
     var nameEl = block.querySelector("[data-dgi-name]");
-    var statusEl = block.querySelector("[data-dgi-status]");
     var wattEl = block.querySelector("[data-dgi-watt]");
     var pctEl = block.querySelector("[data-dgi-pct]");
     var fillEl = block.querySelector("[data-dgi-fill]");
@@ -96,17 +92,6 @@
       var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
 
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
-      // MAX AVAILABLE just restates the wattage shown big below, so the
-      // pill only appears for statuses that say something the headline
-      // number doesn't (DGI LIMITED, CANDELA LIMIT, etc).
-      if (cell.status === "MAX AVAILABLE") {
-        statusEl.textContent = "";
-        statusEl.hidden = true;
-      } else {
-        statusEl.hidden = false;
-        statusEl.textContent = cell.status + " · " + cell.w;
-        statusEl.className = "dgi-status-pill dgi-status-pill--warn";
-      }
       wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
