@@ -574,12 +574,13 @@ body.lightbox-locked {
 }
 
 .dgi-big-pct small {
+  display: block;
   font-size: 0.32em;
   font-weight: 400;
   letter-spacing: normal;
   text-transform: none;
   color: var(--text-muted);
-  margin-left: var(--space-1);
+  margin-top: var(--space-1);
 }
 
 .dgi-bar-track {

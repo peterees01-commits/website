@@ -96,9 +96,18 @@
       var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
 
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
-      statusEl.textContent = cell.status + " · " + cell.w;
-      statusEl.className = "dgi-status-pill dgi-status-pill--" + (cell.status === "MAX AVAILABLE" ? "good" : "warn");
-      wattEl.innerHTML = esc(cell.w) + '<small> maximum compliant output</small>';
+      // MAX AVAILABLE just restates the wattage shown big below, so the
+      // pill only appears for statuses that say something the headline
+      // number doesn't (DGI LIMITED, CANDELA LIMIT, etc).
+      if (cell.status === "MAX AVAILABLE") {
+        statusEl.textContent = "";
+        statusEl.hidden = true;
+      } else {
+        statusEl.hidden = false;
+        statusEl.textContent = cell.status + " · " + cell.w;
+        statusEl.className = "dgi-status-pill dgi-status-pill--warn";
+      }
+      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
       usedEl.textContent = cell.dgi.toLocaleString("en-AU");
