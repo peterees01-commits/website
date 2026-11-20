@@ -47,7 +47,7 @@
     return (
       '<div class="dgi-block" data-dgi-widget>' +
         '<p class="eyebrow">Glare assessment</p>' +
-        '<h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2)">AS/NZS 1158.3.1 — DGI compliance</h3>' +
+        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">AS/NZS 1158 Part 3 Part 1 —<br>DGI Compliance</h2>' +
         '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Road and pathway categories only — Table 3.9 sets no DGI limit for PA/PE/PC area lighting.</p>' +
         '<div class="dgi-controls">' +
           '<select class="dgi-select" data-dgi-optic>' +
@@ -713,7 +713,7 @@
     var mountBlock = m ? (
       '<div>' +
         '<p class="eyebrow">Mounting</p>' +
-        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">' + esc(m.heading || "Suggested mounting heights") + '</h2>' +
+        '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">' + esc(m.heading || "Suggested mounting heights").replace(/\n/g, "<br>") + '</h2>' +
         '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-5);max-width:60ch">' + esc(m.note) + '</p>' +
         '<div class="table-scroll" style="max-width:420px">' +
           '<table class="perf-table" style="min-width:0">' +
