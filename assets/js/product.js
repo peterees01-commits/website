@@ -62,10 +62,10 @@
             '<div class="dgi-readout__name" data-dgi-name></div>' +
             '<div class="dgi-status-pill" data-dgi-status></div>' +
           '</div>' +
-          '<div class="dgi-big-pct" data-dgi-pct></div>' +
+          '<div class="dgi-big-pct" data-dgi-watt></div>' +
           '<div class="dgi-bar-track"><div class="dgi-bar-fill" data-dgi-fill></div></div>' +
           '<div class="dgi-bar-foot">' +
-            '<span>DGI used: <b data-dgi-used></b></span>' +
+            '<span>DGI used: <b data-dgi-used></b> <span data-dgi-pct></span></span>' +
             '<span>Table 3.9 limit: <b data-dgi-limit></b></span>' +
           '</div>' +
         '</div>' +
@@ -82,6 +82,7 @@
     var catSel = block.querySelector("[data-dgi-cat]");
     var nameEl = block.querySelector("[data-dgi-name]");
     var statusEl = block.querySelector("[data-dgi-status]");
+    var wattEl = block.querySelector("[data-dgi-watt]");
     var pctEl = block.querySelector("[data-dgi-pct]");
     var fillEl = block.querySelector("[data-dgi-fill]");
     var usedEl = block.querySelector("[data-dgi-used]");
@@ -97,10 +98,11 @@
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
       statusEl.textContent = cell.status + " · " + cell.w;
       statusEl.className = "dgi-status-pill dgi-status-pill--" + (cell.status === "MAX AVAILABLE" ? "good" : "warn");
-      pctEl.innerHTML = pct + '<small> % of limit used</small>';
+      wattEl.innerHTML = esc(cell.w) + '<small> maximum compliant output</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
       usedEl.textContent = cell.dgi.toLocaleString("en-AU");
+      pctEl.textContent = "(" + pct + "%)";
       limitEl.textContent = cell.limit.toLocaleString("en-AU");
     }
 

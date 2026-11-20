@@ -617,6 +617,10 @@ body.lightbox-locked {
   font-weight: 500;
 }
 
+.dgi-bar-foot [data-dgi-pct] {
+  font-family: var(--font-mono);
+}
+
 /* ---- Downloads ---- */
 .downloads-grid {
   display: grid;
