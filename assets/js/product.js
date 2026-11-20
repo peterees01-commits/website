@@ -45,8 +45,8 @@
     var optics = (p.distributions || []).filter(function (d) { return d.dgi; });
     if (!optics.length) return "";
     return (
-      '<div class="dgi-block" data-dgi-widget style="margin-top:var(--space-6)">' +
-        '<p class="eyebrow">Glare screening</p>' +
+      '<div class="dgi-block" data-dgi-widget>' +
+        '<p class="eyebrow">Glare assessment</p>' +
         '<h3 style="font-size:var(--text-lg);margin-bottom:var(--space-2)">AS/NZS 1158.3.1 — DGI compliance</h3>' +
         '<p style="color:var(--text-muted);font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Road and pathway categories only — Table 3.9 sets no DGI limit for PA/PE/PC area lighting.</p>' +
         '<div class="dgi-controls">' +
@@ -701,12 +701,13 @@
     } else if (hasDist) {
       distGrid = '<div class="dist-grid">' + p.distributions.map(distCard).join("") + '</div>';
     }
+    var hasDgi = hasDist && p.distributions.some(function (d) { return d.dgi; });
     var distBlock = hasDist ? (
       '<div>' +
         '<p class="eyebrow">Optical distributions</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-5)">Optical Distributions</h2>' +
         distGrid +
-        dgiComplianceBlock(p) +
+        (hasDgi ? "" : dgiComplianceBlock(p)) +
       '</div>'
     ) : "";
     var mountBlock = m ? (
@@ -750,6 +751,26 @@
     var distPhoto = p.distributionsPhoto;
     var distPhotoBlock = distPhoto ? photoBlocks(distPhoto) : "";
     if (!hasDist && !m && !ps) return "";
+
+    // When an optic carries real glare-assessment data, put distributions,
+    // mounting/pedestrian guidance and the glare assessment in a row of
+    // their own columns instead of nesting the DGI widget under
+    // distributions — three columns when a mounting/pedestrian block
+    // exists alongside it, two when it doesn't (e.g. S-Line has neither
+    // mountingHeights nor pedestrianSpacing data).
+    if (hasDgi) {
+      var guideBlock = (m || ps || distPhoto) ? '<div>' + mountBlock + psBlock + distPhotoBlock + '</div>' : "";
+      var glareBlock = '<div>' + dgiComplianceBlock(p) + '</div>';
+      var cols = [distBlock, guideBlock, glareBlock].filter(Boolean);
+      return (
+        '<section class="section section--surface product-section">' +
+          '<div class="section__inner ' + (cols.length === 3 ? "three-col" : "two-col") + '">' +
+            cols.join("") +
+          '</div>' +
+        '</section>'
+      );
+    }
+
     return (
       '<section class="section section--surface product-section">' +
         '<div class="section__inner' + (hasDist && (m || ps || distPhoto) ? ' two-col' : '') + '">' +
