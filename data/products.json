@@ -46,7 +46,7 @@
         }
       ],
       "backlightControl": {
-        "eyebrow": "Transition Zone",
+        "eyebrow": "Transition Zone Diffuser",
         "heading": "A softer transition from LED to housing",
         "body": "Denver iD Pole's patented Transition Zone diffuser sits around each individual PMMA lens, acting as an intermediary luminous area between the bright LED array and the darker housing surrounding it. This cascade of contrast softens the light source's visual signature and reduces the perception of glare at typical pedestrian viewing angles, without sacrificing optical control across the five standard distributions.",
         "points": [
@@ -3482,7 +3482,7 @@
         }
       ],
       "backlightControl": {
-        "eyebrow": "Ground-Level Transition Zone",
+        "eyebrow": "White Transition Zone",
         "heading": "A softer line of sight at ground level",
         "body": "Denver iD Bollard's patented white Transition Zone surrounds each individual PMMA lens, sealed behind a high-transparency clear polycarbonate extrusion. Acting as an intermediary luminous area between the bright LED array and the darker body around it, the Transition Zone softens the light source's visual signature and cuts glare at pedestrian eye level — completing the same family treatment used across Denver iD Pole and Denver iD Wall.",
         "points": [
@@ -4631,7 +4631,7 @@
       ],
       "backlightControl": {
         "threeCol": true,
-        "eyebrow": "Low-Glare Transition Band",
+        "eyebrow": "Aisle & Racking Comfort",
         "heading": "A softer, lower-glare light source",
         "body": "Between the bright LED array and the darker surrounding housing, HI-BEAM's Transition Zone acts as an intermediary luminous band — a cascade of contrast ratios that softens the perceived brightness of the source and reduces glare compared with a high-contrast LED array sitting directly against a dark housing. Combined with the universal mounting bracket's tool-less service position and snap-fit cover, maintenance is as straightforward as the light itself is comfortable to work under.",
         "points": [
