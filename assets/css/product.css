@@ -615,6 +615,19 @@ body.lightbox-locked {
   margin-top: var(--space-1);
 }
 
+.dgi-big-pct--note {
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text-muted);
+}
+
+.section--dark .dgi-big-pct--note {
+  color: var(--text-muted-on-dark);
+}
+
 .dgi-bar-track {
   height: 14px;
   background: var(--white);

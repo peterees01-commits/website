@@ -88,11 +88,23 @@
     function render() {
       var optic = optics.find(function (d) { return d.code === opticSel.value; });
       var cell = optic.dgi[catSel.value];
+      var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
+      nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
+
+      if (cell.note) {
+        wattEl.className = "dgi-big-pct dgi-big-pct--note";
+        wattEl.textContent = cell.note;
+        fillEl.style.width = "0%";
+        fillEl.className = "dgi-bar-fill";
+        usedEl.textContent = "—";
+        pctEl.textContent = "";
+        limitEl.textContent = "—";
+        return;
+      }
+
       var pct = dgiPct(cell);
       var kind = dgiRamp(pct);
-      var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
-
-      nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
+      wattEl.className = "dgi-big-pct";
       wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;

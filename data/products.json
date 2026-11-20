@@ -854,62 +854,350 @@
         {
           "code": ".R3R3",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "44W",
+              "status": "DGI LIMITED",
+              "dgi": 31442,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 36039,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 36039,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 47200,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".2SA2",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "44W",
+              "status": "DGI LIMITED",
+              "dgi": 32729,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 37496,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 37496,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 48999,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".2SA4",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "62W",
+              "status": "DGI LIMITED",
+              "dgi": 34961,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 38080,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "75W",
+              "status": "DGI LIMITED",
+              "dgi": 41593,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "91W",
+              "status": "DGI LIMITED",
+              "dgi": 48576,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".2SQ1",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 30373,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 39595,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 39595,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "83W",
+              "status": "DGI LIMITED",
+              "dgi": 47101,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".2S2S",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "note": "IES file not available"
+            },
+            "PR10": {
+              "note": "IES file not available"
+            },
+            "LR6": {
+              "note": "IES file not available"
+            },
+            "LR10": {
+              "note": "IES file not available"
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 33779,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 33779,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 33779,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "66W",
+              "status": "MAX AVAILABLE",
+              "dgi": 47960,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".HN",
           "name": "Type III Short",
-          "chart": "assets/img/products/rli/distributions/type3-short-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 32553,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 32553,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "43W",
+              "status": "DGI LIMITED",
+              "dgi": 32553,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "66W",
+              "status": "MAX AVAILABLE",
+              "dgi": 45893,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".A2R3",
           "name": "Type III Medium",
-          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "41W",
+              "status": "DGI LIMITED",
+              "dgi": 24832,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "44W",
+              "status": "DGI LIMITED",
+              "dgi": 35011,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 40052,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "62W",
+              "status": "DGI LIMITED",
+              "dgi": 47981,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".A2A2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "41W",
+              "status": "DGI LIMITED",
+              "dgi": 30711,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "41W",
+              "status": "DGI LIMITED",
+              "dgi": 30711,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "44W",
+              "status": "DGI LIMITED",
+              "dgi": 40065,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 45737,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".A4A2",
           "name": "Type III Medium",
-          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png"
+          "chart": "assets/img/products/rli/distributions/type3-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "44W",
+              "status": "DGI LIMITED",
+              "dgi": 33346,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 38091,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 38091,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 49785,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Type II Medium",
-          "chart": "assets/img/products/rli/distributions/type2-medium-v2.png"
+          "chart": "assets/img/products/rli/distributions/type2-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "note": "No compliant outputs"
+            },
+            "PR10": {
+              "note": "No compliant outputs"
+            },
+            "LR6": {
+              "note": "No compliant outputs"
+            },
+            "LR10": {
+              "note": "No compliant outputs"
+            }
+          }
         },
         {
           "code": ".A4A4",
           "name": "Type IV Medium",
-          "chart": "assets/img/products/rli/distributions/type4-medium-v2.png"
+          "chart": "assets/img/products/rli/distributions/type4-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "44W",
+              "status": "DGI LIMITED",
+              "dgi": 31796,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 36340,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "51W",
+              "status": "DGI LIMITED",
+              "dgi": 36340,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "68W",
+              "status": "DGI LIMITED",
+              "dgi": 47742,
+              "limit": 50000
+            }
+          }
         }
       ],
       "accessories": [
@@ -1253,7 +1541,21 @@
         {
           "code": ".5R",
           "name": "Type III Medium",
-          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png"
+          "chart": "assets/img/products/sli/distributions/type3-medium-v2.png",
+          "dgi": {
+            "PR6": {
+              "note": "IES file not available"
+            },
+            "PR10": {
+              "note": "IES file not available"
+            },
+            "LR6": {
+              "note": "IES file not available"
+            },
+            "LR10": {
+              "note": "IES file not available"
+            }
+          }
         },
         {
           "code": ".A2",
