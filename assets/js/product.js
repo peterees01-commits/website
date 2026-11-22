@@ -45,6 +45,7 @@
     var optics = (p.distributions || []).filter(function (d) { return d.dgi; });
     if (!optics.length) return "";
     var mutedColor = p.backlightControl ? "var(--text-muted-on-dark)" : "var(--text-muted)";
+    var variants = p.dgiVariants;
     return (
       '<div class="dgi-block" data-dgi-widget>' +
         '<p class="eyebrow">Glare assessment</p>' +
@@ -54,6 +55,11 @@
           '<select class="dgi-select" data-dgi-optic>' +
             optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
           '</select>' +
+          (variants ?
+            '<select class="dgi-select" data-dgi-variant>' +
+              variants.map(function (v) { return '<option value="' + esc(v.key) + '">' + esc(v.label) + '</option>'; }).join("") +
+            '</select>' : ""
+          ) +
           '<select class="dgi-select" data-dgi-cat>' +
             DGI_CATS.map(function (c) { return '<option value="' + c.key + '">' + esc(c.label) + '</option>'; }).join("") +
           '</select>' +
@@ -75,8 +81,10 @@
     var block = root.querySelector("[data-dgi-widget]");
     if (!block) return;
     var optics = p.distributions.filter(function (d) { return d.dgi; });
+    var variants = p.dgiVariants;
 
     var opticSel = block.querySelector("[data-dgi-optic]");
+    var variantSel = block.querySelector("[data-dgi-variant]");
     var catSel = block.querySelector("[data-dgi-cat]");
     var nameEl = block.querySelector("[data-dgi-name]");
     var wattEl = block.querySelector("[data-dgi-watt]");
@@ -87,7 +95,8 @@
 
     function render() {
       var optic = optics.find(function (d) { return d.code === opticSel.value; });
-      var cell = optic.dgi[catSel.value];
+      var data = variants ? optic.dgi[variantSel.value] : optic.dgi;
+      var cell = data[catSel.value];
       var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
 
@@ -114,6 +123,7 @@
     }
 
     opticSel.addEventListener("change", render);
+    if (variantSel) variantSel.addEventListener("change", render);
     catSel.addEventListener("change", render);
     render();
   }

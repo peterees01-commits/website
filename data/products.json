@@ -856,29 +856,57 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "44W",
-              "status": "DGI LIMITED",
-              "dgi": 31442,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "44W",
+                "status": "DGI LIMITED",
+                "dgi": 31442,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 36039,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 36039,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 47200,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 36039,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 36039,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 47200,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "99W",
+                "status": "DGI LIMITED",
+                "dgi": 34797,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "117W",
+                "status": "DGI LIMITED",
+                "dgi": 39971,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "117W",
+                "status": "DGI LIMITED",
+                "dgi": 39971,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "134W",
+                "status": "MAX AVAILABLE",
+                "dgi": 44287,
+                "limit": 50000
+              }
             }
           }
         },
@@ -887,29 +915,45 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "44W",
-              "status": "DGI LIMITED",
-              "dgi": 32729,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "44W",
+                "status": "DGI LIMITED",
+                "dgi": 32729,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 37496,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 37496,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 48999,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 37496,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 37496,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 48999,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "IES file not available"
+              },
+              "PR10": {
+                "note": "IES file not available"
+              },
+              "LR6": {
+                "note": "IES file not available"
+              },
+              "LR10": {
+                "note": "IES file not available"
+              }
             }
           }
         },
@@ -918,29 +962,57 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "62W",
-              "status": "DGI LIMITED",
-              "dgi": 34961,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "62W",
+                "status": "DGI LIMITED",
+                "dgi": 34961,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 38080,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "75W",
+                "status": "DGI LIMITED",
+                "dgi": 41593,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "91W",
+                "status": "DGI LIMITED",
+                "dgi": 48576,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 38080,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "75W",
-              "status": "DGI LIMITED",
-              "dgi": 41593,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "91W",
-              "status": "DGI LIMITED",
-              "dgi": 48576,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "99W",
+                "status": "DGI LIMITED",
+                "dgi": 33000,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "117W",
+                "status": "DGI LIMITED",
+                "dgi": 37974,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "126W",
+                "status": "DGI LIMITED",
+                "dgi": 40230,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "134W",
+                "status": "MAX AVAILABLE",
+                "dgi": 42102,
+                "limit": 50000
+              }
             }
           }
         },
@@ -949,29 +1021,57 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 30373,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 30373,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 39595,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 39595,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "83W",
+                "status": "DGI LIMITED",
+                "dgi": 47101,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 39595,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 39595,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "83W",
-              "status": "DGI LIMITED",
-              "dgi": 47101,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "83W",
+                "status": "DGI LIMITED",
+                "dgi": 32275,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "99W",
+                "status": "DGI LIMITED",
+                "dgi": 37759,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "107W",
+                "status": "DGI LIMITED",
+                "dgi": 40063,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "134W",
+                "status": "MAX AVAILABLE",
+                "dgi": 44950,
+                "limit": 50000
+              }
             }
           }
         },
@@ -980,17 +1080,57 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "note": "IES file not available"
+            "standard": {
+              "PR6": {
+                "w": "62W",
+                "status": "DGI LIMITED",
+                "dgi": 34889,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 38025,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "75W",
+                "status": "DGI LIMITED",
+                "dgi": 41540,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "91W",
+                "status": "DGI LIMITED",
+                "dgi": 48468,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "note": "IES file not available"
-            },
-            "LR6": {
-              "note": "IES file not available"
-            },
-            "LR10": {
-              "note": "IES file not available"
+            "glass": {
+              "PR6": {
+                "w": "99W",
+                "status": "DGI LIMITED",
+                "dgi": 33133,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "117W",
+                "status": "DGI LIMITED",
+                "dgi": 38051,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "126W",
+                "status": "DGI LIMITED",
+                "dgi": 40281,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "134W",
+                "status": "MAX AVAILABLE",
+                "dgi": 42133,
+                "limit": 50000
+              }
             }
           }
         },
@@ -999,29 +1139,57 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 33779,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 33779,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 33779,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 33779,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "66W",
+                "status": "MAX AVAILABLE",
+                "dgi": 47960,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 33779,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 33779,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "66W",
-              "status": "MAX AVAILABLE",
-              "dgi": 47960,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 32371,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 32371,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 32371,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "66W",
+                "status": "MAX AVAILABLE",
+                "dgi": 46325,
+                "limit": 50000
+              }
             }
           }
         },
@@ -1030,29 +1198,57 @@
           "name": "Type III Short",
           "chart": "assets/img/products/rli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 32553,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 32553,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 32553,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 32553,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "66W",
+                "status": "MAX AVAILABLE",
+                "dgi": 45893,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 32553,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 32553,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "66W",
-              "status": "MAX AVAILABLE",
-              "dgi": 45893,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 31373,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 31373,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 31373,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "66W",
+                "status": "MAX AVAILABLE",
+                "dgi": 44872,
+                "limit": 50000
+              }
             }
           }
         },
@@ -1061,29 +1257,57 @@
           "name": "Type III Medium",
           "chart": "assets/img/products/rli/distributions/type3-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "41W",
-              "status": "DGI LIMITED",
-              "dgi": 24832,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "41W",
+                "status": "DGI LIMITED",
+                "dgi": 24832,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "44W",
+                "status": "DGI LIMITED",
+                "dgi": 35011,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 40052,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "62W",
+                "status": "DGI LIMITED",
+                "dgi": 47981,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "44W",
-              "status": "DGI LIMITED",
-              "dgi": 35011,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 40052,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "62W",
-              "status": "DGI LIMITED",
-              "dgi": 47981,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "75W",
+                "status": "DGI LIMITED",
+                "dgi": 33770,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "83W",
+                "status": "DGI LIMITED",
+                "dgi": 36838,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "91W",
+                "status": "DGI LIMITED",
+                "dgi": 40003,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "117W",
+                "status": "DGI LIMITED",
+                "dgi": 49385,
+                "limit": 50000
+              }
             }
           }
         },
@@ -1092,29 +1316,57 @@
           "name": "Type III Medium",
           "chart": "assets/img/products/rli/distributions/type3-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "41W",
-              "status": "DGI LIMITED",
-              "dgi": 30711,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "41W",
+                "status": "DGI LIMITED",
+                "dgi": 30711,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "41W",
+                "status": "DGI LIMITED",
+                "dgi": 30711,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "44W",
+                "status": "DGI LIMITED",
+                "dgi": 40065,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 45737,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "41W",
-              "status": "DGI LIMITED",
-              "dgi": 30711,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "44W",
-              "status": "DGI LIMITED",
-              "dgi": 40065,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 45737,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 29418,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 38263,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "75W",
+                "status": "DGI LIMITED",
+                "dgi": 41740,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "91W",
+                "status": "DGI LIMITED",
+                "dgi": 49373,
+                "limit": 50000
+              }
             }
           }
         },
@@ -1123,29 +1375,57 @@
           "name": "Type III Medium",
           "chart": "assets/img/products/rli/distributions/type3-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "44W",
-              "status": "DGI LIMITED",
-              "dgi": 33346,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "44W",
+                "status": "DGI LIMITED",
+                "dgi": 33346,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 38091,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 38091,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 49785,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 38091,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 38091,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 49785,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "75W",
+                "status": "DGI LIMITED",
+                "dgi": 34362,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "83W",
+                "status": "DGI LIMITED",
+                "dgi": 37585,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "91W",
+                "status": "DGI LIMITED",
+                "dgi": 40934,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "107W",
+                "status": "DGI LIMITED",
+                "dgi": 47198,
+                "limit": 50000
+              }
             }
           }
         },
@@ -1154,17 +1434,45 @@
           "name": "Type II Medium",
           "chart": "assets/img/products/rli/distributions/type2-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "note": "No compliant outputs"
+            "standard": {
+              "PR6": {
+                "note": "No compliant outputs"
+              },
+              "PR10": {
+                "note": "No compliant outputs"
+              },
+              "LR6": {
+                "note": "No compliant outputs"
+              },
+              "LR10": {
+                "note": "No compliant outputs"
+              }
             },
-            "PR10": {
-              "note": "No compliant outputs"
-            },
-            "LR6": {
-              "note": "No compliant outputs"
-            },
-            "LR10": {
-              "note": "No compliant outputs"
+            "glass": {
+              "PR6": {
+                "w": "32W",
+                "status": "DGI LIMITED",
+                "dgi": 30522,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 39879,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 39879,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 39879,
+                "limit": 50000
+              }
             }
           }
         },
@@ -1173,29 +1481,57 @@
           "name": "Type IV Medium",
           "chart": "assets/img/products/rli/distributions/type4-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "44W",
-              "status": "DGI LIMITED",
-              "dgi": 31796,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "44W",
+                "status": "DGI LIMITED",
+                "dgi": 31796,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 36340,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 36340,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "DGI LIMITED",
+                "dgi": 47742,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 36340,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 36340,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "DGI LIMITED",
-              "dgi": 47742,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "w": "83W",
+                "status": "DGI LIMITED",
+                "dgi": 34626,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "91W",
+                "status": "DGI LIMITED",
+                "dgi": 37666,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "99W",
+                "status": "DGI LIMITED",
+                "dgi": 40484,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "126W",
+                "status": "DGI LIMITED",
+                "dgi": 48555,
+                "limit": 50000
+              }
             }
           }
         }
@@ -1252,7 +1588,17 @@
           "file": "assets/downloads/ies/RLI-IES-files.zip",
           "meta": ""
         }
-      }
+      },
+      "dgiVariants": [
+        {
+          "key": "standard",
+          "label": "Standard lens (acrylic/PC, IK06–IK08)"
+        },
+        {
+          "key": "glass",
+          "label": "Tempered glass lens (.G option, IK10)"
+        }
+      ]
     },
     {
       "code": "SLI",
@@ -1388,29 +1734,45 @@
           "name": "Type III Short",
           "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 31041,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 31041,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39251,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39251,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39251,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 39251,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 39251,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 39251,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1419,29 +1781,45 @@
           "name": "Type III Short",
           "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 30380,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 30380,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 35546,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "59W",
+                "status": "DGI LIMITED",
+                "dgi": 40203,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 44629,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 35546,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "59W",
-              "status": "DGI LIMITED",
-              "dgi": 40203,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 44629,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1450,29 +1828,45 @@
           "name": "Type III Short",
           "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "59W",
-              "status": "DGI LIMITED",
-              "dgi": 32743,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "59W",
+                "status": "DGI LIMITED",
+                "dgi": 32743,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36558,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36558,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36558,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 36558,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 36558,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 36558,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1481,29 +1875,45 @@
           "name": "Type III Short",
           "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 26778,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 26778,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 26778,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 26778,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 26778,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 26778,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 26778,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 26778,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1512,29 +1922,45 @@
           "name": "Type III Short",
           "chart": "assets/img/products/sli/distributions/type3-short-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 25624,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25624,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25624,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25624,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "34W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25624,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 25624,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 25624,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "34W",
-              "status": "MAX AVAILABLE",
-              "dgi": 25624,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1543,17 +1969,33 @@
           "name": "Type III Medium",
           "chart": "assets/img/products/sli/distributions/type3-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "note": "IES file not available"
+            "standard": {
+              "PR6": {
+                "note": "IES file not available"
+              },
+              "PR10": {
+                "note": "IES file not available"
+              },
+              "LR6": {
+                "note": "IES file not available"
+              },
+              "LR10": {
+                "note": "IES file not available"
+              }
             },
-            "PR10": {
-              "note": "IES file not available"
-            },
-            "LR6": {
-              "note": "IES file not available"
-            },
-            "LR10": {
-              "note": "IES file not available"
+            "glass": {
+              "PR6": {
+                "note": "IES file not available"
+              },
+              "PR10": {
+                "note": "IES file not available"
+              },
+              "LR6": {
+                "note": "IES file not available"
+              },
+              "LR10": {
+                "note": "IES file not available"
+              }
             }
           }
         },
@@ -1562,29 +2004,45 @@
           "name": "Type III Medium",
           "chart": "assets/img/products/sli/distributions/type3-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "37W",
-              "status": "DGI LIMITED",
-              "dgi": 30268,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "37W",
+                "status": "DGI LIMITED",
+                "dgi": 30268,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "37W",
+                "status": "DGI LIMITED",
+                "dgi": 30268,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 40507,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 47615,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "37W",
-              "status": "DGI LIMITED",
-              "dgi": 30268,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 40507,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 47615,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1593,29 +2051,45 @@
           "name": "Type III Medium",
           "chart": "assets/img/products/sli/distributions/type3-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "23W",
-              "status": "CANDELA LIMIT",
-              "dgi": 19257,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "23W",
+                "status": "CANDELA LIMIT",
+                "dgi": 19257,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "23W",
+                "status": "CANDELA LIMIT",
+                "dgi": 19257,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "23W",
+                "status": "CANDELA LIMIT",
+                "dgi": 19257,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "23W",
+                "status": "CANDELA LIMIT",
+                "dgi": 19257,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "23W",
-              "status": "CANDELA LIMIT",
-              "dgi": 19257,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "23W",
-              "status": "CANDELA LIMIT",
-              "dgi": 19257,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "23W",
-              "status": "CANDELA LIMIT",
-              "dgi": 19257,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1624,29 +2098,45 @@
           "name": "Type II Medium",
           "chart": "assets/img/products/sli/distributions/type2-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "24W",
-              "status": "BOTH LIMITS",
-              "dgi": 24745,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "24W",
+                "status": "BOTH LIMITS",
+                "dgi": 24745,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "24W",
+                "status": "CANDELA LIMIT",
+                "dgi": 24745,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "24W",
+                "status": "CANDELA LIMIT",
+                "dgi": 24745,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "24W",
+                "status": "CANDELA LIMIT",
+                "dgi": 24745,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "24W",
-              "status": "CANDELA LIMIT",
-              "dgi": 24745,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "24W",
-              "status": "CANDELA LIMIT",
-              "dgi": 24745,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "24W",
-              "status": "CANDELA LIMIT",
-              "dgi": 24745,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1655,29 +2145,45 @@
           "name": "Type IV Medium",
           "chart": "assets/img/products/sli/distributions/type4-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "43W",
-              "status": "DGI LIMITED",
-              "dgi": 33931,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "43W",
+                "status": "DGI LIMITED",
+                "dgi": 33931,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 39918,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "51W",
+                "status": "DGI LIMITED",
+                "dgi": 39918,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "68W",
+                "status": "MAX AVAILABLE",
+                "dgi": 49369,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 39918,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "51W",
-              "status": "DGI LIMITED",
-              "dgi": 39918,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "68W",
-              "status": "MAX AVAILABLE",
-              "dgi": 49369,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         },
@@ -1686,29 +2192,45 @@
           "name": "Type IV Medium",
           "chart": "assets/img/products/sli/distributions/type4-medium-v2.png",
           "dgi": {
-            "PR6": {
-              "w": "24W",
-              "status": "BOTH LIMITS",
-              "dgi": 26569,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "24W",
+                "status": "BOTH LIMITS",
+                "dgi": 26569,
+                "limit": 35000
+              },
+              "PR10": {
+                "w": "24W",
+                "status": "CANDELA LIMIT",
+                "dgi": 26569,
+                "limit": 40000
+              },
+              "LR6": {
+                "w": "24W",
+                "status": "CANDELA LIMIT",
+                "dgi": 26569,
+                "limit": 42000
+              },
+              "LR10": {
+                "w": "24W",
+                "status": "CANDELA LIMIT",
+                "dgi": 26569,
+                "limit": 50000
+              }
             },
-            "PR10": {
-              "w": "24W",
-              "status": "CANDELA LIMIT",
-              "dgi": 26569,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "24W",
-              "status": "CANDELA LIMIT",
-              "dgi": 26569,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "24W",
-              "status": "CANDELA LIMIT",
-              "dgi": 26569,
-              "limit": 50000
+            "glass": {
+              "PR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "PR10": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR6": {
+                "note": "Glass lens figures pending re-screening"
+              },
+              "LR10": {
+                "note": "Glass lens figures pending re-screening"
+              }
             }
           }
         }
@@ -1765,7 +2287,17 @@
           "file": "assets/downloads/ies/SLI-IES-files.zip",
           "meta": ""
         }
-      }
+      },
+      "dgiVariants": [
+        {
+          "key": "standard",
+          "label": "Standard lens (acrylic/PC, IK06–IK08)"
+        },
+        {
+          "key": "glass",
+          "label": "Tempered glass lens (.G option, IK10)"
+        }
+      ]
     },
     {
       "code": "FTS",
