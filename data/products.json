@@ -4057,7 +4057,11 @@
             },
             "PA": {
               "w": "100W",
-              "status": "MAX IN ZIP"
+              "status": "MAX IN ZIP",
+              "candela": {
+                "actual": 2301.0,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -4092,7 +4096,11 @@
             },
             "PA": {
               "w": "100W",
-              "status": "MAX IN ZIP"
+              "status": "MAX IN ZIP",
+              "candela": {
+                "actual": 1363.0,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -4127,7 +4135,11 @@
             },
             "PA": {
               "w": "100W",
-              "status": "MAX IN ZIP"
+              "status": "MAX IN ZIP",
+              "candela": {
+                "actual": 2331.0,
+                "limit": 3500.0
+              }
             }
           }
         }
