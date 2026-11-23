@@ -5,15 +5,18 @@
   if (!root) return;
 
   var params = new URLSearchParams(window.location.search);
-  var id = params.get("id");
+  var id = root.getAttribute("data-id") || params.get("id");
 
   fetch("../data/presentations.json")
     .then(function (r) { return r.json(); })
     .then(function (data) {
       var list = data.presentations || [];
-      var item = list.find(function (p) { return p.id === id; }) || list[0];
+      var item = id ? list.find(function (p) { return p.id === id; }) : list[0];
       if (!item) {
-        root.innerHTML = '<p class="container" style="padding-block:var(--space-8)">Presentation not found.</p>';
+        root.innerHTML = '<div class="container" style="padding-block:var(--space-8)">' +
+          '<p>Presentation not found.</p>' +
+          '<p><a href="../technical-information.html">Back to technical information</a></p>' +
+          '</div>';
         return;
       }
       render(item);

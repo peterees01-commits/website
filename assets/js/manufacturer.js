@@ -5,7 +5,7 @@
   if (!root) return;
 
   var params = new URLSearchParams(window.location.search);
-  var slug = params.get("slug") || "holophane";
+  var slug = root.getAttribute("data-slug") || params.get("slug") || "holophane";
 
   function esc(s) {
     return String(s).replace(/[&<>"]/g, function (c) {
@@ -19,9 +19,12 @@
   ]).then(function (results) {
     var manufacturers = results[0].manufacturers || [];
     var products = results[1].products || [];
-    var m = manufacturers.find(function (x) { return x.slug === slug; }) || manufacturers[0];
+    var m = manufacturers.find(function (x) { return x.slug === slug; });
     if (!m) {
-      root.innerHTML = '<p class="container" style="padding-block:var(--space-8)">Manufacturer not found.</p>';
+      root.innerHTML = '<div class="container" style="padding-block:var(--space-8)">' +
+        '<p>Manufacturer not found.</p>' +
+        '<p><a href="../index.html#products">Back to the catalogue</a></p>' +
+        '</div>';
       return;
     }
     render(m, products.filter(function (p) { return p.manufacturerSlug === m.slug; }));

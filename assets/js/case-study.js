@@ -5,15 +5,18 @@
   if (!root) return;
 
   var params = new URLSearchParams(window.location.search);
-  var id = params.get("id");
+  var id = root.getAttribute("data-id") || params.get("id");
 
   fetch("../data/case-studies.json")
     .then(function (r) { return r.json(); })
     .then(function (data) {
       var list = data.caseStudies || [];
-      var item = list.find(function (c) { return c.id === id; }) || list[0];
+      var item = id ? list.find(function (c) { return c.id === id; }) : list[0];
       if (!item) {
-        root.innerHTML = '<p class="container" style="padding-block:var(--space-8)">Project not found.</p>';
+        root.innerHTML = '<div class="container" style="padding-block:var(--space-8)">' +
+          '<p>Project not found.</p>' +
+          '<p><a href="index.html">Back to project applications</a></p>' +
+          '</div>';
         return;
       }
       render(item);
@@ -81,7 +84,7 @@
               '<h2 style="margin-bottom:var(--space-4)">' + esc(cs.product) + '</h2>' +
               (cs.productCode ?
                 '<p style="margin-top:calc(-1 * var(--space-3));margin-bottom:var(--space-4)">' +
-                  '<a class="case-product-link" href="../products/product.html?code=' + esc(cs.productCode) + '">View product page &rarr;</a>' +
+                  '<a class="case-product-link" href="../products/' + esc(cs.productCode.toLowerCase()) + '.html">View product page &rarr;</a>' +
                 '</p>' : "") +
               '<table class="spec-table" style="margin-bottom:var(--space-5)">' +
                 cs.performance.map(function (r) {

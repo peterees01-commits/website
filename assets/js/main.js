@@ -196,7 +196,7 @@
     }
     container.innerHTML = manufacturers.map(function (m) {
       return (
-        '<a class="product-card manu-card" href="manufacturers/manufacturer.html?slug=' + encodeURIComponent(m.slug) + '">' +
+        '<a class="product-card manu-card" href="manufacturers/' + encodeURIComponent(m.slug) + '.html">' +
           '<div class="product-card__frame manu-card__badge">' +
             manuBadgeContent(m) +
             '<span class="bracket bracket--tl" aria-hidden="true"></span>' +
@@ -260,7 +260,7 @@
       if (ip) chips.push(ip.short || ip.value.split("(")[0].split(";")[0].trim());
       if (p.cardExtraChips) chips.push.apply(chips, p.cardExtraChips);
       return (
-        '<a class="product-card" href="' + base + 'products/product.html?code=' + encodeURIComponent(p.code) + '">' +
+        '<a class="product-card" href="' + base + 'products/' + encodeURIComponent(p.code.toLowerCase()) + '.html">' +
           '<div class="product-card__frame">' +
             (p.images && p.images.length
               ? '<img src="' + base + esc(p.images[0].file) + '" alt="' + esc(p.images[0].alt) + '" loading="lazy">'
