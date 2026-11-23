@@ -135,8 +135,10 @@
 
       var pct = dgiPct(cell);
       var kind = dgiRamp(pct);
+      var capInfo = cell.status === "MAX AVAILABLE" ?
+        ' <button type="button" class="dgi-info" data-tip="Capped by available output, not by glare limit" aria-label="Why is this the maximum?">i</button>' : "";
       wattEl.className = "dgi-big-pct";
-      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output</small>';
+      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + '</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
       usedEl.textContent = cell.dgi.toLocaleString("en-AU");
