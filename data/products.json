@@ -661,49 +661,2022 @@
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/dsx/distributions/sy-v2.png"
+          "chart": "assets/img/products/dsx/distributions/sy-v2.png",
+          "dgi": {
+            "DSX0": {
+              "bls": {
+                "PR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 28201,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 681.2,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 28201,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 681.2,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 28201,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 681.2,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 28201,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 681.2,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 87757,
+                  "candela": {
+                    "actual": 2997.8,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "w": "27W",
+                  "status": "DGI LIMITED",
+                  "dgi": 23846,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 591.4,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "27W",
+                  "status": "DGI LIMITED",
+                  "dgi": 23846,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 591.4,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "27W",
+                  "status": "DGI LIMITED",
+                  "dgi": 23846,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 591.4,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "27W",
+                  "status": "DGI LIMITED",
+                  "dgi": 23846,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 591.4,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 92725,
+                  "candela": {
+                    "actual": 3252.1,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 29601,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 741.4,
+                    "limit": 773.1
+                  }
+                },
+                "PR10": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 35520,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 889.6,
+                    "limit": 927.7199999999999
+                  }
+                },
+                "LR6": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 35520,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 889.6,
+                    "limit": 927.7199999999999
+                  }
+                },
+                "LR10": {
+                  "w": "75W",
+                  "status": "DGI LIMITED",
+                  "dgi": 46051,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 1631.0,
+                    "limit": 1700.82
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 92099,
+                  "candela": {
+                    "actual": 3843.9,
+                    "limit": 4008.42
+                  }
+                }
+              }
+            },
+            "DSX1": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "145W",
+                  "status": "DGI LIMITED",
+                  "dgi": 73234,
+                  "candela": {
+                    "actual": 2997.8,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "145W",
+                  "status": "DGI LIMITED",
+                  "dgi": 77380,
+                  "candela": {
+                    "actual": 3252.1,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 122553,
+                  "candela": {
+                    "actual": 5881.2,
+                    "limit": 6132.96
+                  }
+                }
+              }
+            },
+            "DSX2": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "351W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 134159,
+                  "candela": {
+                    "actual": 7413.7,
+                    "limit": 7731.0
+                  }
+                }
+              }
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/dsx/distributions/ay-v2.png"
+          "chart": "assets/img/products/dsx/distributions/ay-v2.png",
+          "dgi": {
+            "DSX0": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "56W",
+                  "status": "DGI LIMITED",
+                  "dgi": 59606,
+                  "candela": {
+                    "actual": 3443.3,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 16972,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 718.2,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 16972,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 718.2,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 16972,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 718.2,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 16972,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 718.2,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "90W",
+                  "status": "DGI LIMITED",
+                  "dgi": 52005,
+                  "candela": {
+                    "actual": 3112.4,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 55314,
+                  "candela": {
+                    "actual": 3375.1,
+                    "limit": 3500.0
+                  }
+                }
+              }
+            },
+            "DSX1": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              }
+            },
+            "DSX2": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              }
+            }
+          }
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/dsx/distributions/fw-v2.png"
+          "chart": "assets/img/products/dsx/distributions/fw-v2.png",
+          "dgi": {
+            "DSX0": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "56W",
+                  "status": "DGI LIMITED",
+                  "dgi": 66034,
+                  "candela": {
+                    "actual": 3083.1,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 46795,
+                  "candela": {
+                    "actual": 3335.2,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 47005,
+                  "candela": {
+                    "actual": 3040.1,
+                    "limit": 3500.0
+                  }
+                }
+              }
+            },
+            "DSX1": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              }
+            },
+            "DSX2": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              }
+            }
+          }
         },
         {
           "code": ".FWE",
           "name": "Forward Throw Extra",
-          "chart": "assets/img/products/dsx/distributions/fwe-v2.png"
+          "chart": "assets/img/products/dsx/distributions/fwe-v2.png",
+          "dgi": {
+            "DSX0": {
+              "bls": {
+                "PR6": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18541,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 651.3,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18541,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 651.3,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18541,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 651.3,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18541,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 651.3,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "68W",
+                  "status": "DGI LIMITED",
+                  "dgi": 92738,
+                  "candela": {
+                    "actual": 3257.6,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 20220,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 690.6,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 20220,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 690.6,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 20220,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 690.6,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "14W",
+                  "status": "DGI LIMITED",
+                  "dgi": 20220,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 690.6,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "68W",
+                  "status": "DGI LIMITED",
+                  "dgi": 101089,
+                  "candela": {
+                    "actual": 3452.7,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 51287,
+                  "candela": {
+                    "actual": 2951.5,
+                    "limit": 3500.0
+                  }
+                }
+              }
+            },
+            "DSX1": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              }
+            },
+            "DSX2": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              }
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
           "note": "DSX0 and DSX1",
-          "chart": "assets/img/products/dsx/distributions/nr-v2.png"
+          "chart": "assets/img/products/dsx/distributions/nr-v2.png",
+          "dgi": {
+            "DSX0": {
+              "bls": {
+                "PR6": {
+                  "w": "27W",
+                  "status": "DGI LIMITED",
+                  "dgi": 28290,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 489.8,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 35359,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 587.5,
+                    "limit": 820.8
+                  }
+                },
+                "LR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 35359,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 587.5,
+                    "limit": 820.8
+                  }
+                },
+                "LR10": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 42428,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 623.4,
+                    "limit": 871.02
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 110013,
+                  "candela": {
+                    "actual": 2584.6,
+                    "limit": 3611.16
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 34907,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 400.5,
+                    "limit": 811.26
+                  }
+                },
+                "PR10": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 34907,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 400.5,
+                    "limit": 811.26
+                  }
+                },
+                "LR6": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 34907,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 400.5,
+                    "limit": 811.26
+                  }
+                },
+                "LR10": {
+                  "w": "75W",
+                  "status": "DGI LIMITED",
+                  "dgi": 45252,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 765.3,
+                    "limit": 1549.98
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 90508,
+                  "candela": {
+                    "actual": 1530.6,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "w": "27W",
+                  "status": "DGI LIMITED",
+                  "dgi": 29603,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 586.2,
+                    "limit": 744.8399999999999
+                  }
+                },
+                "PR10": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 37007,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 732.8,
+                    "limit": 931.14
+                  }
+                },
+                "LR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 37007,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 732.8,
+                    "limit": 931.14
+                  }
+                },
+                "LR10": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 44404,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 746.1,
+                    "limit": 948.06
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 115128,
+                  "candela": {
+                    "actual": 3093.7,
+                    "limit": 3930.8399999999997
+                  }
+                }
+              }
+            },
+            "DSX1": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 146376,
+                  "candela": {
+                    "actual": 4121.0,
+                    "limit": 5757.84
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 120428,
+                  "candela": {
+                    "actual": 2341.7,
+                    "limit": 4743.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 153187,
+                  "candela": {
+                    "actual": 5140.7,
+                    "limit": 6531.84
+                  }
+                }
+              }
+            },
+            "DSX2": {
+              "bls": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "351W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 160238,
+                  "candela": {
+                    "actual": 5194.8,
+                    "limit": 7258.139999999999
+                  }
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "351W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 131831,
+                  "candela": {
+                    "actual": 3337.7,
+                    "limit": 6760.259999999999
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "351W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 167697,
+                  "candela": {
+                    "actual": 7030.9,
+                    "limit": 8933.58
+                  }
+                }
+              }
+            }
+          }
         },
         {
           "code": ".BLC",
           "name": "Long & Narrow",
           "note": "Extreme backlight cut-off",
-          "chart": "assets/img/products/dsx/distributions/blc-v2.png"
+          "chart": "assets/img/products/dsx/distributions/blc-v2.png",
+          "dgi": {
+            "DSX0": {
+              "egs": {
+                "PR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 32386,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 547.5,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 38861,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 657.0,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 38861,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 657.0,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 38861,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 657.0,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 100766,
+                  "candela": {
+                    "actual": 2409.3,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 33055,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 650.3,
+                    "limit": 720.0
+                  }
+                },
+                "PR10": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 33055,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 650.3,
+                    "limit": 720.0
+                  }
+                },
+                "LR6": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 33055,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 650.3,
+                    "limit": 720.0
+                  }
+                },
+                "LR10": {
+                  "w": "34W",
+                  "status": "DGI LIMITED",
+                  "dgi": 33055,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 650.3,
+                    "limit": 720.0
+                  }
+                },
+                "PA": {
+                  "w": "169W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 102863,
+                  "candela": {
+                    "actual": 2861.7,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            },
+            "DSX1": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 134072,
+                  "candela": {
+                    "actual": 3259.7,
+                    "limit": 3515.94
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "145W",
+                  "status": "DGI LIMITED",
+                  "dgi": 85835,
+                  "candela": {
+                    "actual": 2861.5,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            },
+            "DSX2": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "351W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 146770,
+                  "candela": {
+                    "actual": 5253.6,
+                    "limit": 5666.58
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            }
+          }
         },
         {
           "code": ".SQ",
           "name": "Square",
-          "chart": "assets/img/products/dsx/distributions/sq-v2.png"
+          "chart": "assets/img/products/dsx/distributions/sq-v2.png",
+          "dgi": {
+            "DSX0": {
+              "standard": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              }
+            },
+            "DSX1": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 107247,
+                  "candela": {
+                    "actual": 426.9,
+                    "limit": 5360.22
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "256W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 99046,
+                  "candela": {
+                    "actual": 678.0,
+                    "limit": 6410.16
+                  }
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              }
+            },
+            "DSX2": {
+              "standard": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              },
+              "egs": {
+                "PR6": {
+                  "note": "IES file not available"
+                },
+                "PR10": {
+                  "note": "IES file not available"
+                },
+                "LR6": {
+                  "note": "IES file not available"
+                },
+                "LR10": {
+                  "note": "IES file not available"
+                },
+                "PA": {
+                  "note": "IES file not available"
+                }
+              }
+            }
+          }
         },
         {
           "code": ".RCCO",
           "name": "Right Corner Cutoff Optic",
-          "chart": "assets/img/products/dsx/distributions/rcco-v2.png"
+          "chart": "assets/img/products/dsx/distributions/rcco-v2.png",
+          "dgi": {
+            "DSX0": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 64484,
+                  "candela": {
+                    "actual": 2762.2,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 64045,
+                  "candela": {
+                    "actual": 2698.3,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            },
+            "DSX1": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            },
+            "DSX2": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            }
+          }
         },
         {
           "code": ".LCCO",
           "name": "Left Corner Cutoff Optic",
-          "chart": "assets/img/products/dsx/distributions/lcco-v2.png"
+          "chart": "assets/img/products/dsx/distributions/lcco-v2.png",
+          "dgi": {
+            "DSX0": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 64484,
+                  "candela": {
+                    "actual": 2762.2,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "w": "40W",
+                  "status": "DGI LIMITED",
+                  "dgi": 64048,
+                  "candela": {
+                    "actual": 2698.3,
+                    "limit": 3500.0
+                  }
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            },
+            "DSX1": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            },
+            "DSX2": {
+              "egs": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "standard": {
+                "PR6": {
+                  "note": "No compliant outputs"
+                },
+                "PR10": {
+                  "note": "No compliant outputs"
+                },
+                "LR6": {
+                  "note": "No compliant outputs"
+                },
+                "LR10": {
+                  "note": "No compliant outputs"
+                },
+                "PA": {
+                  "note": "No compliant outputs"
+                }
+              },
+              "bls": {
+                "PR6": {
+                  "note": "Not offered with this optic"
+                },
+                "PR10": {
+                  "note": "Not offered with this optic"
+                },
+                "LR6": {
+                  "note": "Not offered with this optic"
+                },
+                "LR10": {
+                  "note": "Not offered with this optic"
+                },
+                "PA": {
+                  "note": "Not offered with this optic"
+                }
+              }
+            }
+          }
         }
       ],
       "accessories": [
@@ -761,7 +2734,36 @@
           "file": "assets/downloads/ies/DSX-IES-files.zip",
           "meta": ""
         }
-      }
+      },
+      "dgiSizeVariants": [
+        {
+          "key": "DSX0",
+          "label": "DSX0"
+        },
+        {
+          "key": "DSX1",
+          "label": "DSX1"
+        },
+        {
+          "key": "DSX2",
+          "label": "DSX2"
+        }
+      ],
+      "dgiVariants": [
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "bls",
+          "label": "Backlight shield (.BLS)"
+        },
+        {
+          "key": "egs",
+          "label": "External glare shield (.EGS)"
+        }
+      ],
+      "dgiPaCategory": true
     },
     {
       "code": "RLI",

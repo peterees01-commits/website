@@ -51,6 +51,7 @@
     var optics = (p.distributions || []).filter(function (d) { return d.dgi; });
     if (!optics.length) return "";
     var mutedColor = p.backlightControl ? "var(--text-muted-on-dark)" : "var(--text-muted)";
+    var sizeVariants = p.dgiSizeVariants;
     var variants = p.dgiVariants;
     var ledVariants = p.dgiLedVariants;
     var cats = dgiCats(p);
@@ -63,6 +64,11 @@
           '<select class="dgi-select" data-dgi-optic>' +
             optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
           '</select>' +
+          (sizeVariants ?
+            '<select class="dgi-select" data-dgi-size>' +
+              sizeVariants.map(function (v) { return '<option value="' + esc(v.key) + '">' + esc(v.label) + '</option>'; }).join("") +
+            '</select>' : ""
+          ) +
           (ledVariants ? '<select class="dgi-select" data-dgi-led></select>' : "") +
           (variants ?
             '<select class="dgi-select" data-dgi-variant>' +
@@ -90,11 +96,13 @@
     var block = root.querySelector("[data-dgi-widget]");
     if (!block) return;
     var optics = p.distributions.filter(function (d) { return d.dgi; });
+    var sizeVariants = p.dgiSizeVariants;
     var variants = p.dgiVariants;
     var ledVariants = p.dgiLedVariants;
     var cats = dgiCats(p);
 
     var opticSel = block.querySelector("[data-dgi-optic]");
+    var sizeSel = block.querySelector("[data-dgi-size]");
     var ledSel = block.querySelector("[data-dgi-led]");
     var variantSel = block.querySelector("[data-dgi-variant]");
     var catSel = block.querySelector("[data-dgi-cat]");
@@ -119,7 +127,8 @@
     function updateLedOptions() {
       if (!ledSel) return;
       var optic = optics.find(function (d) { return d.code === opticSel.value; });
-      var keys = Object.keys(optic.dgi);
+      var sizeData = sizeVariants ? optic.dgi[sizeSel.value] : optic.dgi;
+      var keys = Object.keys(sizeData);
       var prevVal = ledSel.value;
       ledSel.innerHTML = keys.map(function (k) {
         var v = ledVariants.find(function (lv) { return lv.key === k; });
@@ -131,7 +140,8 @@
 
     function render() {
       var optic = optics.find(function (d) { return d.code === opticSel.value; });
-      var ledData = ledVariants ? optic.dgi[ledSel.value] : optic.dgi;
+      var sizeData = sizeVariants ? optic.dgi[sizeSel.value] : optic.dgi;
+      var ledData = ledVariants ? sizeData[ledSel.value] : sizeData;
       var data = variants ? ledData[variantSel.value] : ledData;
       var cell = data[catSel.value];
       var catLabel = cats.find(function (c) { return c.key === catSel.value; }).label;
@@ -193,6 +203,7 @@
     }
 
     opticSel.addEventListener("change", function () { updateLedOptions(); render(); });
+    if (sizeSel) sizeSel.addEventListener("change", function () { updateLedOptions(); render(); });
     if (ledSel) ledSel.addEventListener("change", render);
     if (variantSel) variantSel.addEventListener("change", render);
     catSel.addEventListener("change", render);
