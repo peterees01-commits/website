@@ -37,6 +37,12 @@
     { key: "LR6", label: "LATM / RAB — below 6 m" },
     { key: "LR10", label: "LATM / RAB — 6–10 m" }
   ];
+  // PA/PE/PC (car park / area lighting) carries no Table 3.9 DGI limit, so
+  // it's only offered as a category where a product opts in (dgiPaCategory)
+  // with real Table 3.8 figures — the cell for it has no `limit`, which is
+  // what tells render() to show wattage only, no compliance bar.
+  var PA_CAT = { key: "PA", label: "PA / PE / PC — car park / area" };
+  function dgiCats(p) { return p.dgiPaCategory ? DGI_CATS.concat([PA_CAT]) : DGI_CATS; }
 
   function dgiPct(cell) { return Math.round((cell.dgi / cell.limit) * 1000) / 10; }
   function dgiRamp(pct) { return pct > 95 ? "crit" : pct > 85 ? "warn" : "good"; }
@@ -47,11 +53,12 @@
     var mutedColor = p.backlightControl ? "var(--text-muted-on-dark)" : "var(--text-muted)";
     var variants = p.dgiVariants;
     var ledVariants = p.dgiLedVariants;
+    var cats = dgiCats(p);
     return (
       '<div class="dgi-block" data-dgi-widget>' +
         '<p class="eyebrow">Glare assessment</p>' +
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">AS/NZS 1158.3.1 -<br>DGI Compliance</h2>' +
-        '<p style="color:' + mutedColor + ';font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Road and pathway categories only — Table 3.9 sets no DGI limit for PA/PE/PC area lighting.</p>' +
+        '<p style="color:' + mutedColor + ';font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Table 3.9 sets no DGI limit for PA/PE/PC area lighting' + (p.dgiPaCategory ? " — included here as a Table 3.8 reference only" : "") + '.</p>' +
         '<div class="dgi-controls">' +
           '<select class="dgi-select" data-dgi-optic>' +
             optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
@@ -63,7 +70,7 @@
             '</select>' : ""
           ) +
           '<select class="dgi-select" data-dgi-cat>' +
-            DGI_CATS.map(function (c) { return '<option value="' + c.key + '">' + esc(c.label) + '</option>'; }).join("") +
+            cats.map(function (c) { return '<option value="' + c.key + '">' + esc(c.label) + '</option>'; }).join("") +
           '</select>' +
         '</div>' +
         '<div class="dgi-readout">' +
@@ -85,6 +92,7 @@
     var optics = p.distributions.filter(function (d) { return d.dgi; });
     var variants = p.dgiVariants;
     var ledVariants = p.dgiLedVariants;
+    var cats = dgiCats(p);
 
     var opticSel = block.querySelector("[data-dgi-optic]");
     var ledSel = block.querySelector("[data-dgi-led]");
@@ -119,7 +127,7 @@
       var ledData = ledVariants ? optic.dgi[ledSel.value] : optic.dgi;
       var data = variants ? ledData[variantSel.value] : ledData;
       var cell = data[catSel.value];
-      var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
+      var catLabel = cats.find(function (c) { return c.key === catSel.value; }).label;
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
 
       if (cell.note) {
@@ -133,11 +141,26 @@
         return;
       }
 
-      var pct = dgiPct(cell);
-      var kind = dgiRamp(pct);
       var capInfo = cell.status === "MAX AVAILABLE" ?
         ' <button type="button" class="dgi-info" data-tip="Capped by available output, not by glare limit" aria-label="Why is this the maximum?">i</button>' : "";
       wattEl.className = "dgi-big-pct";
+
+      // PA/PE/PC cells carry no Table 3.9 limit (it doesn't apply to area
+      // lighting), so there's nothing to show a compliance bar against —
+      // just the wattage, and the DGI figure only where supplied, purely
+      // as a reference number rather than a pass/fail percentage.
+      if (!cell.limit) {
+        wattEl.innerHTML = esc(cell.w) + '<small>maximum available output' + capInfo + '</small>';
+        fillEl.style.width = "0%";
+        fillEl.className = "dgi-bar-fill";
+        usedEl.textContent = cell.dgi != null ? cell.dgi.toLocaleString("en-AU") : "—";
+        pctEl.textContent = "";
+        limitEl.textContent = "not applicable";
+        return;
+      }
+
+      var pct = dgiPct(cell);
+      var kind = dgiRamp(pct);
       wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + '</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
