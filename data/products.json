@@ -809,7 +809,7 @@
         },
         {
           "label": "Lens",
-          "value": "Acrylic (standard, IK06) · PC lens (limited stock, IK08) · 5mm tempered glass (.G option, IK10)"
+          "value": "Acrylic (standard, IK06) · PC lens (IK08) · 5mm tempered glass (.G option, IK10)"
         },
         {
           "label": "Electrical class",
@@ -1687,7 +1687,7 @@
         },
         {
           "label": "Lens",
-          "value": "Acrylic (standard, IK05/6) · PC lens (limited stock, IK08) · 4mm tempered glass (.G option, IK10)"
+          "value": "Acrylic (standard, IK05/6) · PC lens (IK08) · 4mm tempered glass (.G option, IK10)"
         },
         {
           "label": "Electrical class",
@@ -3691,7 +3691,7 @@
         },
         {
           "label": "Amber Available",
-          "detail": "PC Amber colour temperature option"
+          "detail": "Amber colour temperature option"
         }
       ],
       "keySpecs": [
@@ -3701,7 +3701,7 @@
         },
         {
           "label": "Colour temperature",
-          "value": "3000K, 4000K, or PC Amber"
+          "value": "3000K, 4000K, or Amber"
         },
         {
           "label": "CRI",
