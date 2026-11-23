@@ -3842,6 +3842,10 @@
               "status": "MAX IN ZIP",
               "dgi": 19473,
               "limit": 50000
+            },
+            "PA": {
+              "w": "100W",
+              "status": "MAX IN ZIP"
             }
           }
         },
@@ -3873,6 +3877,10 @@
               "status": "MAX IN ZIP",
               "dgi": 12591,
               "limit": 50000
+            },
+            "PA": {
+              "w": "100W",
+              "status": "MAX IN ZIP"
             }
           }
         },
@@ -3904,6 +3912,10 @@
               "status": "MAX IN ZIP",
               "dgi": 18404,
               "limit": 50000
+            },
+            "PA": {
+              "w": "100W",
+              "status": "MAX IN ZIP"
             }
           }
         }
@@ -4000,7 +4012,8 @@
         }
       },
       "overviewHeading": "Design-Inspired Landscape",
-      "disableGalleryFilter": true
+      "disableGalleryFilter": true,
+      "dgiPaCategory": true
     },
     {
       "code": "VMXII",
