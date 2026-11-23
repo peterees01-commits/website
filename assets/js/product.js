@@ -11,9 +11,12 @@
     .then(function (r) { return r.json(); })
     .then(function (data) {
       var products = data.products || [];
-      var product = products.find(function (p) { return p.code === code; }) || products[0];
+      var product = products.find(function (p) { return p.code === code; });
       if (!product) {
-        root.innerHTML = '<p class="container" style="padding-block:var(--space-8)">Product not found.</p>';
+        root.innerHTML = '<div class="container" style="padding-block:var(--space-8)">' +
+          '<p>Product not found.</p>' +
+          '<p><a href="../index.html#products">Back to the catalogue</a></p>' +
+          '</div>';
         return;
       }
       render(product);
