@@ -2794,22 +2794,90 @@
         {
           "code": ".SY",
           "name": "Symmetrical",
-          "chart": "assets/img/products/fts/distributions/symmetrical-v2.png"
+          "chart": "assets/img/products/fts/distributions/symmetrical-v2.png",
+          "dgi": {
+            "PR6": {
+              "note": "IES file not available"
+            },
+            "PR10": {
+              "note": "IES file not available"
+            },
+            "LR6": {
+              "note": "IES file not available"
+            },
+            "LR10": {
+              "note": "IES file not available"
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/fts/distributions/asymmetric-v2.png"
+          "chart": "assets/img/products/fts/distributions/asymmetric-v2.png",
+          "dgi": {
+            "PR6": {
+              "w": "22W",
+              "status": "DGI LIMITED",
+              "dgi": 28506,
+              "limit": 35000
+            },
+            "PR10": {
+              "w": "34W",
+              "status": "DGI LIMITED",
+              "dgi": 35884,
+              "limit": 40000
+            },
+            "LR6": {
+              "w": "34W",
+              "status": "DGI LIMITED",
+              "dgi": 35884,
+              "limit": 42000
+            },
+            "LR10": {
+              "w": "87W",
+              "status": "DGI LIMITED",
+              "dgi": 48538,
+              "limit": 50000
+            }
+          }
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/fts/distributions/forward-throw-v2.png"
+          "chart": "assets/img/products/fts/distributions/forward-throw-v2.png",
+          "dgi": {
+            "PR6": {
+              "note": "IES file not available"
+            },
+            "PR10": {
+              "note": "IES file not available"
+            },
+            "LR6": {
+              "note": "IES file not available"
+            },
+            "LR10": {
+              "note": "IES file not available"
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/fts/distributions/long-narrow-v2.png"
+          "chart": "assets/img/products/fts/distributions/long-narrow-v2.png",
+          "dgi": {
+            "PR6": {
+              "note": "No compliant outputs"
+            },
+            "PR10": {
+              "note": "No compliant outputs"
+            },
+            "LR6": {
+              "note": "No compliant outputs"
+            },
+            "LR10": {
+              "note": "No compliant outputs"
+            }
+          }
         }
       ],
       "accessories": [
