@@ -46,6 +46,7 @@
     if (!optics.length) return "";
     var mutedColor = p.backlightControl ? "var(--text-muted-on-dark)" : "var(--text-muted)";
     var variants = p.dgiVariants;
+    var ledVariants = p.dgiLedVariants;
     return (
       '<div class="dgi-block" data-dgi-widget>' +
         '<p class="eyebrow">Glare assessment</p>' +
@@ -55,6 +56,7 @@
           '<select class="dgi-select" data-dgi-optic>' +
             optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
           '</select>' +
+          (ledVariants ? '<select class="dgi-select" data-dgi-led></select>' : "") +
           (variants ?
             '<select class="dgi-select" data-dgi-variant>' +
               variants.map(function (v) { return '<option value="' + esc(v.key) + '">' + esc(v.label) + '</option>'; }).join("") +
@@ -82,8 +84,10 @@
     if (!block) return;
     var optics = p.distributions.filter(function (d) { return d.dgi; });
     var variants = p.dgiVariants;
+    var ledVariants = p.dgiLedVariants;
 
     var opticSel = block.querySelector("[data-dgi-optic]");
+    var ledSel = block.querySelector("[data-dgi-led]");
     var variantSel = block.querySelector("[data-dgi-variant]");
     var catSel = block.querySelector("[data-dgi-cat]");
     var nameEl = block.querySelector("[data-dgi-name]");
@@ -93,9 +97,27 @@
     var usedEl = block.querySelector("[data-dgi-used]");
     var limitEl = block.querySelector("[data-dgi-limit]");
 
+    // Which LED/driver specs (e.g. Standard vs .HE) exist for the currently
+    // selected optic varies per optic — most only ever have "standard", so
+    // the selector is rebuilt (and hidden when there's nothing to choose)
+    // each time the optic changes, rather than listing every spec globally.
+    function updateLedOptions() {
+      if (!ledSel) return;
+      var optic = optics.find(function (d) { return d.code === opticSel.value; });
+      var keys = Object.keys(optic.dgi);
+      var prevVal = ledSel.value;
+      ledSel.innerHTML = keys.map(function (k) {
+        var v = ledVariants.find(function (lv) { return lv.key === k; });
+        return '<option value="' + esc(k) + '">' + esc(v ? v.label : k) + '</option>';
+      }).join("");
+      ledSel.style.display = keys.length > 1 ? "" : "none";
+      if (keys.indexOf(prevVal) !== -1) ledSel.value = prevVal;
+    }
+
     function render() {
       var optic = optics.find(function (d) { return d.code === opticSel.value; });
-      var data = variants ? optic.dgi[variantSel.value] : optic.dgi;
+      var ledData = ledVariants ? optic.dgi[ledSel.value] : optic.dgi;
+      var data = variants ? ledData[variantSel.value] : ledData;
       var cell = data[catSel.value];
       var catLabel = DGI_CATS.find(function (c) { return c.key === catSel.value; }).label;
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
@@ -122,9 +144,11 @@
       limitEl.textContent = cell.limit.toLocaleString("en-AU");
     }
 
-    opticSel.addEventListener("change", render);
+    opticSel.addEventListener("change", function () { updateLedOptions(); render(); });
+    if (ledSel) ledSel.addEventListener("change", render);
     if (variantSel) variantSel.addEventListener("change", render);
     catSel.addEventListener("change", render);
+    updateLedOptions();
     render();
   }
 
