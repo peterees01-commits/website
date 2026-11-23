@@ -4616,48 +4616,102 @@
                 "PR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 17853,
-                  "limit": 35000
+                  "dgi": 21868,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 617.3,
+                    "limit": 988.56
+                  }
                 },
                 "PR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 17853,
-                  "limit": 40000
+                  "dgi": 21868,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 617.3,
+                    "limit": 988.56
+                  }
                 },
                 "LR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 17853,
-                  "limit": 42000
+                  "dgi": 21868,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 617.3,
+                    "limit": 988.56
+                  }
                 },
                 "LR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 17853,
-                  "limit": 50000
+                  "dgi": 21868,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 617.3,
+                    "limit": 988.56
+                  }
                 },
                 "PA": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 17853
+                  "dgi": 21868,
+                  "candela": {
+                    "actual": 617.3,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
                 "PR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14432,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 175.6,
+                    "limit": 818.64
+                  }
                 },
                 "PR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14432,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 175.6,
+                    "limit": 818.64
+                  }
                 },
                 "LR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14432,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 175.6,
+                    "limit": 818.64
+                  }
                 },
                 "LR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14432,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 175.6,
+                    "limit": 818.64
+                  }
                 },
                 "PA": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14432,
+                  "candela": {
+                    "actual": 175.6,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -4745,48 +4799,102 @@
                 "PR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 20593,
-                  "limit": 35000
+                  "dgi": 25015,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 516.9,
+                    "limit": 991.98
+                  }
                 },
                 "PR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 20593,
-                  "limit": 40000
+                  "dgi": 25015,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 516.9,
+                    "limit": 991.98
+                  }
                 },
                 "LR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 20593,
-                  "limit": 42000
+                  "dgi": 25015,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 516.9,
+                    "limit": 991.98
+                  }
                 },
                 "LR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 20593,
-                  "limit": 50000
+                  "dgi": 25015,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 516.9,
+                    "limit": 991.98
+                  }
                 },
                 "PA": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 20593
+                  "dgi": 25015,
+                  "candela": {
+                    "actual": 516.9,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
                 "PR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14480,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 150.8,
+                    "limit": 720.0
+                  }
                 },
                 "PR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14480,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 150.8,
+                    "limit": 720.0
+                  }
                 },
                 "LR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14480,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 150.8,
+                    "limit": 720.0
+                  }
                 },
                 "LR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14480,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 150.8,
+                    "limit": 720.0
+                  }
                 },
                 "PA": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 14480,
+                  "candela": {
+                    "actual": 150.8,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -4874,48 +4982,102 @@
                 "PR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 16068,
-                  "limit": 35000
+                  "dgi": 20312,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 473.4,
+                    "limit": 908.4599999999999
+                  }
                 },
                 "PR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 16068,
-                  "limit": 40000
+                  "dgi": 20312,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 473.4,
+                    "limit": 908.4599999999999
+                  }
                 },
                 "LR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 16068,
-                  "limit": 42000
+                  "dgi": 20312,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 473.4,
+                    "limit": 908.4599999999999
+                  }
                 },
                 "LR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 16068,
-                  "limit": 50000
+                  "dgi": 20312,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 473.4,
+                    "limit": 908.4599999999999
+                  }
                 },
                 "PA": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 16068
+                  "dgi": 20312,
+                  "candela": {
+                    "actual": 473.4,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
                 "PR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 13375,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 127.9,
+                    "limit": 752.22
+                  }
                 },
                 "PR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 13375,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 127.9,
+                    "limit": 752.22
+                  }
                 },
                 "LR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 13375,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 127.9,
+                    "limit": 752.22
+                  }
                 },
                 "LR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 13375,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 127.9,
+                    "limit": 752.22
+                  }
                 },
                 "PA": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 13375,
+                  "candela": {
+                    "actual": 127.9,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -5204,48 +5366,102 @@
                 "PR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 26006,
-                  "limit": 35000
+                  "dgi": 33251,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 810.9,
+                    "limit": 975.06
+                  }
                 },
                 "PR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 26006,
-                  "limit": 40000
+                  "dgi": 33251,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 810.9,
+                    "limit": 975.06
+                  }
                 },
                 "LR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 26006,
-                  "limit": 42000
+                  "dgi": 33251,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 810.9,
+                    "limit": 975.06
+                  }
                 },
                 "LR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 26006,
-                  "limit": 50000
+                  "dgi": 33251,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 810.9,
+                    "limit": 975.06
+                  }
                 },
                 "PA": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 26006
+                  "dgi": 33251,
+                  "candela": {
+                    "actual": 810.9,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
                 "PR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 22239,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 392.0,
+                    "limit": 807.3
+                  }
                 },
                 "PR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 22239,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 392.0,
+                    "limit": 807.3
+                  }
                 },
                 "LR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 22239,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 392.0,
+                    "limit": 807.3
+                  }
                 },
                 "LR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 22239,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 392.0,
+                    "limit": 807.3
+                  }
                 },
                 "PA": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 22239,
+                  "candela": {
+                    "actual": 392.0,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -5313,19 +5529,53 @@
             "he": {
               "standard": {
                 "PR6": {
-                  "note": "IES file not available"
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18709,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 618.0,
+                    "limit": 720.0
+                  }
                 },
                 "PR10": {
-                  "note": "IES file not available"
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18709,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 618.0,
+                    "limit": 720.0
+                  }
                 },
                 "LR6": {
-                  "note": "IES file not available"
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18709,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 618.0,
+                    "limit": 720.0
+                  }
                 },
                 "LR10": {
-                  "note": "IES file not available"
+                  "w": "20W",
+                  "status": "DGI LIMITED",
+                  "dgi": 18709,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 618.0,
+                    "limit": 720.0
+                  }
                 },
                 "PA": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 31812,
+                  "candela": {
+                    "actual": 1050.8,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -5509,48 +5759,102 @@
                 "PR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 19516,
-                  "limit": 35000
+                  "dgi": 27604,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 664.5,
+                    "limit": 838.26
+                  }
                 },
                 "PR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 19516,
-                  "limit": 40000
+                  "dgi": 27604,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 664.5,
+                    "limit": 838.26
+                  }
                 },
                 "LR6": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 19516,
-                  "limit": 42000
+                  "dgi": 27604,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 664.5,
+                    "limit": 838.26
+                  }
                 },
                 "LR10": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 19516,
-                  "limit": 50000
+                  "dgi": 27604,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 664.5,
+                    "limit": 838.26
+                  }
                 },
                 "PA": {
                   "w": "35W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 19516
+                  "dgi": 27604,
+                  "candela": {
+                    "actual": 711.4,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
                 "PR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 16706,
+                  "limit": 35000,
+                  "candela": {
+                    "actual": 214.8,
+                    "limit": 799.02
+                  }
                 },
                 "PR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 16706,
+                  "limit": 40000,
+                  "candela": {
+                    "actual": 214.8,
+                    "limit": 799.02
+                  }
                 },
                 "LR6": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 16706,
+                  "limit": 42000,
+                  "candela": {
+                    "actual": 214.8,
+                    "limit": 799.02
+                  }
                 },
                 "LR10": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 16706,
+                  "limit": 50000,
+                  "candela": {
+                    "actual": 214.8,
+                    "limit": 799.02
+                  }
                 },
                 "PA": {
-                  "note": "IES file not available"
+                  "w": "35W",
+                  "status": "MAX AVAILABLE",
+                  "dgi": 16706,
+                  "candela": {
+                    "actual": 214.8,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -6144,36 +6448,72 @@
           "name": "Symmetric",
           "chart": "assets/img/products/pbl/distributions/sy.png",
           "dgi": {
-            "PR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 21067,
-              "limit": 35000
+            "standard": {
+              "PR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 21067,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1600.1,
+                  "limit": 3600.18
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 21067,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1600.1,
+                  "limit": 3600.18
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 21067,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1600.1,
+                  "limit": 3600.18
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 21067,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1600.1,
+                  "limit": 3600.18
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 21067,
+                "candela": {
+                  "actual": 1600.1,
+                  "limit": 3600.18
+                }
+              }
             },
-            "PR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 21067,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 21067,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 21067,
-              "limit": 50000
-            },
-            "PA": {
-              "w": "139W",
-              "status": "MAX AVAILABLE",
-              "candela": {
-                "actual": 1600.1,
-                "limit": 3500.0
+            "bls": {
+              "PR6": {
+                "note": "IES file not available"
+              },
+              "PR10": {
+                "note": "IES file not available"
+              },
+              "LR6": {
+                "note": "IES file not available"
+              },
+              "LR10": {
+                "note": "IES file not available"
+              },
+              "PA": {
+                "note": "IES file not available"
               }
             }
           }
@@ -6183,36 +6523,106 @@
           "name": "Asymmetric",
           "chart": "assets/img/products/pbl/distributions/ay.png",
           "dgi": {
-            "PR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 33496,
-              "limit": 35000
+            "bls": {
+              "PR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 28292,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1362.9,
+                  "limit": 2778.2999999999997
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 28292,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1362.9,
+                  "limit": 2778.2999999999997
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 28292,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1362.9,
+                  "limit": 2778.2999999999997
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 28292,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1362.9,
+                  "limit": 2778.2999999999997
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 28292,
+                "candela": {
+                  "actual": 1362.9,
+                  "limit": 3500.0
+                }
+              }
             },
-            "PR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 33496,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 33496,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 33496,
-              "limit": 50000
-            },
-            "PA": {
-              "w": "139W",
-              "status": "MAX AVAILABLE",
-              "candela": {
-                "actual": 1969.4,
-                "limit": 3500.0
+            "standard": {
+              "PR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 33496,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1794.6,
+                  "limit": 3281.129467455618
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 33496,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1794.6,
+                  "limit": 3281.129467455618
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 33496,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1794.6,
+                  "limit": 3281.129467455618
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 33496,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1794.6,
+                  "limit": 3281.129467455618
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 33496,
+                "candela": {
+                  "actual": 1969.4,
+                  "limit": 3600.72
+                }
               }
             }
           }
@@ -6222,36 +6632,106 @@
           "name": "Long & Narrow",
           "chart": "assets/img/products/pbl/distributions/nr.png",
           "dgi": {
-            "PR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 29158,
-              "limit": 35000
+            "bls": {
+              "PR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 23655,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1088.3,
+                  "limit": 2778.66
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 23655,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1088.3,
+                  "limit": 2778.66
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 23655,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1088.3,
+                  "limit": 2778.66
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 23655,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1088.3,
+                  "limit": 2778.66
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 23655,
+                "candela": {
+                  "actual": 1088.3,
+                  "limit": 3500.0
+                }
+              }
             },
-            "PR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 29158,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 29158,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 29158,
-              "limit": 50000
-            },
-            "PA": {
-              "w": "139W",
-              "status": "MAX AVAILABLE",
-              "candela": {
-                "actual": 1670.8,
-                "limit": 3500.0
+            "standard": {
+              "PR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 29158,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1572.0,
+                  "limit": 3386.64355029585
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 29158,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1572.0,
+                  "limit": 3386.64355029585
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 29158,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1572.0,
+                  "limit": 3386.64355029585
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 29158,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1572.0,
+                  "limit": 3386.64355029585
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 29158,
+                "candela": {
+                  "actual": 1670.8,
+                  "limit": 3599.64
+                }
               }
             }
           }
@@ -6261,36 +6741,106 @@
           "name": "Forward Throw",
           "chart": "assets/img/products/pbl/distributions/fw.png",
           "dgi": {
-            "PR6": {
-              "w": "113W",
-              "status": "DGI LIMITED",
-              "dgi": 33297,
-              "limit": 35000
+            "bls": {
+              "PR6": {
+                "w": "130W",
+                "status": "DGI LIMITED",
+                "dgi": 34843,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1422.3,
+                  "limit": 2468.771360946738
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36576,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1446.1,
+                  "limit": 2510.054201183436
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36576,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1446.1,
+                  "limit": 2510.054201183436
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36576,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1446.1,
+                  "limit": 2510.054201183436
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 36576,
+                "candela": {
+                  "actual": 1586.9,
+                  "limit": 3500.0
+                }
+              }
             },
-            "PR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 39209,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 39209,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 39209,
-              "limit": 50000
-            },
-            "PA": {
-              "w": "139W",
-              "status": "MAX AVAILABLE",
-              "candela": {
-                "actual": 2218.1,
-                "limit": 3500.0
+            "standard": {
+              "PR6": {
+                "w": "113W",
+                "status": "DGI LIMITED",
+                "dgi": 33297,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1883.6,
+                  "limit": 3057.2999999999997
+                }
+              },
+              "PR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39209,
+                "limit": 40000,
+                "candela": {
+                  "actual": 2021.2,
+                  "limit": 3280.6373964497097
+                }
+              },
+              "LR6": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39209,
+                "limit": 42000,
+                "candela": {
+                  "actual": 2021.2,
+                  "limit": 3280.6373964497097
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39209,
+                "limit": 50000,
+                "candela": {
+                  "actual": 2021.2,
+                  "limit": 3280.6373964497097
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 39209,
+                "candela": {
+                  "actual": 2218.1,
+                  "limit": 3600.18
+                }
               }
             }
           }
@@ -6300,36 +6850,106 @@
           "name": "Forward Throw Extra",
           "chart": "assets/img/products/pbl/distributions/fwe.png",
           "dgi": {
-            "PR6": {
-              "w": "85W",
-              "status": "DGI LIMITED",
-              "dgi": 33149,
-              "limit": 35000
+            "bls": {
+              "PR6": {
+                "w": "97W",
+                "status": "DGI LIMITED",
+                "dgi": 32979,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1115.3,
+                  "limit": 1885.0249704142082
+                }
+              },
+              "PR10": {
+                "w": "121W",
+                "status": "DGI LIMITED",
+                "dgi": 39604,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1423.6,
+                  "limit": 2406.06
+                }
+              },
+              "LR6": {
+                "w": "130W",
+                "status": "DGI LIMITED",
+                "dgi": 41889,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1372.1,
+                  "limit": 2318.966627218938
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 44078,
+                "limit": 50000,
+                "candela": {
+                  "actual": 1490.7,
+                  "limit": 2519.406745562124
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 44078,
+                "candela": {
+                  "actual": 1584.4,
+                  "limit": 3500.0
+                }
+              }
             },
-            "PR10": {
-              "w": "105W",
-              "status": "DGI LIMITED",
-              "dgi": 39969,
-              "limit": 40000
-            },
-            "LR6": {
-              "w": "105W",
-              "status": "DGI LIMITED",
-              "dgi": 39969,
-              "limit": 42000
-            },
-            "LR10": {
-              "w": "139W",
-              "status": "AREA CHECK",
-              "dgi": 49981,
-              "limit": 50000
-            },
-            "PA": {
-              "w": "139W",
-              "status": "MAX AVAILABLE",
-              "candela": {
-                "actual": 2367.0,
-                "limit": 3500.0
+            "standard": {
+              "PR6": {
+                "w": "85W",
+                "status": "DGI LIMITED",
+                "dgi": 33149,
+                "limit": 35000,
+                "candela": {
+                  "actual": 1430.5,
+                  "limit": 2167.408757396448
+                }
+              },
+              "PR10": {
+                "w": "105W",
+                "status": "DGI LIMITED",
+                "dgi": 39969,
+                "limit": 40000,
+                "candela": {
+                  "actual": 1724.8,
+                  "limit": 2613.389112426042
+                }
+              },
+              "LR6": {
+                "w": "105W",
+                "status": "DGI LIMITED",
+                "dgi": 39969,
+                "limit": 42000,
+                "candela": {
+                  "actual": 1724.8,
+                  "limit": 2613.389112426042
+                }
+              },
+              "LR10": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 49981,
+                "limit": 50000,
+                "candela": {
+                  "actual": 2367.0,
+                  "limit": 3586.3199999999997
+                }
+              },
+              "PA": {
+                "w": "139W",
+                "status": "MAX AVAILABLE",
+                "dgi": 49981,
+                "candela": {
+                  "actual": 2367.0,
+                  "limit": 3586.3199999999997
+                }
               }
             }
           }
@@ -6420,7 +7040,17 @@
           "meta": ""
         }
       },
-      "dgiPaCategory": true
+      "dgiPaCategory": true,
+      "dgiVariants": [
+        {
+          "key": "standard",
+          "label": "Standard"
+        },
+        {
+          "key": "bls",
+          "label": "Light shield kit (.BLS)"
+        }
+      ]
     },
     {
       "code": "SIG",
