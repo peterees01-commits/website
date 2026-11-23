@@ -732,7 +732,7 @@
       "category": "Pole / Car Parks / Road Lighting",
       "family": "R-Line",
       "tagline": "Slim-profile LED street luminaire with a wide optical range and on-site tilt adjustment, built for road and residential lighting schemes.",
-      "summary": "R-Line is Holophane's slim-profile LED street luminaire, covering 4,000–19,000 delivered lumens across eleven optical distributions from Type II long & narrow through Type III and Type IV spreads. A die-cast aluminium body with a captive-screw top-access cover and a separate LED/driver thermal path keeps installation and maintenance straightforward, while ±10° on-site tilt and DALI/axora-ready controls give it the flexibility to cover most street and residential lighting schemes from a single platform.",
+      "summary": "R-Line is Holophane's slim-profile LED street luminaire, covering 4,000–19,000 delivered lumens across eleven optical distributions from Type II long & narrow through Type III and Type IV spreads. A die-cast aluminium body with a captive-screw top-access cover and a separate LED/driver thermal path keeps installation and maintenance straightforward, while ±10° on-site tilt and DALI-ready controls give it the flexibility to cover most street and residential lighting schemes from a single platform.",
       "applications": [
         "Car Parks",
         "Roadways"
@@ -821,7 +821,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora compatible"
+          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket"
         },
         {
           "label": "Tilt adjustment",
@@ -1677,7 +1677,7 @@
         },
         {
           "code": "Zhaga socket",
-          "desc": "D4i 4-pin Zhaga socket — accepts photocells, motion sensors or control nodes, axora compatible"
+          "desc": "D4i 4-pin Zhaga socket — accepts photocells, motion sensors or control nodes"
         }
       ],
       "certifications": [
@@ -1818,7 +1818,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket, axora compatible"
+          "value": "ZD4i-ready, 3/5/7-pin NEMA or D4i 4-pin Zhaga socket"
         },
         {
           "label": "Tilt adjustment",
@@ -2883,7 +2883,7 @@
         },
         {
           "code": "Zhaga socket",
-          "desc": "D4i 4-pin Zhaga socket — accepts photocells, motion sensors or control nodes, axora compatible"
+          "desc": "D4i 4-pin Zhaga socket — accepts photocells, motion sensors or control nodes"
         }
       ],
       "certifications": [
@@ -2944,7 +2944,7 @@
       "manufacturerUrl": "https://www.holophane.co.uk/products/view?code=FTS",
       "category": "Pole / Car Parks / Road Lighting",
       "family": "Factor Small",
-      "tagline": "Compact finned LED street luminaire with tool-less latch access and four optical distributions, built for cost-efficient S-Class and ME-Class road lighting.",
+      "tagline": "Compact finned LED street luminaire with tool-less latch access and four optical distributions.",
       "summary": "Factor Small is Holophane's compact finned LED street luminaire, covering 2,000–14,000 delivered lumens across four optical distributions — Symmetrical, Asymmetric, Forward Throw and Long & Narrow. A high-pressure die-cast aluminium body with a tool-less trigger latch and interchangeable IP65 light engines keeps installation and maintenance straightforward, while efficacies of up to 139 lm/W support long-term, low-maintenance road lighting schemes.",
       "applications": [
         "Roadways",
@@ -4092,7 +4092,7 @@
         },
         {
           "label": "Smart controls",
-          "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; axora Connect CMS control protocol; constant light output (CLO) available"
+          "value": "NEMA 3, 5 or 7-pin socket, or 4-pin Zhaga (ZD4i) interface, for photocells or nodes; constant light output (CLO) available"
         },
         {
           "label": "Warranty",
@@ -4337,7 +4337,7 @@
         },
         {
           "code": "Zhaga socket (ZD4i)",
-          "desc": "4-pin Zhaga socket — accepts photocells, motion sensors or control nodes; axora Connect compatible"
+          "desc": "4-pin Zhaga socket — accepts photocells, motion sensors or control nodes"
         }
       ],
       "certifications": [
