@@ -8467,27 +8467,547 @@
         {
           "code": ".SY",
           "name": "Symmetric",
-          "chart": "assets/img/products/dwl/distributions/sy.png"
+          "chart": "assets/img/products/dwl/distributions/sy.png",
+          "dgi": {
+            "amber": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 6598,
+                "limit": 35000,
+                "candela": {
+                  "actual": 267.8,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 6598,
+                "limit": 40000,
+                "candela": {
+                  "actual": 267.8,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 6598,
+                "limit": 42000,
+                "candela": {
+                  "actual": 267.8,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 6598,
+                "limit": 50000,
+                "candela": {
+                  "actual": 267.8,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 6598,
+                "candela": {
+                  "actual": 267.8,
+                  "limit": 3500.0
+                }
+              }
+            },
+            "standard": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 10942,
+                "limit": 35000,
+                "candela": {
+                  "actual": 444.0,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 10942,
+                "limit": 40000,
+                "candela": {
+                  "actual": 444.0,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 10942,
+                "limit": 42000,
+                "candela": {
+                  "actual": 444.0,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 10942,
+                "limit": 50000,
+                "candela": {
+                  "actual": 444.0,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 10942,
+                "candela": {
+                  "actual": 444.0,
+                  "limit": 3500.0
+                }
+              }
+            }
+          }
         },
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/dwl/distributions/ay.png"
+          "chart": "assets/img/products/dwl/distributions/ay.png",
+          "dgi": {
+            "amber": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 9697,
+                "limit": 35000,
+                "candela": {
+                  "actual": 297.2,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 9697,
+                "limit": 40000,
+                "candela": {
+                  "actual": 297.2,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 9697,
+                "limit": 42000,
+                "candela": {
+                  "actual": 297.2,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 9697,
+                "limit": 50000,
+                "candela": {
+                  "actual": 297.2,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 9697,
+                "candela": {
+                  "actual": 297.2,
+                  "limit": 3500.0
+                }
+              }
+            },
+            "standard": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16485,
+                "limit": 35000,
+                "candela": {
+                  "actual": 505.2,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16485,
+                "limit": 40000,
+                "candela": {
+                  "actual": 505.2,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16485,
+                "limit": 42000,
+                "candela": {
+                  "actual": 505.2,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16485,
+                "limit": 50000,
+                "candela": {
+                  "actual": 505.2,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16485,
+                "candela": {
+                  "actual": 505.2,
+                  "limit": 3500.0
+                }
+              }
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/dwl/distributions/nr.png"
+          "chart": "assets/img/products/dwl/distributions/nr.png",
+          "dgi": {
+            "amber": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25532,
+                "limit": 35000,
+                "candela": {
+                  "actual": 86.3,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25532,
+                "limit": 40000,
+                "candela": {
+                  "actual": 86.3,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25532,
+                "limit": 42000,
+                "candela": {
+                  "actual": 86.3,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25532,
+                "limit": 50000,
+                "candela": {
+                  "actual": 86.3,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 25532,
+                "candela": {
+                  "actual": 86.3,
+                  "limit": 3500.0
+                }
+              }
+            },
+            "standard": {
+              "PR6": {
+                "w": "18W",
+                "status": "DGI LIMITED",
+                "dgi": 25274,
+                "limit": 35000,
+                "candela": {
+                  "actual": 85.5,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 38894,
+                "limit": 40000,
+                "candela": {
+                  "actual": 131.5,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 38894,
+                "limit": 42000,
+                "candela": {
+                  "actual": 131.5,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 38894,
+                "limit": 50000,
+                "candela": {
+                  "actual": 131.5,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 38894,
+                "candela": {
+                  "actual": 131.5,
+                  "limit": 3500.0
+                }
+              }
+            }
+          }
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/dwl/distributions/fw.png"
+          "chart": "assets/img/products/dwl/distributions/fw.png",
+          "dgi": {
+            "amber": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16580,
+                "limit": 35000,
+                "candela": {
+                  "actual": 442.8,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16580,
+                "limit": 40000,
+                "candela": {
+                  "actual": 442.8,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16580,
+                "limit": 42000,
+                "candela": {
+                  "actual": 442.8,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16580,
+                "limit": 50000,
+                "candela": {
+                  "actual": 442.8,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 16580,
+                "candela": {
+                  "actual": 442.8,
+                  "limit": 3500.0
+                }
+              }
+            },
+            "standard": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 24965,
+                "limit": 35000,
+                "candela": {
+                  "actual": 666.7,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 24965,
+                "limit": 40000,
+                "candela": {
+                  "actual": 666.7,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 24965,
+                "limit": 42000,
+                "candela": {
+                  "actual": 666.7,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 24965,
+                "limit": 50000,
+                "candela": {
+                  "actual": 666.7,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 24965,
+                "candela": {
+                  "actual": 666.7,
+                  "limit": 3500.0
+                }
+              }
+            }
+          }
         },
         {
           "code": ".HN",
           "name": "High Beam Long & Narrow",
-          "chart": "assets/img/products/dwl/distributions/hn.png"
+          "chart": "assets/img/products/dwl/distributions/hn.png",
+          "dgi": {
+            "amber": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 22710,
+                "limit": 35000,
+                "candela": {
+                  "actual": 109.2,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 22710,
+                "limit": 40000,
+                "candela": {
+                  "actual": 109.2,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 22710,
+                "limit": 42000,
+                "candela": {
+                  "actual": 109.2,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 22710,
+                "limit": 50000,
+                "candela": {
+                  "actual": 109.2,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 22710,
+                "candela": {
+                  "actual": 109.2,
+                  "limit": 3500.0
+                }
+              }
+            },
+            "standard": {
+              "PR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 34611,
+                "limit": 35000,
+                "candela": {
+                  "actual": 166.4,
+                  "limit": 720.0
+                }
+              },
+              "PR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 34611,
+                "limit": 40000,
+                "candela": {
+                  "actual": 166.4,
+                  "limit": 720.0
+                }
+              },
+              "LR6": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 34611,
+                "limit": 42000,
+                "candela": {
+                  "actual": 166.4,
+                  "limit": 720.0
+                }
+              },
+              "LR10": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 34611,
+                "limit": 50000,
+                "candela": {
+                  "actual": 166.4,
+                  "limit": 720.0
+                }
+              },
+              "PA": {
+                "w": "25W",
+                "status": "MAX AVAILABLE",
+                "dgi": 34611,
+                "candela": {
+                  "actual": 166.4,
+                  "limit": 3500.0
+                }
+              }
+            }
+          }
         }
       ],
       "accessories": [
@@ -8551,7 +9071,18 @@
           "file": "assets/downloads/ies/DWL-IES-files.zip",
           "meta": ""
         }
-      }
+      },
+      "dgiVariants": [
+        {
+          "key": "standard",
+          "label": "White (2700K/3000K/4000K)"
+        },
+        {
+          "key": "amber",
+          "label": "PC AMBER"
+        }
+      ],
+      "dgiPaCategory": true
     },
     {
       "code": "WAP",
@@ -8684,22 +9215,172 @@
         {
           "code": ".AY",
           "name": "Asymmetric",
-          "chart": "assets/img/products/wap/distributions/ay.png"
+          "chart": "assets/img/products/wap/distributions/ay.png",
+          "dgi": {
+            "PR6": {
+              "w": "63W",
+              "status": "DGI LIMITED",
+              "dgi": 29811,
+              "limit": 35000,
+              "candela": {
+                "actual": 661.9,
+                "limit": 1220.94
+              }
+            },
+            "PR10": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36323,
+              "limit": 40000,
+              "candela": {
+                "actual": 861.7,
+                "limit": 1589.3999999999999
+              }
+            },
+            "LR6": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36323,
+              "limit": 42000,
+              "candela": {
+                "actual": 861.7,
+                "limit": 1589.3999999999999
+              }
+            },
+            "LR10": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36323,
+              "limit": 50000,
+              "candela": {
+                "actual": 861.7,
+                "limit": 1589.3999999999999
+              }
+            },
+            "PA": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 36323,
+              "candela": {
+                "actual": 861.7,
+                "limit": 3500.0
+              }
+            }
+          }
         },
         {
           "code": ".HA",
           "name": "Asymmetric Long",
-          "chart": "assets/img/products/wap/distributions/ha.png"
+          "chart": "assets/img/products/wap/distributions/ha.png",
+          "dgi": {
+            "PR6": {
+              "note": "No compliant outputs"
+            },
+            "PR10": {
+              "note": "No compliant outputs"
+            },
+            "LR6": {
+              "note": "No compliant outputs"
+            },
+            "LR10": {
+              "note": "No compliant outputs"
+            },
+            "PA": {
+              "w": "50W",
+              "status": "DGI LIMITED",
+              "dgi": 36188,
+              "candela": {
+                "actual": 2932.5,
+                "limit": 3500.0
+              },
+              "caution": "Photometry predates a 2025 brochure revision (tested 2020 at 50W; current brochure lists this level at 45W) — confirming with Holophane."
+            }
+          }
         },
         {
           "code": ".FW",
           "name": "Forward Throw",
-          "chart": "assets/img/products/wap/distributions/fw.png"
+          "chart": "assets/img/products/wap/distributions/fw.png",
+          "dgi": {
+            "PR6": {
+              "w": "50W",
+              "status": "DGI LIMITED",
+              "dgi": 28125,
+              "limit": 35000,
+              "candela": {
+                "actual": 526.0,
+                "limit": 1054.98
+              },
+              "caution": "Photometry predates a 2025 brochure revision (tested 2020 at 50W; current brochure lists this level at 45W) — confirming with Holophane."
+            },
+            "PR10": {
+              "w": "63W",
+              "status": "DGI LIMITED",
+              "dgi": 36441,
+              "limit": 40000,
+              "candela": {
+                "actual": 633.2,
+                "limit": 1269.8999999999999
+              }
+            },
+            "LR6": {
+              "w": "63W",
+              "status": "DGI LIMITED",
+              "dgi": 36441,
+              "limit": 42000,
+              "candela": {
+                "actual": 633.2,
+                "limit": 1269.8999999999999
+              }
+            },
+            "LR10": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 44608,
+              "limit": 50000,
+              "candela": {
+                "actual": 774.4,
+                "limit": 1553.22
+              }
+            },
+            "PA": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 44608,
+              "candela": {
+                "actual": 834.3,
+                "limit": 3500.0
+              }
+            }
+          }
         },
         {
           "code": ".NR",
           "name": "Long & Narrow",
-          "chart": "assets/img/products/wap/distributions/nr.png"
+          "chart": "assets/img/products/wap/distributions/nr.png",
+          "dgi": {
+            "PR6": {
+              "note": "No compliant outputs"
+            },
+            "PR10": {
+              "note": "No compliant outputs"
+            },
+            "LR6": {
+              "note": "No compliant outputs"
+            },
+            "LR10": {
+              "note": "No compliant outputs"
+            },
+            "PA": {
+              "w": "81W",
+              "status": "MAX AVAILABLE",
+              "dgi": 47779,
+              "candela": {
+                "actual": 2547.3,
+                "limit": 3500.0
+              }
+            }
+          }
         }
       ],
       "accessories": [
@@ -8734,7 +9415,8 @@
           "file": "assets/downloads/ies/WAP-IES-files.zip",
           "meta": ""
         }
-      }
+      },
+      "dgiPaCategory": true
     },
     {
       "code": "DBD",

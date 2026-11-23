@@ -161,6 +161,8 @@
 
       var capInfo = cell.status === "MAX AVAILABLE" ?
         ' <button type="button" class="dgi-info" data-tip="Capped by available output, not by glare limit" aria-label="Why is this the maximum?">i</button>' : "";
+      var cautionInfo = cell.caution ?
+        ' <button type="button" class="dgi-info dgi-caution" data-tip="' + esc(cell.caution) + '" aria-label="Data quality note">!</button>' : "";
       wattEl.className = "dgi-big-pct";
 
       // PA/PE/PC cells carry no Table 3.9 limit (it doesn't apply to area
@@ -170,7 +172,7 @@
       // instead of a DGI percentage. Otherwise just the wattage, and the
       // DGI figure only where supplied, purely as a reference number.
       if (!cell.limit) {
-        wattEl.innerHTML = esc(cell.w) + '<small>maximum available output' + capInfo + '</small>';
+        wattEl.innerHTML = esc(cell.w) + '<small>maximum available output' + capInfo + cautionInfo + '</small>';
         if (cell.candela) {
           var cPct = Math.round((cell.candela.actual / cell.candela.limit) * 1000) / 10;
           var cKind = dgiRamp(cPct);
@@ -194,7 +196,7 @@
       setFootLabels("DGI used:", "Table 3.9 limit:");
       var pct = dgiPct(cell);
       var kind = dgiRamp(pct);
-      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + '</small>';
+      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + cautionInfo + '</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
       usedEl.textContent = cell.dgi.toLocaleString("en-AU");

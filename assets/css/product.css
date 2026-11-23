@@ -668,6 +668,17 @@ body.lightbox-locked {
   color: var(--text-muted-on-dark);
 }
 
+.dgi-caution {
+  border-color: var(--glow);
+  color: var(--glow);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.dgi-caution::after {
+  max-width: 260px;
+}
+
 .dgi-big-pct--note {
   font-family: var(--font-body);
   font-size: var(--text-md);
