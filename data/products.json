@@ -9075,7 +9075,7 @@
       "dgiVariants": [
         {
           "key": "standard",
-          "label": "White (2700K/3000K/4000K)"
+          "label": "2700K/3000K/4000K"
         },
         {
           "key": "amber",
