@@ -178,68 +178,51 @@
           "dgi": {
             "backlight": {
               "PR6": {
-                "note": "Not offered with this optic"
-              },
-              "PR10": {
-                "note": "Not offered with this optic"
-              },
-              "LR6": {
-                "note": "Not offered with this optic"
-              },
-              "LR10": {
-                "note": "Not offered with this optic"
-              },
-              "PA": {
-                "note": "Not offered with this optic"
-              }
-            },
-            "external": {
-              "PR6": {
                 "w": "87W",
                 "status": "MAX AVAILABLE",
-                "dgi": 31506,
+                "dgi": 31954,
                 "limit": 35000,
                 "candela": {
-                  "actual": 983.0,
-                  "limit": 2029.1399999999999
+                  "actual": 875.7,
+                  "limit": 1767.06
                 }
               },
               "PR10": {
                 "w": "87W",
                 "status": "MAX AVAILABLE",
-                "dgi": 31506,
+                "dgi": 31954,
                 "limit": 40000,
                 "candela": {
-                  "actual": 983.0,
-                  "limit": 2029.1399999999999
+                  "actual": 875.7,
+                  "limit": 1767.06
                 }
               },
               "LR6": {
                 "w": "87W",
                 "status": "MAX AVAILABLE",
-                "dgi": 31506,
+                "dgi": 31954,
                 "limit": 42000,
                 "candela": {
-                  "actual": 983.0,
-                  "limit": 2029.1399999999999
+                  "actual": 875.7,
+                  "limit": 1767.06
                 }
               },
               "LR10": {
                 "w": "87W",
                 "status": "MAX AVAILABLE",
-                "dgi": 31506,
+                "dgi": 31954,
                 "limit": 50000,
                 "candela": {
-                  "actual": 983.0,
-                  "limit": 2029.1399999999999
+                  "actual": 875.7,
+                  "limit": 1767.06
                 }
               },
               "PA": {
                 "w": "87W",
                 "status": "MAX AVAILABLE",
-                "dgi": 31506,
+                "dgi": 31954,
                 "candela": {
-                  "actual": 983.0,
+                  "actual": 964.6,
                   "limit": 3500.0
                 }
               }
@@ -302,57 +285,6 @@
           "name": "Asymmetric",
           "chart": "assets/img/products/dpl/distributions/ay-v2.png",
           "dgi": {
-            "external": {
-              "PR6": {
-                "w": "57W",
-                "status": "DGI LIMITED",
-                "dgi": 30966,
-                "limit": 35000,
-                "candela": {
-                  "actual": 354.1,
-                  "limit": 1319.76
-                }
-              },
-              "PR10": {
-                "w": "69W",
-                "status": "DGI LIMITED",
-                "dgi": 39650,
-                "limit": 40000,
-                "candela": {
-                  "actual": 458.0,
-                  "limit": 1706.9399999999998
-                }
-              },
-              "LR6": {
-                "w": "69W",
-                "status": "DGI LIMITED",
-                "dgi": 39650,
-                "limit": 42000,
-                "candela": {
-                  "actual": 458.0,
-                  "limit": 1706.9399999999998
-                }
-              },
-              "LR10": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 47765,
-                "limit": 50000,
-                "candela": {
-                  "actual": 546.5,
-                  "limit": 2036.52
-                }
-              },
-              "PA": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 47765,
-                "candela": {
-                  "actual": 604.7,
-                  "limit": 3500.0
-                }
-              }
-            },
             "standard": {
               "PR6": {
                 "w": "57W",
@@ -428,57 +360,6 @@
           "name": "Long & Narrow",
           "chart": "assets/img/products/dpl/distributions/nr-v2.png",
           "dgi": {
-            "external": {
-              "PR6": {
-                "w": "25W",
-                "status": "DGI LIMITED",
-                "dgi": 31333,
-                "limit": 35000,
-                "candela": {
-                  "actual": 153.6,
-                  "limit": 720.0
-                }
-              },
-              "PR10": {
-                "w": "25W",
-                "status": "DGI LIMITED",
-                "dgi": 31333,
-                "limit": 40000,
-                "candela": {
-                  "actual": 153.6,
-                  "limit": 720.0
-                }
-              },
-              "LR6": {
-                "w": "25W",
-                "status": "DGI LIMITED",
-                "dgi": 31333,
-                "limit": 42000,
-                "candela": {
-                  "actual": 153.6,
-                  "limit": 720.0
-                }
-              },
-              "LR10": {
-                "w": "30W",
-                "status": "DGI LIMITED",
-                "dgi": 43465,
-                "limit": 50000,
-                "candela": {
-                  "actual": 213.0,
-                  "limit": 829.98
-                }
-              },
-              "PA": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 106827,
-                "candela": {
-                  "actual": 662.2,
-                  "limit": 3500.0
-                }
-              }
-            },
             "standard": {
               "PR6": {
                 "w": "24W",
@@ -605,57 +486,6 @@
                 }
               }
             },
-            "external": {
-              "PR6": {
-                "w": "49W",
-                "status": "DGI LIMITED",
-                "dgi": 33703,
-                "limit": 35000,
-                "candela": {
-                  "actual": 521.7,
-                  "limit": 1205.46
-                }
-              },
-              "PR10": {
-                "w": "57W",
-                "status": "DGI LIMITED",
-                "dgi": 38146,
-                "limit": 40000,
-                "candela": {
-                  "actual": 654.8,
-                  "limit": 1513.08
-                }
-              },
-              "LR6": {
-                "w": "57W",
-                "status": "DGI LIMITED",
-                "dgi": 38146,
-                "limit": 42000,
-                "candela": {
-                  "actual": 654.8,
-                  "limit": 1513.08
-                }
-              },
-              "LR10": {
-                "w": "69W",
-                "status": "DGI LIMITED",
-                "dgi": 48847,
-                "limit": 50000,
-                "candela": {
-                  "actual": 838.5,
-                  "limit": 1937.52
-                }
-              },
-              "PA": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 58844,
-                "candela": {
-                  "actual": 1010.1,
-                  "limit": 3500.0
-                }
-              }
-            },
             "standard": {
               "PR6": {
                 "w": "30W",
@@ -761,57 +591,6 @@
                 "dgi": 76747,
                 "candela": {
                   "actual": 390.1,
-                  "limit": 3500.0
-                }
-              }
-            },
-            "external": {
-              "PR6": {
-                "w": "30W",
-                "status": "DGI LIMITED",
-                "dgi": 30532,
-                "limit": 35000,
-                "candela": {
-                  "actual": 143.0,
-                  "limit": 720.0
-                }
-              },
-              "PR10": {
-                "w": "38W",
-                "status": "DGI LIMITED",
-                "dgi": 37481,
-                "limit": 40000,
-                "candela": {
-                  "actual": 167.0,
-                  "limit": 825.66
-                }
-              },
-              "LR6": {
-                "w": "38W",
-                "status": "DGI LIMITED",
-                "dgi": 37481,
-                "limit": 42000,
-                "candela": {
-                  "actual": 167.0,
-                  "limit": 825.66
-                }
-              },
-              "LR10": {
-                "w": "57W",
-                "status": "DGI LIMITED",
-                "dgi": 48626,
-                "limit": 50000,
-                "candela": {
-                  "actual": 288.0,
-                  "limit": 1424.1599999999999
-                }
-              },
-              "PA": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 75004,
-                "candela": {
-                  "actual": 444.2,
                   "limit": 3500.0
                 }
               }
@@ -943,10 +722,6 @@
         {
           "key": "standard",
           "label": "Standard"
-        },
-        {
-          "key": "external",
-          "label": "External shield (.BLS1)"
         },
         {
           "key": "backlight",
