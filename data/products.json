@@ -202,7 +202,11 @@
             },
             "PA": {
               "w": "87W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1615.6,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -237,7 +241,11 @@
             },
             "PA": {
               "w": "87W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1857.1,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -272,7 +280,11 @@
             },
             "PA": {
               "w": "87W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 597.7,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -307,7 +319,11 @@
             },
             "PA": {
               "w": "87W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1582.3,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -342,7 +358,11 @@
             },
             "PA": {
               "w": "87W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 511.6,
+                "limit": 3500.0
+              }
             }
           }
         }
@@ -905,7 +925,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 83819
+                "dgi": 83819,
+                "candela": {
+                  "actual": 1766.8,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -936,7 +960,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 44287
+                "dgi": 44287,
+                "candela": {
+                  "actual": 515.0,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -974,7 +1002,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 86524
+                "dgi": 86524,
+                "candela": {
+                  "actual": 2559.1,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1029,7 +1061,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 67748
+                "dgi": 67748,
+                "candela": {
+                  "actual": 1780.0,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1060,7 +1096,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 42102
+                "dgi": 42102,
+                "candela": {
+                  "actual": 719.3,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1098,7 +1138,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 69587
+                "dgi": 69587,
+                "candela": {
+                  "actual": 2257.2,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1129,7 +1173,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 44950
+                "dgi": 44950,
+                "candela": {
+                  "actual": 519.2,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1167,7 +1215,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 67304
+                "dgi": 67304,
+                "candela": {
+                  "actual": 1665.2,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1198,7 +1250,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 42133
+                "dgi": 42133,
+                "candela": {
+                  "actual": 449.8,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1236,7 +1292,11 @@
               "PA": {
                 "w": "66W",
                 "status": "MAX AVAILABLE",
-                "dgi": 47960
+                "dgi": 47960,
+                "candela": {
+                  "actual": 841.6,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1267,7 +1327,11 @@
               "PA": {
                 "w": "66W",
                 "status": "MAX AVAILABLE",
-                "dgi": 46325
+                "dgi": 46325,
+                "candela": {
+                  "actual": 604.7,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1305,7 +1369,11 @@
               "PA": {
                 "w": "66W",
                 "status": "MAX AVAILABLE",
-                "dgi": 45893
+                "dgi": 45893,
+                "candela": {
+                  "actual": 714.3,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1336,7 +1404,11 @@
               "PA": {
                 "w": "66W",
                 "status": "MAX AVAILABLE",
-                "dgi": 44872
+                "dgi": 44872,
+                "candela": {
+                  "actual": 239.6,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1374,7 +1446,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 92525
+                "dgi": 92525,
+                "candela": {
+                  "actual": 2265.1,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1405,7 +1481,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 54746
+                "dgi": 54746,
+                "candela": {
+                  "actual": 1336.6,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1443,7 +1523,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 104933
+                "dgi": 104933,
+                "candela": {
+                  "actual": 2748.0,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1474,7 +1558,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 67495
+                "dgi": 67495,
+                "candela": {
+                  "actual": 1328.5,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1512,7 +1600,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 87299
+                "dgi": 87299,
+                "candela": {
+                  "actual": 2570.7,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1543,7 +1635,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 56489
+                "dgi": 56489,
+                "candela": {
+                  "actual": 970.6,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1569,7 +1665,11 @@
               "PA": {
                 "w": "66W",
                 "status": "MAX AVAILABLE",
-                "dgi": 63144
+                "dgi": 63144,
+                "candela": {
+                  "actual": 1667.1,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1600,7 +1700,11 @@
               "PA": {
                 "w": "66W",
                 "status": "MAX AVAILABLE",
-                "dgi": 56698
+                "dgi": 56698,
+                "candela": {
+                  "actual": 515.8,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1638,7 +1742,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 83206
+                "dgi": 83206,
+                "candela": {
+                  "actual": 2394.5,
+                  "limit": 3500.0
+                }
               }
             },
             "glass": {
@@ -1669,7 +1777,11 @@
               "PA": {
                 "w": "134W",
                 "status": "MAX AVAILABLE",
-                "dgi": 50365
+                "dgi": 50365,
+                "candela": {
+                  "actual": 723.3,
+                  "limit": 3500.0
+                }
               }
             }
           }
@@ -1903,7 +2015,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 39251
+                  "dgi": 39251,
+                  "candela": {
+                    "actual": 1108.0,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -1934,7 +2050,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 25904
+                  "dgi": 25904,
+                  "candela": {
+                    "actual": 315.1,
+                    "limit": 3500.0
+                  }
                 }
               }
             },
@@ -2024,7 +2144,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 44629
+                  "dgi": 44629,
+                  "candela": {
+                    "actual": 922.2,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2055,7 +2179,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 25833
+                  "dgi": 25833,
+                  "candela": {
+                    "actual": 269.0,
+                    "limit": 3500.0
+                  }
                 }
               }
             },
@@ -2145,7 +2273,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 36558
+                  "dgi": 36558,
+                  "candela": {
+                    "actual": 852.1,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2176,7 +2308,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 24075
+                  "dgi": 24075,
+                  "candela": {
+                    "actual": 230.2,
+                    "limit": 3500.0
+                  }
                 }
               }
             },
@@ -2266,7 +2402,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 26778
+                  "dgi": 26778,
+                  "candela": {
+                    "actual": 420.8,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2297,7 +2437,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 17708
+                  "dgi": 17708,
+                  "candela": {
+                    "actual": 157.7,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -2337,7 +2481,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 25624
+                  "dgi": 25624,
+                  "candela": {
+                    "actual": 357.1,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2368,7 +2516,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 18087
+                  "dgi": 18087,
+                  "candela": {
+                    "actual": 157.9,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -2451,7 +2603,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 61082
+                  "dgi": 61082,
+                  "candela": {
+                    "actual": 1489.7,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2482,7 +2638,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 40858
+                  "dgi": 40858,
+                  "candela": {
+                    "actual": 720.2,
+                    "limit": 3500.0
+                  }
                 }
               }
             },
@@ -2572,7 +2732,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 57341
+                  "dgi": 57341,
+                  "candela": {
+                    "actual": 1894.0,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2665,7 +2829,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 35260
+                  "dgi": 35260,
+                  "candela": {
+                    "actual": 833.6,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2696,7 +2864,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 21456
+                  "dgi": 21456,
+                  "candela": {
+                    "actual": 521.7,
+                    "limit": 3500.0
+                  }
                 }
               }
             }
@@ -2736,7 +2908,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 49369
+                  "dgi": 49369,
+                  "candela": {
+                    "actual": 1272.3,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -2767,7 +2943,11 @@
                 "PA": {
                   "w": "68W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 29882
+                  "dgi": 29882,
+                  "candela": {
+                    "actual": 384.3,
+                    "limit": 3500.0
+                  }
                 }
               }
             },
@@ -2857,7 +3037,11 @@
                 "PA": {
                   "w": "34W",
                   "status": "MAX AVAILABLE",
-                  "dgi": 37453
+                  "dgi": 37453,
+                  "candela": {
+                    "actual": 864.0,
+                    "limit": 3500.0
+                  }
                 }
               },
               "glass": {
@@ -3133,7 +3317,11 @@
             },
             "PA": {
               "w": "104W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1726.0,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -3178,7 +3366,11 @@
             },
             "PA": {
               "w": "68W",
-              "status": "LIMITED"
+              "status": "LIMITED",
+              "candela": {
+                "actual": 3433.0,
+                "limit": 3500.0
+              }
             }
           }
         }
@@ -3423,7 +3615,11 @@
             },
             "PA": {
               "w": "139W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1600.1,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -3458,7 +3654,11 @@
             },
             "PA": {
               "w": "139W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1969.4,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -3493,7 +3693,11 @@
             },
             "PA": {
               "w": "139W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 1670.8,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -3528,7 +3732,11 @@
             },
             "PA": {
               "w": "139W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 2218.1,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -3563,7 +3771,11 @@
             },
             "PA": {
               "w": "139W",
-              "status": "MAX AVAILABLE"
+              "status": "MAX AVAILABLE",
+              "candela": {
+                "actual": 2367.0,
+                "limit": 3500.0
+              }
             }
           }
         }

@@ -78,8 +78,8 @@
           '<div class="dgi-big-pct" data-dgi-watt></div>' +
           '<div class="dgi-bar-track"><div class="dgi-bar-fill" data-dgi-fill></div></div>' +
           '<div class="dgi-bar-foot">' +
-            '<span>DGI used: <b data-dgi-used></b> <span data-dgi-pct></span></span>' +
-            '<span>Table 3.9 limit: <b data-dgi-limit></b></span>' +
+            '<span><span data-dgi-used-label>DGI used:</span> <b data-dgi-used></b> <span data-dgi-pct></span></span>' +
+            '<span><span data-dgi-limit-label>Table 3.9 limit:</span> <b data-dgi-limit></b></span>' +
           '</div>' +
         '</div>' +
       '</div>'
@@ -104,6 +104,13 @@
     var fillEl = block.querySelector("[data-dgi-fill]");
     var usedEl = block.querySelector("[data-dgi-used]");
     var limitEl = block.querySelector("[data-dgi-limit]");
+    var usedLabelEl = block.querySelector("[data-dgi-used-label]");
+    var limitLabelEl = block.querySelector("[data-dgi-limit-label]");
+
+    function setFootLabels(usedLabel, limitLabel) {
+      usedLabelEl.textContent = usedLabel;
+      limitLabelEl.textContent = limitLabel;
+    }
 
     // Which LED/driver specs (e.g. Standard vs .HE) exist for the currently
     // selected optic varies per optic — most only ever have "standard", so
@@ -131,6 +138,7 @@
       nameEl.textContent = optic.code + " — " + optic.name + " · " + catLabel;
 
       if (cell.note) {
+        setFootLabels("DGI used:", "Table 3.9 limit:");
         wattEl.className = "dgi-big-pct dgi-big-pct--note";
         wattEl.textContent = cell.note;
         fillEl.style.width = "0%";
@@ -146,19 +154,34 @@
       wattEl.className = "dgi-big-pct";
 
       // PA/PE/PC cells carry no Table 3.9 limit (it doesn't apply to area
-      // lighting), so there's nothing to show a compliance bar against —
-      // just the wattage, and the DGI figure only where supplied, purely
-      // as a reference number rather than a pass/fail percentage.
+      // lighting). Where the matrix verified Table 3.8 (the 3,500 cd
+      // exception at 80–<90° for area lighting), cell.candela carries the
+      // actual vs. limit pair and the same bar is reused to show that
+      // instead of a DGI percentage. Otherwise just the wattage, and the
+      // DGI figure only where supplied, purely as a reference number.
       if (!cell.limit) {
         wattEl.innerHTML = esc(cell.w) + '<small>maximum available output' + capInfo + '</small>';
-        fillEl.style.width = "0%";
-        fillEl.className = "dgi-bar-fill";
-        usedEl.textContent = cell.dgi != null ? cell.dgi.toLocaleString("en-AU") : "—";
-        pctEl.textContent = "";
-        limitEl.textContent = "not applicable";
+        if (cell.candela) {
+          var cPct = Math.round((cell.candela.actual / cell.candela.limit) * 1000) / 10;
+          var cKind = dgiRamp(cPct);
+          setFootLabels("Candela used (80–<90°):", "Table 3.8 limit:");
+          fillEl.style.width = cPct + "%";
+          fillEl.className = "dgi-bar-fill dgi-bar-fill--" + cKind;
+          usedEl.textContent = Math.round(cell.candela.actual).toLocaleString("en-AU") + " cd";
+          pctEl.textContent = "(" + cPct + "%)";
+          limitEl.textContent = cell.candela.limit.toLocaleString("en-AU") + " cd";
+        } else {
+          setFootLabels("DGI used:", "Table 3.9 limit:");
+          fillEl.style.width = "0%";
+          fillEl.className = "dgi-bar-fill";
+          usedEl.textContent = cell.dgi != null ? cell.dgi.toLocaleString("en-AU") : "—";
+          pctEl.textContent = "";
+          limitEl.textContent = "not applicable";
+        }
         return;
       }
 
+      setFootLabels("DGI used:", "Table 3.9 limit:");
       var pct = dgiPct(cell);
       var kind = dgiRamp(pct);
       wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + '</small>';
