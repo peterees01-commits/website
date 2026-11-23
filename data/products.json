@@ -82,8 +82,8 @@
           "detail": "Operating temperature range"
         },
         {
-          "label": "Amber Available",
-          "detail": "PC Amber colour temperature option"
+          "label": "PC AMBER Available",
+          "detail": "PC AMBER colour temperature option"
         }
       ],
       "keySpecs": [
@@ -93,8 +93,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (PC Amber available)",
-          "short": "2700K / 3000K / 4000K / AMBER"
+          "value": "2700K / 3000K / 4000K (PC AMBER available)",
+          "short": "2700K / 3000K / 4000K / PC AMBER"
         },
         {
           "label": "CRI",
@@ -3363,7 +3363,7 @@
           "detail": "Operating temperature range"
         },
         {
-          "label": "Amber Available",
+          "label": "PC AMBER Available",
           "detail": "On request"
         }
       ],
@@ -3374,8 +3374,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "3000K / 4000K (2700K or Amber available on request)",
-          "short": "3000K / 4000K / AMBER"
+          "value": "3000K / 4000K (2700K or PC AMBER available on request)",
+          "short": "3000K / 4000K / PC AMBER"
         },
         {
           "label": "CRI",
@@ -4452,7 +4452,7 @@
           "detail": "Operating temperature range"
         },
         {
-          "label": "Amber Available",
+          "label": "PC AMBER Available",
           "detail": "On request"
         }
       ],
@@ -4463,8 +4463,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "3000K / 4000K (2700K or Amber available on request)",
-          "short": "3000K / 4000K / AMBER"
+          "value": "3000K / 4000K (2700K or PC AMBER available on request)",
+          "short": "3000K / 4000K / PC AMBER"
         },
         {
           "label": "CRI",
@@ -8039,8 +8039,8 @@
           "detail": "International Dark-Sky Association, 3000K/4000K"
         },
         {
-          "label": "Amber Available",
-          "detail": "Amber colour temperature option"
+          "label": "PC AMBER Available",
+          "detail": "PC AMBER colour temperature option"
         }
       ],
       "keySpecs": [
@@ -8050,7 +8050,7 @@
         },
         {
           "label": "Colour temperature",
-          "value": "3000K, 4000K, or Amber"
+          "value": "3000K, 4000K, or PC AMBER"
         },
         {
           "label": "CRI",
@@ -8641,8 +8641,8 @@
           "detail": "Manufactured in the UK"
         },
         {
-          "label": "Amber Available",
-          "detail": "PC Amber colour temperature option"
+          "label": "PC AMBER Available",
+          "detail": "PC AMBER colour temperature option"
         }
       ],
       "keySpecs": [
@@ -8652,8 +8652,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (Amber available)",
-          "short": "2700K / 3000K / 4000K / AMBER"
+          "value": "2700K / 3000K / 4000K (PC AMBER available)",
+          "short": "2700K / 3000K / 4000K / PC AMBER"
         },
         {
           "label": "CRI",
@@ -9074,8 +9074,8 @@
           "detail": "Manufactured in the UK"
         },
         {
-          "label": "Amber Available",
-          "detail": "PC Amber colour temperature option"
+          "label": "PC AMBER Available",
+          "detail": "PC AMBER colour temperature option"
         }
       ],
       "keySpecs": [
@@ -9085,8 +9085,8 @@
         },
         {
           "label": "Colour temperature",
-          "value": "2700K / 3000K / 4000K (Amber available)",
-          "short": "2700K / 3000K / 4000K / AMBER"
+          "value": "2700K / 3000K / 4000K (PC AMBER available)",
+          "short": "2700K / 3000K / 4000K / PC AMBER"
         },
         {
           "label": "CRI",
