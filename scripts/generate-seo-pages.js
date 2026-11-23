@@ -27,9 +27,30 @@
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = path.join(__dirname, "..");
+// ROOT is an explicit staging directory, e.g. _site — a disposable COPY of
+// the site, never the real repo checkout. This script mutates files in
+// place (patching heads, adding generated pages), so it must never run
+// against the actual source tree. Required positional arg, no default.
+var rootArg = process.argv[2];
+if (!rootArg) {
+  console.error("Usage: node generate-seo-pages.js <staging-dir>");
+  console.error("Refusing to default to the repo root — this script mutates files in place.");
+  process.exit(1);
+}
+const ROOT = path.resolve(rootArg);
+if (!fs.existsSync(path.join(ROOT, "products", "product.html"))) {
+  console.error("'" + ROOT + "' doesn't look like a staged copy of the site (missing products/product.html). Aborting.");
+  process.exit(1);
+}
+
 const BASE_URL = "https://peterees01-commits.github.io/website";
 const SITE_NAME = "Lumen Method";
+
+// The site is public (anyone with the link can view it) but not yet
+// announced — flip this to true once it's ready to be found by search
+// engines. While false, robots.txt blocks crawling and no sitemap is
+// published, so an unlinked, unfinished page doesn't get indexed.
+const SITE_IS_LIVE = false;
 
 function readJson(relPath) {
   return JSON.parse(fs.readFileSync(path.join(ROOT, relPath), "utf8"));
@@ -72,14 +93,19 @@ function buildPage(templateHtml, opts) {
 
   // <meta name="description" content="...">
   var metaBlockLines = [
-    '<meta name="description" content="' + esc(opts.description) + '">',
+    '<meta name="description" content="' + esc(opts.description) + '">'
+  ];
+  if (!SITE_IS_LIVE) {
+    metaBlockLines.push('<meta name="robots" content="noindex, nofollow">');
+  }
+  metaBlockLines.push(
     '<link rel="canonical" href="' + esc(opts.url) + '">',
     '<meta property="og:type" content="' + esc(opts.ogType) + '">',
     '<meta property="og:site_name" content="' + esc(SITE_NAME) + '">',
     '<meta property="og:title" content="' + esc(opts.title) + '">',
     '<meta property="og:description" content="' + esc(opts.description) + '">',
     '<meta property="og:url" content="' + esc(opts.url) + '">'
-  ];
+  );
   if (opts.image) {
     metaBlockLines.push('<meta property="og:image" content="' + esc(absoluteUrl(opts.image)) + '">');
   }
@@ -234,20 +260,36 @@ function main() {
 
   STATIC_PAGES.forEach(function (p) { addSitemapUrl(p); });
 
-  var sitemap =
-    '<?xml version="1.0" encoding="UTF-8"?>\n' +
-    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    sitemapUrls.map(function (u) { return "  <url><loc>" + esc(u) + "</loc></url>"; }).join("\n") + "\n" +
-    "</urlset>\n";
-  fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
+  if (!SITE_IS_LIVE) {
+    var noindexRe = /<meta name="description" content="[^"]*">/;
+    STATIC_PAGES.forEach(function (relPath) {
+      var abs = path.join(ROOT, relPath);
+      var html = fs.readFileSync(abs, "utf8");
+      if (html.indexOf('name="robots"') !== -1) return;
+      html = html.replace(noindexRe, function (m) { return m + "\n" + '<meta name="robots" content="noindex, nofollow">'; });
+      fs.writeFileSync(abs, html, "utf8");
+    });
+    console.log("Added noindex to " + STATIC_PAGES.length + " static page(s)");
+  }
 
-  var robots =
-    "User-agent: *\n" +
-    "Allow: /\n" +
-    "Sitemap: " + BASE_URL + "/sitemap.xml\n";
+  var robots;
+  if (SITE_IS_LIVE) {
+    var sitemap =
+      '<?xml version="1.0" encoding="UTF-8"?>\n' +
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+      sitemapUrls.map(function (u) { return "  <url><loc>" + esc(u) + "</loc></url>"; }).join("\n") + "\n" +
+      "</urlset>\n";
+    fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemap, "utf8");
+    robots = "User-agent: *\nAllow: /\nSitemap: " + BASE_URL + "/sitemap.xml\n";
+    console.log("Generated sitemap.xml with " + sitemapUrls.length + " URLs");
+  } else {
+    // SITE_IS_LIVE is false: no sitemap, and robots.txt blocks all crawling —
+    // the site is public by link but not ready to be indexed yet.
+    robots = "User-agent: *\nDisallow: /\n";
+    console.log("SITE_IS_LIVE is false — skipped sitemap.xml, robots.txt disallows all crawling");
+  }
   fs.writeFileSync(path.join(ROOT, "robots.txt"), robots, "utf8");
 
-  console.log("Generated sitemap.xml with " + sitemapUrls.length + " URLs and robots.txt");
   console.log("Total generated item pages: " + total);
 }
 
