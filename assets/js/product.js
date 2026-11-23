@@ -64,21 +64,25 @@
         '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">AS/NZS 1158.3.1 -<br>DGI Compliance</h2>' +
         '<p style="color:' + mutedColor + ';font-size:var(--text-xs);margin-bottom:var(--space-4);max-width:56ch">How close this optic sits to its Table 3.9 glare-index limit, at the highest wattage that still passes. Table 3.9 sets no DGI limit for PA/PE/PC area lighting' + (p.dgiPaCategory ? " — included here as a Table 3.8 reference only" : "") + '.</p>' +
         '<div class="dgi-controls">' +
-          '<select class="dgi-select" data-dgi-optic>' +
+          '<label class="visually-hidden" for="dgi-optic-select">Optic / distribution</label>' +
+          '<select class="dgi-select" id="dgi-optic-select" data-dgi-optic>' +
             optics.map(function (d) { return '<option value="' + esc(d.code) + '">' + esc(d.code) + ' — ' + esc(d.name) + '</option>'; }).join("") +
           '</select>' +
           (sizeVariants ?
-            '<select class="dgi-select" data-dgi-size>' +
+            '<label class="visually-hidden" for="dgi-size-select">Size</label>' +
+            '<select class="dgi-select" id="dgi-size-select" data-dgi-size>' +
               sizeVariants.map(function (v) { return '<option value="' + esc(v.key) + '">' + esc(v.label) + '</option>'; }).join("") +
             '</select>' : ""
           ) +
-          (ledVariants ? '<select class="dgi-select" data-dgi-led></select>' : "") +
+          (ledVariants ? '<label class="visually-hidden" for="dgi-led-select">LED / driver spec</label><select class="dgi-select" id="dgi-led-select" data-dgi-led></select>' : "") +
           (variants ?
-            '<select class="dgi-select" data-dgi-variant>' +
+            '<label class="visually-hidden" for="dgi-variant-select">Configuration</label>' +
+            '<select class="dgi-select" id="dgi-variant-select" data-dgi-variant>' +
               variants.map(function (v) { return '<option value="' + esc(v.key) + '">' + esc(v.label) + '</option>'; }).join("") +
             '</select>' : ""
           ) +
-          '<select class="dgi-select" data-dgi-cat>' +
+          '<label class="visually-hidden" for="dgi-cat-select">Application category</label>' +
+          '<select class="dgi-select" id="dgi-cat-select" data-dgi-cat>' +
             cats.map(function (c) { return '<option value="' + c.key + '">' + esc(c.label) + '</option>'; }).join("") +
           '</select>' +
         '</div>' +
