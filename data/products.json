@@ -178,53 +178,19 @@
           "dgi": {
             "backlight": {
               "PR6": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 31954,
-                "limit": 35000,
-                "candela": {
-                  "actual": 875.7,
-                  "limit": 1767.06
-                }
+                "note": "Not offered with this optic"
               },
               "PR10": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 31954,
-                "limit": 40000,
-                "candela": {
-                  "actual": 875.7,
-                  "limit": 1767.06
-                }
+                "note": "Not offered with this optic"
               },
               "LR6": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 31954,
-                "limit": 42000,
-                "candela": {
-                  "actual": 875.7,
-                  "limit": 1767.06
-                }
+                "note": "Not offered with this optic"
               },
               "LR10": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 31954,
-                "limit": 50000,
-                "candela": {
-                  "actual": 875.7,
-                  "limit": 1767.06
-                }
+                "note": "Not offered with this optic"
               },
               "PA": {
-                "w": "87W",
-                "status": "MAX AVAILABLE",
-                "dgi": 31954,
-                "candela": {
-                  "actual": 964.6,
-                  "limit": 3500.0
-                }
+                "note": "Not offered with this optic"
               }
             },
             "external": {
