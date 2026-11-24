@@ -170,6 +170,13 @@
         ' <button type="button" class="dgi-info" data-tip="Capped by available output, not by glare limit" aria-label="Why is this the maximum?">i</button>' : "";
       var cautionInfo = cell.caution ?
         ' <button type="button" class="dgi-info dgi-caution" data-tip="' + esc(cell.caution) + '" aria-label="Data quality note">!</button>' : "";
+      // PR/PP and LATM/RAB categories carry a Table 3.9 DGI limit, which is
+      // what the bar shows — but the same photometry is also checked
+      // against Table 3.8 at this output. Surface that as a small badge
+      // rather than a second bar, so it's confirmable without cluttering
+      // the primary DGI reading.
+      var table38Info = (cell.limit && cell.candela) ?
+        ' <button type="button" class="dgi-info dgi-table38" data-tip="Also reviewed against Table 3.8: ' + Math.round(cell.candela.actual).toLocaleString("en-AU") + ' cd vs ' + cell.candela.limit.toLocaleString("en-AU") + ' cd limit (80–<90°)" aria-label="Table 3.8 reviewed">&#10003;</button>' : "";
       wattEl.className = "dgi-big-pct";
 
       // PA/PE/PC cells carry no Table 3.9 limit (it doesn't apply to area
@@ -203,7 +210,7 @@
       setFootLabels("DGI used:", "Table 3.9 limit:");
       var pct = dgiPct(cell);
       var kind = dgiRamp(pct);
-      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + cautionInfo + '</small>';
+      wattEl.innerHTML = esc(cell.w) + '<small>maximum compliant output' + capInfo + cautionInfo + table38Info + '</small>';
       fillEl.style.width = pct + "%";
       fillEl.className = "dgi-bar-fill dgi-bar-fill--" + kind;
       usedEl.textContent = cell.dgi.toLocaleString("en-AU");

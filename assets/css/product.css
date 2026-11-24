@@ -695,6 +695,16 @@ body.lightbox-locked {
   max-width: 260px;
 }
 
+.dgi-table38 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+}
+
+.dgi-table38::after {
+  max-width: 240px;
+}
+
 .dgi-big-pct--note {
   font-family: var(--font-body);
   font-size: var(--text-md);

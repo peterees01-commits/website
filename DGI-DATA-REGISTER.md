@@ -57,22 +57,6 @@ widget. Ask Holophane whether `.5R` photometry exists / is plannned.
 package (No Glass only). Shows "IES file not available". Ask Holophane
 if a Glass-lens `.R2.HE` file exists.
 
-### PR/PP and LATM/RAB categories — missing Table 3.8 check on R-Line, S-Line, Factor `.AY`
-🟡 **Pending — backfillable from data already on file.** Checked every PR6/PR10/LR6/LR10
-cell sitewide for whether it carries a recorded Table 3.8 `candela` check alongside its
-Table 3.9 DGI limit (confirming the methodology note that these categories' pass/fail
-combines both tables). Confirmed present for every such cell on DPL, DSX, DWL, WAP, PEB
-and SIG. Three exceptions, all predating the Table 3.8 feature and never backfilled:
-- **R-Line (RLI)** — 88 cells (every optic/variant's PR6/PR10/LR6/LR10) have a DGI limit
-  but no candela check. RLI's own PA cells *do* have candela, so this is specific to the
-  road/pathway categories.
-- **S-Line (SLI)** — 72 cells, same pattern.
-- **Factor (FTS)** `.AY` optic only — 4 cells (`.NR` is unaffected).
-Confirmed the underlying Table 3.8 intensity values (i80/i90 vs limit80/limit90) for these
-exact products/levels already exist in `Audit_Data/R-Line_file_audit.csv` etc. from the
-23 Nov 2026 reviewed dataset — this is a transcription backfill, not something that needs
-new manufacturer photometry.
-
 ## Resolved
 
 ### Denver iD (DPL) — "External shield (.BLS1)"
@@ -101,6 +85,23 @@ in the widget.
 🟢 **Resolved 2026-11-23.** All 4 configs confirmed against the brochure's
 own ordering codes (`.VB1`, `.SE`) and `SIG.BLS` accessory, and all 12
 optic/config combinations backed by real files in `SIG-IES-files.zip`.
+
+### PR/PP and LATM/RAB categories — missing Table 3.8 check on R-Line, S-Line, Factor `.AY`
+🟢 **Resolved 2026-11-24.** Checked every PR6/PR10/LR6/LR10 cell sitewide for
+whether it carries a recorded Table 3.8 `candela` check alongside its Table 3.9 DGI
+limit (confirming the methodology note that these categories' pass/fail combines both
+tables). Confirmed present for every such cell on DPL, DSX, DWL, WAP, PEB and SIG.
+Found three exceptions, all predating the Table 3.8 feature and never backfilled:
+R-Line (88 cells), S-Line (72 cells), and Factor's `.AY` optic (4 cells; `.NR` was
+unaffected) — each had a DGI limit but no candela check, even though their own PA
+cells did. Confirmed the underlying Table 3.8 intensity values (i80 vs limit80) for
+these exact products/levels already existed in the on-file `selection_trace.csv`
+audit data from the 23 Nov 2026 reviewed dataset, so this was a transcription
+backfill rather than something needing new manufacturer photometry. Backfilled all
+164 cells by matching each existing cell (optic/variant/wattage/DGI value) against
+its audit row — 0 mismatches. Added a small checkmark badge next to the DGI bar on
+every PR/PP/LATM cell so customers can see Table 3.8 was also reviewed and passed,
+without a second bar competing with the primary DGI reading.
 
 ### Area basis / methodology
 🟢 **Settled as a standing rule** (user, 2026-11-23 and earlier): the
