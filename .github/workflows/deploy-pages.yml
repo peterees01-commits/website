@@ -42,5 +42,12 @@ jobs:
         with:
           path: _site
 
+      # deploy-pages occasionally can't find the artifact it was just
+      # given (GitHub's artifact API lagging behind the upload) — this
+      # job finishes in well under a minute with nothing else to fill
+      # that gap, so give the artifact a moment to become queryable.
+      - name: Wait for artifact to become queryable
+        run: sleep 15
+
       - id: deployment
         uses: actions/deploy-pages@v4
