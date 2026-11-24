@@ -57,6 +57,22 @@ widget. Ask Holophane whether `.5R` photometry exists / is plannned.
 package (No Glass only). Shows "IES file not available". Ask Holophane
 if a Glass-lens `.R2.HE` file exists.
 
+### PR/PP and LATM/RAB categories — missing Table 3.8 check on R-Line, S-Line, Factor `.AY`
+🟡 **Pending — backfillable from data already on file.** Checked every PR6/PR10/LR6/LR10
+cell sitewide for whether it carries a recorded Table 3.8 `candela` check alongside its
+Table 3.9 DGI limit (confirming the methodology note that these categories' pass/fail
+combines both tables). Confirmed present for every such cell on DPL, DSX, DWL, WAP, PEB
+and SIG. Three exceptions, all predating the Table 3.8 feature and never backfilled:
+- **R-Line (RLI)** — 88 cells (every optic/variant's PR6/PR10/LR6/LR10) have a DGI limit
+  but no candela check. RLI's own PA cells *do* have candela, so this is specific to the
+  road/pathway categories.
+- **S-Line (SLI)** — 72 cells, same pattern.
+- **Factor (FTS)** `.AY` optic only — 4 cells (`.NR` is unaffected).
+Confirmed the underlying Table 3.8 intensity values (i80/i90 vs limit80/limit90) for these
+exact products/levels already exist in `Audit_Data/R-Line_file_audit.csv` etc. from the
+23 Nov 2026 reviewed dataset — this is a transcription backfill, not something that needs
+new manufacturer photometry.
+
 ## Resolved
 
 ### Denver iD (DPL) — "External shield (.BLS1)"
