@@ -948,20 +948,22 @@
             '<div>' +
               '<p class="eyebrow">' + esc(p.accessoriesEyebrow || "Accessories") + '</p>' +
               '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">' + esc(p.accessoriesHeading || "Available accessories") + '</h2>' +
-              '<table class="spec-table">' +
-                p.accessories.map(function (a) {
-                  return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
-                }).join("") +
-              '</table>' +
               (function () {
                 var photos = [];
                 p.accessories.forEach(function (a) {
                   if (a.image) photos.push({ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc, width: a.width });
                   photos = photos.concat(a.images || []);
                 });
-                if (!photos.length) return "";
+                var table = '<table class="spec-table" style="flex:0 1 280px;max-width:280px">' +
+                  p.accessories.map(function (a) {
+                    return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
+                  }).join("") +
+                '</table>';
+                if (!photos.length) return table;
                 return (
-                  '<div style="display:flex;flex-wrap:wrap;gap:var(--space-4);margin-top:var(--space-4)">' +
+                  '<div style="display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:flex-start">' +
+                    table +
+                    '<div style="display:flex;flex-direction:column;gap:var(--space-4)">' +
                     photos.map(function (im) {
                       return (
                         '<div class="backlight-photo"' + (im.width ? ' style="max-width:' + esc(im.width) + '"' : '') + '>' +
@@ -970,6 +972,7 @@
                         '</div>'
                       );
                     }).join("") +
+                    '</div>' +
                   '</div>'
                 );
               })() +
