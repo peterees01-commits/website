@@ -486,6 +486,22 @@ body.lightbox-locked {
   margin: 0;
 }
 
+.bracket-group + .bracket-group {
+  margin-top: var(--space-7);
+}
+
+.bracket-notes {
+  list-style: none;
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.bracket-notes li {
+  margin-top: var(--space-1);
+}
+
 .backlight-photo + .backlight-photo {
   margin-top: var(--space-3);
 }

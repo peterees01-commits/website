@@ -655,14 +655,52 @@
           "desc": "External back light shield, 125mm — finished in .C1 / .C4 / .C6 / .C7 / .C9"
         },
         {
-          "code": "DPL.WB",
-          "desc": "Wall bracket"
-        },
-        {
           "code": "DPL.TZ01 / .TZ02",
           "desc": "4-pin Zhaga socket — accepts photocells, PIR/microwave motion sensors or control nodes"
         }
       ],
+      "bracketOptions": {
+        "eyebrow": "Mounting accessories",
+        "heading": "Bracket ordering options",
+        "intro": "Post-top and wall-mount brackets are ordered separately from the luminaire.",
+        "postTop": {
+          "heading": "Post-top bracket options",
+          "columns": ["Article No.", "Description / Code", "Bracket Type", "Height (H)", "Tilt Angle"],
+          "rows": [
+            ["640-2086-P026", "DPLA.1A.AU0.60.##", "Single Arm x 60mm OD", "280mm", "0°"],
+            ["640-2087-P026", "DPLA.1A.AU0.76.##", "Single Arm x 76mm OD", "280mm", "0°"],
+            ["N/A", "N/A", "Double Arm x 60mm OD — not available (space constraints inside pole)", "", ""],
+            ["640-2092-P026", "DPLA.2A.AU0.76.##", "Double Arm x 76mm OD", "280mm", "0°"]
+          ],
+          "notes": [
+            "Replace ## with colour code (C1 / C4 / C6 / C7 / C9).",
+            "5° and 10° tilt angle options also available — contact us for details.",
+            "Single-arm post-top bracket pictured."
+          ],
+          "image": {
+            "file": "assets/img/products/dpl/dpl-bracket-postop-dims.png",
+            "alt": "Post-top bracket mounting spigot, overall height H"
+          }
+        },
+        "wallMount": {
+          "heading": "Wall mount bracket options",
+          "columns": ["Article No.", "Description / Code", "Tilt Angle", "Width (W)", "Height (H)"],
+          "rows": [
+            ["040-0987-P026", "DPLA.WB.AU0", "0°", "150mm", "150mm"],
+            ["040-0988-P026", "DPLA.WB.AU5", "5°", "150mm", "150mm"],
+            ["040-0989-P026", "DPLA.WB.AU10", "10°", "150mm", "150mm"]
+          ],
+          "image": {
+            "file": "assets/img/products/dpl/dpl-bracket-wallmount-dims.png",
+            "alt": "Wall mount bracket face dimensions, 150 x 150mm, Ø12.5mm fixing holes"
+          },
+          "tiltImage": {
+            "file": "assets/img/products/dpl/dpl-bracket-wallmount-tilt-options.png",
+            "alt": "Wall mount bracket, 0 degree, 5 degree and 10 degree tilt options, and rear view",
+            "captions": ["0° Tilt Option", "5° Tilt Option", "10° Tilt Option", "Rear View"]
+          }
+        }
+      },
       "mountingHeights": {
         "heading": "AS/NZS 1158.3.1 - PC Spacing\nGuide",
         "note": "Suitable from 3m to 8m mounting heights, based on PC Category (Car Parks) under AS 1158.3.1. Range figures are typical spacing guidance, not a substitute for a lighting design calculation.",

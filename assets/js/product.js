@@ -232,6 +232,7 @@
       statBandSection(p) +
       mountingOptionsSection(p) +
       certificationsSection(p) +
+      bracketOptionsSection(p) +
       backlightControlSection(p) +
       distributionsSection(p);
 
@@ -959,6 +960,73 @@
               }).join("") +
             '</div>'
           ) : "<div></div>") +
+        '</div>' +
+      '</section>'
+    );
+  }
+
+  // Detailed bracket ordering tables (article no., code, type, dimensions)
+  // for products whose mounts are ordered separately from the luminaire.
+  function bracketOptionsSection(p) {
+    var b = p.bracketOptions;
+    if (!b) return "";
+
+    function table(group) {
+      return (
+        '<div class="table-scroll">' +
+          '<table class="perf-table">' +
+            '<thead><tr>' + group.columns.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join("") + '</tr></thead>' +
+            '<tbody>' +
+              group.rows.map(function (r) {
+                return '<tr>' + r.map(function (c) { return '<td>' + esc(c) + '</td>'; }).join("") + '</tr>';
+              }).join("") +
+            '</tbody>' +
+          '</table>' +
+        '</div>'
+      );
+    }
+
+    function notes(list) {
+      if (!list || !list.length) return "";
+      return '<ul class="bracket-notes">' + list.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join("") + '</ul>';
+    }
+
+    function tiltImageBlock(im) {
+      if (!im) return "";
+      var cols = im.captions && im.captions.length ? im.captions.length : 1;
+      return (
+        '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
+          '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
+          (im.captions ? (
+            '<div style="display:grid;grid-template-columns:repeat(' + cols + ',1fr);border-top:1px solid var(--border-light)">' +
+              im.captions.map(function (c) { return '<p class="backlight-photo__caption" style="text-align:center;border-top:none">' + esc(c) + '</p>'; }).join("") +
+            '</div>'
+          ) : (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "")) +
+        '</div>'
+      );
+    }
+
+    function group(g) {
+      if (!g) return "";
+      return (
+        '<div class="bracket-group">' +
+          '<h3 style="font-size:var(--text-lg);margin-bottom:var(--space-3)">' + esc(g.heading) + '</h3>' +
+          table(g) +
+          notes(g.notes) +
+          (g.image ? '<div class="backlight-photo" style="max-width:360px;margin-top:var(--space-4)"><img src="../' + esc(g.image.file) + '" alt="' + esc(g.image.alt) + '">' + (g.image.caption ? '<p class="backlight-photo__caption">' + esc(g.image.caption) + '</p>' : "") + '</div>' : "") +
+          tiltImageBlock(g.tiltImage) +
+        '</div>'
+      );
+    }
+
+    return (
+      '<section class="section section--surface product-section">' +
+        '<div class="section__inner">' +
+          '<p class="eyebrow">' + esc(b.eyebrow || "Mounting accessories") + '</p>' +
+          '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-2)">' + esc(b.heading || "Bracket ordering options") + '</h2>' +
+          (b.intro ? '<p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:var(--space-6);max-width:70ch">' + esc(b.intro) + '</p>' : "") +
+          group(b.postTop) +
+          group(b.wallMount) +
         '</div>' +
       '</section>'
     );
