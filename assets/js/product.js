@@ -947,11 +947,11 @@
                 }).join("") +
               '</table>' +
               p.accessories.filter(function (a) { return a.image || (a.images && a.images.length); }).map(function (a) {
-                var photos = a.image ? [{ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc }] : [];
+                var photos = a.image ? [{ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc, width: a.width }] : [];
                 photos = photos.concat(a.images || []);
                 return photos.map(function (im) {
                   return (
-                    '<div class="backlight-photo" style="margin-top:var(--space-4)">' +
+                    '<div class="backlight-photo" style="margin-top:var(--space-4)' + (im.width ? ';max-width:' + esc(im.width) : '') + '">' +
                       '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
                       (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
                     '</div>'
