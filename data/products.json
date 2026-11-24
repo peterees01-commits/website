@@ -3019,22 +3019,30 @@
           "desc": ""
         },
         {
-          "code": "640-1221 / HAUABRK.1A.AU0.60",
-          "desc": "HAUA single-head pole top adaptor, 60mm spigot (standard)"
-        },
-        {
-          "code": "640-1222 / HAUABRK.1A.AU0.76",
-          "desc": "HAUA single-head pole top adaptor, 76mm spigot (standard)"
-        },
-        {
-          "code": "HAUABRK.2A180.AU0.76",
-          "desc": "HAUA double-head (180°) pole top adaptor, 76mm spigot — the only spigot double-headed fittings are rated for; not available on the 60mm spigot"
-        },
-        {
           "code": "DSX.TZ01 / .TZ02 / .TZ03",
           "desc": "4-pin Zhaga socket — accepts photocells, PIR/microwave motion sensors or control nodes"
         }
       ],
+      "bracketOptions": {
+        "eyebrow": "Mounting accessories",
+        "heading": "Bracket ordering options",
+        "intro": "Pole-top brackets are ordered separately from the luminaire, for 60mm and 76mm OD post-top spigots.",
+        "postTop": {
+          "heading": "Pole-top bracket options",
+          "columns": ["Article No.", "Code", "Bracket Type", "Spigot (OD)"],
+          "rows": [
+            ["640-1221", "HAUA.1A.60.[colour]", "Single head", "60mm"],
+            ["640-1222", "HAUA.1A.76.[colour]", "Single head", "76mm"],
+            ["N/A", "N/A", "Twin head (180°) — not available on 60mm spigot", ""],
+            ["", "HAUA.2A.76.[colour]", "Twin head (180°)", "76mm"]
+          ],
+          "notes": [
+            "Replace [colour] with a finish code: GV (galvanised, unpainted), GV1 (white, RAL9016), GV4 (graphite, RAL7011), GV6 (grey, RAL7035), GV7 (black, RAL9005), or GV9 (metallic silver, RAL9006).",
+            "Optional tilt extra available at 5° or 10° in place of the standard 0° — contact us to add.",
+            "101mm, 114mm, 127mm and 89mm OD spigot options also available — contact us for details."
+          ]
+        }
+      },
       "certifications": [
         "CE",
         "UKCA",
