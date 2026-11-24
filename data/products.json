@@ -665,7 +665,7 @@
             {
               "file": "assets/img/products/dpl/dpl-bracket-postop-dims-white.png",
               "alt": "Post-top bracket mounting spigot diagram",
-              "width": "100px"
+              "width": "170px"
             }
           ]
         },
@@ -681,11 +681,6 @@
               "file": "assets/img/products/dpl/dpl-bracket-wallmount-dims-white.png",
               "alt": "Wall mount bracket face dimension diagram",
               "width": "110px"
-            },
-            {
-              "file": "assets/img/products/dpl/dpl-bracket-wallmount-tilt-options-white.png",
-              "alt": "Wall mount bracket tilt options and rear view",
-              "width": "220px"
             }
           ]
         },
