@@ -954,7 +954,7 @@
                   if (a.image) photos.push({ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc, width: a.width });
                   photos = photos.concat(a.images || []);
                 });
-                var table = '<table class="spec-table" style="flex:0 1 280px;max-width:280px">' +
+                var table = '<table class="spec-table" style="flex:1 1 260px">' +
                   p.accessories.map(function (a) {
                     return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
                   }).join("") +
@@ -963,7 +963,7 @@
                 return (
                   '<div style="display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:flex-start">' +
                     table +
-                    '<div style="display:flex;flex-direction:column;gap:var(--space-4)">' +
+                    '<div style="display:flex;flex-direction:column;gap:var(--space-4);flex:0 0 auto">' +
                     photos.map(function (im) {
                       return (
                         '<div class="backlight-photo"' + (im.width ? ' style="max-width:' + esc(im.width) + '"' : '') + '>' +
