@@ -953,18 +953,26 @@
                   return '<tr><th>' + esc(a.code) + '</th><td>' + esc(a.desc) + '</td></tr>';
                 }).join("") +
               '</table>' +
-              p.accessories.filter(function (a) { return a.image || (a.images && a.images.length); }).map(function (a) {
-                var photos = a.image ? [{ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc, width: a.width }] : [];
-                photos = photos.concat(a.images || []);
-                return photos.map(function (im) {
-                  return (
-                    '<div class="backlight-photo" style="margin-top:var(--space-4)' + (im.width ? ';max-width:' + esc(im.width) : '') + '">' +
-                      '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
-                      (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
-                    '</div>'
-                  );
-                }).join("");
-              }).join("") +
+              (function () {
+                var photos = [];
+                p.accessories.forEach(function (a) {
+                  if (a.image) photos.push({ file: a.image, alt: a.imageAlt || a.desc, caption: a.code + ' — ' + a.desc, width: a.width });
+                  photos = photos.concat(a.images || []);
+                });
+                if (!photos.length) return "";
+                return (
+                  '<div style="display:flex;flex-wrap:wrap;gap:var(--space-4);margin-top:var(--space-4)">' +
+                    photos.map(function (im) {
+                      return (
+                        '<div class="backlight-photo"' + (im.width ? ' style="max-width:' + esc(im.width) + '"' : '') + '>' +
+                          '<img src="../' + esc(im.file) + '" alt="' + esc(im.alt) + '">' +
+                          (im.caption ? '<p class="backlight-photo__caption">' + esc(im.caption) + '</p>' : "") +
+                        '</div>'
+                      );
+                    }).join("") +
+                  '</div>'
+                );
+              })() +
             '</div>'
           ) : "<div></div>") +
         '</div>' +
