@@ -935,7 +935,7 @@
   function certificationsSection(p) {
     return (
       '<section class="section section--dark product-section">' +
-        '<div class="section__inner two-col two-col--wide-left">' +
+        '<div class="section__inner two-col cert-accessories-grid">' +
           '<div>' +
             '<p class="eyebrow">Certifications</p>' +
             '<h2 style="font-size:var(--text-2xl);margin-bottom:var(--space-4)">Certifications &amp; approvals</h2>' +

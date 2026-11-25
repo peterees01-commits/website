@@ -878,6 +878,23 @@ body.lightbox-locked {
   }
 }
 
+/* Certifications/accessories: the accessories side holds a table plus up
+   to two bracket diagrams, which needs far more room than the fixed-width
+   badge list opposite it. A fixed, modest certifications column (rather
+   than a fraction of the row) keeps that room available at any desktop
+   width, and this stacks to one column earlier than the general .two-col
+   breakpoint so the accessories table never gets squeezed into the
+   narrow middle ground between "side by side" and "plenty of width". */
+.cert-accessories-grid {
+  grid-template-columns: 280px 1fr;
+}
+
+@media (max-width: 1100px) {
+  .cert-accessories-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .three-col {
   display: grid;
   grid-template-columns: 1.3fr 0.85fr 0.85fr;
