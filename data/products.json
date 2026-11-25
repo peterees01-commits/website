@@ -660,14 +660,7 @@
         },
         {
           "code": "DPLA.1A.AU0.76.##",
-          "desc": "Single arm post-top bracket, 76mm OD spigot",
-          "images": [
-            {
-              "file": "assets/img/products/dpl/dpl-bracket-postop-dims-white.png",
-              "alt": "Post-top bracket mounting spigot diagram",
-              "width": "220px"
-            }
-          ]
+          "desc": "Single arm post-top bracket, 76mm OD spigot"
         },
         {
           "code": "DPLA.2A.AU0.76.##",
@@ -675,14 +668,7 @@
         },
         {
           "code": "DPLA.WB.AU0 / .AU5 / .AU10",
-          "desc": "Wall mount bracket",
-          "images": [
-            {
-              "file": "assets/img/products/dpl/dpl-bracket-wallmount-dims-white.png",
-              "alt": "Wall mount bracket face dimension diagram",
-              "width": "240px"
-            }
-          ]
+          "desc": "Wall mount bracket"
         },
         {
           "code": "DPL.TZ01 / .TZ02",
@@ -7461,9 +7447,7 @@
       "accessories": [
         {
           "code": "PEB.BLS",
-          "desc": "Light shield kit — 6× light shield + 1× anti-reflective shield",
-          "image": "assets/img/products/pbl/accessory-shields.png",
-          "imageAlt": "Line diagram of the Pebble light shield kit, showing the anti-reflective shield (x1) and light shield (x6) components"
+          "desc": "Light shield kit — 6× light shield + 1× anti-reflective shield"
         }
       ],
       "certifications": [
