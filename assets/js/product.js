@@ -257,7 +257,7 @@
         '<div class="product-hero__inner">' +
           '<div>' +
             '<p class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#products">Solutions</a> / ' +
-              (p.manufacturerSlug ? '<a href="../manufacturers/' + esc(p.manufacturerSlug) + '.html">' + esc(p.manufacturer) + '</a>' : esc(p.manufacturer)) +
+              (p.manufacturerSlug ? '<a href="../manufacturers/' + slugify(p.manufacturerSlug) + '.html">' + esc(p.manufacturer) + '</a>' : esc(p.manufacturer)) +
               ' / ' + esc(p.name) + '</p>' +
             '<span class="product-hero__manu">Manufactured by ' + esc(p.manufacturer) + '</span>' +
             '<h1>' + esc(p.name) + '</h1>' +

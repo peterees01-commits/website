@@ -26,6 +26,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const slugify = require("../assets/js/slugify.js");
 
 // ROOT is an explicit staging directory, e.g. _site — a disposable COPY of
 // the site, never the real repo checkout. This script mutates files in
@@ -60,10 +61,6 @@ function esc(s) {
   return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
     return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
   });
-}
-
-function slugify(s) {
-  return String(s).toLowerCase().replace(/[^a-z0-9-]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
 }
 
 function truncate(s, max) {

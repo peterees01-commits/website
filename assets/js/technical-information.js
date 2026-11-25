@@ -136,7 +136,7 @@
                   return (
                     '<tr>' +
                       (hasCodes ? '<td class="presentation-table__code">' + esc(p.code || '—') + '</td>' : '') +
-                      '<td><a href="presentations/' + encodeURIComponent(p.id) + '.html">' + esc(p.title) +
+                      '<td><a href="presentations/' + slugify(p.id) + '.html">' + esc(p.title) +
                         (p.note ? '<span class="presentation-table__note">' + esc(p.note) + '</span>' : '') +
                       '</a></td>' +
                       '<td class="presentation-table__duration">' + esc(p.duration || 'TBC') + '</td>' +
@@ -149,7 +149,7 @@
           '<div class="presentation-cards">' +
             items.map(function (p) {
               return (
-                '<a class="presentation-card" href="presentations/' + encodeURIComponent(p.id) + '.html">' +
+                '<a class="presentation-card" href="presentations/' + slugify(p.id) + '.html">' +
                   (hasCodes && p.code ? '<span class="presentation-card__code">' + esc(p.code) + '</span>' : '') +
                   '<span class="presentation-card__title">' + esc(p.title) + '</span>' +
                   (p.note ? '<span class="presentation-card__note">' + esc(p.note) + '</span>' : '') +
