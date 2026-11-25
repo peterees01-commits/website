@@ -8,10 +8,17 @@
  * Why a separate pass from the build-time link validation: that one
  * checks the files that got built are internally consistent with each
  * other. It can't see what GitHub Pages' CDN is actually serving right
- * now — a deploy can be 100% correct and still 404 for a few minutes on
- * some edges while the new content propagates. This step is what catches
- * that, and tells you precisely which URL(s) are still broken rather
- * than leaving it as "re-run the deploy and see".
+ * now — a deploy can be 100% correct and still 404 for several minutes
+ * on some edges while the new content propagates. This step is what
+ * catches that, and tells you precisely which URL(s) are still broken
+ * rather than leaving it as "re-run the deploy and see".
+ *
+ * This is detection, not remediation: a failure here does NOT roll back
+ * or retry the deployment itself — the affected page(s) stay however
+ * they are (likely still 404) until Fastly's cache clears on its own or
+ * someone re-deploys, same as before this script existed. What changes
+ * is that it's no longer silent: the job goes red with the exact URLs
+ * and status codes, instead of a visitor finding a dead link first.
  *
  * Usage: node scripts/post-deploy-check.js [manifest-path]
  * Env:   DEPLOY_URL - override the manifest's own baseUrl, e.g. with
@@ -43,13 +50,16 @@ var urls = manifest.urls.map(function (u) {
 // a guess: a path 404'd persistently for 8+ minutes straight after a
 // successful deploy, consistent with the site's own `cache-control:
 // max-age=600` — a negatively-cached 404 on a given Fastly edge can
-// take up to that long to clear on its own (a fresh deploy's own purge
-// is what normally clears it immediately; this step exists for the
-// window before anyone notices and re-deploys). Total worst-case extra
-// wait: 30+60+90+120+120+120 = 540s (9 min), on top of request time —
+// take up to roughly that long to clear on its own (Fastly's exact
+// caching behaviour here isn't conclusively confirmed, so 15 minutes
+// is a deliberate margin above both the observed outage and the
+// max-age, not a tight fit to either). A fresh deploy's own purge is
+// what normally clears it immediately; this step exists for the window
+// before anyone notices and re-deploys. Total worst-case extra wait:
+// 30+60+90+120+180+180+180+60 = 900s (15 min), on top of request time —
 // paid only when something is actually still stale; a healthy deploy
 // passes on round 1 with no added time.
-const RETRY_DELAYS_MS = [30000, 60000, 90000, 120000, 120000, 120000];
+const RETRY_DELAYS_MS = [30000, 60000, 90000, 120000, 180000, 180000, 180000, 60000];
 const REQUEST_TIMEOUT_MS = 15000;
 
 function checkOne(url) {
