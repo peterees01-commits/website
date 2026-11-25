@@ -145,9 +145,10 @@ function generateType(config) {
   var outDir = path.join(ROOT, config.outDir);
 
   var count = 0;
+  var skipped = [];
   items.forEach(function (item) {
     var slug = config.slug(item);
-    if (!slug) return;
+    if (!slug) { skipped.push(item); return; }
     var outPath = path.join(outDir, slug + ".html");
     var urlPath = config.outDir + "/" + slug + ".html";
 
@@ -166,7 +167,7 @@ function generateType(config) {
     addSitemapUrl(urlPath);
     count++;
   });
-  return count;
+  return { count: count, items: items, skipped: skipped };
 }
 
 var TYPES = [
@@ -247,12 +248,88 @@ var STATIC_PAGES = [
   "case-studies/index.html"
 ];
 
+/**
+ * Re-derives every internal cross-link the client-side JS builds (using
+ * the same shared slugify() the generator itself uses, so the two can
+ * never silently drift apart again), plus every hardcoded href in the
+ * static pages' own committed markup, and confirms each target actually
+ * exists in the staged build. Exits the process non-zero on any mismatch
+ * so a broken deploy never goes out — this is the failure mode the
+ * 2026-11-25 recurring-404 investigation found was previously silent.
+ */
+function validateInternalLinks(typeResults) {
+  var problems = [];
+  var checked = 0;
+
+  function mustExist(urlPath, context) {
+    checked++;
+    var abs = path.join(ROOT, urlPath.replace(/^\/+/, ""));
+    if (!fs.existsSync(abs)) problems.push(context + " → " + urlPath + " (file not found)");
+  }
+
+  // Every item's own generated page (catches a slug() that unexpectedly
+  // came back empty and silently skipped the item in generateType()).
+  TYPES.forEach(function (config) {
+    var result = typeResults[config.name];
+    result.items.forEach(function (item) {
+      var slug = config.slug(item);
+      if (!slug) return; // already reported separately, below
+      mustExist(config.outDir + "/" + slug + ".html", config.name + " item " + config.dataAttrValue(item));
+    });
+  });
+
+  // Cross-links derivable from the data, built the same way the
+  // client-side JS builds them (product.js's manufacturer breadcrumb,
+  // case-study.js's product-page link).
+  (typeResults.products.items || []).forEach(function (p) {
+    if (p.manufacturerSlug) {
+      mustExist("manufacturers/" + slugify(p.manufacturerSlug) + ".html", "product " + p.code + " → manufacturer breadcrumb");
+    }
+  });
+  (typeResults["case-studies"].items || []).forEach(function (cs) {
+    if (cs.productCode) {
+      mustExist("products/" + slugify(cs.productCode) + ".html", "case study " + cs.id + " → product back-link");
+    }
+  });
+
+  // Hardcoded hrefs in the static pages' own committed markup (e.g.
+  // case-studies/index.html's case-study cards) — anything that looks
+  // like a relative link into one of the four generated directories.
+  var hrefRe = /href="((?:\.\.\/)?(?:products|manufacturers|case-studies|presentations)\/[^"]+\.html)"/g;
+  STATIC_PAGES.forEach(function (relPath) {
+    var html = fs.readFileSync(path.join(ROOT, relPath), "utf8");
+    var m;
+    while ((m = hrefRe.exec(html))) {
+      var resolved = path.normalize(path.join(path.dirname(relPath), m[1])).replace(/\\/g, "/");
+      mustExist(resolved, relPath + ' → hardcoded link "' + m[1] + '"');
+    }
+  });
+
+  var totalSkipped = TYPES.reduce(function (sum, c) { return sum + typeResults[c.name].skipped.length; }, 0);
+  if (totalSkipped) {
+    TYPES.forEach(function (config) {
+      typeResults[config.name].skipped.forEach(function (item) {
+        problems.push(config.name + " item has no usable slug and was not generated: " + JSON.stringify(item).slice(0, 120));
+      });
+    });
+  }
+
+  if (problems.length) {
+    console.error("\nInternal link validation FAILED (" + problems.length + " problem(s), " + checked + " link(s) checked):");
+    problems.forEach(function (p) { console.error("  " + p); });
+    process.exit(1);
+  }
+  console.log("Internal link validation passed (" + checked + " cross-links checked, 0 problems)");
+}
+
 function main() {
   var total = 0;
+  var typeResults = {};
   TYPES.forEach(function (config) {
-    var n = generateType(config);
-    console.log("Generated " + n + " " + config.name + " page(s)");
-    total += n;
+    var result = generateType(config);
+    typeResults[config.name] = result;
+    console.log("Generated " + result.count + " " + config.name + " page(s)");
+    total += result.count;
   });
 
   STATIC_PAGES.forEach(function (p) { addSitemapUrl(p); });
@@ -288,6 +365,18 @@ function main() {
   fs.writeFileSync(path.join(ROOT, "robots.txt"), robots, "utf8");
 
   console.log("Total generated item pages: " + total);
+
+  validateInternalLinks(typeResults);
+
+  // Manifest for the post-deployment HTTP check (scripts/post-deploy-check.js).
+  // Written next to this script's invocation (the repo checkout), not into
+  // ROOT/_site — it's test infrastructure, not part of the published site,
+  // so it must never end up in the deployed artifact.
+  var manifestUrls = sitemapUrls.slice();
+  manifestUrls.push(absoluteUrl("robots.txt")); // always generated, live or not
+  var manifestPath = path.join(process.cwd(), "link-check-manifest.json");
+  fs.writeFileSync(manifestPath, JSON.stringify({ baseUrl: BASE_URL, generatedAt: new Date().toISOString(), urls: manifestUrls }, null, 2) + "\n", "utf8");
+  console.log("Wrote post-deploy check manifest (" + manifestUrls.length + " URLs) to " + manifestPath);
 }
 
 main();

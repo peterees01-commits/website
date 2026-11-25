@@ -51,3 +51,14 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      # Build-time validation (scripts/generate-seo-pages.js) confirms the
+      # generated artifact is internally consistent; this confirms what's
+      # actually being served right now matches it, tolerating the CDN
+      # edge-propagation delay that build-time checks can't see. Fails the
+      # job with the exact URLs/status codes of anything still broken
+      # after retrying.
+      - name: Verify deployed pages are live
+        env:
+          DEPLOY_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node scripts/post-deploy-check.js

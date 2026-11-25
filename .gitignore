@@ -3,3 +3,8 @@
 # site with generated per-item pages/sitemap/robots.txt baked in. Never
 # committed; CI creates and discards its own copy on every deploy.
 /_site/
+
+# URL manifest generate-seo-pages.js writes for
+# scripts/post-deploy-check.js to read in the same CI run. Test
+# infrastructure, not part of the published site — never committed.
+/link-check-manifest.json
