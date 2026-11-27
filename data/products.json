@@ -6548,19 +6548,53 @@
           "chart": "assets/img/products/fts/distributions/symmetrical-v2.png",
           "dgi": {
             "PR6": {
-              "note": "IES file not available"
+              "w": "104W",
+              "status": "MAX AVAILABLE",
+              "dgi": 33831,
+              "limit": 35000,
+              "candela": {
+                "actual": 209.4,
+                "limit": 2221.2
+              }
             },
             "PR10": {
-              "note": "IES file not available"
+              "w": "104W",
+              "status": "MAX AVAILABLE",
+              "dgi": 33831,
+              "limit": 40000,
+              "candela": {
+                "actual": 209.4,
+                "limit": 2221.2
+              }
             },
             "LR6": {
-              "note": "IES file not available"
+              "w": "104W",
+              "status": "MAX AVAILABLE",
+              "dgi": 33831,
+              "limit": 42000,
+              "candela": {
+                "actual": 209.4,
+                "limit": 2221.2
+              }
             },
             "LR10": {
-              "note": "IES file not available"
+              "w": "104W",
+              "status": "MAX AVAILABLE",
+              "dgi": 33831,
+              "limit": 50000,
+              "candela": {
+                "actual": 209.4,
+                "limit": 2221.2
+              }
             },
             "PA": {
-              "note": "IES file not available"
+              "w": "104W",
+              "status": "MAX AVAILABLE",
+              "dgi": 33831,
+              "candela": {
+                "actual": 209.4,
+                "limit": 3500.0
+              }
             }
           }
         },
@@ -6626,19 +6660,25 @@
           "chart": "assets/img/products/fts/distributions/forward-throw-v2.png",
           "dgi": {
             "PR6": {
-              "note": "IES file not available"
+              "note": "No compliant outputs"
             },
             "PR10": {
-              "note": "IES file not available"
+              "note": "No compliant outputs"
             },
             "LR6": {
-              "note": "IES file not available"
+              "note": "No compliant outputs"
             },
             "LR10": {
-              "note": "IES file not available"
+              "note": "No compliant outputs"
             },
             "PA": {
-              "note": "IES file not available"
+              "w": "42W",
+              "status": "LIMITED",
+              "dgi": 59123,
+              "candela": {
+                "actual": 3402.7,
+                "limit": 3500.0
+              }
             }
           }
         },

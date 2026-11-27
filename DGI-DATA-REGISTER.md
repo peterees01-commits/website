@@ -36,12 +36,6 @@ there, but the same wattage-vs-brochure question applies.
 **Ask Holophane:** confirm current wattage for DWL.LA02 (12W per brochure
 vs 10.3–11W per 2020 photometry) and whether updated IES is available.
 
-### Factor (FTS) — `.FW` and `.SY` optics
-🟡 **Pending.** FTS.4 (the body we actually sell) has only ever had `.AY`
-and `.NR` screened — `.FW`/`.SY` have no photometry at all yet. `.AY`/`.NR`
-confirmed final by the user (2026-11-23). Waiting on final photometry for
-the other two optics.
-
 ### V-Max II (VMXII)
 🟡 **Pending.** No DGI/Table 3.8 data at all — needs a full glare matrix
 once photometry is finalised (same "waiting on final photometry" status
@@ -58,6 +52,23 @@ package (No Glass only). Shows "IES file not available". Ask Holophane
 if a Glass-lens `.R2.HE` file exists.
 
 ## Resolved
+
+### Factor (FTS) — `.FW` and `.SY` optics
+🟢 **Resolved 2026-11-27.** Full photometry for both optics (132 Holophane
+IES files, 2700K/3000K/4000K, LA02–LA14) supplied by the user, run through
+an external glare screen (`FTS4_Glare_Screening_Matrix.pdf` +
+`FTS4_Glare_Selections.csv`) using the same methodology as the rest of the
+site (DGI = I / √declared-luminous-opening; AS/NZS 1158.3.1 Table 3.8
+limits). Cross-checked before use: the same screen's `.AY` figures (all 5
+categories) and `.NR`'s existing PA cell reproduce the already-published
+numbers on this site exactly, confirming the method matches what's
+already trusted here.
+- `.FW`: PR6/PR10/LR6/LR10 — no supplied wattage passes both tests
+  ("No compliant outputs"). PA now has a real passing level (42W, 3,403 cd
+  vs 3,500 cd limit, DGI 59,123) in place of "IES file not available".
+- `.SY`: previously had no supplied photometry at all; now passes at
+  every category at 104W (MAX AVAILABLE), DGI 33,831 against limits
+  35,000–50,000 depending on category, plus PA (209 cd vs 3,500 cd).
 
 ### Denver iD (DPL) — "External shield (.BLS1)"
 🟢 **Resolved 2026-11-23.** `.BLS1` is a confirmed real, orderable
